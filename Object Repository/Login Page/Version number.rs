@@ -6,6 +6,10 @@
    <elementGuidId>ebf55fbe-e443-4065-afa7-a89dedb44743</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value></value>
       </entry>

@@ -27,7 +27,7 @@ WebUI.maximizeWindow()
 
 not_run: WebUI.waitForImagePresent(findTestObject('Login Page/DAlogo'), 2)
 
-WebUI.verifyElementVisible(findTestObject('Login Page/Version number'))
+WebUI.verifyElementPresent(findTestObject('Login Page/Version number'), 2)
 
 WebUI.verifyElementText(findTestObject('Login Page/Version number'), 'Version: 11.3.0.5')
 
