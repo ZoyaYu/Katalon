@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>cda3509a-1771-42a4-b4b6-d97738064b22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.sc-cYxjnA.fvGqUB</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>a92e1446-cb10-4c1e-9078-14d612d601e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-cYxjnA fvGqUB</value>
+      <webElementGuid>bc1e825e-7e61-4145-b76d-d2b71fe68be8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dashboard</value>
+      <webElementGuid>15659549-eb17-44ac-9e7d-94c09c7b194e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-cPrPEB dxjPEz home&quot;]/div[@class=&quot;alerts-page&quot;]/div[@class=&quot;sc-cbPlza hENJpD alerts-page__content&quot;]/div[@class=&quot;sc-ecPEgm dFHbxf&quot;]/div[@class=&quot;sc-SSKRe ieYSCF&quot;]/div[@class=&quot;sc-fSGIWV hrrSUQ&quot;]/h1[@class=&quot;sc-cYxjnA fvGqUB&quot;]</value>
+      <webElementGuid>f78f135f-1266-4dc2-90bc-29118c974316</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div/div/h1</value>
+      <webElementGuid>e22e97a8-3bf9-4f2e-88fc-df754b330535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>3e0b3e2e-8d45-4c7b-98d0-cdd6a0524a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Dashboard' or . = 'Dashboard')]</value>
+      <webElementGuid>31c22b6c-4692-4442-8d74-ce0ab4064de1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
