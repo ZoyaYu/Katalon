@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Version number</name>
+   <description>Incorrect login or password</description>
+   <name>Toastify</name>
    <tag></tag>
-   <elementGuidId>ebf55fbe-e443-4065-afa7-a89dedb44743</elementGuidId>
+   <elementGuidId>d12d2238-4d62-40da-9633-ba8bdc4c1b63</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.sc-lcIPJg.sc-iMTnTL.ePDxiZ.hUuDNF.text-gray300</value>
+         <value>.Toastify__toast-container.Toastify__toast-container--top-right</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

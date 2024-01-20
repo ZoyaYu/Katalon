@@ -31,13 +31,25 @@ WebUI.verifyElementPresent(findTestObject('Login Page/Version number'), 2)
 
 WebUI.verifyElementText(findTestObject('Login Page/Version number'), 'Version: 11.3.0.5')
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Login input field'), 'ZoyaYu')
+WebUI.setText(findTestObject('Object Repository/Login Page/Login input field'), 'Zoya')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Password input field'), 'tzH6RvlfSTg=')
 
 WebUI.click(findTestObject('Object Repository/Login Page/button_Log in'))
 
-WebUI.verifyElementPresent(findTestObject('Login Page/Toastify'), 1)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Login Page/h1_Dashboard'), 2)
 
-WebUI.verifyElementText(findTestObject('Login Page/Toastify'), 'Incorrect login or password')
+WebUI.waitForElementClickable(findTestObject('Dashboard Page/Profile button'), 2)
+
+WebUI.mouseOver(findTestObject('Dashboard Page/Profile button'))
+
+WebUI.click(findTestObject('Dashboard Page/Profile button'))
+
+WebUI.mouseOver(findTestObject('Dashboard Page/Profile menu-Logout'))
+
+WebUI.click(findTestObject('Dashboard Page/Profile menu-Logout'))
+
+WebUI.verifyElementPresent(findTestObject('Login Page/DAlogo'), 2)
+
+WebUI.closeBrowser()
 

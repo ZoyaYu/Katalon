@@ -4,7 +4,7 @@
    <name>DAlogo</name>
    <tag></tag>
    <elementGuidId>6f5b9eb4-e434-425b-908c-0fedeccabed5</elementGuidId>
-   <imagePath>C:\Users\Home\Desktop\DALogo-9168ca15.svg</imagePath>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -20,18 +20,18 @@
       </entry>
       <entry>
          <key>IMAGE</key>
-         <value>C:\Users\Home\Desktop\DALogo-9168ca15.svg</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>true</useRalativeImagePath>
+   <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>364207e1-a253-4d58-904c-7337f11afd9f</webElementGuid>
+      <webElementGuid>9b740f07-7e2d-4b3b-8b39-a7f59d323189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/Demo/assets/DALogo-9168ca15.svg</value>
-      <webElementGuid>3a38563e-4df3-4188-b3e6-a501b2a16265</webElementGuid>
+      <webElementGuid>05434d8e-5fae-411a-92c0-ade6f13caa8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>logo</value>
-      <webElementGuid>98c51ad2-0c62-4eb9-b228-5f429868fa01</webElementGuid>
+      <webElementGuid>02a98099-3d6c-4652-b9a0-469dc529c12f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-ihgnxF hZSsZq</value>
-      <webElementGuid>e7a01513-0704-44d7-ac53-4cb8defc1422</webElementGuid>
+      <webElementGuid>b5dd67ac-0910-43f4-9551-e5aa86fed179</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex items-center h-[100vh]&quot;]/form[@class=&quot;sc-bBeLUv bKjCus&quot;]/div[@class=&quot;sc-fvtFIe hDdokS&quot;]/img[@class=&quot;sc-ihgnxF hZSsZq&quot;]</value>
-      <webElementGuid>3971c12c-5446-4ceb-8bfd-e60efcc30139</webElementGuid>
+      <webElementGuid>1267a194-3c98-49ed-be68-db22f4823b4d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/form/div/img</value>
-      <webElementGuid>f229123b-1077-42ba-be96-1ea33a25ed08</webElementGuid>
+      <webElementGuid>e3e316de-2264-4f0d-ac10-cc838bf7d482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='logo']</value>
-      <webElementGuid>54b06aeb-95c8-4cf8-93bd-d8200b03e903</webElementGuid>
+      <webElementGuid>828e348c-0a55-4d16-9574-18aa3f32dadb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>e3395bfe-38da-4bb6-a610-8a21eeaebe72</webElementGuid>
+      <webElementGuid>8e77b56f-2edd-482d-bbe3-6ca1c61c6039</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/Demo/assets/DALogo-9168ca15.svg' and @alt = 'logo']</value>
-      <webElementGuid>edc4c64b-8200-4b3d-b5e8-d628d0a418c7</webElementGuid>
+      <webElementGuid>ddab8e26-11ff-48c9-baf6-f9ca3747326c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Version number</name>
+   <name>Profile button</name>
    <tag></tag>
-   <elementGuidId>ebf55fbe-e443-4065-afa7-a89dedb44743</elementGuidId>
+   <elementGuidId>3a325795-d44f-4c11-b7c5-c3f598cf7afd</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.sc-lcIPJg.sc-iMTnTL.ePDxiZ.hUuDNF.text-gray300</value>
+         <value>.header-license div button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

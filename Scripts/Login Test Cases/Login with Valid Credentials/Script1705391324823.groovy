@@ -25,7 +25,7 @@ WebUI.waitForPageLoad(3)
 
 WebUI.maximizeWindow()
 
-not_run: WebUI.waitForImagePresent(findTestObject('Login Page/DAlogo'), 2)
+WebUI.verifyElementPresent(findTestObject('Login Page/DAlogo'), 2)
 
 WebUI.verifyElementPresent(findTestObject('Login Page/Version number'), 2)
 
