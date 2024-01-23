@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pop-up Alert,Chrome 120.0.0.0,,,2024-01-23 20:50:41,2024-01-23 20:52:54,"2m - 12,315s",FAILED
+,,,,,,,
+Test Cases/Pop-up alert/Send alert using Compose Alert Button (TC-1),Chrome 120.0.0.0,"open Create Pop-up Alert page, using Compose Alert button",,2024-01-23 20:50:42,2024-01-23 20:51:04,"22,815s",PASSED
+"callTestCase(findTestCase(""Login Test Cases/Login with Valid Credentials""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-23 20:50:42,2024-01-23 20:50:52,"10,009s",PASSED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 120.0.0.0,,,2024-01-23 20:50:52,2024-01-23 20:50:52,"0,334s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), 2)",Chrome 120.0.0.0,,,2024-01-23 20:50:52,2024-01-23 20:50:55,"2,205s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), ""Create Pop-up Alert"")",Chrome 120.0.0.0,,,2024-01-23 20:50:55,2024-01-23 20:50:55,"0,295s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 120.0.0.0,,,2024-01-23 20:50:55,2024-01-23 20:50:55,"0,363s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 120.0.0.0,,,2024-01-23 20:50:55,2024-01-23 20:50:56,"0,423s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 120.0.0.0,,,2024-01-23 20:50:56,2024-01-23 20:50:57,"1,316s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 120.0.0.0,,,2024-01-23 20:50:57,2024-01-23 20:50:59,"1,535s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 120.0.0.0,,,2024-01-23 20:50:59,2024-01-23 20:50:59,"0,324s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered""), 2)",Chrome 120.0.0.0,,,2024-01-23 20:50:59,2024-01-23 20:50:59,"0,492s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Done button""))",Chrome 120.0.0.0,,,2024-01-23 20:50:59,2024-01-23 20:51:00,"0,327s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-1"")",Chrome 120.0.0.0,,,2024-01-23 20:51:00,2024-01-23 20:51:01,"0,846s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 120.0.0.0,,,2024-01-23 20:51:01,2024-01-23 20:51:01,"0,285s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated alert from Katalon"")",Chrome 120.0.0.0,,,2024-01-23 20:51:01,2024-01-23 20:51:02,"0,723s",PASSED
+switchToDefaultContent(),Chrome 120.0.0.0,,,2024-01-23 20:51:02,2024-01-23 20:51:02,"0,016s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 120.0.0.0,,,2024-01-23 20:51:02,2024-01-23 20:51:02,"0,541s",PASSED
+waitForPageLoad(2),Chrome 120.0.0.0,,,2024-01-23 20:51:02,2024-01-23 20:51:02,"0,011s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-1"")",Chrome 120.0.0.0,,,2024-01-23 20:51:02,2024-01-23 20:51:04,"2,060s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-1"")",Chrome 120.0.0.0,,,2024-01-23 20:51:04,2024-01-23 20:51:04,"0,328s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Send alert with image (TC-2),Chrome 120.0.0.0,Send alert with image using compose alert button and upload keyword,,2024-01-23 20:52:21,2024-01-23 20:52:54,"32,833s",FAILED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 120.0.0.0,,,2024-01-23 20:52:21,2024-01-23 20:52:54,"32,821s",FAILED
