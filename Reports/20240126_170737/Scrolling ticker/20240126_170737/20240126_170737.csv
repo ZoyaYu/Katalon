@@ -1,0 +1,121 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scrolling ticker,Chrome 120.0.0.0,,,2024-01-26 17:07:40,2024-01-26 17:08:54,"1m - 14,023s",PASSED
+,,,,,,,
+Test Cases/Ticker/Send Ticker (TC-7),Chrome 120.0.0.0,using Compose Alert Drop-down menu,,2024-01-26 17:07:40,2024-01-26 17:08:01,"20,862s",PASSED
+"callTestCase(findTestCase(""Login Test Cases/Login with Valid Credentials""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-26 17:07:40,2024-01-26 17:07:49,"9,393s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 120.0.0.0,,,2024-01-26 17:07:49,2024-01-26 17:07:50,"0,299s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 120.0.0.0,,,2024-01-26 17:07:50,2024-01-26 17:07:50,"0,523s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 120.0.0.0,,,2024-01-26 17:07:50,2024-01-26 17:07:51,"1,091s",PASSED
+waitForPageLoad(1),Chrome 120.0.0.0,,,2024-01-26 17:07:51,2024-01-26 17:07:51,"0,012s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 120.0.0.0,,,2024-01-26 17:07:51,2024-01-26 17:07:52,"0,372s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 120.0.0.0,,,2024-01-26 17:07:52,2024-01-26 17:07:52,"0,519s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 120.0.0.0,,,2024-01-26 17:07:52,2024-01-26 17:07:53,"1,160s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 120.0.0.0,,,2024-01-26 17:07:53,2024-01-26 17:07:55,"1,439s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 120.0.0.0,,,2024-01-26 17:07:55,2024-01-26 17:07:55,"0,314s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:07:55,2024-01-26 17:07:56,"0,490s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Done button""))",Chrome 120.0.0.0,,,2024-01-26 17:07:56,2024-01-26 17:07:56,"0,329s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-7"")",Chrome 120.0.0.0,,,2024-01-26 17:07:56,2024-01-26 17:07:57,"0,817s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:07:57,2024-01-26 17:07:57,"0,500s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated ticker from Katalon"")",Chrome 120.0.0.0,,,2024-01-26 17:07:57,2024-01-26 17:07:58,"0,604s",PASSED
+switchToDefaultContent(),Chrome 120.0.0.0,,,2024-01-26 17:07:58,2024-01-26 17:07:58,"0,014s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 120.0.0.0,,,2024-01-26 17:07:58,2024-01-26 17:07:58,"0,517s",PASSED
+waitForPageLoad(2),Chrome 120.0.0.0,,,2024-01-26 17:07:58,2024-01-26 17:07:58,"0,011s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-7"")",Chrome 120.0.0.0,,,2024-01-26 17:07:58,2024-01-26 17:08:00,"1,903s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-7"")",Chrome 120.0.0.0,,,2024-01-26 17:08:00,2024-01-26 17:08:01,"0,278s",PASSED
+,,,,,,,
+Test Cases/Ticker/Draft ticker (TC-8),Chrome 120.0.0.0,,,2024-01-26 17:08:01,2024-01-26 17:08:13,"12,761s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 120.0.0.0,,,2024-01-26 17:08:01,2024-01-26 17:08:02,"0,830s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 120.0.0.0,,,2024-01-26 17:08:02,2024-01-26 17:08:02,"0,723s",PASSED
+refresh(),Chrome 120.0.0.0,,,2024-01-26 17:08:02,2024-01-26 17:08:02,"0,208s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 120.0.0.0,,,2024-01-26 17:08:02,2024-01-26 17:08:04,"1,268s",PASSED
+waitForPageLoad(1),Chrome 120.0.0.0,,,2024-01-26 17:08:04,2024-01-26 17:08:04,"0,009s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:04,2024-01-26 17:08:04,"0,331s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 120.0.0.0,,,2024-01-26 17:08:04,2024-01-26 17:08:05,"0,507s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 120.0.0.0,,,2024-01-26 17:08:05,2024-01-26 17:08:06,"1,161s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 120.0.0.0,,,2024-01-26 17:08:06,2024-01-26 17:08:07,"1,453s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 120.0.0.0,,,2024-01-26 17:08:07,2024-01-26 17:08:07,"0,314s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:07,2024-01-26 17:08:08,"0,510s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Done button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:08,2024-01-26 17:08:08,"0,308s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-8"")",Chrome 120.0.0.0,,,2024-01-26 17:08:08,2024-01-26 17:08:09,"0,809s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:09,2024-01-26 17:08:10,"0,494s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated DRAFT ticker from Katalon"")",Chrome 120.0.0.0,,,2024-01-26 17:08:10,2024-01-26 17:08:10,"0,657s",PASSED
+switchToDefaultContent(),Chrome 120.0.0.0,,,2024-01-26 17:08:10,2024-01-26 17:08:10,"0,008s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:10,2024-01-26 17:08:11,"0,525s",PASSED
+waitForPageLoad(2),Chrome 120.0.0.0,,,2024-01-26 17:08:11,2024-01-26 17:08:11,"0,008s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Draft tab""))",Chrome 120.0.0.0,,,2024-01-26 17:08:11,2024-01-26 17:08:12,"1,253s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-8"")",Chrome 120.0.0.0,,,2024-01-26 17:08:12,2024-01-26 17:08:13,"1,030s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-8"")",Chrome 120.0.0.0,,,2024-01-26 17:08:13,2024-01-26 17:08:13,"0,272s",PASSED
+,,,,,,,
+Test Cases/Ticker/Ticker template creation (TC-9),Chrome 120.0.0.0,,,2024-01-26 17:08:13,2024-01-26 17:08:24,"10,631s",PASSED
+"click(findTestObject(""Dashboard Page/Left-hand menu_Scrolling Tickers""))",Chrome 120.0.0.0,,,2024-01-26 17:08:13,2024-01-26 17:08:14,"0,941s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 120.0.0.0,,,2024-01-26 17:08:14,2024-01-26 17:08:15,"0,312s",PASSED
+"click(findTestObject(""Pop-up Alerts page/New Template button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:15,2024-01-26 17:08:15,"0,745s",PASSED
+"setText(findTestObject(""Create Template/Template title""), ""TC-9"")",Chrome 120.0.0.0,,,2024-01-26 17:08:15,2024-01-26 17:08:17,"1,319s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:17,2024-01-26 17:08:17,"0,499s",PASSED
+"TemplateBody = """"The News Tickers is a handy and easy tool for creating a creeping line(running text, ticker). This is perfect for news broadcasts, updates, and more projects that refer to current events. Use for any formats and themes of video: news, sports, advertising, video blog, and others. Special made for COVID-19 situation in the world. Color controls available. A video tutorial is also included in the download.""""",Chrome 120.0.0.0,,,2024-01-26 17:08:17,2024-01-26 17:08:17,"0,001s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), TemplateBody)",Chrome 120.0.0.0,,,2024-01-26 17:08:17,2024-01-26 17:08:19,"1,659s",PASSED
+switchToDefaultContent(),Chrome 120.0.0.0,,,2024-01-26 17:08:19,2024-01-26 17:08:19,"0,009s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:19,2024-01-26 17:08:19,"0,534s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 120.0.0.0,,,2024-01-26 17:08:19,2024-01-26 17:08:21,"1,284s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-9"")",Chrome 120.0.0.0,,,2024-01-26 17:08:21,2024-01-26 17:08:22,"0,987s",PASSED
+delay(2),Chrome 120.0.0.0,,,2024-01-26 17:08:22,2024-01-26 17:08:24,"2,005s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered Template""), ""TC-9"")",Chrome 120.0.0.0,,,2024-01-26 17:08:24,2024-01-26 17:08:24,"0,275s",PASSED
+,,,,,,,
+Test Cases/Ticker/Send ticker with template (TC-10),Chrome 120.0.0.0,,,2024-01-26 17:08:24,2024-01-26 17:08:36,"12,157s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 120.0.0.0,,,2024-01-26 17:08:24,2024-01-26 17:08:24,"0,297s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 120.0.0.0,,,2024-01-26 17:08:24,2024-01-26 17:08:25,"0,569s",PASSED
+refresh(),Chrome 120.0.0.0,,,2024-01-26 17:08:25,2024-01-26 17:08:25,"0,146s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 120.0.0.0,,,2024-01-26 17:08:25,2024-01-26 17:08:26,"1,159s",PASSED
+waitForPageLoad(1),Chrome 120.0.0.0,,,2024-01-26 17:08:26,2024-01-26 17:08:26,"0,006s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:26,2024-01-26 17:08:27,"0,345s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 120.0.0.0,,,2024-01-26 17:08:27,2024-01-26 17:08:27,"0,531s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 120.0.0.0,,,2024-01-26 17:08:27,2024-01-26 17:08:28,"1,184s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 120.0.0.0,,,2024-01-26 17:08:28,2024-01-26 17:08:30,"1,616s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 120.0.0.0,,,2024-01-26 17:08:30,2024-01-26 17:08:30,"0,300s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:30,2024-01-26 17:08:31,"0,498s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Done button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:31,2024-01-26 17:08:31,"0,307s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Template selection button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:31,2024-01-26 17:08:32,"0,536s",PASSED
+"click(findTestObject(""Create Scrolling ticker/Ticker Template with given name""))",Chrome 120.0.0.0,,,2024-01-26 17:08:32,2024-01-26 17:08:32,"0,564s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 120.0.0.0,,,2024-01-26 17:08:32,2024-01-26 17:08:33,"0,909s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-10"")",Chrome 120.0.0.0,,,2024-01-26 17:08:33,2024-01-26 17:08:34,"0,841s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:34,2024-01-26 17:08:34,"0,526s",PASSED
+waitForPageLoad(2),Chrome 120.0.0.0,,,2024-01-26 17:08:34,2024-01-26 17:08:34,"0,013s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-10"")",Chrome 120.0.0.0,,,2024-01-26 17:08:34,2024-01-26 17:08:36,"1,479s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-10"")",Chrome 120.0.0.0,,,2024-01-26 17:08:36,2024-01-26 17:08:36,"0,278s",PASSED
+,,,,,,,
+Test Cases/Ticker/Ticker Preview (TC-11),Chrome 120.0.0.0,checking ticker preview with choosen settings,,2024-01-26 17:08:36,2024-01-26 17:08:54,"17,471s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 120.0.0.0,,,2024-01-26 17:08:36,2024-01-26 17:08:37,"0,991s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 120.0.0.0,,,2024-01-26 17:08:37,2024-01-26 17:08:38,"0,602s",PASSED
+refresh(),Chrome 120.0.0.0,,,2024-01-26 17:08:38,2024-01-26 17:08:38,"0,150s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 120.0.0.0,,,2024-01-26 17:08:38,2024-01-26 17:08:39,"1,195s",PASSED
+waitForPageLoad(1),Chrome 120.0.0.0,,,2024-01-26 17:08:39,2024-01-26 17:08:39,"0,008s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:39,2024-01-26 17:08:40,"0,348s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 120.0.0.0,,,2024-01-26 17:08:40,2024-01-26 17:08:40,"0,542s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 120.0.0.0,,,2024-01-26 17:08:40,2024-01-26 17:08:41,"1,216s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 120.0.0.0,,,2024-01-26 17:08:41,2024-01-26 17:08:43,"1,423s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 120.0.0.0,,,2024-01-26 17:08:43,2024-01-26 17:08:43,"0,322s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:43,2024-01-26 17:08:44,"0,507s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Done button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:44,2024-01-26 17:08:44,"0,303s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-11"")",Chrome 120.0.0.0,,,2024-01-26 17:08:44,2024-01-26 17:08:45,"0,818s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:45,2024-01-26 17:08:45,"0,510s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated ticker with preview from Katalon"")",Chrome 120.0.0.0,,,2024-01-26 17:08:45,2024-01-26 17:08:46,"0,751s",PASSED
+switchToDefaultContent(),Chrome 120.0.0.0,,,2024-01-26 17:08:46,2024-01-26 17:08:46,"0,013s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:46,2024-01-26 17:08:47,"0,575s",PASSED
+"click(findTestObject(""Create Scrolling ticker/Ticker skin with given intex""))",Chrome 120.0.0.0,,,2024-01-26 17:08:47,2024-01-26 17:08:47,"0,519s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox""))",Chrome 120.0.0.0,,,2024-01-26 17:08:47,2024-01-26 17:08:48,"0,753s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:48,2024-01-26 17:08:48,"0,522s",PASSED
+"scrollToElement(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:48,2024-01-26 17:08:49,"0,525s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox""))",Chrome 120.0.0.0,,,2024-01-26 17:08:49,2024-01-26 17:08:49,"0,317s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:49,2024-01-26 17:08:50,"0,520s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Preview button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:50,2024-01-26 17:08:50,"0,509s",PASSED
+"switchToFrame(findTestObject(""Create Scrolling ticker/preview ticker iframe""), 2)",Chrome 120.0.0.0,,,2024-01-26 17:08:50,2024-01-26 17:08:51,"1,096s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/ticker aknowledgement ok""), 1)",Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:51,"0,034s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/ticker user feedback""), 1)",Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:51,"0,038s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/Notification ticker logo""), 1)",Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:51,"0,045s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/ticker title preview""), ""TC-11"")",Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:51,"0,050s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Ticker body preview""), ""Hello! This is automated ticker with preview from Katalon"")",Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:51,"0,002s",NOT_RUN
+switchToDefaultContent(),Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:51,"0,009s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 120.0.0.0,,,2024-01-26 17:08:51,2024-01-26 17:08:52,"0,305s",PASSED
+waitForPageLoad(2),Chrome 120.0.0.0,,,2024-01-26 17:08:52,2024-01-26 17:08:52,"0,009s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-11"")",Chrome 120.0.0.0,,,2024-01-26 17:08:52,2024-01-26 17:08:53,"1,589s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-11"")",Chrome 120.0.0.0,,,2024-01-26 17:08:53,2024-01-26 17:08:54,"0,276s",PASSED

@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Compose Alert Button'))
+WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
 
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 2)
+WebUI.click(findTestObject('Dashboard Page/Scrolling tickers'))
 
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 'Create Pop-up Alert')
+WebUI.verifyElementText(findTestObject('Create Scrolling ticker/Create Scrolling ticker header'), 'Create Scrolling Ticker')
+
+WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
@@ -39,11 +41,11 @@ WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recip
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Done button'))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-1')
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-7')
 
 WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Alert body iframe'), 2)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert body'), 'Hello! This is automated alert from Katalon')
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert body'), 'Hello! This is automated ticker from Katalon')
 
 WebUI.switchToDefaultContent()
 
@@ -51,7 +53,7 @@ WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-1')
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-7')
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-1')
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-7')
 

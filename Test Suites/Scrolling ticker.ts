@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Pop-up Alert</name>
+   <name>Scrolling ticker</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,54 +10,47 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>17d2d146-4a66-4a30-956d-604a14c2b68c</testSuiteGuid>
+   <testSuiteGuid>74ad0d7a-5840-4be7-8c6a-4de251e707bf</testSuiteGuid>
    <testCaseLink>
-      <guid>e7c97008-9313-4708-a5fe-2f3e8208929f</guid>
+      <guid>f00a44c1-295f-4268-a7a4-8a8da17af51c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Test Cases/Login with Valid Credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6f912d1-496b-4af4-a3b3-d81c28e69586</guid>
+      <guid>b5e405b7-2abd-4023-90cd-ecc1ba3618e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pop-up alert/Send alert using Compose Alert Button (TC-1)</testCaseId>
+      <testCaseId>Test Cases/Ticker/Send Ticker (TC-7)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>04fecead-cb06-4a76-9c6c-5ef676bbfe06</guid>
+      <guid>44cd1486-cb76-4d50-934d-5583f66522bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pop-up alert/Send alert with image (TC-2)</testCaseId>
+      <testCaseId>Test Cases/Ticker/Draft ticker (TC-8)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>233b771b-7028-4f51-afe6-a087c5c770eb</guid>
+      <guid>c48f1a76-3172-4230-83a1-9206c090c4a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pop-up alert/Draft alert (TC-3)</testCaseId>
+      <testCaseId>Test Cases/Ticker/Ticker template creation (TC-9)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>24f4235d-73ca-4a09-ad2e-2969ab721990</guid>
+      <guid>ccd53120-f44b-49d4-808d-6e94f5d41006</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pop-up alert/Pop-up alert template creation (TC-4)</testCaseId>
+      <testCaseId>Test Cases/Ticker/Send ticker with template (TC-10)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fe569cd1-b204-40e4-a2ea-184047997a2a</guid>
+      <guid>0b4c55a3-37d8-4e71-bbb4-f8e3cd422f00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pop-up alert/Send Pop-up Alert with Template (TC-5)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>727cf174-5b07-4b4b-a723-2c469ca7d30c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Pop-up alert/Pop-up Alert preview (TC-6)</testCaseId>
+      <testCaseId>Test Cases/Ticker/Ticker Preview (TC-11)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
