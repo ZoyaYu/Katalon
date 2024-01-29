@@ -1,0 +1,72 @@
+1
+00:00:00,001 --> 00:00:00,300
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,301 --> 00:00:00,829
+5. click(findTestObject("Dashboard Page/RSVP"))
+
+3
+00:00:00,829 --> 00:00:01,160
+9. refresh()
+
+4
+00:00:01,161 --> 00:00:03,586
+13. verifyElementText(findTestObject("Create RSVP/Create RSVP Alert Header"), "Create RSVP Alert")
+
+5
+00:00:03,586 --> 00:00:03,933
+17. click(findTestObject("Create Pop-up Alert Page/More button"))
+
+6
+00:00:03,933 --> 00:00:04,441
+21. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+7
+00:00:04,444 --> 00:00:05,594
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+8
+00:00:05,594 --> 00:00:06,988
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+9
+00:00:06,988 --> 00:00:07,274
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+10
+00:00:07,275 --> 00:00:07,757
+37. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered"), 2)
+
+11
+00:00:07,758 --> 00:00:08,069
+41. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Done button"))
+
+12
+00:00:08,070 --> 00:00:08,571
+45. click(findTestObject("Create Pop-up Alert Page/Template selection button"))
+
+13
+00:00:08,571 --> 00:00:09,081
+49. click(findTestObject("Create RSVP/RSVP template with given value"))
+
+14
+00:00:09,081 --> 00:00:09,797
+53. sendKeys(findTestObject("Create Pop-up Alert Page/Alert Title field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+15
+00:00:09,798 --> 00:00:10,402
+57. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-14")
+
+16
+00:00:10,403 --> 00:00:10,713
+61. click(findTestObject("Create Pop-up Alert Page/Send button"))
+
+17
+00:00:10,713 --> 00:00:10,739
+65. waitForPageLoad(2)
+
+18
+00:00:10,739 --> 00:00:43,214
+69. setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-14")
+
