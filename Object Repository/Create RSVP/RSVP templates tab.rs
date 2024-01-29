@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Question 2 switch</name>
+   <name>RSVP templates tab</name>
    <tag></tag>
-   <elementGuidId>8dd83185-ec78-464c-b39d-9902f4e1628d</elementGuidId>
+   <elementGuidId>2d16ccee-39b8-4e59-a2f8-d362b2abc06f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.MuiSwitch-input</value>
+         <key>XPATH</key>
+         <value>//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

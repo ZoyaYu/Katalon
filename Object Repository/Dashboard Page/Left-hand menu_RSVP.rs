@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Question 2 switch</name>
+   <name>Left-hand menu_RSVP</name>
    <tag></tag>
-   <elementGuidId>8dd83185-ec78-464c-b39d-9902f4e1628d</elementGuidId>
+   <elementGuidId>a2604f78-7ce1-41ec-bf73-c42e453b39d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiSwitch-input</value>
+         <value>.alerts-page__nav__types .flex.flex-col.gap-16.mt-12.font-sm [href=&quot;/Demo/admin/alerts/rsvp&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

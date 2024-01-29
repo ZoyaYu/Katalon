@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Question 2 switch</name>
+   <name>RSVP template title</name>
    <tag></tag>
-   <elementGuidId>8dd83185-ec78-464c-b39d-9902f4e1628d</elementGuidId>
+   <elementGuidId>b32e1137-8f87-40cd-8710-559d7f383e1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiSwitch-input</value>
+         <value>.create-popup__content__left__title .MuiFormControl-root.MuiTextField-root.MuiFormControl-fullWidth #outlined-basic.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
