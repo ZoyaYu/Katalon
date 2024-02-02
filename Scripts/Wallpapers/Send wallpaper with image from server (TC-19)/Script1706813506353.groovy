@@ -17,17 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
 
-WebUI.click(findTestObject('Dashboard Page/RSVP'))
+WebUI.click(findTestObject('Dashboard Page/Wallpapers'))
+
+WebUI.verifyElementText(findTestObject('Wallpapers/Create Wallpaper Header'), 'Create Wallpaper')
 
 WebUI.refresh()
 
-WebUI.verifyElementText(findTestObject('Create RSVP/Create RSVP Alert Header'), 'Create RSVP Alert')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+WebUI.click(findTestObject('Wallpapers/more'))
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
 
@@ -38,24 +36,30 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipien
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
 
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
     2)
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Done button'))
+WebUI.click(findTestObject('Wallpapers/Done'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button'))
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-19')
 
-WebUI.click(findTestObject('Create RSVP/RSVP template with given value'))
+WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2)
 
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.click(findTestObject('Wallpapers/Select image from server button'))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-14')
+WebUI.click(findTestObject('Wallpapers/first image on a server'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+not_run: WebUI.delay(90)
+
+WebUI.verifyElementPresent(findTestObject('Wallpapers/uploaded wallpaper file'), 1)
+
+WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
+
+WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-14')
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-19')
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-14')
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-19')
 

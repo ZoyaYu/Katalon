@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>RSVP Alert</name>
+   <name>Wallpapers</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,47 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>23c22bf5-5c9f-45d0-8f07-7b069a8b2708</testSuiteGuid>
+   <testSuiteGuid>1e9161d5-7337-43ec-8905-bae891ab9c22</testSuiteGuid>
    <testCaseLink>
-      <guid>305a3226-ef7b-497c-9a71-168acddbb435</guid>
+      <guid>159430d3-0707-4f3e-a167-8be2d26fdc5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Test Cases/Login with Valid Credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c6ab308-5b00-4e52-9183-7edd615947cb</guid>
+      <guid>b7847f05-d584-4013-929c-d52cc15b9797</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RSVP/Send RSVP (TC-12)</testCaseId>
+      <testCaseId>Test Cases/Wallpapers/Send Wallpaper JPG (TC-15)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>46de614d-c481-4dc3-9b7d-dbcc99d8cebd</guid>
+      <guid>ec1423fb-e52b-45fc-b686-220f2dc11baf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RSVP/RSVP template creation (TC-13)</testCaseId>
+      <testCaseId>Test Cases/Wallpapers/Send Wallpaper PNG (TC-16)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f228ef0d-ab22-48e9-b07f-9718d80df099</guid>
+      <guid>8f32faff-0d4c-4947-b2cc-723589dba8bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RSVP/Send RSVP with template (TC-14)</testCaseId>
+      <testCaseId>Test Cases/Wallpapers/Send Wallpaper BMP (TC-17)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4d507cf7-a0a8-48b6-a821-e961e0dd95a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wallpapers/Send wallpaper with image from server (TC-19)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94e6c68a-247e-445e-bc5d-824b36db79c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Wallpapers/Draft Wallpaper (TC-18)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
