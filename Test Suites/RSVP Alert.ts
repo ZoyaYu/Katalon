@@ -32,11 +32,4 @@
       <testCaseId>Test Cases/RSVP/RSVP template creation (TC-13)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>f228ef0d-ab22-48e9-b07f-9718d80df099</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/RSVP/Send RSVP with template (TC-14)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
