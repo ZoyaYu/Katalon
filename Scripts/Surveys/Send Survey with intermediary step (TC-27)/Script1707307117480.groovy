@@ -36,10 +36,45 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipien
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
-    2)
-
 WebUI.click(findTestObject('Wallpapers/Done'))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-25')
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-27')
+
+WebUI.setText(findTestObject('Survey/Q1 input'), 'Are you satisfied with our services?')
+
+WebUI.setText(findTestObject('Survey/Q1 Answer 1 input field'), 'Yes')
+
+WebUI.setText(findTestObject('Survey/Q1 answer 2 input field'), 'No')
+
+WebUI.click(findTestObject('Survey/Add question btn'))
+
+WebUI.setText(findTestObject('Survey/Q2 input'), 'Where do you think we can improve our services?')
+
+WebUI.click(findTestObject('Survey/choice options'))
+
+WebUI.click(findTestObject('Survey/Multiple choice'))
+
+WebUI.setText(findTestObject('Survey/Q2 answer 1 input field'), 'Product Quality')
+
+WebUI.setText(findTestObject('Survey/Q2 answer 2 input field'), 'HotFix Delivery')
+
+WebUI.click(findTestObject('Survey/Add option'))
+
+WebUI.setText(findTestObject('Survey/Q2 answer 3 input field'), 'Response Time')
+
+WebUI.click(findTestObject('Survey/Add intermediary step btn'))
+
+WebUI.scrollToElement(findTestObject('Survey/Q3 intermediary step input'), 2)
+
+WebUI.setText(findTestObject('Survey/Q3 intermediary step input'), 'Improvement')
+
+WebUI.setText(findTestObject('Survey/Q3 intermediary input description'), 'Please help us to improve our services')
+
+WebUI.scrollToElement(findTestObject('Survey/Send btn Survey'), 2)
+
+WebUI.click(findTestObject('Survey/Send btn Survey'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-27')
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-27')
 
