@@ -29,7 +29,7 @@ WebUI.verifyElementPresent(findTestObject('Login Page/DAlogo'), 2)
 
 WebUI.verifyElementPresent(findTestObject('Login Page/Version number'), 2)
 
-WebUI.verifyElementText(findTestObject('Login Page/Version number'), 'Version: 11.3.0.6')
+WebUI.verifyElementText(findTestObject('Login Page/Version number'), 'Version: 11.4.0.1 (stage/11)')
 
 WebUI.setText(findTestObject('Object Repository/Login Page/Login input field'), 'Zoya')
 

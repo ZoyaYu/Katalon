@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Version number</name>
+   <name>Quizz radio btn</name>
    <tag></tag>
-   <elementGuidId>ebf55fbe-e443-4065-afa7-a89dedb44743</elementGuidId>
+   <elementGuidId>04b19be5-70b1-4393-af1d-52e0ead617f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.text-gray300</value>
+         <value>input[value=&quot;quiz&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

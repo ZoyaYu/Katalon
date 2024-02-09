@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Survey/New Survey btn'))
 
-WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
+WebUI.check(findTestObject('Survey/Quizz radio btn'))
 
-WebUI.click(findTestObject('Dashboard Page/Survey-Quizz-Poll'))
-
-WebUI.check(findTestObject('Survey/Classic survey radio button'))
+WebUI.verifyElementChecked(findTestObject('Survey/Quizz radio btn'), 1)
 
 WebUI.click(findTestObject('Survey/More btn'))
 
@@ -36,45 +34,26 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipien
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
 
+not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
+    2)
+
 WebUI.click(findTestObject('Wallpapers/Done'))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-27')
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-28')
 
-WebUI.setText(findTestObject('Survey/Q1 input'), 'Are you satisfied with our services?')
+WebUI.setText(findTestObject('Survey/Q1 input'), 'What kind of fish is Nemo?')
 
-WebUI.setText(findTestObject('Survey/Q1 Answer 1 input field'), 'Yes')
+WebUI.setText(findTestObject('Survey/Q1 Answer 1 input field'), 'Just Fish')
 
-WebUI.setText(findTestObject('Survey/Q1 answer 2 input field'), 'No')
+WebUI.setText(findTestObject('Survey/Q1 answer 2 input field'), 'Clownfish')
 
-WebUI.click(findTestObject('Survey/Add question btn'))
-
-WebUI.setText(findTestObject('Survey/Q2 input'), 'Where do you think we can improve our services?')
-
-WebUI.click(findTestObject('Survey/choice options'))
-
-WebUI.click(findTestObject('Survey/Multiple choice'))
-
-WebUI.setText(findTestObject('Survey/Q2 answer 1 input field'), 'Product Quality')
-
-WebUI.setText(findTestObject('Survey/Q2 answer 2 input field'), 'HotFix Delivery')
-
-WebUI.click(findTestObject('Survey/Add option'))
-
-WebUI.setText(findTestObject('Survey/Q2 answer 3 input field'), 'Response Time')
-
-WebUI.click(findTestObject('Survey/Add intermediary step btn'))
-
-WebUI.scrollToElement(findTestObject('Survey/Q3 intermediary step input'), 2)
-
-WebUI.setText(findTestObject('Survey/Q3 intermediary step input'), 'Improvement')
-
-WebUI.setText(findTestObject('Survey/Q3 intermediary input description'), 'Please help us to improve our services')
-
-WebUI.scrollToElement(findTestObject('Survey/Send btn Survey'), 2)
+WebUI.click(findTestObject('Survey/Mark as correct'))
 
 WebUI.click(findTestObject('Survey/Send btn Survey'))
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-27')
+WebUI.click(findTestObject('Survey/quizz tab'))
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-27')
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-28')
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-28')
 

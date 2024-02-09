@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Version number</name>
+   <name>New Survey btn</name>
    <tag></tag>
-   <elementGuidId>ebf55fbe-e443-4065-afa7-a89dedb44743</elementGuidId>
+   <elementGuidId>d791f2b1-2fd2-4e37-a5ba-9f30e8226dfd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.text-gray300</value>
+         <value>.alerts-page__content > div .MuiButton-containedSizeMedium</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
