@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list.muirtl-r8u8y9 li a[href=&quot;/Demo/admin/create/surveys&quot;]</value>
+         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list.muiltr-r8u8y9 li a[href=&quot;/Demo/admin/create/surveys&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

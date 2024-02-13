@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#scrollTarget li:nth-child(1) [src=&quot;/Demo/assets/Circle-df641f68.svg&quot;]</value>
+         <value>.infinite-scroll-component img[alt=&quot;Check logo&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

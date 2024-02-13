@@ -4,26 +4,24 @@
    <name>DAlogo</name>
    <tag></tag>
    <elementGuidId>6f5b9eb4-e434-425b-908c-0fedeccabed5</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//img[@src = '/Demo/assets/DALogo-9168ca15.svg' and @alt = 'logo']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>img.sc-ihgnxF.hZSsZq</value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@src = '/Demo/assets/DALogo-9168ca15.svg' and @alt = 'logo']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>CSS</key>
+         <value>img[alt=&quot;logo&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>9b740f07-7e2d-4b3b-8b39-a7f59d323189</webElementGuid>
+      <webElementGuid>6f135dba-0929-4f06-8416-faeb29100175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/Demo/assets/DALogo-9168ca15.svg</value>
-      <webElementGuid>05434d8e-5fae-411a-92c0-ade6f13caa8b</webElementGuid>
+      <webElementGuid>b57806c6-5f48-4f23-ad00-e3799a4d33f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +45,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>logo</value>
-      <webElementGuid>02a98099-3d6c-4652-b9a0-469dc529c12f</webElementGuid>
+      <webElementGuid>9f5ef171-0246-4a22-8e46-e52f5cde3aee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-ihgnxF hZSsZq</value>
-      <webElementGuid>b5dd67ac-0910-43f4-9551-e5aa86fed179</webElementGuid>
+      <webElementGuid>45aec1e6-7add-4d74-acc7-789263614aeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;flex items-center h-[100vh]&quot;]/form[@class=&quot;sc-bBeLUv bKjCus&quot;]/div[@class=&quot;sc-fvtFIe hDdokS&quot;]/img[@class=&quot;sc-ihgnxF hZSsZq&quot;]</value>
-      <webElementGuid>1267a194-3c98-49ed-be68-db22f4823b4d</webElementGuid>
+      <webElementGuid>6c18cdce-214f-4c89-91ab-30fad2190b58</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/form/div/img</value>
-      <webElementGuid>e3e316de-2264-4f0d-ac10-cc838bf7d482</webElementGuid>
+      <webElementGuid>6581633e-1aef-473d-a35c-4caca2886a8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +77,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='logo']</value>
-      <webElementGuid>828e348c-0a55-4d16-9574-18aa3f32dadb</webElementGuid>
+      <webElementGuid>0564ce8b-4a96-488f-88e9-3232112571f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img</value>
-      <webElementGuid>8e77b56f-2edd-482d-bbe3-6ca1c61c6039</webElementGuid>
+      <webElementGuid>98b0164d-c34c-432b-b133-94fb925d3e6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/Demo/assets/DALogo-9168ca15.svg' and @alt = 'logo']</value>
-      <webElementGuid>ddab8e26-11ff-48c9-baf6-f9ca3747326c</webElementGuid>
+      <webElementGuid>8243e473-acb3-463a-ab79-61d518654a2e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

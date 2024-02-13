@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiModal-root.muirtl-8ndowl .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-marginDense.MuiOutlinedInput-marginDense input</value>
+         <value>.MuiModal-root.muiltr-8ndowl .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

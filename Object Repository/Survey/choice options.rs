@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.create-survey__content__left__questions > div:nth-child(2) .create-survey__content__left__questions__item__title .MuiSelect-selectMenu</value>
+         <value>.create-survey__content__left__questions > div:nth-child(2) .create-survey__content__left__questions__item__title .MuiSelect-select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

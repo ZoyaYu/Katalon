@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiButtonBase-root.MuiIconButton-root.MuiRadio-root.Mui-checked</value>
+         <value>.create-popup__content__left__priority__item .MuiButtonBase-root.MuiRadio-root.Mui-checked</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

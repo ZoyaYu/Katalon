@@ -6,14 +6,17 @@
    <elementGuidId>721ed15f-9697-4a38-b8c2-e165524a9110</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.create-survey__content__left__questions > div:nth-child(1) .create-survey__content__left__questions__item__questions >div:nth-child(2) .create-survey__content__left__questions__item__questions__item__text input</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//body[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[3]/div[2]/div[2]/div[1]/div[1]/input[1]</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
