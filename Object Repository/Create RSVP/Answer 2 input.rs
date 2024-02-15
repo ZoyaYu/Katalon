@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.create-rsvp__content__left__questions__item__question__item__text .MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense[placeholder=&quot;Answer 2&quot;]</value>
+         <value>.create-rsvp__content__left__questions__item__question__item__text .MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputSizeSmall[placeholder=&quot;Answer 2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

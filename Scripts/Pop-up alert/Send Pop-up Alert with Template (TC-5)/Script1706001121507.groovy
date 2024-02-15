@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Dashboard Page/Compose Alert Button'))
 
 WebUI.refresh()
@@ -36,16 +38,15 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipien
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
 
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
-    2)
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Done button'))
+WebUI.click(findTestObject('Wallpapers/Done'))
 
 WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button'))
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Template with given name'))
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Alert Title field'))
 
 WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 

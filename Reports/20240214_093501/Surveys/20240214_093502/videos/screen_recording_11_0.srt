@@ -1,0 +1,52 @@
+1
+00:00:00,031 --> 00:00:00,321
+1. click(findTestObject("Survey/3dots Actions"))
+
+2
+00:00:00,322 --> 00:00:01,460
+5. click(findTestObject("Survey/Create alert using this template"))
+
+3
+00:00:01,461 --> 00:00:04,118
+9. sendKeys(findTestObject("Create Pop-up Alert Page/Alert Title field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+4
+00:00:04,118 --> 00:00:04,751
+13. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-33")
+
+5
+00:00:04,751 --> 00:00:05,017
+17. verifyElementAttributeValue(findTestObject("Survey/Q1 input"), "value", "If you freeze water, what do you get?", 0)
+
+6
+00:00:05,019 --> 00:00:05,292
+21. verifyElementAttributeValue(findTestObject("Survey/Q1 Answer 1 input field"), "value", "coffee", 0)
+
+7
+00:00:05,292 --> 00:00:05,577
+25. verifyElementAttributeValue(findTestObject("Survey/Q1 answer 2 input field"), "value", "ice", 0)
+
+8
+00:00:05,577 --> 00:00:05,853
+29. verifyElementAttributeValue(findTestObject("Survey/Q2 input"), "value", "At what temperature does water change its state?", 0)
+
+9
+00:00:05,854 --> 00:00:06,117
+33. verifyElementAttributeValue(findTestObject("Survey/Q2 answer 1 input field"), "value", "0", 0)
+
+10
+00:00:06,118 --> 00:00:06,391
+37. verifyElementAttributeValue(findTestObject("Survey/Q2 answer 2 input field"), "value", "50", 0)
+
+11
+00:00:06,391 --> 00:00:06,662
+41. verifyElementAttributeValue(findTestObject("Survey/Q2 answer 3 input field"), "value", "100", 0)
+
+12
+00:00:06,662 --> 00:00:06,977
+45. click(findTestObject("Survey/Send btn Survey"))
+
+13
+00:00:06,977 --> 00:00:39,319
+49. click(findTestObject("Survey/quizz tab"))
+

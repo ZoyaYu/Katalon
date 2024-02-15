@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pop-up Alert,Chrome 121.0.0.0,,,2024-02-14 17:14:55,2024-02-14 17:21:26,"6m - 31,122s",FAILED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 121.0.0.0,,,2024-02-14 17:15:13,2024-02-14 17:15:24,"11,023s",PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-14 17:15:13,2024-02-14 17:15:13,"0,844s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 121.0.0.0,,,2024-02-14 17:15:13,2024-02-14 17:15:14,"1,007s",PASSED
+waitForPageLoad(3),Chrome 121.0.0.0,,,2024-02-14 17:15:14,2024-02-14 17:15:14,"0,011s",PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,2024-02-14 17:15:14,2024-02-14 17:15:15,"0,122s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:15,2024-02-14 17:15:16,"0,976s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:16,2024-02-14 17:15:16,"0,268s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.1 (stage/11)"")",Chrome 121.0.0.0,,,2024-02-14 17:15:16,2024-02-14 17:15:16,"0,260s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 121.0.0.0,,,2024-02-14 17:15:16,2024-02-14 17:15:17,"0,593s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 121.0.0.0,,,2024-02-14 17:15:17,2024-02-14 17:15:17,"0,341s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 121.0.0.0,,,2024-02-14 17:15:17,2024-02-14 17:15:17,"0,293s",PASSED
+delay(4),Chrome 121.0.0.0,,,2024-02-14 17:15:17,2024-02-14 17:15:21,"4,008s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 121.0.0.0,,,2024-02-14 17:15:21,2024-02-14 17:15:22,"0,267s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Send alert using Compose Alert Button (TC-1),Chrome 121.0.0.0,"open Create Pop-up Alert page, using Compose Alert button",,2024-02-14 17:15:24,2024-02-14 17:15:39,"15,465s",PASSED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 121.0.0.0,,,2024-02-14 17:15:24,2024-02-14 17:15:24,"0,327s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:24,2024-02-14 17:15:28,"3,846s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), ""Create Pop-up Alert"")",Chrome 121.0.0.0,,,2024-02-14 17:15:28,2024-02-14 17:15:28,"0,261s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 121.0.0.0,,,2024-02-14 17:15:28,2024-02-14 17:15:28,"0,355s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 121.0.0.0,,,2024-02-14 17:15:28,2024-02-14 17:15:29,"0,514s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 121.0.0.0,,,2024-02-14 17:15:29,2024-02-14 17:15:30,"1,275s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 121.0.0.0,,,2024-02-14 17:15:30,2024-02-14 17:15:32,"1,423s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 121.0.0.0,,,2024-02-14 17:15:32,2024-02-14 17:15:32,"0,309s",PASSED
+"click(findTestObject(""Wallpapers/Done""))",Chrome 121.0.0.0,,,2024-02-14 17:15:32,2024-02-14 17:15:33,"0,557s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-1"")",Chrome 121.0.0.0,,,2024-02-14 17:15:33,2024-02-14 17:15:33,"0,830s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:33,2024-02-14 17:15:34,"0,285s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-14 17:15:34,2024-02-14 17:15:34,"0,767s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-14 17:15:34,2024-02-14 17:15:34,"0,014s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 121.0.0.0,,,2024-02-14 17:15:34,2024-02-14 17:15:35,"0,529s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-14 17:15:35,2024-02-14 17:15:35,"0,012s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-1"")",Chrome 121.0.0.0,,,2024-02-14 17:15:35,2024-02-14 17:15:37,"1,737s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-1"")",Chrome 121.0.0.0,,,2024-02-14 17:15:37,2024-02-14 17:15:37,"0,290s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Send alert with image (TC-2),Chrome 121.0.0.0,Send alert with image using compose alert button and upload keyword,,2024-02-14 17:15:39,2024-02-14 17:18:23,"2m - 43,604s",PASSED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 121.0.0.0,,,2024-02-14 17:15:39,2024-02-14 17:15:39,"0,361s",PASSED
+refresh(),Chrome 121.0.0.0,,,2024-02-14 17:15:39,2024-02-14 17:15:40,"0,245s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:40,2024-02-14 17:15:43,"2,888s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), ""Create Pop-up Alert"")",Chrome 121.0.0.0,,,2024-02-14 17:15:43,2024-02-14 17:15:43,"0,261s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 121.0.0.0,,,2024-02-14 17:15:43,2024-02-14 17:15:43,"0,340s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 121.0.0.0,,,2024-02-14 17:15:43,2024-02-14 17:15:44,"0,518s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 121.0.0.0,,,2024-02-14 17:15:44,2024-02-14 17:15:45,"1,162s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "", CONTINUE_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-14 17:15:45,2024-02-14 17:15:46,"1,424s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 121.0.0.0,,,2024-02-14 17:15:46,2024-02-14 17:15:47,"0,300s",PASSED
+"click(findTestObject(""Wallpapers/Done""))",Chrome 121.0.0.0,,,2024-02-14 17:15:47,2024-02-14 17:15:47,"0,546s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-2"")",Chrome 121.0.0.0,,,2024-02-14 17:15:47,2024-02-14 17:15:48,"0,839s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:48,2024-02-14 17:15:48,"0,297s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated alert with image from Katalon"")",Chrome 121.0.0.0,,,2024-02-14 17:15:48,2024-02-14 17:15:49,"0,940s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-14 17:15:49,2024-02-14 17:15:49,"0,008s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Upload image window/Upload image button""))",Chrome 121.0.0.0,,,2024-02-14 17:15:49,2024-02-14 17:15:50,"0,510s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Upload image window/Upload image area""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:15:50,2024-02-14 17:15:50,"0,496s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Create Pop-up Alert Page/Upload image window/Upload image area""), ""C:\Users\Home\Downloads\SampleJPGImage_500kbmb.jpg"")",Chrome 121.0.0.0,,,2024-02-14 17:15:50,2024-02-14 17:15:51,"0,311s",PASSED
+delay(90),Chrome 121.0.0.0,,,2024-02-14 17:15:51,2024-02-14 17:17:21,"1m - 30,018s",PASSED
+"getAttribute(findTestObject(""Create Pop-up Alert Page/Upload image window/uploaded file""), ""src"")",Chrome 121.0.0.0,,,2024-02-14 17:17:21,2024-02-14 17:18:17,"56,917s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Upload image window/Ok button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:17,2024-02-14 17:18:18,"0,404s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:18,2024-02-14 17:18:18,"0,541s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-14 17:18:18,2024-02-14 17:18:18,"0,012s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-2"")",Chrome 121.0.0.0,,,2024-02-14 17:18:18,2024-02-14 17:18:20,"1,836s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-2"")",Chrome 121.0.0.0,,,2024-02-14 17:18:20,2024-02-14 17:18:21,"0,278s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Draft alert (TC-3),Chrome 121.0.0.0,,,2024-02-14 17:18:23,2024-02-14 17:18:39,"16,185s",PASSED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:23,2024-02-14 17:18:23,"0,412s",PASSED
+refresh(),Chrome 121.0.0.0,,,2024-02-14 17:18:23,2024-02-14 17:18:23,"0,387s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:18:23,2024-02-14 17:18:26,"2,759s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), ""Create Pop-up Alert"")",Chrome 121.0.0.0,,,2024-02-14 17:18:26,2024-02-14 17:18:27,"0,254s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:27,2024-02-14 17:18:27,"0,339s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""))",Chrome 121.0.0.0,,,2024-02-14 17:18:27,2024-02-14 17:18:27,"0,528s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Filter field""), ""LAPTOP-E6BU4LL9"")",Chrome 121.0.0.0,,,2024-02-14 17:18:27,2024-02-14 17:18:29,"1,160s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered""), ""LAPTOP-E6BU4LL9 "")",Chrome 121.0.0.0,,,2024-02-14 17:18:29,2024-02-14 17:18:30,"1,424s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/filtered user selection""))",Chrome 121.0.0.0,,,2024-02-14 17:18:30,2024-02-14 17:18:30,"0,331s",PASSED
+"click(findTestObject(""Wallpapers/Done""))",Chrome 121.0.0.0,,,2024-02-14 17:18:30,2024-02-14 17:18:31,"0,552s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-3"")",Chrome 121.0.0.0,,,2024-02-14 17:18:31,2024-02-14 17:18:32,"0,863s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:18:32,2024-02-14 17:18:32,"0,316s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), ""Hello! This is automated DRAFT alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-14 17:18:32,2024-02-14 17:18:33,"0,986s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-14 17:18:33,2024-02-14 17:18:33,"0,007s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:33,2024-02-14 17:18:34,"0,551s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-14 17:18:34,2024-02-14 17:18:34,"0,012s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Draft tab""))",Chrome 121.0.0.0,,,2024-02-14 17:18:34,2024-02-14 17:18:35,"1,740s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-3"")",Chrome 121.0.0.0,,,2024-02-14 17:18:35,2024-02-14 17:18:37,"1,218s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-3"")",Chrome 121.0.0.0,,,2024-02-14 17:18:37,2024-02-14 17:18:37,"0,275s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Pop-up alert template creation (TC-4),Chrome 121.0.0.0,,,2024-02-14 17:18:39,2024-02-14 17:18:58,"19,562s",PASSED
+"click(findTestObject(""Dashboard Page/Left-hand menu_Pop-up Alerts""))",Chrome 121.0.0.0,,,2024-02-14 17:18:39,2024-02-14 17:18:39,"0,333s",PASSED
+refresh(),Chrome 121.0.0.0,,,2024-02-14 17:18:39,2024-02-14 17:18:39,"0,142s",PASSED
+"verifyElementPresent(findTestObject(""Pop-up Alerts page/Pop-up Alerts header""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:18:39,2024-02-14 17:18:43,"3,570s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Pop-up Alerts header""), ""Pop-up Alerts"")",Chrome 121.0.0.0,,,2024-02-14 17:18:43,2024-02-14 17:18:43,"0,261s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 121.0.0.0,,,2024-02-14 17:18:43,2024-02-14 17:18:44,"0,319s",PASSED
+"click(findTestObject(""Pop-up Alerts page/New Template button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:44,2024-02-14 17:18:44,"0,788s",PASSED
+"setText(findTestObject(""Create Template/Template title""), ""TC-4"")",Chrome 121.0.0.0,,,2024-02-14 17:18:44,2024-02-14 17:18:47,"2,715s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 121.0.0.0,,,2024-02-14 17:18:47,2024-02-14 17:18:47,"0,277s",PASSED
+"TemplateBody = """"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue tempus tempor. Donec pretium viverra eleifend.
+Aliquam et condimentum sem. Sed molestie nisl lectus, eget ultrices lorem tincidunt in. Morbi sed hendrerit dolor. Aliquam erat volutpat.
+Integer maximus ex tempus auctor elementum. Vivamus vel lacus eu ante maximus consequat. Vestibulum lacus eros, gravida in massa ut, malesuada ultricies quam.
+Suspendisse pharetra eros nec auctor posuere. Nunc sit amet dignissim eros. Suspendisse imperdiet tristique massa, id lacinia orci viverra id.
+Etiam aliquam eros orci, eu malesuada ipsum commodo quis.""""",Chrome 121.0.0.0,,,2024-02-14 17:18:47,2024-02-14 17:18:47,"0,001s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert body""), TemplateBody)",Chrome 121.0.0.0,,,2024-02-14 17:18:47,2024-02-14 17:18:51,"3,804s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-14 17:18:51,2024-02-14 17:18:51,"0,012s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 121.0.0.0,,,2024-02-14 17:18:51,2024-02-14 17:18:52,"0,506s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 121.0.0.0,,,2024-02-14 17:18:52,2024-02-14 17:18:53,"1,523s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-4"")",Chrome 121.0.0.0,,,2024-02-14 17:18:53,2024-02-14 17:18:54,"0,945s",PASSED
+delay(2),Chrome 121.0.0.0,,,2024-02-14 17:18:54,2024-02-14 17:18:56,"2,009s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered Template""), ""TC-4"")",Chrome 121.0.0.0,,,2024-02-14 17:18:56,2024-02-14 17:18:56,"0,273s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Send Pop-up Alert with Template (TC-5),Chrome 121.0.0.0,,,2024-02-14 17:19:43,2024-02-14 17:20:17,"34,662s",FAILED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 121.0.0.0,,,2024-02-14 17:19:43,2024-02-14 17:20:15,"32,599s",FAILED
+Video,Chrome 121.0.0.0,,,2024-02-14 17:20:17,2024-02-14 17:20:17,"0,000s",PASSED
+,,,,,,,
+Test Cases/Pop-up alert/Pop-up Alert preview (TC-6),Chrome 121.0.0.0,checking alert preview with choosen settings,,2024-02-14 17:20:52,2024-02-14 17:21:26,"34,206s",FAILED
+"click(findTestObject(""Dashboard Page/Compose Alert Button""))",Chrome 121.0.0.0,,,2024-02-14 17:20:52,2024-02-14 17:21:24,"32,173s",FAILED
+Video,Chrome 121.0.0.0,,,2024-02-14 17:21:26,2024-02-14 17:21:26,"0,001s",PASSED

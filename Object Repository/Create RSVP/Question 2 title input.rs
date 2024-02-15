@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense[placeholder=&quot;What is your reason?&quot;]</value>
+         <value>.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputSizeSmall[placeholder=&quot;What is your reason?&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

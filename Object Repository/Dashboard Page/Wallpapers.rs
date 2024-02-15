@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list.muirtl-r8u8y9 li a[href=&quot;/Demo/admin/create/wallpapers&quot;]</value>
+         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list li a[href=&quot;/Demo/admin/create/wallpapers&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

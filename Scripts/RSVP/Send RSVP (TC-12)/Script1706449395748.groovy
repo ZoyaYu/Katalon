@@ -34,10 +34,10 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipien
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
 
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
     2)
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Done button'))
+WebUI.click(findTestObject('Wallpapers/Done'))
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-12')
 

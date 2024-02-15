@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiModal-root.muirtl-8ndowl .mt-20</value>
+         <value>.MuiModal-root .mt-20</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

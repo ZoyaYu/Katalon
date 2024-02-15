@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list.muirtl-r8u8y9 > li:nth-child(2)</value>
+         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list > li:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
