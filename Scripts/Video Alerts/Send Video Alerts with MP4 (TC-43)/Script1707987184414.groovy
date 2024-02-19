@@ -45,9 +45,9 @@ WebUI.click(findTestObject('Wallpapers/Done'))
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-43')
 
-WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2)
+WebUI.verifyElementPresent(findTestObject('Video Alert/Videoalert upload area'), 2)
 
-WebUI.uploadFileWithDragAndDrop(findTestObject('Wallpapers/Upload wallpaper area'), 'C:\\Users\\Home\\git\\Katalon\\video\\earth.mp4')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Video Alert/Videoalert upload area'), 'C:\\Users\\Home\\git\\Katalon\\video\\earth.mp4')
 
 WebUI.delay(90)
 

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.create-popup__content__left__title .MuiFormControl-root.MuiTextField-root.MuiFormControl-fullWidth #outlined-basic.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense</value>
+         <value>.create-popup__content__left__title .MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root #outlined-basic.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputSizeSmall</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

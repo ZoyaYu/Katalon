@@ -37,6 +37,8 @@ WebUI.setText(findTestObject('Create RSVP/Answer 1 input'), 'Harry Potter')
 
 WebUI.setText(findTestObject('Create RSVP/Answer 2 input'), 'Kill Bill')
 
+WebUI.waitForElementClickable(findTestObject('Create RSVP/Question 2 switch'), 2)
+
 WebUI.check(findTestObject('Create RSVP/Question 2 switch'))
 
 WebUI.verifyElementChecked(findTestObject('Create RSVP/Question 2 switch'), 1)

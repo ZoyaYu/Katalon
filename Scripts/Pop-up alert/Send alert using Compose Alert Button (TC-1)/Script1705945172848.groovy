@@ -52,3 +52,71 @@ WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-1'
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-1')
 
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Stop alert'))
+
+WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Stopped status'), 2)
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
+
+WebUI.takeElementScreenshot(findTestObject('Pop-up Alerts page/View graph image'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Duplicate alert'))
+
+WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'Duplicate pop-up alert')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-1')
+
+WebUI.waitForPageLoad(5)
+
+WebUI.waitForElementClickable(findTestObject('Survey/3dots Actions'), 2)
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.waitForElementClickable(findTestObject('Pop-up Alerts page/resend alert from actions menu'), 2)
+
+WebUI.click(findTestObject('Pop-up Alerts page/resend alert from actions menu'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Resend btn'))
+
+WebUI.sendKeys(findTestObject('Pop-up Alerts page/Search by title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-1')
+
+WebUI.verifyElementClickable(findTestObject('Pop-up Alerts page/Select all checkbox'))
+
+WebUI.check(findTestObject('Pop-up Alerts page/Select all checkbox'))
+
+WebUI.verifyElementChecked(findTestObject('Pop-up Alerts page/Select all checkbox'), 1)
+
+WebUI.click(findTestObject('Pop-up Alerts page/delete all'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Confirm deletion btn'))
+
+WebUI.sendKeys(findTestObject('Pop-up Alerts page/Search by title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'Duplicate pop-up alert')
+
+WebUI.waitForElementClickable(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'), 2)
+
+WebUI.check(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'))
+
+WebUI.verifyElementChecked(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'), 2)
+
+WebUI.click(findTestObject('Pop-up Alerts page/delete all'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Confirm deletion btn'))
+

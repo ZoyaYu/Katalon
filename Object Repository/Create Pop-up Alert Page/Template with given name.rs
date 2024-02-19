@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.MuiList-root.MuiMenu-list.MuiList-padding .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters[data-value=&quot;TC-4&quot;]</value>
+         <value>ul[aria-labelledby=&quot;templates&quot;] .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters:nth-child(1)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

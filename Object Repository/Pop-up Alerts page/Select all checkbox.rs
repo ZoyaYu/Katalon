@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Left-hand menu Surveys-Quizz-Poll</name>
+   <name>Select all checkbox</name>
    <tag></tag>
-   <elementGuidId>a2a0a3c1-e7a2-4db6-8aa8-461bd4cb93f2</elementGuidId>
+   <elementGuidId>559c4bac-1d1d-40d4-9be3-d45a1775014f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>.MuiDataGrid-columnHeaderTitleContainerContent input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.alerts-page__nav__types .flex.flex-col.gap-16.mt-12.font-sm [href=&quot;/Demo/admin/alerts/survey&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

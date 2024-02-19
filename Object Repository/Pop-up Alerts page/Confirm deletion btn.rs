@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Left-hand menu Surveys-Quizz-Poll</name>
+   <name>Confirm deletion btn</name>
    <tag></tag>
-   <elementGuidId>a2a0a3c1-e7a2-4db6-8aa8-461bd4cb93f2</elementGuidId>
+   <elementGuidId>8560da2d-0def-4360-89c2-5589fccbbd8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>.MuiModal-root .MuiButton-containedPrimary</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.alerts-page__nav__types .flex.flex-col.gap-16.mt-12.font-sm [href=&quot;/Demo/admin/alerts/survey&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

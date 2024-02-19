@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Left-hand menu Surveys-Quizz-Poll</name>
+   <name>sent alerts checkbox</name>
    <tag></tag>
-   <elementGuidId>a2a0a3c1-e7a2-4db6-8aa8-461bd4cb93f2</elementGuidId>
+   <elementGuidId>83f73c9a-164e-4ae8-bd65-68d0ac008d1f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>.MuiDataGrid-cellCheckbox.MuiDataGrid-cell--withRenderer.MuiDataGrid-cell.MuiDataGrid-cell--textCenter input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.alerts-page__nav__types .flex.flex-col.gap-16.mt-12.font-sm [href=&quot;/Demo/admin/alerts/survey&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

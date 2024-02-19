@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Left-hand menu Surveys-Quizz-Poll</name>
+   <name>Stopped status</name>
    <tag></tag>
-   <elementGuidId>a2a0a3c1-e7a2-4db6-8aa8-461bd4cb93f2</elementGuidId>
+   <elementGuidId>d7dbe839-b8ae-4ef6-8ab4-5d206296f854</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium[data-tip=&quot;Stopped&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.alerts-page__nav__types .flex.flex-col.gap-16.mt-12.font-sm [href=&quot;/Demo/admin/alerts/survey&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

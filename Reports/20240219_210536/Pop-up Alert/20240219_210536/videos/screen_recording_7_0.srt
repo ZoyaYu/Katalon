@@ -1,0 +1,196 @@
+1
+00:00:00,041 --> 00:00:00,113
+1. callTestCase(findTestCase("Login Test Cases/Login with Valid Credentials"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,114 --> 00:00:00,859
+1. openBrowser("")
+
+3
+00:00:00,860 --> 00:00:01,715
+5. navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth")
+
+4
+00:00:01,715 --> 00:00:01,726
+9. waitForPageLoad(3)
+
+5
+00:00:01,727 --> 00:00:01,853
+13. maximizeWindow()
+
+6
+00:00:01,854 --> 00:00:02,723
+17. verifyElementPresent(findTestObject("Login Page/DAlogo"), 2)
+
+7
+00:00:02,723 --> 00:00:02,989
+21. verifyElementPresent(findTestObject("Login Page/Version number"), 2)
+
+8
+00:00:02,990 --> 00:00:03,259
+25. verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.1 (stage/11)")
+
+9
+00:00:03,259 --> 00:00:03,831
+29. setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya")
+
+10
+00:00:03,832 --> 00:00:04,165
+33. setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg=")
+
+11
+00:00:04,165 --> 00:00:04,452
+37. click(findTestObject("Object Repository/Login Page/button_Log in"))
+
+12
+00:00:04,452 --> 00:00:08,466
+41. delay(4)
+
+13
+00:00:08,466 --> 00:00:08,748
+45. verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4)
+
+14
+00:00:08,748 --> 00:00:09,045
+5. click(findTestObject("Dashboard Page/Compose Alert Button"))
+
+15
+00:00:09,046 --> 00:00:09,205
+9. refresh()
+
+16
+00:00:09,206 --> 00:00:11,778
+13. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), 2)
+
+17
+00:00:11,778 --> 00:00:12,057
+17. verifyElementText(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), "Create Pop-up Alert")
+
+18
+00:00:12,057 --> 00:00:12,397
+21. click(findTestObject("Create Pop-up Alert Page/More button"))
+
+19
+00:00:12,398 --> 00:00:12,834
+25. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+20
+00:00:12,835 --> 00:00:14,142
+29. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+21
+00:00:14,142 --> 00:00:15,564
+33. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ", CONTINUE_ON_FAILURE)
+
+22
+00:00:15,564 --> 00:00:15,875
+37. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+23
+00:00:15,876 --> 00:00:19,219
+41. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered"), 2, CONTINUE_ON_FAILURE)
+
+24
+00:00:19,219 --> 00:00:19,531
+45. click(findTestObject("Wallpapers/Done"))
+
+25
+00:00:19,531 --> 00:00:20,392
+49. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-6")
+
+26
+00:00:20,392 --> 00:00:20,693
+53. switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 2)
+
+27
+00:00:20,693 --> 00:00:21,848
+57. setText(findTestObject("Create Pop-up Alert Page/Alert body"), "Hello! This is automated alert with preview check from Katalon")
+
+28
+00:00:21,848 --> 00:00:21,857
+61. switchToDefaultContent()
+
+29
+00:00:21,857 --> 00:00:22,404
+65. click(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button"))
+
+30
+00:00:22,404 --> 00:00:22,952
+69. click(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index"))
+
+31
+00:00:22,952 --> 00:00:23,839
+73. check(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox"))
+
+32
+00:00:23,840 --> 00:00:24,341
+77. verifyElementChecked(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox"), 2)
+
+33
+00:00:24,342 --> 00:00:24,846
+81. scrollToElement(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Add print button"), 2)
+
+34
+00:00:24,846 --> 00:00:25,175
+85. check(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Add print button"))
+
+35
+00:00:25,176 --> 00:00:25,674
+89. verifyElementChecked(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Add print button"), 2)
+
+36
+00:00:25,675 --> 00:00:26,179
+93. scrollToElement(findTestObject("Create Pop-up Alert Page/More button"), 2)
+
+37
+00:00:26,179 --> 00:00:26,181
+97. scrollToElement(findTestObject("Create Pop-up Alert Page/Preview button"), 4)
+
+38
+00:00:26,181 --> 00:00:26,457
+101. waitForElementClickable(findTestObject("Create Pop-up Alert Page/Preview button"), 3)
+
+39
+00:00:26,458 --> 00:00:26,758
+105. click(findTestObject("Create Pop-up Alert Page/Preview button"))
+
+40
+00:00:26,758 --> 00:00:27,930
+109. switchToFrame(findTestObject("Create Pop-up Alert Page/Preview alert iframe"), 2)
+
+41
+00:00:27,930 --> 00:00:27,972
+113. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Alert Preview/print button"), 1)
+
+42
+00:00:27,973 --> 00:00:28,012
+117. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Alert Preview/Postpone time selection"), 1)
+
+43
+00:00:28,012 --> 00:00:28,051
+121. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Alert Preview/Postpone button"), 1)
+
+44
+00:00:28,052 --> 00:00:28,093
+125. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Alert Preview/Creation Date"), 1)
+
+45
+00:00:28,094 --> 00:00:28,134
+129. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Alert Preview/Alert Title Preview"), 1)
+
+46
+00:00:28,134 --> 00:00:28,190
+133. verifyElementVisible(findTestObject("Create Pop-up Alert Page/Alert Preview/Alert logo Preview"))
+
+47
+00:00:28,191 --> 00:00:28,308
+137. click(findTestObject("Create Pop-up Alert Page/Alert Preview/Acknowledgement OK button"))
+
+48
+00:00:28,308 --> 00:00:28,314
+141. switchToDefaultContent()
+
+49
+00:00:28,315 --> 00:00:28,857
+145. click(findTestObject("Create Pop-up Alert Page/Save Button"))
+

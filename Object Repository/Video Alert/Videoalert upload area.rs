@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RSVP template with given value</name>
+   <name>Videoalert upload area</name>
    <tag></tag>
-   <elementGuidId>b396cfc2-a85c-4be4-ab09-4ce726d3c0c5</elementGuidId>
+   <elementGuidId>51cf39f8-b364-45bd-93e9-c9c96775c86b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ul[aria-labelledby=&quot;templates&quot;] .MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters:nth-child(1)</value>
+         <value>.create-video__content__left__uploadContainer .p-20</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

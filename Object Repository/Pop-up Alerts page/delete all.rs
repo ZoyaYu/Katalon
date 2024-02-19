@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Left-hand menu Surveys-Quizz-Poll</name>
+   <name>delete all</name>
    <tag></tag>
-   <elementGuidId>a2a0a3c1-e7a2-4db6-8aa8-461bd4cb93f2</elementGuidId>
+   <elementGuidId>a16e5c6c-e727-4f2a-8d8c-7d2a19fa1567</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium[data-testid=&quot;DeleteOutlineOutlinedIcon&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.alerts-page__nav__types .flex.flex-col.gap-16.mt-12.font-sm [href=&quot;/Demo/admin/alerts/survey&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
