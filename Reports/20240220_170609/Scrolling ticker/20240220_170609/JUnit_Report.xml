@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scrolling ticker" time="163.705" tests="6" failures="0" errors="0">
+   <testsuite name="Scrolling ticker" tests="6" failures="0" errors="0" time="163.705" skipped="0" timestamp="2024-02-20 17:06:12" hostname="Home - 169.254.43.143" id="Test Suites/Scrolling ticker">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609"/>
+         <property name="logFiles" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438008418.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438011950.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438050849.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438069392.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438130888.png"/>
+         <property name="hostName" value="Home - 169.254.43.143"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="169.254.143.118"/>
+         <property name="sessionId" value="70d712ba64f4d3317003c6a2bb32bc32"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Login with Valid Credentials" time="13.071" classname="Test Cases/Login Test Cases/Login with Valid Credentials" status="PASSED">
+         <system-out><![CDATA[2024-02-20 17:06:12 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Login with Valid Credentials: Test Cases/Login Test Cases/Login with Valid Credentials
+
+2024-02-20 17:06:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-20 17:06:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-20 17:06:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-20 17:06:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-20 17:06:14 - [TEST_STEP][PASSED] - navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth"): Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+2024-02-20 17:06:16 - [MESSAGE][PASSED] - Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+2024-02-20 17:06:16 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2024-02-20 17:06:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:06:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-02-20 17:06:16 - [MESSAGE][PASSED] - Current window maximized
+
+2024-02-20 17:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+2024-02-20 17:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+2024-02-20 17:06:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Version number"), 2): Object 'Object Repository/Login Page/Version number' is present
+
+2024-02-20 17:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Version number' is present
+
+2024-02-20 17:06:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.1 (stage/11)"): Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+2024-02-20 17:06:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+2024-02-20 17:06:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+2024-02-20 17:06:18 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+2024-02-20 17:06:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+2024-02-20 17:06:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+2024-02-20 17:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+2024-02-20 17:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+2024-02-20 17:06:19 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2024-02-20 17:06:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2024-02-20 17:06:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4): Object 'Object Repository/Login Page/h1_Dashboard' is present
+
+2024-02-20 17:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h1_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ticker/Send Ticker (TC-7)" time="44.132" classname="Test Cases/Ticker/Send Ticker (TC-7)" status="PASSED">
+         <system-out><![CDATA[2024-02-20 17:06:25 - [TEST_CASE][PASSED] - Test Cases/Ticker/Send Ticker (TC-7): Test Cases/Ticker/Send Ticker (TC-7)
+
+2024-02-20 17:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+2024-02-20 17:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+2024-02-20 17:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Scrolling tickers")): Object: 'Object Repository/Dashboard Page/Scrolling tickers' is clicked on
+
+2024-02-20 17:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Scrolling tickers' is clicked on
+
+2024-02-20 17:06:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), "Create Scrolling Ticker"): Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:06:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:06:29 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2024-02-20 17:06:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/More button")): Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:06:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:06:29 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+2024-02-20 17:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:06:31 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:06:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:06:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:06:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:06:34 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:06:35 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:06:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:06:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:06:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-7"): Text 'TC-7' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:06:38 - [MESSAGE][PASSED] - Text 'TC-7' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:06:38 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 2): null
+
+2024-02-20 17:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert body"), "Hello! This is automated ticker from Katalon"): Text 'Hello! This is automated ticker from Katalon' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:06:39 - [MESSAGE][PASSED] - Text 'Hello! This is automated ticker from Katalon' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:06:39 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Send button")): Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:06:40 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2024-02-20 17:06:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-7"): Text 'TC-7' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:06:42 - [MESSAGE][PASSED] - Text 'TC-7' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:06:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-7"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+2024-02-20 17:06:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+2024-02-20 17:06:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Action menu check ticker"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Action menu check ticker' successfully
+
+2024-02-20 17:06:42 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Action menu check ticker: Test Cases/Built-in test cases/Action menu check ticker
+
+2024-02-20 17:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Stop-Start alert")): Object: 'Object Repository/Pop-up Alerts page/Stop-Start alert' is clicked on
+
+2024-02-20 17:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Stop-Start alert' is clicked on
+
+2024-02-20 17:06:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pop-up Alerts page/Stopped status"), 2): Object 'Object Repository/Pop-up Alerts page/Stopped status' is present
+
+2024-02-20 17:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Stopped status' is present
+
+2024-02-20 17:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Stop-Start alert")): Object: 'Object Repository/Pop-up Alerts page/Stop-Start alert' is clicked on
+
+2024-02-20 17:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Stop-Start alert' is clicked on
+
+2024-02-20 17:06:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pop-up Alerts page/Disributing status"), 2): Object 'Object Repository/Pop-up Alerts page/Disributing status' is present
+
+2024-02-20 17:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Disributing status' is present
+
+2024-02-20 17:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/View graph")): Object: 'Object Repository/Pop-up Alerts page/View graph' is clicked on
+
+2024-02-20 17:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/View graph' is clicked on
+
+2024-02-20 17:06:48 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Pop-up Alerts page/View graph image")): Taking screenshot successfully
+
+2024-02-20 17:06:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-20 17:06:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:06:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438008418.png]]
+
+2024-02-20 17:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/view graph close btn")): Object: 'Object Repository/Pop-up Alerts page/view graph close btn' is clicked on
+
+2024-02-20 17:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/view graph close btn' is clicked on
+
+2024-02-20 17:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Preview in actions menu")): Object: 'Object Repository/Pop-up Alerts page/Preview in actions menu' is clicked on
+
+2024-02-20 17:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Preview in actions menu' is clicked on
+
+2024-02-20 17:06:50 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Scrolling ticker/Preview ticker frame"), 2): null
+
+2024-02-20 17:06:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2024-02-20 17:06:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:06:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:06:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438011950.png]]
+
+2024-02-20 17:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Create Scrolling ticker/Close ticker preview")): Object: 'Object Repository/Create Scrolling ticker/Close ticker preview' is clicked on
+
+2024-02-20 17:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Scrolling ticker/Close ticker preview' is clicked on
+
+2024-02-20 17:06:52 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Duplicate alert")): Object: 'Object Repository/Pop-up Alerts page/Duplicate alert' is clicked on
+
+2024-02-20 17:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Duplicate alert' is clicked on
+
+2024-02-20 17:06:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Action menu check ticker' successfully
+
+2024-02-20 17:06:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Alert Title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:06:54 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "Duplicate ticker"): Text 'Duplicate ticker' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:06:55 - [MESSAGE][PASSED] - Text 'Duplicate ticker' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Send button")): Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:06:56 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-02-20 17:06:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:06:56 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-7"): Text 'TC-7' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:06:58 - [MESSAGE][PASSED] - Text 'TC-7' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:06:58 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-02-20 17:06:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:06:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Survey/3dots Actions"), 2): Object 'Object Repository/Survey/3dots Actions' is clickable
+
+2024-02-20 17:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/Survey/3dots Actions' is clickable
+
+2024-02-20 17:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:06:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Pop-up Alerts page/resend alert from actions menu"), 2): Object 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clickable
+
+2024-02-20 17:07:00 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clickable
+
+2024-02-20 17:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/resend alert from actions menu")): Object: 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clicked on
+
+2024-02-20 17:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clicked on
+
+2024-02-20 17:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Resend btn")): Object: 'Object Repository/Pop-up Alerts page/Resend btn' is clicked on
+
+2024-02-20 17:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Resend btn' is clicked on
+
+2024-02-20 17:07:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pop-up Alerts page/Search by title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:02 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-7"): Text 'TC-7' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:04 - [MESSAGE][PASSED] - Text 'TC-7' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+2024-02-20 17:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+2024-02-20 17:07:04 - [TEST_STEP][PASSED] - check(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+2024-02-20 17:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+2024-02-20 17:07:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Pop-up Alerts page/Select all checkbox"), 1): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+2024-02-20 17:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+2024-02-20 17:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+2024-02-20 17:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+2024-02-20 17:07:06 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+2024-02-20 17:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ticker/Draft ticker (TC-8)" time="26.319" classname="Test Cases/Ticker/Draft ticker (TC-8)" status="PASSED">
+         <system-out><![CDATA[2024-02-20 17:07:09 - [TEST_CASE][PASSED] - Test Cases/Ticker/Draft ticker (TC-8): Test Cases/Ticker/Draft ticker (TC-8)
+
+2024-02-20 17:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/New alert button")): Object: 'Object Repository/Pop-up Alerts page/New alert button' is clicked on
+
+2024-02-20 17:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/New alert button' is clicked on
+
+2024-02-20 17:07:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), "Create Scrolling Ticker"): Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:07:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:07:11 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2024-02-20 17:07:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/More button")): Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:07:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:07:11 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+2024-02-20 17:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:07:13 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:07:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:07:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:07:15 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:07:16 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:07:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:07:17 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:07:17 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:07:18 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:07:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:07:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:07:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:07:20 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered"), 2): NOT_RUN: verifyElementPresent(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered"), 2)
+
+2024-02-20 17:07:20 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered"), 2)
+
+2024-02-20 17:07:20 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-8"): Text 'TC-8' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:07:21 - [MESSAGE][PASSED] - Text 'TC-8' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:07:21 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 2): null
+
+2024-02-20 17:07:21 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert body"), "Hello! This is automated DRAFT ticker from Katalon"): Text 'Hello! This is automated DRAFT ticker from Katalon' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:07:22 - [MESSAGE][PASSED] - Text 'Hello! This is automated DRAFT ticker from Katalon' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:07:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Save Button")): Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:23 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2024-02-20 17:07:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:07:23 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Draft tab")): Object: 'Object Repository/Pop-up Alerts page/Draft tab' is clicked on
+
+2024-02-20 17:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Draft tab' is clicked on
+
+2024-02-20 17:07:24 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-8"): Text 'TC-8' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:25 - [MESSAGE][PASSED] - Text 'TC-8' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-8"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+2024-02-20 17:07:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+2024-02-20 17:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Preview Draft alert Actions")): Object: 'Object Repository/Pop-up Alerts page/Preview Draft alert Actions' is clicked on
+
+2024-02-20 17:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Preview Draft alert Actions' is clicked on
+
+2024-02-20 17:07:27 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Scrolling ticker/Preview ticker frame"), 2): null
+
+2024-02-20 17:07:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-02-20 17:07:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-02-20 17:07:30 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2024-02-20 17:07:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:07:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:07:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438050849.png]]
+
+2024-02-20 17:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Create Scrolling ticker/Close ticker preview")): Object: 'Object Repository/Create Scrolling ticker/Close ticker preview' is clicked on
+
+2024-02-20 17:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Scrolling ticker/Close ticker preview' is clicked on
+
+2024-02-20 17:07:31 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Edit Draft alert Actions")): Object: 'Object Repository/Pop-up Alerts page/Edit Draft alert Actions' is clicked on
+
+2024-02-20 17:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Edit Draft alert Actions' is clicked on
+
+2024-02-20 17:07:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), 2): Object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' is present
+
+2024-02-20 17:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' is present
+
+2024-02-20 17:07:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), "Create Scrolling Ticker"): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Create Pop-up Alert header' are matched.
+
+2024-02-20 17:07:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Create Pop-up Alert header' are matched.
+
+2024-02-20 17:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Save Button")): Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ticker/Ticker template creation (TC-9)" time="36.854" classname="Test Cases/Ticker/Ticker template creation (TC-9)" status="PASSED">
+         <system-out><![CDATA[2024-02-20 17:07:36 - [TEST_CASE][PASSED] - Test Cases/Ticker/Ticker template creation (TC-9): Test Cases/Ticker/Ticker template creation (TC-9)
+
+2024-02-20 17:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Templates tab")): Object: 'Object Repository/Pop-up Alerts page/Templates tab' is clicked on
+
+2024-02-20 17:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Templates tab' is clicked on
+
+2024-02-20 17:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/New Template button")): Object: 'Object Repository/Pop-up Alerts page/New Template button' is clicked on
+
+2024-02-20 17:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/New Template button' is clicked on
+
+2024-02-20 17:07:37 - [TEST_STEP][PASSED] - setText(findTestObject("Create Template/Template title"), "TC-9"): Text 'TC-9' is set on object 'Object Repository/Create Template/Template title'
+
+2024-02-20 17:07:38 - [MESSAGE][PASSED] - Text 'TC-9' is set on object 'Object Repository/Create Template/Template title'
+
+2024-02-20 17:07:38 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 2): null
+
+2024-02-20 17:07:39 - [TEST_STEP][PASSED] - TemplateBody = ""The News Tickers is a handy and easy tool for creating a creeping line(running text, ticker). This is perfect for news broadcasts, updates, and more projects that refer to current events. Use for any formats and themes of video: news, sports, advertising, video blog, and others. Special made for COVID-19 situation in the world. Color controls available. A video tutorial is also included in the download."": null
+
+2024-02-20 17:07:39 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert body"), TemplateBody): Text '"The News Tickers is a handy and easy tool for creating a creeping line(running text, ticker). This is perfect for news broadcasts, updates, and more projects that refer to current events. Use for any formats and themes of video: news, sports, advertising, video blog, and others. Special made for COVID-19 situation in the world. Color controls available. A video tutorial is also included in the download."' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:07:42 - [MESSAGE][PASSED] - Text '"The News Tickers is a handy and easy tool for creating a creeping line(running text, ticker). This is perfect for news broadcasts, updates, and more projects that refer to current events. Use for any formats and themes of video: news, sports, advertising, video blog, and others. Special made for COVID-19 situation in the world. Color controls available. A video tutorial is also included in the download."' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:07:42 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Save Button")): Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Templates tab")): Object: 'Object Repository/Pop-up Alerts page/Templates tab' is clicked on
+
+2024-02-20 17:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Templates tab' is clicked on
+
+2024-02-20 17:07:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-9"): Text 'TC-9' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:45 - [MESSAGE][PASSED] - Text 'TC-9' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-02-20 17:07:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-02-20 17:07:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered Template"), "TC-9"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered Template' are matched.
+
+2024-02-20 17:07:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered Template' are matched.
+
+2024-02-20 17:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Templates Action menu/Preview Template Action")): Object: 'Object Repository/Templates Action menu/Preview Template Action' is clicked on
+
+2024-02-20 17:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates Action menu/Preview Template Action' is clicked on
+
+2024-02-20 17:07:48 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Scrolling ticker/Preview ticker frame"), 2): null
+
+2024-02-20 17:07:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2024-02-20 17:07:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:07:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:07:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438069392.png]]
+
+2024-02-20 17:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Create Scrolling ticker/Close ticker preview")): Object: 'Object Repository/Create Scrolling ticker/Close ticker preview' is clicked on
+
+2024-02-20 17:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Scrolling ticker/Close ticker preview' is clicked on
+
+2024-02-20 17:07:50 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:07:50 - [TEST_STEP][PASSED] - click(findTestObject("Templates Action menu/Edit Template Action")): Object: 'Object Repository/Templates Action menu/Edit Template Action' is clicked on
+
+2024-02-20 17:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates Action menu/Edit Template Action' is clicked on
+
+2024-02-20 17:07:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), 2): Object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' is present
+
+2024-02-20 17:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' is present
+
+2024-02-20 17:07:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), "Edit Template"): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Create Pop-up Alert header' are matched.
+
+2024-02-20 17:07:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Create Pop-up Alert header' are matched.
+
+2024-02-20 17:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Save Button")): Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Save Button' is clicked on
+
+2024-02-20 17:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Templates tab")): Object: 'Object Repository/Pop-up Alerts page/Templates tab' is clicked on
+
+2024-02-20 17:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Templates tab' is clicked on
+
+2024-02-20 17:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-9"): Text 'TC-9' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:57 - [MESSAGE][PASSED] - Text 'TC-9' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:07:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-02-20 17:07:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-02-20 17:07:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered Template"), "TC-9"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered Template' are matched.
+
+2024-02-20 17:07:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered Template' are matched.
+
+2024-02-20 17:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+2024-02-20 17:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Templates Action menu/Create alert using this template")): Object: 'Object Repository/Templates Action menu/Create alert using this template' is clicked on
+
+2024-02-20 17:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Templates Action menu/Create alert using this template' is clicked on
+
+2024-02-20 17:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/More button")): Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:08:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:08:01 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+2024-02-20 17:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:03 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:03 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:06 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:07 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:08:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("Create Template/Template title"), " Template"): Text ' Template' is set on object 'Object Repository/Create Template/Template title'
+
+2024-02-20 17:08:10 - [MESSAGE][PASSED] - Text ' Template' is set on object 'Object Repository/Create Template/Template title'
+
+2024-02-20 17:08:10 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Send button")): Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ticker/Send ticker with template (TC-10)" time="17.917" classname="Test Cases/Ticker/Send ticker with template (TC-10)" status="PASSED">
+         <system-out><![CDATA[2024-02-20 17:08:13 - [TEST_CASE][PASSED] - Test Cases/Ticker/Send ticker with template (TC-10): Test Cases/Ticker/Send ticker with template (TC-10)
+
+2024-02-20 17:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+2024-02-20 17:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+2024-02-20 17:08:13 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Scrolling tickers")): Object: 'Object Repository/Dashboard Page/Scrolling tickers' is clicked on
+
+2024-02-20 17:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Scrolling tickers' is clicked on
+
+2024-02-20 17:08:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), "Create Scrolling Ticker"): Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:08:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:08:15 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2024-02-20 17:08:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/More button")): Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:08:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:08:15 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+2024-02-20 17:08:15 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:17 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:20 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:20 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:21 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:08:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Template selection button")): Object: 'Object Repository/Create Pop-up Alert Page/Template selection button' is clicked on
+
+2024-02-20 17:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Template selection button' is clicked on
+
+2024-02-20 17:08:24 - [TEST_STEP][PASSED] - click(findTestObject("Create Scrolling ticker/Ticker Template with given name")): Object: 'Object Repository/Create Scrolling ticker/Ticker Template with given name' is clicked on
+
+2024-02-20 17:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Scrolling ticker/Ticker Template with given name' is clicked on
+
+2024-02-20 17:08:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Alert Title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:08:25 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-10"): Text 'TC-10' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:08:26 - [MESSAGE][PASSED] - Text 'TC-10' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Send button")): Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:08:26 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2024-02-20 17:08:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:08:26 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-10"): Text 'TC-10' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:08:28 - [MESSAGE][PASSED] - Text 'TC-10' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:08:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-10"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+2024-02-20 17:08:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ticker/Ticker Preview (TC-11)" time="25.211" classname="Test Cases/Ticker/Ticker Preview (TC-11)" status="PASSED">
+         <system-out><![CDATA[2024-02-20 17:08:31 - [TEST_CASE][PASSED] - Test Cases/Ticker/Ticker Preview (TC-11): Test Cases/Ticker/Ticker Preview (TC-11)
+
+2024-02-20 17:08:31 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+2024-02-20 17:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+2024-02-20 17:08:31 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Scrolling tickers")): Object: 'Object Repository/Dashboard Page/Scrolling tickers' is clicked on
+
+2024-02-20 17:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Scrolling tickers' is clicked on
+
+2024-02-20 17:08:32 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2024-02-20 17:08:32 - [MESSAGE][PASSED] - Refresh successfully
+
+2024-02-20 17:08:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), "Create Scrolling Ticker"): Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:08:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/Create Scrolling ticker header' are matched.
+
+2024-02-20 17:08:34 - [TEST_STEP][PASSED] - waitForPageLoad(1): Wait for page load successfully
+
+2024-02-20 17:08:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/More button")): Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/More button' is clicked on
+
+2024-02-20 17:08:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:08:34 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+2024-02-20 17:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:34 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:36 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+2024-02-20 17:08:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:39 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:39 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+2024-02-20 17:08:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+2024-02-20 17:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+2024-02-20 17:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+2024-02-20 17:08:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+2024-02-20 17:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-11"): Text 'TC-11' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:08:43 - [MESSAGE][PASSED] - Text 'TC-11' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+2024-02-20 17:08:43 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 2): null
+
+2024-02-20 17:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert body"), "Hello! This is automated ticker with preview from Katalon"): Text 'Hello! This is automated ticker with preview from Katalon' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:08:45 - [MESSAGE][PASSED] - Text 'Hello! This is automated ticker with preview from Katalon' is set on object 'Object Repository/Create Pop-up Alert Page/Alert body'
+
+2024-02-20 17:08:45 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button")): Object: 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button' is clicked on
+
+2024-02-20 17:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button' is clicked on
+
+2024-02-20 17:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Create Scrolling ticker/Ticker skin with given intex")): Object: 'Object Repository/Create Scrolling ticker/Ticker skin with given intex' is clicked on
+
+2024-02-20 17:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Scrolling ticker/Ticker skin with given intex' is clicked on
+
+2024-02-20 17:08:46 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox")): Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+2024-02-20 17:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+2024-02-20 17:08:47 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+2024-02-20 17:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+2024-02-20 17:08:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox"), 2): Scroll to object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox' successfully
+
+2024-02-20 17:08:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox' successfully
+
+2024-02-20 17:08:48 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox")): Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox' is checked
+
+2024-02-20 17:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox' is checked
+
+2024-02-20 17:08:48 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox' is checked
+
+2024-02-20 17:08:49 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox' is checked
+
+2024-02-20 17:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Preview button")): Object: 'Object Repository/Create Pop-up Alert Page/Preview button' is clicked on
+
+2024-02-20 17:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Preview button' is clicked on
+
+2024-02-20 17:08:49 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Scrolling ticker/preview ticker iframe"), 2): null
+
+2024-02-20 17:08:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2024-02-20 17:08:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-02-20 17:08:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240220_170609\\Scrolling ticker\\20240220_170609\\1708438130888.png]]
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Create Scrolling ticker/ticker aknowledgement ok"), 1): Object 'Object Repository/Create Scrolling ticker/ticker aknowledgement ok' is present
+
+2024-02-20 17:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Create Scrolling ticker/ticker aknowledgement ok' is present
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Create Scrolling ticker/ticker user feedback"), 1): Object 'Object Repository/Create Scrolling ticker/ticker user feedback' is present
+
+2024-02-20 17:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Create Scrolling ticker/ticker user feedback' is present
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Create Scrolling ticker/Notification ticker logo"), 1): Object 'Object Repository/Create Scrolling ticker/Notification ticker logo' is present
+
+2024-02-20 17:08:51 - [MESSAGE][PASSED] - Object 'Object Repository/Create Scrolling ticker/Notification ticker logo' is present
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Scrolling ticker/ticker title preview"), "TC-11"): Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/ticker title preview' are matched.
+
+2024-02-20 17:08:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Scrolling ticker/ticker title preview' are matched.
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Send button")): Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Send button' is clicked on
+
+2024-02-20 17:08:51 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2024-02-20 17:08:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-02-20 17:08:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-11"): Text 'TC-11' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:08:53 - [MESSAGE][PASSED] - Text 'TC-11' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+2024-02-20 17:08:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-11"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+2024-02-20 17:08:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-20 17:06:12 - [TEST_SUITE][PASSED] - Scrolling ticker: Test Cases/Ticker/Ticker Preview (TC-11)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
