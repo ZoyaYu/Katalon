@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard Page/Left-hand menu_Pop-up Alerts'))
-
-WebUI.refresh()
 
 WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Pop-up Alerts header'), 2)
 
@@ -57,7 +53,7 @@ WebUI.click(findTestObject('Templates Action menu/Preview Template Action'))
 
 WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
 
-WebUI.takeElementScreenshot(findTestObject('Create Pop-up Alert Page/Alert preview window'))
+WebUI.takeFullPageScreenshot([])
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
 

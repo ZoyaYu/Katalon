@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Pop-up Alerts page/Preview in actions menu'))
 
 WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
 
-WebUI.takeElementScreenshot(findTestObject('Create Pop-up Alert Page/Alert preview window'))
+WebUI.takeFullPageScreenshot([])
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
 

@@ -27,19 +27,7 @@ WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
-    2)
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-7')
 
@@ -56,4 +44,42 @@ WebUI.waitForPageLoad(2)
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-7')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-7')
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Action menu check ticker'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'Duplicate ticker')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+
+WebUI.waitForPageLoad(5)
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-7')
+
+WebUI.waitForPageLoad(5)
+
+WebUI.waitForElementClickable(findTestObject('Survey/3dots Actions'), 2)
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.waitForElementClickable(findTestObject('Pop-up Alerts page/resend alert from actions menu'), 2)
+
+WebUI.click(findTestObject('Pop-up Alerts page/resend alert from actions menu'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Resend btn'))
+
+WebUI.sendKeys(findTestObject('Pop-up Alerts page/Search by title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-7')
+
+WebUI.verifyElementClickable(findTestObject('Pop-up Alerts page/Select all checkbox'))
+
+WebUI.check(findTestObject('Pop-up Alerts page/Select all checkbox'))
+
+WebUI.verifyElementChecked(findTestObject('Pop-up Alerts page/Select all checkbox'), 1)
+
+WebUI.click(findTestObject('Pop-up Alerts page/delete all'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Confirm deletion btn'))
 

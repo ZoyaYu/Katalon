@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.click(findTestObject('Dashboard Page/Compose Alert Button'))
-
 WebUI.click(findTestObject('Pop-up Alerts page/New alert button'))
-
-WebUI.refresh()
 
 WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 2)
 
@@ -30,17 +26,6 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up A
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-not_run: WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-not_run: WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ', FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-not_run: WebUI.click(findTestObject('Wallpapers/Done'))
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-2')
 

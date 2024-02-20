@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard Page/Compose Alert Button'))
-
-WebUI.refresh()
 
 WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 2)
 
@@ -29,16 +25,7 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up A
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ', FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-6')
 
@@ -74,6 +61,8 @@ WebUI.click(findTestObject('Create Pop-up Alert Page/Preview button'))
 
 WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Alert Preview/print button'), 1)
 
 WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Alert Preview/Postpone time selection'), 1)
@@ -90,5 +79,5 @@ WebUI.click(findTestObject('Create Pop-up Alert Page/Alert Preview/Acknowledgeme
 
 WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Save Button'))
+WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
 

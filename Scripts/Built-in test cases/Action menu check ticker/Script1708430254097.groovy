@@ -17,31 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Dashboard Page/Scrolling tickers'))
+WebUI.click(findTestObject('Pop-up Alerts page/Stop-Start alert'))
 
-WebUI.verifyElementText(findTestObject('Create Scrolling ticker/Create Scrolling ticker header'), 'Create Scrolling Ticker')
+WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Stopped status'), 2)
 
-WebUI.waitForPageLoad(1)
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+WebUI.click(findTestObject('Pop-up Alerts page/Stop-Start alert'))
 
-WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Disributing status'), 2)
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button'))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Create Scrolling ticker/Ticker Template with given name'))
+WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
 
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.takeElementScreenshot(findTestObject('Pop-up Alerts page/View graph image'))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-10')
+WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.waitForPageLoad(2)
+WebUI.click(findTestObject('Pop-up Alerts page/Preview in actions menu'))
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-10')
+WebUI.switchToFrame(findTestObject('Create Scrolling ticker/Preview ticker frame'), 2)
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-10')
+WebUI.takeFullPageScreenshot([])
+
+WebUI.click(findTestObject('Create Scrolling ticker/Close ticker preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Duplicate alert'))
 

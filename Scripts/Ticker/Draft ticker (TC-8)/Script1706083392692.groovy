@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
-
-WebUI.click(findTestObject('Dashboard Page/Scrolling tickers'))
-
-WebUI.refresh()
+WebUI.click(findTestObject('Pop-up Alerts page/New alert button'))
 
 WebUI.verifyElementText(findTestObject('Create Scrolling ticker/Create Scrolling ticker header'), 'Create Scrolling Ticker')
 
@@ -29,19 +25,10 @@ WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
     2)
-
-WebUI.click(findTestObject('Wallpapers/Done'))
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-8')
 
@@ -60,4 +47,28 @@ WebUI.click(findTestObject('Pop-up Alerts page/Draft tab'))
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-8')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-8')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Preview Draft alert Actions'))
+
+WebUI.switchToFrame(findTestObject('Create Scrolling ticker/Preview ticker frame'), 2)
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot([])
+
+WebUI.click(findTestObject('Create Scrolling ticker/Close ticker preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Edit Draft alert Actions'))
+
+WebUI.verifyElementPresent(findTestObject('Create Scrolling ticker/Create Scrolling ticker header'), 2)
+
+WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 'Create Scrolling Ticker')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Save Button'))
 

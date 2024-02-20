@@ -29,19 +29,7 @@ WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
-    2)
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Done button'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-11')
 
@@ -72,6 +60,8 @@ WebUI.click(findTestObject('Create Pop-up Alert Page/Preview button'))
 
 WebUI.switchToFrame(findTestObject('Create Scrolling ticker/preview ticker iframe'), 2)
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Create Scrolling ticker/ticker aknowledgement ok'), 1)
 
 WebUI.verifyElementPresent(findTestObject('Create Scrolling ticker/ticker user feedback'), 1)
@@ -79,8 +69,6 @@ WebUI.verifyElementPresent(findTestObject('Create Scrolling ticker/ticker user f
 WebUI.verifyElementPresent(findTestObject('Create Scrolling ticker/Notification ticker logo'), 1)
 
 WebUI.verifyElementText(findTestObject('Create Scrolling ticker/ticker title preview'), 'TC-11')
-
-not_run: WebUI.verifyElementText(findTestObject('Create Scrolling ticker/Ticker body preview'), 'Hello! This is automated ticker with preview from Katalon')
 
 WebUI.switchToDefaultContent()
 

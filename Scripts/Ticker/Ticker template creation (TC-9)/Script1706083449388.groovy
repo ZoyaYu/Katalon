@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Left-hand menu_Scrolling Tickers'))
-
 WebUI.click(findTestObject('Pop-up Alerts page/Templates tab'))
 
 WebUI.click(findTestObject('Pop-up Alerts page/New Template button'))
@@ -42,4 +40,46 @@ WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-9'
 WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered Template'), 'TC-9')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Preview Template Action'))
+
+WebUI.switchToFrame(findTestObject('Create Scrolling ticker/Preview ticker frame'), 2)
+
+WebUI.takeFullPageScreenshot([])
+
+WebUI.click(findTestObject('Create Scrolling ticker/Close ticker preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Edit Template Action'))
+
+WebUI.verifyElementPresent(findTestObject('Create Scrolling ticker/Create Scrolling ticker header'), 2)
+
+WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 'Edit Template')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Save Button'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Templates tab'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-9')
+
+WebUI.delay(2)
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered Template'), 'TC-9')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Create Template/Template title'), ' Template')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
 

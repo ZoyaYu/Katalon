@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>3dots actions-preview</description>
-   <name>Alert preview window</name>
+   <description>actions menu</description>
+   <name>Close ticker preview</name>
    <tag></tag>
-   <elementGuidId>4ba1349d-700d-48cd-b3a4-f8c45ce1370c</elementGuidId>
+   <elementGuidId>b6eb771e-8eaa-46eb-8310-1ae22dd1dae0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.notification </value>
+         <value>.notificationTicker__close #closeButton</value>
       </entry>
       <entry>
          <key>BASIC</key>
