@@ -17,29 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Dashboard Page/RSVP'))
+WebUI.waitForElementClickable(findTestObject('Pop-up Alerts page/resend alert from actions menu'), 2)
 
-WebUI.verifyElementText(findTestObject('Create RSVP/Create RSVP Alert Header'), 'Create RSVP Alert')
+WebUI.click(findTestObject('Pop-up Alerts page/resend alert from actions menu'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
-
-WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button'))
-
-WebUI.click(findTestObject('Create RSVP/RSVP template with given value'))
-
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-14')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
-
-WebUI.waitForPageLoad(2)
-
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-14')
-
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-14')
+WebUI.click(findTestObject('Pop-up Alerts page/Resend btn'))
 

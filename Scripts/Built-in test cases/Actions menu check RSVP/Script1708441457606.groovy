@@ -17,29 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Dashboard Page/RSVP'))
+WebUI.click(findTestObject('Pop-up Alerts page/Stop-Start alert'))
 
-WebUI.verifyElementText(findTestObject('Create RSVP/Create RSVP Alert Header'), 'Create RSVP Alert')
+WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Stopped status'), 2)
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Pop-up Alerts page/Stop-Start alert'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button'))
+WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Disributing status'), 2)
 
-WebUI.click(findTestObject('Create RSVP/RSVP template with given value'))
+WebUI.delay(30)
 
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-14')
+WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+WebUI.delay(2)
 
-WebUI.waitForPageLoad(2)
+WebUI.takeFullPageScreenshot()
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-14')
+WebUI.click(findTestObject('Pop-up Alerts page/view graph 2nd page'))
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-14')
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Preview in actions menu'))
+
+WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
+
+WebUI.takeFullPageScreenshot([])
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Duplicate alert'))
 
