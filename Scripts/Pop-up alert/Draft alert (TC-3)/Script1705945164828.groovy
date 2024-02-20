@@ -27,16 +27,18 @@ WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up A
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
+not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
 
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
+not_run: WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
+
+not_run: WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
     'LAPTOP-E6BU4LL9 ')
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
+not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
 
-WebUI.click(findTestObject('Wallpapers/Done'))
+not_run: WebUI.click(findTestObject('Wallpapers/Done'))
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-3')
 
@@ -55,4 +57,24 @@ WebUI.click(findTestObject('Pop-up Alerts page/Draft tab'))
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-3')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-3')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Preview Draft alert Actions'))
+
+WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
+
+WebUI.takeElementScreenshot(findTestObject('Create Pop-up Alert Page/Alert preview window'))
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Edit Draft alert Actions'))
+
+WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 2)
+
+WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 'Create Pop-up Alert')
 

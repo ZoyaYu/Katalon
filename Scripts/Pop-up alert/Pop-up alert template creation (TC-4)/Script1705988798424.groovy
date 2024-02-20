@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Dashboard Page/Left-hand menu_Pop-up Alerts'))
 
 WebUI.refresh()
@@ -48,4 +50,46 @@ WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-4'
 WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered Template'), 'TC-4')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Preview Template Action'))
+
+WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
+
+WebUI.takeElementScreenshot(findTestObject('Create Pop-up Alert Page/Alert preview window'))
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Edit Template Action'))
+
+WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 2)
+
+WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 'Edit Template')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Save Button'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Templates tab'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-4')
+
+WebUI.delay(2)
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered Template'), 'TC-4')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Create Template/Template title'), ' Template')
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
 

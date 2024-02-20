@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>actions menu</description>
-   <name>Stop alert</name>
+   <description></description>
+   <name>Preview Draft alert Actions</name>
    <tag></tag>
-   <elementGuidId>21fdc6f5-88c0-4aff-b4c7-b1c424c49f66</elementGuidId>
+   <elementGuidId>81bd0033-259c-4cc7-a7d5-f46d884cc4a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#long-menu .MuiPaper-elevation.MuiMenu-paper  > ul.MuiList-root.MuiList-padding.MuiMenu-list > li:nth-child(4) svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium</value>
+         <value>#long-menu .MuiPaper-elevation.MuiMenu-paper  > ul.MuiList-root.MuiList-padding.MuiMenu-list > li:nth-child(2) svg[data-testid=&quot;VisibilityOutlinedIcon&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

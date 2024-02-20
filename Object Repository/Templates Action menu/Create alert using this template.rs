@@ -10,12 +10,10 @@
          <value>#long-menu .MuiMenu-paper  > ul > li:nth-child(2) svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

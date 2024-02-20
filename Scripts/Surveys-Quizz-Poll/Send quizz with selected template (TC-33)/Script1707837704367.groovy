@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Survey/Create alert using this template'))
+WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
 
 WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
