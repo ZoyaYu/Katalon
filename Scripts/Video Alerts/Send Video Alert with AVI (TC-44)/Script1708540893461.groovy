@@ -19,39 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Pop-up Alerts page/New alert button'))
 
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 2)
+WebUI.verifyElementText(findTestObject('Wallpapers/Create Wallpaper Header'), 'Create Video Alert')
 
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Create Pop-up Alert header'), 'Create Pop-up Alert')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+WebUI.click(findTestObject('Video Alert/Videoalert more btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-2')
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-44')
 
-WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Alert body iframe'), 2)
+WebUI.verifyElementPresent(findTestObject('Video Alert/Videoalert upload area'), 2)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert body'), 'Hello! This is automated alert with image from Katalon')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Video Alert/Videoalert upload area'), 'C:\\Users\\Home\\git\\Katalon\\video\\earth.avi')
 
-WebUI.switchToDefaultContent()
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Upload image window/Upload image button'))
+WebUI.getAttribute(findTestObject('Video alerts/uploaded video file'), 'src')
 
-WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Upload image window/Upload image area'), 2)
+WebUI.click(findTestObject('Video alerts/Video alert description'))
 
-WebUI.uploadFileWithDragAndDrop(findTestObject('Create Pop-up Alert Page/Upload image window/Upload image area'), 'C:\\Users\\Home\\Downloads\\SampleJPGImage_500kbmb.jpg')
+WebUI.setText(findTestObject('Video alerts/Video alert description'), 'Hello! This is automated AVI video alert from Katalon')
 
-WebUI.delay(2)
-
-WebUI.getAttribute(findTestObject('Create Pop-up Alert Page/Upload image window/uploaded file'), 'src')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Upload image window/Ok button'))
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-2')
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-44')
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-2')
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-44')
 

@@ -19,31 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
 
-WebUI.click(findTestObject('Dashboard Page/Wallpapers'))
+WebUI.click(findTestObject('Dashboard Page/Video Alerts'))
 
-WebUI.verifyElementText(findTestObject('Wallpapers/Create Wallpaper Header'), 'Create Wallpaper')
+WebUI.verifyElementText(findTestObject('Wallpapers/Create Wallpaper Header'), 'Create Video Alert')
 
-WebUI.click(findTestObject('Wallpapers/more'))
+WebUI.click(findTestObject('Video Alert/Videoalert more btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-19')
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-45')
 
-WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2)
+WebUI.verifyElementPresent(findTestObject('Video Alert/Videoalert upload area'), 2)
 
-WebUI.click(findTestObject('Wallpapers/Select image from server button'))
+WebUI.uploadFileWithDragAndDrop(findTestObject('Video Alert/Videoalert upload area'), 'C:\\Users\\Home\\git\\Katalon\\video\\seaside.wmv')
 
-WebUI.click(findTestObject('Wallpapers/first image on a server'))
+WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Wallpapers/uploaded wallpaper file'), 1)
+WebUI.getAttribute(findTestObject('Video alerts/uploaded video file'), 'src')
 
-WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
+WebUI.click(findTestObject('Video alerts/Video alert description'))
+
+WebUI.setText(findTestObject('Video alerts/Video alert description'), 'Hello! This is automated WMV video alert from Katalon')
 
 WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-19')
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-45')
 
-WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-19')
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-45')
 
