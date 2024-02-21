@@ -6,12 +6,11 @@
    <elementGuidId>8509f3f2-3eb6-4898-a309-8a512d87d887</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list li a[href=&quot;/Demo/admin/create/survey&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list.muiltr-r8u8y9 li a[href=&quot;/Demo/admin/create/surveys&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

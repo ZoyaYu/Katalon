@@ -6,11 +6,11 @@
    <elementGuidId>a7418ac2-a614-43c5-ab87-dab8b0e840d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list li a[href=&quot;/Demo/admin/create/lockscreens&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list li a[href=&quot;/Demo/admin/alerts/lockscreens&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

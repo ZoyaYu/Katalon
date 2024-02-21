@@ -23,20 +23,9 @@ WebUI.click(findTestObject('Dashboard Page/Screensavers'))
 
 WebUI.verifyElementText(findTestObject('Lockscreen/Create Lockscreen header'), 'Create Screensaver')
 
-WebUI.refresh()
-
 WebUI.click(findTestObject('Wallpapers/more'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-40')
 
@@ -44,7 +33,7 @@ WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2
 
 WebUI.uploadFileWithDragAndDrop(findTestObject('Wallpapers/Upload wallpaper area'), 'C:\\Users\\Home\\git\\Katalon\\Imagesfortest\\earth.wmv')
 
-WebUI.delay(90)
+WebUI.delay(5)
 
 WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
 

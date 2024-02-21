@@ -1,0 +1,72 @@
+1
+00:00:00,052 --> 00:00:00,743
+1. click(findTestObject("Pop-up Alerts page/New alert button"))
+
+2
+00:00:00,744 --> 00:00:01,265
+5. verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Wallpaper")
+
+3
+00:00:01,265 --> 00:00:01,626
+9. click(findTestObject("Wallpapers/more"))
+
+4
+00:00:01,627 --> 00:00:01,703
+13. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+5
+00:00:01,703 --> 00:00:02,147
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+6
+00:00:02,147 --> 00:00:03,604
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+7
+00:00:03,607 --> 00:00:05,458
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+8
+00:00:05,458 --> 00:00:05,809
+13. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+9
+00:00:05,809 --> 00:00:06,359
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+10
+00:00:06,359 --> 00:00:06,694
+21. sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+11
+00:00:06,695 --> 00:00:07,582
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7")
+
+12
+00:00:07,582 --> 00:00:09,022
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 ")
+
+13
+00:00:09,022 --> 00:00:09,364
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+14
+00:00:09,365 --> 00:00:09,939
+37. click(findTestObject("Wallpapers/Done"))
+
+15
+00:00:09,940 --> 00:00:10,843
+17. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-16")
+
+16
+00:00:10,843 --> 00:00:11,130
+21. verifyElementPresent(findTestObject("Wallpapers/Upload wallpaper area"), 2)
+
+17
+00:00:11,131 --> 00:00:11,468
+25. uploadFileWithDragAndDrop(findTestObject("Wallpapers/Upload wallpaper area"), "C:\Users\Home\git\Katalon\Imagesfortest\rocks.png")
+
+18
+00:00:11,469 --> 00:01:41,473
+29. delay(90)
+

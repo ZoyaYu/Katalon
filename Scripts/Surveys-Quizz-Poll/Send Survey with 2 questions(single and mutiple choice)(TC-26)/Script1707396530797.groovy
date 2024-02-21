@@ -17,24 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
+not_run: WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
 
-WebUI.click(findTestObject('Dashboard Page/Survey-Quizz-Poll'))
+not_run: WebUI.click(findTestObject('Dashboard Page/Survey-Quizz-Poll'))
+
+WebUI.click(findTestObject('Survey/New Survey btn'))
 
 WebUI.check(findTestObject('Survey/Classic survey radio button'))
 
 WebUI.click(findTestObject('Survey/More btn'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-26')
 
@@ -67,4 +60,22 @@ WebUI.click(findTestObject('Survey/Send btn Survey'))
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-26')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-26')
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Pop-up Alerts page/view graph 2nd page'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
 

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard Page/Left-hand menu_RSVP'))
 
 WebUI.click(findTestObject('Create RSVP/RSVP templates tab'))
@@ -91,15 +89,15 @@ WebUI.delay(2)
 
 not_run: WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered Template'), 'TC-13')
 
-WebUI.click(findTestObject('Survey/3dots Actions'))
+not_run: WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
+not_run: WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
+not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/More button'))
 
-WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Template/Template title'), ' Template')
+not_run: WebUI.setText(findTestObject('Create Template/Template title'), ' Template')
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
+not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
 

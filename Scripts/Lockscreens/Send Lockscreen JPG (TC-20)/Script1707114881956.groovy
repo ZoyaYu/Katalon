@@ -25,16 +25,7 @@ WebUI.verifyElementText(findTestObject('Lockscreen/Create Lockscreen header'), '
 
 WebUI.click(findTestObject('Wallpapers/more'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-20')
 
@@ -42,7 +33,7 @@ WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2
 
 WebUI.uploadFileWithDragAndDrop(findTestObject('Wallpapers/Upload wallpaper area'), 'C:\\Users\\Home\\git\\Katalon\\Imagesfortest\\river.jpg')
 
-WebUI.delay(90)
+WebUI.delay(10)
 
 WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
 
@@ -53,4 +44,28 @@ WebUI.waitForPageLoad(2)
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-20')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-20')
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Actions menu Wallpapers-Lockscreens-Screensaver'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'Duplicate Lockscreen')
+
+WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-20')
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Select all and Delete'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'Duplicate Lockscreen')
+
+WebUI.waitForElementClickable(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'), 2)
+
+WebUI.check(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'))
+
+WebUI.verifyElementChecked(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'), 2)
+
+WebUI.click(findTestObject('Pop-up Alerts page/delete all'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Confirm deletion btn'))
 

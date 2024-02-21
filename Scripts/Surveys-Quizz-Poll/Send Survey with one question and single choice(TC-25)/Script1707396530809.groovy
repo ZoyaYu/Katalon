@@ -25,19 +25,7 @@ WebUI.check(findTestObject('Survey/Classic survey radio button'))
 
 WebUI.click(findTestObject('Survey/More btn'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
-    2)
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-25')
 
@@ -47,9 +35,59 @@ WebUI.setText(findTestObject('Survey/Q1 Answer 1 input field'), 'Yes')
 
 WebUI.setText(findTestObject('Survey/Q1 answer 2 input field'), 'No')
 
+WebUI.click(findTestObject('Survey/Add question btn'))
+
+WebUI.click(findTestObject('Survey/Q2 delete btn'))
+
+WebUI.verifyElementNotPresent(findTestObject('Survey/Q2 delete btn'), 2)
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button'))
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index'))
+
+WebUI.sendKeys(findTestObject('Survey/alert width'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Survey/alert width'), '400')
+
+WebUI.sendKeys(findTestObject('Survey/alert height'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Survey/alert height'), '500')
+
+WebUI.click(findTestObject('Survey/Preview Survey btn'))
+
+WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.switchToDefaultContent()
+
 WebUI.click(findTestObject('Survey/Send btn Survey'))
 
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-25')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-25')
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Actions menu check'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'Duplicate survey')
+
+WebUI.click(findTestObject('Survey/Send btn Survey'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-25')
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Select all and Delete'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'Duplicate survey')
+
+WebUI.waitForElementClickable(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'), 2)
+
+WebUI.check(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'))
+
+WebUI.verifyElementChecked(findTestObject('Create Pop-up Alert Page/sent alerts checkbox'), 2)
+
+WebUI.click(findTestObject('Pop-up Alerts page/delete all'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Confirm deletion btn'))
 

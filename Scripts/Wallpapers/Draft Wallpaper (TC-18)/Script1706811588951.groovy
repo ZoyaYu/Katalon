@@ -23,23 +23,9 @@ WebUI.click(findTestObject('Dashboard Page/Wallpapers'))
 
 WebUI.verifyElementText(findTestObject('Wallpapers/Create Wallpaper Header'), 'Create Wallpaper')
 
-WebUI.refresh()
-
 WebUI.click(findTestObject('Wallpapers/more'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-not_run: WebUI.verifyElementPresent(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered'), 
-    2)
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-18')
 
@@ -47,7 +33,7 @@ WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2
 
 WebUI.uploadFileWithDragAndDrop(findTestObject('Wallpapers/Upload wallpaper area'), 'C:\\Users\\Home\\git\\Katalon\\Imagesfortest\\icecity.jpg')
 
-WebUI.delay(90)
+WebUI.delay(10)
 
 WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
 
@@ -60,4 +46,26 @@ WebUI.waitForPageLoad(2)
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-18')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-18')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Preview Draft alert Actions'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.takeFullPageScreenshot([])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/Edit Draft alert Actions'))
+
+WebUI.verifyElementText(findTestObject('Wallpapers/Create Wallpaper Header'), 'Create Wallpaper')
+
+WebUI.click(findTestObject('Wallpapers/Save wallpaper button'))
+
+not_run: WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Draft tab'), 2)
 

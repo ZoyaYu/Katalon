@@ -1,0 +1,144 @@
+1
+00:00:00,002 --> 00:00:00,351
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,352 --> 00:00:00,961
+5. click(findTestObject("Dashboard Page/Wallpapers"))
+
+3
+00:00:00,962 --> 00:00:01,481
+9. verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Wallpaper")
+
+4
+00:00:01,481 --> 00:00:01,979
+13. click(findTestObject("Wallpapers/more"))
+
+5
+00:00:01,979 --> 00:00:02,085
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:02,086 --> 00:00:02,543
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+7
+00:00:02,547 --> 00:00:03,793
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+8
+00:00:03,793 --> 00:00:05,209
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+9
+00:00:05,210 --> 00:00:05,566
+13. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+10
+00:00:05,567 --> 00:00:06,131
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+11
+00:00:06,132 --> 00:00:06,478
+21. sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+12
+00:00:06,479 --> 00:00:07,401
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7")
+
+13
+00:00:07,401 --> 00:00:08,891
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 ")
+
+14
+00:00:08,891 --> 00:00:09,243
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+15
+00:00:09,244 --> 00:00:09,820
+37. click(findTestObject("Wallpapers/Done"))
+
+16
+00:00:09,820 --> 00:00:10,754
+21. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-18")
+
+17
+00:00:10,755 --> 00:00:11,045
+25. verifyElementPresent(findTestObject("Wallpapers/Upload wallpaper area"), 2)
+
+18
+00:00:11,046 --> 00:00:11,381
+29. uploadFileWithDragAndDrop(findTestObject("Wallpapers/Upload wallpaper area"), "C:\Users\Home\git\Katalon\Imagesfortest\icecity.jpg")
+
+19
+00:00:11,381 --> 00:01:41,385
+33. delay(90)
+
+20
+00:01:41,385 --> 00:01:41,692
+37. getAttribute(findTestObject("Wallpapers/uploaded wallpaper file"), "src")
+
+21
+00:01:41,692 --> 00:01:42,075
+41. click(findTestObject("Wallpapers/Save wallpaper button"))
+
+22
+00:01:42,076 --> 00:01:43,532
+45. click(findTestObject("Pop-up Alerts page/Draft tab"))
+
+23
+00:01:43,533 --> 00:01:43,563
+49. waitForPageLoad(2)
+
+24
+00:01:43,563 --> 00:01:44,829
+53. setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-18")
+
+25
+00:01:44,830 --> 00:01:45,140
+57. verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-18")
+
+26
+00:01:45,140 --> 00:01:46,279
+61. click(findTestObject("Survey/3dots Actions"))
+
+27
+00:01:46,280 --> 00:01:46,848
+65. click(findTestObject("Pop-up Alerts page/Preview Draft alert Actions"))
+
+28
+00:01:46,849 --> 00:01:47,084
+69. switchToWindowIndex(1)
+
+29
+00:01:47,085 --> 00:01:48,582
+73. takeFullPageScreenshot([])
+
+30
+00:01:48,583 --> 00:01:48,625
+77. closeWindowIndex(1)
+
+31
+00:01:48,626 --> 00:01:48,656
+81. switchToDefaultContent()
+
+32
+00:01:48,657 --> 00:01:49,108
+85. click(findTestObject("Survey/3dots Actions"))
+
+33
+00:01:49,109 --> 00:01:49,725
+89. click(findTestObject("Pop-up Alerts page/Edit Draft alert Actions"))
+
+34
+00:01:49,726 --> 00:01:58,096
+93. verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Wallpaper")
+
+35
+00:01:58,096 --> 00:01:58,453
+97. click(findTestObject("Wallpapers/Save wallpaper button"))
+
+36
+00:01:58,454 --> 00:02:12,425
+101. verifyElementPresent(findTestObject("Pop-up Alerts page/Draft tab"), 2)
+
