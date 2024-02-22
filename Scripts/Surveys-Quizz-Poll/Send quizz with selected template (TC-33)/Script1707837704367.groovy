@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Survey/Survey templates tab'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-32')
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-32')
+
 WebUI.click(findTestObject('Survey/3dots Actions'))
 
 WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
@@ -31,8 +37,8 @@ WebUI.verifyElementAttributeValue(findTestObject('Survey/Q1 Answer 1 input field
 
 WebUI.verifyElementAttributeValue(findTestObject('Survey/Q1 answer 2 input field'), 'value', 'ice', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Survey/Q2 input'), 'value', 
-    'At what temperature does water change its state?', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Survey/Q2 input'), 'value', 'At what temperature does water change its state?', 
+    0)
 
 WebUI.verifyElementAttributeValue(findTestObject('Survey/Q2 answer 1 input field'), 'value', '0', 0)
 

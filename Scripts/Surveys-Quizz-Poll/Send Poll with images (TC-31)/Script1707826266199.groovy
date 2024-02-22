@@ -29,16 +29,7 @@ WebUI.verifyElementChecked(findTestObject('Survey/Poll radio btn'), 1)
 
 WebUI.click(findTestObject('Survey/More btn'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-31')
 

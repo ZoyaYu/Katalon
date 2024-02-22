@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
-
-not_run: WebUI.click(findTestObject('Dashboard Page/Survey-Quizz-Poll'))
-
 WebUI.click(findTestObject('Survey/New Survey btn'))
 
 WebUI.check(findTestObject('Survey/Classic survey radio button'))

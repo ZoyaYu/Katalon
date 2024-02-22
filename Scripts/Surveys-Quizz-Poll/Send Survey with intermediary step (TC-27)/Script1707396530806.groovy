@@ -67,21 +67,21 @@ WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-27
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-27')
 
-WebUI.delay(20)
+not_run: WebUI.delay(20)
 
-WebUI.click(findTestObject('Survey/3dots Actions'))
+not_run: WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
+not_run: WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot()
+not_run: WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Pop-up Alerts page/view graph 2nd page'))
+not_run: WebUI.click(findTestObject('Pop-up Alerts page/view graph 2nd page'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.takeFullPageScreenshot()
+not_run: WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
+not_run: WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
 

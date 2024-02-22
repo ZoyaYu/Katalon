@@ -21,5 +21,27 @@ WebUI.click(findTestObject('Dashboard Page/Compose alert button expansion'))
 
 WebUI.click(findTestObject('Dashboard Page/Survey-Quizz-Poll'))
 
-WebUI.click(findTestObject('Survey/Survey templates drop-down menu'))
+WebUI.click(findTestObject('Survey/More btn'))
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button'))
+
+WebUI.click(findTestObject('Create RSVP/RSVP template with given value'))
+
+WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-35')
+
+WebUI.getAttribute(findTestObject('Survey/Q1 input'), 'value')
+
+WebUI.getAttribute(findTestObject('Survey/Q1 Answer 1 input field'), 'value')
+
+WebUI.getAttribute(findTestObject('Survey/Q1 answer 2 input field'), 'value')
+
+WebUI.click(findTestObject('Survey/Send btn Survey'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-35')
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-35')
 

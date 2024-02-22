@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test Cases/Login with Valid Credentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard Page/Left-hand menu Surveys-Quizz-Poll'))
 
 WebUI.click(findTestObject('Survey/Survey templates tab'))
@@ -65,7 +63,43 @@ WebUI.click(findTestObject('Survey/Save survey template btn'))
 
 WebUI.verifyElementPresent(findTestObject('Survey/Survey templates tab'), 3)
 
-not_run: WebUI.refresh()
+WebUI.click(findTestObject('Survey/Survey templates tab'))
+
+WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-32')
+
+WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-32')
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Preview Template Action'))
+
+WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
+
+WebUI.takeFullPageScreenshot([])
+
+WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Edit Template Action'))
+
+WebUI.click(findTestObject('Survey/Save survey template btn'))
+
+WebUI.verifyElementPresent(findTestObject('Survey/Survey templates tab'), 3)
+
+WebUI.click(findTestObject('Survey/Survey templates tab'))
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
+
+WebUI.click(findTestObject('Survey/More btn'))
+
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Survey/Send btn Survey'))
 
 WebUI.click(findTestObject('Survey/Survey templates tab'))
 

@@ -23,20 +23,11 @@ WebUI.click(findTestObject('Dashboard Page/Survey-Quizz-Poll'))
 
 WebUI.check(findTestObject('Survey/Quizz radio btn'))
 
-WebUI.verifyElementChecked(findTestObject('Survey/Quizz radio btn'), 0)
+WebUI.verifyElementChecked(findTestObject('Survey/Quizz radio btn'), 1)
 
 WebUI.click(findTestObject('Survey/More btn'))
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'))
-
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/Filter field'), 'LAPTOP-E6BU4LL9')
-
-WebUI.verifyElementText(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered'), 
-    'LAPTOP-E6BU4LL9 ')
-
-WebUI.click(findTestObject('Create Pop-up Alert Page/Choose recipients modal window/filtered user selection'))
-
-WebUI.click(findTestObject('Wallpapers/Done'))
+WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-29')
 
@@ -77,4 +68,22 @@ WebUI.click(findTestObject('Survey/quizz tab'))
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-29')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-29')
+
+WebUI.delay(20)
+
+WebUI.click(findTestObject('Survey/3dots Actions'))
+
+WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Pop-up Alerts page/view graph 2nd page'))
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
 
