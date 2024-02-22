@@ -1,0 +1,68 @@
+1
+00:00:00,037 --> 00:00:00,331
+1. click(findTestObject("Dashboard Page/Left-hand menu Surveys-Quizz-Poll"))
+
+2
+00:00:00,332 --> 00:00:00,698
+5. click(findTestObject("Survey/New Survey btn"))
+
+3
+00:00:00,698 --> 00:00:03,368
+9. check(findTestObject("Survey/Classic survey radio button"))
+
+4
+00:00:03,369 --> 00:00:03,929
+13. click(findTestObject("Survey/More btn"))
+
+5
+00:00:03,930 --> 00:00:03,998
+17. callTestCase(findTestCase("Login Test Cases/Login with Valid Credentials"), [:], STOP_ON_FAILURE)
+
+6
+00:00:03,998 --> 00:00:04,875
+1. openBrowser("")
+
+7
+00:00:04,876 --> 00:00:05,710
+5. navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth")
+
+8
+00:00:05,711 --> 00:00:05,719
+9. waitForPageLoad(3)
+
+9
+00:00:05,720 --> 00:00:05,846
+13. maximizeWindow()
+
+10
+00:00:05,847 --> 00:00:07,027
+17. verifyElementPresent(findTestObject("Login Page/DAlogo"), 2)
+
+11
+00:00:07,028 --> 00:00:07,291
+21. verifyElementPresent(findTestObject("Login Page/Version number"), 2)
+
+12
+00:00:07,292 --> 00:00:07,552
+25. verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.1 (stage/11)")
+
+13
+00:00:07,552 --> 00:00:08,142
+29. setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya")
+
+14
+00:00:08,142 --> 00:00:08,443
+33. setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg=")
+
+15
+00:00:08,444 --> 00:00:08,736
+37. click(findTestObject("Object Repository/Login Page/button_Log in"))
+
+16
+00:00:08,736 --> 00:00:12,749
+41. delay(4)
+
+17
+00:00:12,750 --> 00:00:12,999
+45. verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4)
+

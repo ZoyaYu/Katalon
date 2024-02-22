@@ -88,4 +88,18 @@
       <testCaseId>Test Cases/Surveys-Quizz-Poll/Send quizz with selected template (TC-33)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b8991c58-bde8-4f0a-950e-3113904c2abb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Surveys-Quizz-Poll/Create template using Save this template option (TC-34)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cbc6135-f349-4ee0-8213-39435099d300</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Surveys-Quizz-Poll/Send survey with a template using drop-down menu (TC-35)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
