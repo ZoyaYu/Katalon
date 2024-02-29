@@ -1,0 +1,24 @@
+1
+00:00:00,231 --> 00:00:01,674
+1. click(findTestObject("Dashboard Page/Compose Alert Button"))
+
+2
+00:00:01,676 --> 00:00:05,372
+5. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), 2)
+
+3
+00:00:05,373 --> 00:00:06,263
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), "Create Pop-up Alert")
+
+4
+00:00:06,264 --> 00:00:07,652
+13. click(findTestObject("Create Pop-up Alert Page/More button"))
+
+5
+00:00:07,653 --> 00:00:08,248
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:08,257 --> 00:00:41,315
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+

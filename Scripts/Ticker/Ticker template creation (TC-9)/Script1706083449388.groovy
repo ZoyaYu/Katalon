@@ -27,7 +27,7 @@ WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Alert body iframe')
 
 TemplateBody = '"The News Tickers is a handy and easy tool for creating a creeping line(running text, ticker). This is perfect for news broadcasts, updates, and more projects that refer to current events. Use for any formats and themes of video: news, sports, advertising, video blog, and others. Special made for COVID-19 situation in the world. Color controls available. A video tutorial is also included in the download."'
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert body'), TemplateBody)
+WebUI.setMaskedText(findTestObject('Create Pop-up Alert Page/Alert body'), TemplateBody)
 
 WebUI.switchToDefaultContent()
 

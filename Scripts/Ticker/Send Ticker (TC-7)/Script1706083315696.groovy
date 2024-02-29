@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-
 
 WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Alert body iframe'), 2)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert body'), 'Hello! This is automated ticker from Katalon')
+WebUI.setMaskedText(findTestObject('Create Pop-up Alert Page/Alert body'), 'Hello! This is automated ticker from Katalon')
 
 WebUI.switchToDefaultContent()
 

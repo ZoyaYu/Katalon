@@ -67,5 +67,5 @@ WebUI.verifyElementText(findTestObject('Lockscreen/Create Lockscreen header'), '
 
 WebUI.click(findTestObject('Wallpapers/Save wallpaper button'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Draft tab'), 2)
+WebUI.verifyElementPresent(findTestObject('Pop-up Alerts page/Draft tab'), 2)
 

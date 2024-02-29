@@ -33,7 +33,7 @@ WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Alert body iframe')
 
 TemplateBody = '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue tempus tempor. Donec pretium viverra eleifend.\nAliquam et condimentum sem. Sed molestie nisl lectus, eget ultrices lorem tincidunt in. Morbi sed hendrerit dolor. Aliquam erat volutpat.\nInteger maximus ex tempus auctor elementum. Vivamus vel lacus eu ante maximus consequat. Vestibulum lacus eros, gravida in massa ut, malesuada ultricies quam.\nSuspendisse pharetra eros nec auctor posuere. Nunc sit amet dignissim eros. Suspendisse imperdiet tristique massa, id lacinia orci viverra id.\nEtiam aliquam eros orci, eu malesuada ipsum commodo quis."'
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert body'), TemplateBody)
+WebUI.setMaskedText(findTestObject('Create Pop-up Alert Page/Alert body'), TemplateBody)
 
 WebUI.switchToDefaultContent()
 

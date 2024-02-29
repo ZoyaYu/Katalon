@@ -1,0 +1,192 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Video Alerts,Chrome 121.0.0.0,,,2024-02-27 16:38:52,2024-02-27 16:42:47,"3m - 55,488s",PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 121.0.0.0,,,2024-02-27 16:38:52,2024-02-27 16:39:04,"12,266s",PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-27 16:38:52,2024-02-27 16:38:54,"1,522s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 121.0.0.0,,,2024-02-27 16:38:54,2024-02-27 16:38:55,"0,941s",PASSED
+waitForPageLoad(3),Chrome 121.0.0.0,,,2024-02-27 16:38:55,2024-02-27 16:38:55,"0,102s",PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,2024-02-27 16:38:55,2024-02-27 16:38:55,"0,167s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:38:55,2024-02-27 16:38:56,"0,816s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:38:56,2024-02-27 16:38:56,"0,279s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.1 (stage/11)"")",Chrome 121.0.0.0,,,2024-02-27 16:38:56,2024-02-27 16:38:56,"0,311s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 121.0.0.0,,,2024-02-27 16:38:56,2024-02-27 16:38:57,"0,630s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 121.0.0.0,,,2024-02-27 16:38:57,2024-02-27 16:38:57,"0,355s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 121.0.0.0,,,2024-02-27 16:38:57,2024-02-27 16:38:58,"0,329s",PASSED
+delay(4),Chrome 121.0.0.0,,,2024-02-27 16:38:58,2024-02-27 16:39:02,"4,023s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 121.0.0.0,,,2024-02-27 16:39:02,2024-02-27 16:39:02,"0,279s",PASSED
+,,,,,,,
+Test Cases/Video Alerts/Send Video Alert with MP4 (TC-43),Chrome 121.0.0.0,,,2024-02-27 16:39:04,2024-02-27 16:39:59,"55,309s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 121.0.0.0,,,2024-02-27 16:39:04,2024-02-27 16:39:05,"0,371s",PASSED
+"click(findTestObject(""Dashboard Page/Video Alerts""))",Chrome 121.0.0.0,,,2024-02-27 16:39:05,2024-02-27 16:39:05,"0,493s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:39:05,2024-02-27 16:39:08,"2,904s",PASSED
+"click(findTestObject(""Video Alert/Videoalert more btn""))",Chrome 121.0.0.0,,,2024-02-27 16:39:08,2024-02-27 16:39:08,"0,391s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-27 16:39:08,2024-02-27 16:39:16,"7,853s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-43"")",Chrome 121.0.0.0,,,2024-02-27 16:39:16,2024-02-27 16:39:17,"0,900s",PASSED
+"verifyElementPresent(findTestObject(""Video Alert/Videoalert upload area""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:17,2024-02-27 16:39:17,"0,286s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Video Alert/Videoalert upload area""), ""C:\Users\Home\git\Katalon\video\rabbit.mp4"")",Chrome 121.0.0.0,,,2024-02-27 16:39:17,2024-02-27 16:39:18,"0,350s",PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-27 16:39:18,2024-02-27 16:39:23,"5,005s",PASSED
+"getAttribute(findTestObject(""Video alerts/uploaded video file""), ""src"")",Chrome 121.0.0.0,,,2024-02-27 16:39:23,2024-02-27 16:39:23,"0,289s",PASSED
+"click(findTestObject(""Video alerts/Video alert description""))",Chrome 121.0.0.0,,,2024-02-27 16:39:23,2024-02-27 16:39:23,"0,300s",PASSED
+"setText(findTestObject(""Video alerts/Video alert description""), ""Hello! This is automated MP4 video alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-27 16:39:23,2024-02-27 16:39:25,"1,530s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:39:25,2024-02-27 16:39:25,"0,552s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:39:25,2024-02-27 16:39:25,"0,016s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-43"")",Chrome 121.0.0.0,,,2024-02-27 16:39:25,2024-02-27 16:39:28,"2,073s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-43"")",Chrome 121.0.0.0,,,2024-02-27 16:39:28,2024-02-27 16:39:28,"0,296s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:39:28,2024-02-27 16:39:28,"0,004s",NOT_RUN
+"mouseOver(findTestObject(""Pop-up Alerts page/Stop-Start alert""))",Chrome 121.0.0.0,,,2024-02-27 16:39:28,2024-02-27 16:39:28,"0,003s",NOT_RUN
+"click(findTestObject(""Pop-up Alerts page/Stop-Start alert""))",Chrome 121.0.0.0,,,2024-02-27 16:39:28,2024-02-27 16:39:28,"0,002s",NOT_RUN
+"verifyElementPresent(findTestObject(""Pop-up Alerts page/Stopped status""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:28,2024-02-27 16:39:28,"0,002s",NOT_RUN
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:39:28,2024-02-27 16:39:29,"1,369s",PASSED
+"click(findTestObject(""Pop-up Alerts page/View graph""))",Chrome 121.0.0.0,,,2024-02-27 16:39:29,2024-02-27 16:39:30,"0,570s",PASSED
+"takeElementScreenshot(findTestObject(""Pop-up Alerts page/View graph image""))",Chrome 121.0.0.0,,,2024-02-27 16:39:30,2024-02-27 16:39:31,"1,462s",PASSED
+"click(findTestObject(""Pop-up Alerts page/view graph close btn""))",Chrome 121.0.0.0,,,2024-02-27 16:39:31,2024-02-27 16:39:32,"0,755s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:39:32,2024-02-27 16:39:33,"0,542s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Preview in actions menu""))",Chrome 121.0.0.0,,,2024-02-27 16:39:33,2024-02-27 16:39:33,"0,564s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:33,2024-02-27 16:39:34,"1,095s",PASSED
+takeFullPageScreenshot([]),Chrome 121.0.0.0,,,2024-02-27 16:39:34,2024-02-27 16:39:35,"0,631s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/close alert preview""))",Chrome 121.0.0.0,,,2024-02-27 16:39:35,2024-02-27 16:39:35,"0,162s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-27 16:39:35,2024-02-27 16:39:35,"0,015s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:39:35,2024-02-27 16:39:36,"0,548s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Duplicate alert""))",Chrome 121.0.0.0,,,2024-02-27 16:39:36,2024-02-27 16:39:36,"0,693s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 121.0.0.0,,,2024-02-27 16:39:36,2024-02-27 16:39:39,"2,336s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate video alert"")",Chrome 121.0.0.0,,,2024-02-27 16:39:39,2024-02-27 16:39:40,"1,106s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:39:40,2024-02-27 16:39:40,"0,357s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:39:40,2024-02-27 16:39:40,"0,016s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-43"")",Chrome 121.0.0.0,,,2024-02-27 16:39:40,2024-02-27 16:39:42,"1,728s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:39:42,2024-02-27 16:39:42,"0,032s",PASSED
+"waitForElementClickable(findTestObject(""Survey/3dots Actions""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:42,2024-02-27 16:39:42,"0,323s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:39:42,2024-02-27 16:39:43,"1,023s",PASSED
+"waitForElementClickable(findTestObject(""Pop-up Alerts page/resend alert from actions menu""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:43,2024-02-27 16:39:44,"0,513s",PASSED
+"click(findTestObject(""Pop-up Alerts page/resend alert from actions menu""))",Chrome 121.0.0.0,,,2024-02-27 16:39:44,2024-02-27 16:39:44,"0,561s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Resend btn""))",Chrome 121.0.0.0,,,2024-02-27 16:39:44,2024-02-27 16:39:45,"0,548s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 121.0.0.0,,,2024-02-27 16:39:45,2024-02-27 16:39:46,"1,046s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-43"")",Chrome 121.0.0.0,,,2024-02-27 16:39:46,2024-02-27 16:39:48,"2,001s",PASSED
+"verifyElementClickable(findTestObject(""Pop-up Alerts page/Select all checkbox""))",Chrome 121.0.0.0,,,2024-02-27 16:39:48,2024-02-27 16:39:48,"0,288s",PASSED
+"check(findTestObject(""Pop-up Alerts page/Select all checkbox""))",Chrome 121.0.0.0,,,2024-02-27 16:39:48,2024-02-27 16:39:49,"1,113s",PASSED
+"verifyElementChecked(findTestObject(""Pop-up Alerts page/Select all checkbox""), 1)",Chrome 121.0.0.0,,,2024-02-27 16:39:49,2024-02-27 16:39:50,"0,579s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 121.0.0.0,,,2024-02-27 16:39:50,2024-02-27 16:39:50,"0,503s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 121.0.0.0,,,2024-02-27 16:39:50,2024-02-27 16:39:51,"1,139s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 121.0.0.0,,,2024-02-27 16:39:51,2024-02-27 16:39:53,"1,278s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Duplicate video alert"")",Chrome 121.0.0.0,,,2024-02-27 16:39:53,2024-02-27 16:39:54,"1,572s",PASSED
+"waitForElementClickable(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:54,2024-02-27 16:39:55,"0,293s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 121.0.0.0,,,2024-02-27 16:39:55,2024-02-27 16:39:56,"1,058s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:39:56,2024-02-27 16:39:56,"0,494s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 121.0.0.0,,,2024-02-27 16:39:56,2024-02-27 16:39:57,"0,584s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 121.0.0.0,,,2024-02-27 16:39:57,2024-02-27 16:39:57,"0,565s",PASSED
+,,,,,,,
+Test Cases/Video Alerts/Send Video Alert with AVI (TC-44),Chrome 121.0.0.0,,,2024-02-27 16:39:59,2024-02-27 16:40:32,"32,368s",PASSED
+"click(findTestObject(""Pop-up Alerts page/New alert button""))",Chrome 121.0.0.0,,,2024-02-27 16:39:59,2024-02-27 16:40:00,"0,399s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:40:00,2024-02-27 16:40:02,"2,239s",PASSED
+"click(findTestObject(""Video Alert/Videoalert more btn""))",Chrome 121.0.0.0,,,2024-02-27 16:40:02,2024-02-27 16:40:02,"0,363s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-27 16:40:02,2024-02-27 16:40:10,"8,028s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-44"")",Chrome 121.0.0.0,,,2024-02-27 16:40:10,2024-02-27 16:40:11,"0,902s",PASSED
+"verifyElementPresent(findTestObject(""Video Alert/Videoalert upload area""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:40:11,2024-02-27 16:40:12,"0,278s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Video Alert/Videoalert upload area""), ""C:\Users\Home\git\Katalon\video\earth.avi"")",Chrome 121.0.0.0,,,2024-02-27 16:40:12,2024-02-27 16:40:12,"0,316s",PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-27 16:40:12,2024-02-27 16:40:17,"5,005s",PASSED
+"getAttribute(findTestObject(""Video alerts/uploaded video file""), ""src"")",Chrome 121.0.0.0,,,2024-02-27 16:40:17,2024-02-27 16:40:25,"8,549s",PASSED
+"click(findTestObject(""Video alerts/Video alert description""))",Chrome 121.0.0.0,,,2024-02-27 16:40:25,2024-02-27 16:40:26,"0,318s",PASSED
+"setText(findTestObject(""Video alerts/Video alert description""), ""Hello! This is automated AVI video alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-27 16:40:26,2024-02-27 16:40:27,"1,391s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:40:27,2024-02-27 16:40:28,"0,562s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:40:28,2024-02-27 16:40:28,"0,013s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-44"")",Chrome 121.0.0.0,,,2024-02-27 16:40:28,2024-02-27 16:40:29,"1,633s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-44"")",Chrome 121.0.0.0,,,2024-02-27 16:40:29,2024-02-27 16:40:30,"0,290s",PASSED
+,,,,,,,
+Test Cases/Video Alerts/Send Video Alert with WMV (TC-45),Chrome 121.0.0.0,,,2024-02-27 16:40:32,2024-02-27 16:40:56,"24,560s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 121.0.0.0,,,2024-02-27 16:40:32,2024-02-27 16:40:32,"0,316s",PASSED
+"click(findTestObject(""Dashboard Page/Video Alerts""))",Chrome 121.0.0.0,,,2024-02-27 16:40:32,2024-02-27 16:40:33,"0,607s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:40:33,2024-02-27 16:40:35,"2,162s",PASSED
+"click(findTestObject(""Video Alert/Videoalert more btn""))",Chrome 121.0.0.0,,,2024-02-27 16:40:35,2024-02-27 16:40:35,"0,576s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-27 16:40:35,2024-02-27 16:40:43,"7,837s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-45"")",Chrome 121.0.0.0,,,2024-02-27 16:40:43,2024-02-27 16:40:44,"0,901s",PASSED
+"verifyElementPresent(findTestObject(""Video Alert/Videoalert upload area""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:40:44,2024-02-27 16:40:44,"0,276s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Video Alert/Videoalert upload area""), ""C:\Users\Home\git\Katalon\video\seaside.wmv"")",Chrome 121.0.0.0,,,2024-02-27 16:40:44,2024-02-27 16:40:45,"0,316s",PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-27 16:40:45,2024-02-27 16:40:50,"5,017s",PASSED
+"getAttribute(findTestObject(""Video alerts/uploaded video file""), ""src"")",Chrome 121.0.0.0,,,2024-02-27 16:40:50,2024-02-27 16:40:50,"0,291s",PASSED
+"click(findTestObject(""Video alerts/Video alert description""))",Chrome 121.0.0.0,,,2024-02-27 16:40:50,2024-02-27 16:40:50,"0,319s",PASSED
+"setText(findTestObject(""Video alerts/Video alert description""), ""Hello! This is automated WMV video alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-27 16:40:50,2024-02-27 16:40:52,"1,400s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:40:52,2024-02-27 16:40:52,"0,562s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:40:52,2024-02-27 16:40:52,"0,015s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-45"")",Chrome 121.0.0.0,,,2024-02-27 16:40:52,2024-02-27 16:40:54,"1,603s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-45"")",Chrome 121.0.0.0,,,2024-02-27 16:40:54,2024-02-27 16:40:54,"0,287s",PASSED
+,,,,,,,
+Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46),Chrome 121.0.0.0,,,2024-02-27 16:40:56,2024-02-27 16:41:46,"49,517s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 121.0.0.0,,,2024-02-27 16:40:56,2024-02-27 16:40:57,"0,314s",PASSED
+"click(findTestObject(""Dashboard Page/Video Alerts""))",Chrome 121.0.0.0,,,2024-02-27 16:40:57,2024-02-27 16:40:57,"0,619s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:40:57,2024-02-27 16:41:00,"2,718s",PASSED
+"click(findTestObject(""Video Alert/Videoalert more btn""))",Chrome 121.0.0.0,,,2024-02-27 16:41:00,2024-02-27 16:41:00,"0,340s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-27 16:41:00,2024-02-27 16:41:08,"7,704s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-46"")",Chrome 121.0.0.0,,,2024-02-27 16:41:08,2024-02-27 16:41:09,"0,905s",PASSED
+"verifyElementPresent(findTestObject(""Video Alert/Videoalert upload area""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:41:09,2024-02-27 16:41:09,"0,276s",PASSED
+"click(findTestObject(""Video Alert/Select video from the server""))",Chrome 121.0.0.0,,,2024-02-27 16:41:09,2024-02-27 16:41:10,"0,342s",PASSED
+"click(findTestObject(""Wallpapers/Select image from server button""))",Chrome 121.0.0.0,,,2024-02-27 16:41:10,2024-02-27 16:41:10,"0,551s",PASSED
+"click(findTestObject(""Video alerts/First video from the server""))",Chrome 121.0.0.0,,,2024-02-27 16:41:10,2024-02-27 16:41:11,"1,138s",PASSED
+delay(1),Chrome 121.0.0.0,,,2024-02-27 16:41:11,2024-02-27 16:41:12,"1,003s",PASSED
+"getAttribute(findTestObject(""Video alerts/uploaded video file""), ""src"")",Chrome 121.0.0.0,,,2024-02-27 16:41:12,2024-02-27 16:41:12,"0,001s",NOT_RUN
+"click(findTestObject(""Video alerts/Video alert description""))",Chrome 121.0.0.0,,,2024-02-27 16:41:12,2024-02-27 16:41:13,"0,340s",PASSED
+"setText(findTestObject(""Video alerts/Video alert description""), ""Hello! This is automated video alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-27 16:41:13,2024-02-27 16:41:14,"1,398s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:41:14,2024-02-27 16:41:15,"0,603s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:41:15,2024-02-27 16:41:15,"0,014s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-46"")",Chrome 121.0.0.0,,,2024-02-27 16:41:15,2024-02-27 16:41:43,"28,868s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-46"")",Chrome 121.0.0.0,,,2024-02-27 16:41:43,2024-02-27 16:41:44,"0,297s",PASSED
+,,,,,,,
+Test Cases/Video Alerts/Draft Video Alert (TC-47),Chrome 121.0.0.0,,,2024-02-27 16:41:46,2024-02-27 16:42:17,"31,440s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 121.0.0.0,,,2024-02-27 16:41:46,2024-02-27 16:41:46,"0,321s",PASSED
+"click(findTestObject(""Dashboard Page/Video Alerts""))",Chrome 121.0.0.0,,,2024-02-27 16:41:46,2024-02-27 16:41:47,"0,603s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:41:47,2024-02-27 16:41:49,"2,485s",PASSED
+"click(findTestObject(""Video Alert/Videoalert more btn""))",Chrome 121.0.0.0,,,2024-02-27 16:41:49,2024-02-27 16:41:50,"0,344s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-27 16:41:50,2024-02-27 16:41:58,"7,984s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-47"")",Chrome 121.0.0.0,,,2024-02-27 16:41:58,2024-02-27 16:41:58,"0,906s",PASSED
+"verifyElementPresent(findTestObject(""Video Alert/Videoalert upload area""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:41:58,2024-02-27 16:41:59,"0,266s",PASSED
+"click(findTestObject(""Video Alert/Select video from the server""))",Chrome 121.0.0.0,,,2024-02-27 16:41:59,2024-02-27 16:41:59,"0,323s",PASSED
+"click(findTestObject(""Wallpapers/Select image from server button""))",Chrome 121.0.0.0,,,2024-02-27 16:41:59,2024-02-27 16:42:00,"0,591s",PASSED
+"click(findTestObject(""Video alerts/First video from the server""))",Chrome 121.0.0.0,,,2024-02-27 16:42:00,2024-02-27 16:42:00,"0,595s",PASSED
+delay(1),Chrome 121.0.0.0,,,2024-02-27 16:42:00,2024-02-27 16:42:01,"1,004s",PASSED
+"click(findTestObject(""Video alerts/Video alert description""))",Chrome 121.0.0.0,,,2024-02-27 16:42:01,2024-02-27 16:42:02,"0,303s",PASSED
+"setText(findTestObject(""Video alerts/Video alert description""), ""Hello! This is automated Draft video alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-27 16:42:02,2024-02-27 16:42:03,"1,507s",PASSED
+"click(findTestObject(""Wallpapers/Save wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:42:03,2024-02-27 16:42:04,"0,576s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:42:04,2024-02-27 16:42:04,"0,015s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Draft tab""))",Chrome 121.0.0.0,,,2024-02-27 16:42:04,2024-02-27 16:42:05,"1,370s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-47"")",Chrome 121.0.0.0,,,2024-02-27 16:42:05,2024-02-27 16:42:06,"1,044s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-47"")",Chrome 121.0.0.0,,,2024-02-27 16:42:06,2024-02-27 16:42:06,"0,301s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:42:06,2024-02-27 16:42:07,"0,984s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Preview Draft alert Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:42:07,2024-02-27 16:42:08,"0,527s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:42:08,2024-02-27 16:42:09,"1,080s",PASSED
+takeFullPageScreenshot([]),Chrome 121.0.0.0,,,2024-02-27 16:42:09,2024-02-27 16:42:10,"0,618s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/close alert preview""))",Chrome 121.0.0.0,,,2024-02-27 16:42:10,2024-02-27 16:42:10,"0,171s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-27 16:42:10,2024-02-27 16:42:10,"0,009s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:42:10,2024-02-27 16:42:10,"0,539s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Edit Draft alert Actions""))",Chrome 121.0.0.0,,,2024-02-27 16:42:10,2024-02-27 16:42:11,"0,621s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:42:11,2024-02-27 16:42:14,"2,682s",PASSED
+"click(findTestObject(""Wallpapers/Save wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:42:14,2024-02-27 16:42:14,"0,327s",PASSED
+"verifyElementPresent(findTestObject(""Pop-up Alerts page/Draft tab""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:42:14,2024-02-27 16:42:15,"1,248s",PASSED
+,,,,,,,
+Test Cases/Video Alerts/Send Video Alert with advanced settings (TC-48),Chrome 121.0.0.0,,,2024-02-27 16:42:17,2024-02-27 16:42:47,"29,800s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 121.0.0.0,,,2024-02-27 16:42:17,2024-02-27 16:42:18,"0,324s",PASSED
+"click(findTestObject(""Dashboard Page/Video Alerts""))",Chrome 121.0.0.0,,,2024-02-27 16:42:18,2024-02-27 16:42:18,"0,617s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Video Alert"")",Chrome 121.0.0.0,,,2024-02-27 16:42:18,2024-02-27 16:42:21,"2,504s",PASSED
+"click(findTestObject(""Video Alert/Videoalert more btn""))",Chrome 121.0.0.0,,,2024-02-27 16:42:21,2024-02-27 16:42:21,"0,357s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-27 16:42:21,2024-02-27 16:42:29,"7,856s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-48"")",Chrome 121.0.0.0,,,2024-02-27 16:42:29,2024-02-27 16:42:30,"0,968s",PASSED
+"verifyElementPresent(findTestObject(""Video Alert/Videoalert upload area""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:42:30,2024-02-27 16:42:30,"0,274s",PASSED
+"click(findTestObject(""Video Alert/Select video from the server""))",Chrome 121.0.0.0,,,2024-02-27 16:42:30,2024-02-27 16:42:31,"0,324s",PASSED
+"click(findTestObject(""Wallpapers/Select image from server button""))",Chrome 121.0.0.0,,,2024-02-27 16:42:31,2024-02-27 16:42:31,"0,618s",PASSED
+"click(findTestObject(""Video alerts/First video from the server""))",Chrome 121.0.0.0,,,2024-02-27 16:42:31,2024-02-27 16:42:32,"0,518s",PASSED
+delay(1),Chrome 121.0.0.0,,,2024-02-27 16:42:32,2024-02-27 16:42:33,"1,015s",PASSED
+"click(findTestObject(""Video alerts/Video alert description""))",Chrome 121.0.0.0,,,2024-02-27 16:42:33,2024-02-27 16:42:33,"0,352s",PASSED
+"setText(findTestObject(""Video alerts/Video alert description""), ""Hello! This is automated video alert from Katalon"")",Chrome 121.0.0.0,,,2024-02-27 16:42:33,2024-02-27 16:42:35,"1,822s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button""))",Chrome 121.0.0.0,,,2024-02-27 16:42:35,2024-02-27 16:42:35,"0,576s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index""))",Chrome 121.0.0.0,,,2024-02-27 16:42:35,2024-02-27 16:42:36,"0,588s",PASSED
+"sendKeys(findTestObject(""Survey/alert width""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 121.0.0.0,,,2024-02-27 16:42:36,2024-02-27 16:42:37,"0,924s",PASSED
+"setText(findTestObject(""Survey/alert width""), ""400"")",Chrome 121.0.0.0,,,2024-02-27 16:42:37,2024-02-27 16:42:38,"0,907s",PASSED
+"sendKeys(findTestObject(""Survey/alert height""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 121.0.0.0,,,2024-02-27 16:42:38,2024-02-27 16:42:38,"0,360s",PASSED
+"setText(findTestObject(""Survey/alert height""), ""500"")",Chrome 121.0.0.0,,,2024-02-27 16:42:38,2024-02-27 16:42:39,"0,918s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox""))",Chrome 121.0.0.0,,,2024-02-27 16:42:39,2024-02-27 16:42:40,"0,589s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:42:40,2024-02-27 16:42:40,"0,513s",PASSED
+"click(findTestObject(""Video alerts/Preview video alert btn""))",Chrome 121.0.0.0,,,2024-02-27 16:42:40,2024-02-27 16:42:41,"0,552s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 121.0.0.0,,,2024-02-27 16:42:41,2024-02-27 16:42:42,"1,105s",PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,2024-02-27 16:42:42,2024-02-27 16:42:42,"0,497s",PASSED
+switchToDefaultContent(),Chrome 121.0.0.0,,,2024-02-27 16:42:42,2024-02-27 16:42:42,"0,011s",PASSED
+waitForPageLoad(2),Chrome 121.0.0.0,,,2024-02-27 16:42:42,2024-02-27 16:42:42,"0,015s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 121.0.0.0,,,2024-02-27 16:42:42,2024-02-27 16:42:43,"0,405s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-48"")",Chrome 121.0.0.0,,,2024-02-27 16:42:43,2024-02-27 16:42:45,"1,901s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-48"")",Chrome 121.0.0.0,,,2024-02-27 16:42:45,2024-02-27 16:42:45,"0,297s",PASSED

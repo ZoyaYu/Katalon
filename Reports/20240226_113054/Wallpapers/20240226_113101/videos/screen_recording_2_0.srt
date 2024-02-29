@@ -1,0 +1,28 @@
+1
+00:00:00,339 --> 00:00:01,005
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:01,007 --> 00:00:02,266
+5. click(findTestObject("Dashboard Page/Wallpapers"))
+
+3
+00:00:02,267 --> 00:00:02,873
+9. verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Wallpaper")
+
+4
+00:00:02,875 --> 00:00:03,458
+13. click(findTestObject("Wallpapers/more"))
+
+5
+00:00:03,459 --> 00:00:03,698
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:03,699 --> 00:00:04,371
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+7
+00:00:04,372 --> 00:00:37,019
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+

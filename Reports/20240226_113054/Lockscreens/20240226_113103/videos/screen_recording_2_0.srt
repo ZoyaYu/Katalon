@@ -1,0 +1,24 @@
+1
+00:00:00,273 --> 00:00:00,730
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,731 --> 00:00:01,880
+5. click(findTestObject("Dashboard Page/Lockscreens"))
+
+3
+00:00:01,881 --> 00:00:02,622
+9. verifyElementText(findTestObject("Lockscreen/Create Lockscreen header"), "Create Lockscreen")
+
+4
+00:00:02,622 --> 00:00:03,322
+13. click(findTestObject("Wallpapers/more"))
+
+5
+00:00:03,323 --> 00:00:03,586
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:03,587 --> 00:00:36,156
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+

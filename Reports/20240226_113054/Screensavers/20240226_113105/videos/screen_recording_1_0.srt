@@ -1,0 +1,48 @@
+1
+00:00:00,574 --> 00:00:09,340
+1. openBrowser("")
+
+2
+00:00:09,352 --> 00:00:11,910
+5. navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth")
+
+3
+00:00:11,913 --> 00:00:12,696
+9. waitForPageLoad(3)
+
+4
+00:00:12,697 --> 00:00:15,603
+13. maximizeWindow()
+
+5
+00:00:15,604 --> 00:00:16,150
+17. verifyElementPresent(findTestObject("Login Page/DAlogo"), 2)
+
+6
+00:00:16,151 --> 00:00:16,716
+21. verifyElementPresent(findTestObject("Login Page/Version number"), 2)
+
+7
+00:00:16,717 --> 00:00:17,089
+25. verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.1 (stage/11)")
+
+8
+00:00:17,091 --> 00:00:17,953
+29. setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya")
+
+9
+00:00:17,954 --> 00:00:18,525
+33. setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg=")
+
+10
+00:00:18,526 --> 00:00:19,106
+37. click(findTestObject("Object Repository/Login Page/button_Log in"))
+
+11
+00:00:19,107 --> 00:00:23,154
+41. delay(4)
+
+12
+00:00:23,154 --> 00:00:28,990
+45. verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4)
+
