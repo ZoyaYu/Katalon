@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Survey/3dots Actions'))
 
 WebUI.click(findTestObject('Templates Action menu/Create alert using this template'))
 
-WebUI.click(findTestObject('Survey/Delete Everyone in recipients field'))
+not_run: WebUI.click(findTestObject('Survey/Delete Everyone in recipients field'))
 
 WebUI.click(findTestObject('Survey/More btn'))
 

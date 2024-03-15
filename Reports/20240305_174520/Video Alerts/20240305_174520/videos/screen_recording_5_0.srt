@@ -1,0 +1,108 @@
+1
+00:00:00,037 --> 00:00:00,354
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,354 --> 00:00:00,967
+5. click(findTestObject("Dashboard Page/Video Alerts"))
+
+3
+00:00:00,967 --> 00:00:03,728
+9. verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Video Alert")
+
+4
+00:00:03,728 --> 00:00:04,082
+13. click(findTestObject("Video Alert/Videoalert more btn"))
+
+5
+00:00:04,082 --> 00:00:04,166
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:04,167 --> 00:00:04,605
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+7
+00:00:04,608 --> 00:00:05,842
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+8
+00:00:05,843 --> 00:00:07,339
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+9
+00:00:07,340 --> 00:00:07,689
+13. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+10
+00:00:07,690 --> 00:00:08,238
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+11
+00:00:08,239 --> 00:00:08,577
+21. sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+12
+00:00:08,578 --> 00:00:09,456
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7")
+
+13
+00:00:09,457 --> 00:00:11,076
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 ")
+
+14
+00:00:11,076 --> 00:00:11,388
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+15
+00:00:11,389 --> 00:00:11,953
+37. click(findTestObject("Wallpapers/Done"))
+
+16
+00:00:11,953 --> 00:00:12,839
+21. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-46")
+
+17
+00:00:12,839 --> 00:00:13,125
+25. verifyElementPresent(findTestObject("Video Alert/Videoalert upload area"), 2)
+
+18
+00:00:13,125 --> 00:00:13,468
+29. click(findTestObject("Video Alert/Select video from the server"))
+
+19
+00:00:13,468 --> 00:00:14,032
+33. click(findTestObject("Wallpapers/Select image from server button"))
+
+20
+00:00:14,032 --> 00:00:15,157
+37. click(findTestObject("Video alerts/First video from the server"))
+
+21
+00:00:15,158 --> 00:00:16,163
+41. delay(1)
+
+22
+00:00:16,163 --> 00:00:16,164
+45. getAttribute(findTestObject("Video alerts/uploaded video file"), "src")
+
+23
+00:00:16,165 --> 00:00:16,476
+49. click(findTestObject("Video alerts/Video alert description"))
+
+24
+00:00:16,477 --> 00:00:18,050
+53. setText(findTestObject("Video alerts/Video alert description"), "Hello! This is automated video alert from Katalon")
+
+25
+00:00:18,051 --> 00:00:18,634
+57. click(findTestObject("Wallpapers/Send wallpaper button"))
+
+26
+00:00:18,635 --> 00:00:18,649
+61. waitForPageLoad(2)
+
+27
+00:00:18,650 --> 00:00:51,951
+65. setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-46")
+

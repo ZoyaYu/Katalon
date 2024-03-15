@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Video Alerts" time="297.355" tests="7" failures="2" errors="0">
+   <testsuite name="Video Alerts" tests="7" failures="2" errors="0" time="297.355" skipped="0" timestamp="04-03-2024T17:35:43" hostname="Home - LAPTOP-E6BU4LL9.Dlink" id="Test Suites/Video Alerts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538"/>
+         <property name="logFiles" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709562979706.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709562983923.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563111829.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563130215.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563130377.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563145491.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563145654.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563161077.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563161220.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563176890.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563177016.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563192243.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563192415.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563207491.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563207624.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563211604.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563235670.png"/>
+         <property name="hostName" value="Home - LAPTOP-E6BU4LL9.Dlink"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="29c83cd9b48ca7aa3cd07522ff9976b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Login with Valid Credentials" time="11.747" classname="Test Cases/Login Test Cases/Login with Valid Credentials" status="PASSED">
+         <system-out><![CDATA[04-03-2024T17:35:43 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Login with Valid Credentials: Test Cases/Login Test Cases/Login with Valid Credentials
+
+04-03-2024T17:35:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T17:35:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-03-2024T17:35:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T17:35:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T17:35:45 - [TEST_STEP][PASSED] - navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth"): Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+04-03-2024T17:35:46 - [MESSAGE][PASSED] - Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+04-03-2024T17:35:46 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+04-03-2024T17:35:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:35:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-03-2024T17:35:46 - [MESSAGE][PASSED] - Current window maximized
+
+04-03-2024T17:35:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+04-03-2024T17:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+04-03-2024T17:35:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Version number"), 2): Object 'Object Repository/Login Page/Version number' is present
+
+04-03-2024T17:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Version number' is present
+
+04-03-2024T17:35:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.1 (stage/11)"): Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+04-03-2024T17:35:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+04-03-2024T17:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+04-03-2024T17:35:48 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+04-03-2024T17:35:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+04-03-2024T17:35:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+04-03-2024T17:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+04-03-2024T17:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+04-03-2024T17:35:48 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+04-03-2024T17:35:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+04-03-2024T17:35:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4): Object 'Object Repository/Login Page/h1_Dashboard' is present
+
+04-03-2024T17:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h1_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Video Alerts/Send Video Alert with MP4 (TC-43)" time="51.87" classname="Test Cases/Video Alerts/Send Video Alert with MP4 (TC-43)" status="PASSED">
+         <system-out><![CDATA[04-03-2024T17:35:55 - [TEST_CASE][PASSED] - Test Cases/Video Alerts/Send Video Alert with MP4 (TC-43): Test Cases/Video Alerts/Send Video Alert with MP4 (TC-43)
+
+04-03-2024T17:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:35:55 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Video Alerts")): Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:35:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Video Alert"): Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:35:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Video Alert/Videoalert more btn")): Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:35:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:35:59 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+04-03-2024T17:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:00 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:36:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:03 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:04 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:36:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-43"): Text 'TC-43' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:07 - [MESSAGE][PASSED] - Text 'TC-43' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Video Alert/Videoalert upload area"), 2): Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:36:07 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Video Alert/Videoalert upload area"), "C:\Users\Home\git\Katalon\video\rabbit.mp4"): null
+
+04-03-2024T17:36:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-03-2024T17:36:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-03-2024T17:36:13 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Video alerts/uploaded video file"), "src"): Attribute 'src' of object 'Object Repository/Video alerts/uploaded video file' is: 'null'
+
+04-03-2024T17:36:13 - [MESSAGE][PASSED] - Attribute 'src' of object 'Object Repository/Video alerts/uploaded video file' is: 'null'
+
+04-03-2024T17:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Video alerts/Video alert description")): Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Video alerts/Video alert description"), "Hello! This is automated MP4 video alert from Katalon"): Text 'Hello! This is automated MP4 video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:36:15 - [MESSAGE][PASSED] - Text 'Hello! This is automated MP4 video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Send wallpaper button")): Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:36:15 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+04-03-2024T17:36:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:36:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-43"): Text 'TC-43' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:17 - [MESSAGE][PASSED] - Text 'TC-43' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-43"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+04-03-2024T17:36:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+04-03-2024T17:36:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("Survey/3dots Actions")): NOT_RUN: click(findTestObject("Survey/3dots Actions"))
+
+04-03-2024T17:36:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Survey/3dots Actions"))
+
+04-03-2024T17:36:17 - [TEST_STEP][NOT_RUN] - mouseOver(findTestObject("Pop-up Alerts page/Stop-Start alert")): NOT_RUN: mouseOver(findTestObject("Pop-up Alerts page/Stop-Start alert"))
+
+04-03-2024T17:36:17 - [MESSAGE][NOT_RUN] - NOT_RUN: mouseOver(findTestObject("Pop-up Alerts page/Stop-Start alert"))
+
+04-03-2024T17:36:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pop-up Alerts page/Stop-Start alert")): NOT_RUN: click(findTestObject("Pop-up Alerts page/Stop-Start alert"))
+
+04-03-2024T17:36:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pop-up Alerts page/Stop-Start alert"))
+
+04-03-2024T17:36:17 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Pop-up Alerts page/Stopped status"), 2): NOT_RUN: verifyElementPresent(findTestObject("Pop-up Alerts page/Stopped status"), 2)
+
+04-03-2024T17:36:17 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Pop-up Alerts page/Stopped status"), 2)
+
+04-03-2024T17:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:19 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/View graph")): Object: 'Object Repository/Pop-up Alerts page/View graph' is clicked on
+
+04-03-2024T17:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/View graph' is clicked on
+
+04-03-2024T17:36:19 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Pop-up Alerts page/View graph image")): Taking screenshot successfully
+
+04-03-2024T17:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-03-2024T17:36:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-03-2024T17:36:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709562979706.png]]
+
+04-03-2024T17:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/view graph close btn")): Object: 'Object Repository/Pop-up Alerts page/view graph close btn' is clicked on
+
+04-03-2024T17:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/view graph close btn' is clicked on
+
+04-03-2024T17:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Preview in actions menu")): Object: 'Object Repository/Pop-up Alerts page/Preview in actions menu' is clicked on
+
+04-03-2024T17:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Preview in actions menu' is clicked on
+
+04-03-2024T17:36:22 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Pop-up Alert Page/Preview alert iframe"), 2): null
+
+04-03-2024T17:36:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+04-03-2024T17:36:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-03-2024T17:36:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-03-2024T17:36:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709562983923.png]]
+
+04-03-2024T17:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/close alert preview")): Object: 'Object Repository/Create Pop-up Alert Page/close alert preview' is clicked on
+
+04-03-2024T17:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/close alert preview' is clicked on
+
+04-03-2024T17:36:24 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+04-03-2024T17:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Duplicate alert")): Object: 'Object Repository/Pop-up Alerts page/Duplicate alert' is clicked on
+
+04-03-2024T17:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Duplicate alert' is clicked on
+
+04-03-2024T17:36:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Alert Title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:28 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:28 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "Duplicate video alert"): Text 'Duplicate video alert' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:28 - [MESSAGE][PASSED] - Text 'Duplicate video alert' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Send wallpaper button")): Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:36:29 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+04-03-2024T17:36:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-43"): Text 'TC-43' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:30 - [MESSAGE][PASSED] - Text 'TC-43' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:30 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+04-03-2024T17:36:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:36:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Survey/3dots Actions"), 2): Object 'Object Repository/Survey/3dots Actions' is clickable
+
+04-03-2024T17:36:31 - [MESSAGE][PASSED] - Object 'Object Repository/Survey/3dots Actions' is clickable
+
+04-03-2024T17:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+04-03-2024T17:36:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Pop-up Alerts page/resend alert from actions menu"), 2): Object 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clickable
+
+04-03-2024T17:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clickable
+
+04-03-2024T17:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/resend alert from actions menu")): Object: 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clicked on
+
+04-03-2024T17:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/resend alert from actions menu' is clicked on
+
+04-03-2024T17:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Resend btn")): Object: 'Object Repository/Pop-up Alerts page/Resend btn' is clicked on
+
+04-03-2024T17:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Resend btn' is clicked on
+
+04-03-2024T17:36:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pop-up Alerts page/Search by title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:34 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-43"): Text 'TC-43' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:36 - [MESSAGE][PASSED] - Text 'TC-43' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+04-03-2024T17:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+04-03-2024T17:36:37 - [TEST_STEP][PASSED] - check(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+04-03-2024T17:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+04-03-2024T17:36:37 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Pop-up Alerts page/Select all checkbox"), 1): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+04-03-2024T17:36:38 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+04-03-2024T17:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+04-03-2024T17:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+04-03-2024T17:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+04-03-2024T17:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+04-03-2024T17:36:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pop-up Alerts page/Search by title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:40 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "Duplicate video alert"): Text 'Duplicate video alert' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:42 - [MESSAGE][PASSED] - Text 'Duplicate video alert' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:36:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Create Pop-up Alert Page/sent alerts checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is clickable
+
+04-03-2024T17:36:42 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is clickable
+
+04-03-2024T17:36:42 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/sent alerts checkbox")): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+04-03-2024T17:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+04-03-2024T17:36:43 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/sent alerts checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+04-03-2024T17:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+04-03-2024T17:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+04-03-2024T17:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+04-03-2024T17:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+04-03-2024T17:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Video Alerts/Send Video Alert with AVI (TC-44)" time="29.846" classname="Test Cases/Video Alerts/Send Video Alert with AVI (TC-44)" status="PASSED">
+         <system-out><![CDATA[04-03-2024T17:36:47 - [TEST_CASE][PASSED] - Test Cases/Video Alerts/Send Video Alert with AVI (TC-44): Test Cases/Video Alerts/Send Video Alert with AVI (TC-44)
+
+04-03-2024T17:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/New alert button")): Object: 'Object Repository/Pop-up Alerts page/New alert button' is clicked on
+
+04-03-2024T17:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/New alert button' is clicked on
+
+04-03-2024T17:36:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Video Alert"): Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:36:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Video Alert/Videoalert more btn")): Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:36:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:36:50 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+04-03-2024T17:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:51 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:36:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:54 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:55 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:36:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:36:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:36:57 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-44"): Text 'TC-44' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:58 - [MESSAGE][PASSED] - Text 'TC-44' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:36:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Video Alert/Videoalert upload area"), 2): Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:36:58 - [MESSAGE][PASSED] - Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:36:58 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Video Alert/Videoalert upload area"), "C:\Users\Home\git\Katalon\video\earth.avi"): null
+
+04-03-2024T17:36:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-03-2024T17:37:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-03-2024T17:37:04 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Video alerts/uploaded video file"), "src"): Attribute 'src' of object 'Object Repository/Video alerts/uploaded video file' is: 'null'
+
+04-03-2024T17:37:10 - [MESSAGE][PASSED] - Attribute 'src' of object 'Object Repository/Video alerts/uploaded video file' is: 'null'
+
+04-03-2024T17:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Video alerts/Video alert description")): Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("Video alerts/Video alert description"), "Hello! This is automated AVI video alert from Katalon"): Text 'Hello! This is automated AVI video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:37:11 - [MESSAGE][PASSED] - Text 'Hello! This is automated AVI video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Send wallpaper button")): Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:37:12 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+04-03-2024T17:37:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:37:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-44"): Text 'TC-44' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:37:14 - [MESSAGE][PASSED] - Text 'TC-44' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-44"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+04-03-2024T17:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Video Alerts/Send Video Alert with WMV (TC-45)" time="24.24" classname="Test Cases/Video Alerts/Send Video Alert with WMV (TC-45)" status="PASSED">
+         <system-out><![CDATA[04-03-2024T17:37:16 - [TEST_CASE][PASSED] - Test Cases/Video Alerts/Send Video Alert with WMV (TC-45): Test Cases/Video Alerts/Send Video Alert with WMV (TC-45)
+
+04-03-2024T17:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Video Alerts")): Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:37:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Video Alert"): Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:37:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Video Alert/Videoalert more btn")): Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:37:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:37:20 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+04-03-2024T17:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:37:21 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:37:22 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:37:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:37:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:37:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:37:25 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:37:25 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:37:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:37:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:37:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:37:28 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-45"): Text 'TC-45' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:37:29 - [MESSAGE][PASSED] - Text 'TC-45' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:37:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Video Alert/Videoalert upload area"), 2): Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:37:29 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Video Alert/Videoalert upload area"), "C:\Users\Home\git\Katalon\video\seaside.wmv"): null
+
+04-03-2024T17:37:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+04-03-2024T17:37:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+04-03-2024T17:37:34 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Video alerts/uploaded video file"), "src"): Attribute 'src' of object 'Object Repository/Video alerts/uploaded video file' is: 'null'
+
+04-03-2024T17:37:35 - [MESSAGE][PASSED] - Attribute 'src' of object 'Object Repository/Video alerts/uploaded video file' is: 'null'
+
+04-03-2024T17:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Video alerts/Video alert description")): Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:37:35 - [TEST_STEP][PASSED] - setText(findTestObject("Video alerts/Video alert description"), "Hello! This is automated WMV video alert from Katalon"): Text 'Hello! This is automated WMV video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:37:36 - [MESSAGE][PASSED] - Text 'Hello! This is automated WMV video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Send wallpaper button")): Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:37:37 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+04-03-2024T17:37:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:37:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-45"): Text 'TC-45' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:37:38 - [MESSAGE][PASSED] - Text 'TC-45' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:37:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-45"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+04-03-2024T17:37:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46)" time="15.536" classname="Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[04-03-2024T17:39:07 - [TEST_CASE][FAILED] - Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46): Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+04-03-2024T17:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Video Alerts")): Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:39:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Video Alert"): Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:39:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Video Alert/Videoalert more btn")): Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:39:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:39:09 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+04-03-2024T17:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:39:11 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:39:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:39:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:39:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:39:13 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:39:14 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:39:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:39:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:39:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-46"): Text 'TC-46' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:39:17 - [MESSAGE][PASSED] - Text 'TC-46' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:39:17 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Video Alert/Videoalert upload area"), 2): Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+04-03-2024T17:39:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: .create-video__content__left__uploadContainer .p-20'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-03-2024T17:39:21 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563161077.png]]
+
+04-03-2024T17:39:21 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563161220.png]]
+
+04-03-2024T17:39:23 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46)' .
+
+04-03-2024T17:39:23 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46)' .]]></system-out>
+         <system-err><![CDATA[04-03-2024T17:39:07 - [TEST_CASE][FAILED] - Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46): Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Video Alert/Videoalert upload area' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Video Alert/Videoalert upload area' located by 'null' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Video Alerts/Draft Video Alert (TC-47)" time="3.969" classname="Test Cases/Video Alerts/Draft Video Alert (TC-47)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Video Alerts/Draft Video Alert (TC-47) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard Page/Video Alerts'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Draft Video Alert (TC-47).run(Draft Video Alert (TC-47):22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=122.0.6261.70)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'LAPTOP-E6BU4LL9', ip: '192.168.1.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Home\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 29c83cd9b48ca7aa3cd07522ff9976b1&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[04-03-2024T17:40:09 - [TEST_CASE][FAILED] - Test Cases/Video Alerts/Draft Video Alert (TC-47): Test Cases/Video Alerts/Draft Video Alert (TC-47) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard Page/Video Alerts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Draft Video Alert (TC-47).run(Draft Video Alert (TC-47):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-E6BU4LL9', ip: '192.168.1.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Home\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29c83cd9b48ca7aa3cd07522ff9976b1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+04-03-2024T17:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:40:10 - [TEST_STEP][FAILED] - click(findTestObject("Dashboard Page/Video Alerts")): Unable to click on object 'Object Repository/Dashboard Page/Video Alerts' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard Page/Video Alerts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Draft Video Alert (TC-47).run(Draft Video Alert (TC-47):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-E6BU4LL9', ip: '192.168.1.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Home\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29c83cd9b48ca7aa3cd07522ff9976b1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1708542990732.run(Script1708542990732.groovy:22)
+	... 18 more
+)
+
+04-03-2024T17:40:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard Page/Video Alerts' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard Page/Video Alerts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Draft Video Alert (TC-47).run(Draft Video Alert (TC-47):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-E6BU4LL9', ip: '192.168.1.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Home\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29c83cd9b48ca7aa3cd07522ff9976b1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1708542990732.run(Script1708542990732.groovy:22)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563211604.png]]
+
+04-03-2024T17:40:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Video Alerts/Draft Video Alert (TC-47)' .
+
+04-03-2024T17:40:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Video Alerts/Draft Video Alert (TC-47)' .]]></system-out>
+         <system-err><![CDATA[04-03-2024T17:40:09 - [TEST_CASE][FAILED] - Test Cases/Video Alerts/Draft Video Alert (TC-47): Test Cases/Video Alerts/Draft Video Alert (TC-47) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard Page/Video Alerts'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Draft Video Alert (TC-47).run(Draft Video Alert (TC-47):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-E6BU4LL9', ip: '192.168.1.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Home\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29c83cd9b48ca7aa3cd07522ff9976b1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Video Alerts/Send Video Alert with advanced settings (TC-48)" time="26.812" classname="Test Cases/Video Alerts/Send Video Alert with advanced settings (TC-48)" status="PASSED">
+         <system-out><![CDATA[04-03-2024T17:40:13 - [TEST_CASE][PASSED] - Test Cases/Video Alerts/Send Video Alert with advanced settings (TC-48): Test Cases/Video Alerts/Send Video Alert with advanced settings (TC-48)
+
+04-03-2024T17:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Compose alert button expansion")): Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Compose alert button expansion' is clicked on
+
+04-03-2024T17:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Video Alerts")): Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Video Alerts' is clicked on
+
+04-03-2024T17:40:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wallpapers/Create Wallpaper Header"), "Create Video Alert"): Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:40:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wallpapers/Create Wallpaper Header' are matched.
+
+04-03-2024T17:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Video Alert/Videoalert more btn")): Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Video Alert/Videoalert more btn' is clicked on
+
+04-03-2024T17:40:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:40:15 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Choose recipients: Test Cases/Built-in test cases/Choose recipients
+
+04-03-2024T17:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9"): Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:40:17 - [MESSAGE][PASSED] - Text 'LAPTOP-E6BU4LL9' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:40:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:40:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field' is clicked on
+
+04-03-2024T17:40:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:40:20 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:40:20 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7"): Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:40:21 - [MESSAGE][PASSED] - Text 'DESKTOP-9UH6GK7' is set on object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/Filter field'
+
+04-03-2024T17:40:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 "): Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:40:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered' are matched.
+
+04-03-2024T17:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection")): Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Choose recipients modal window/filtered user selection' is clicked on
+
+04-03-2024T17:40:22 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Done")): Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Done' is clicked on
+
+04-03-2024T17:40:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Choose recipients' successfully
+
+04-03-2024T17:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-48"): Text 'TC-48' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:40:24 - [MESSAGE][PASSED] - Text 'TC-48' is set on object 'Object Repository/Create Pop-up Alert Page/Alert Title field'
+
+04-03-2024T17:40:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Video Alert/Videoalert upload area"), 2): Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/Video Alert/Videoalert upload area' is present
+
+04-03-2024T17:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Video Alert/Select video from the server")): Object: 'Object Repository/Video Alert/Select video from the server' is clicked on
+
+04-03-2024T17:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Video Alert/Select video from the server' is clicked on
+
+04-03-2024T17:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Select image from server button")): Object: 'Object Repository/Wallpapers/Select image from server button' is clicked on
+
+04-03-2024T17:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Select image from server button' is clicked on
+
+04-03-2024T17:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Video alerts/First video from the server")): Object: 'Object Repository/Video alerts/First video from the server' is clicked on
+
+04-03-2024T17:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Video alerts/First video from the server' is clicked on
+
+04-03-2024T17:40:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+04-03-2024T17:40:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+04-03-2024T17:40:27 - [TEST_STEP][PASSED] - click(findTestObject("Video alerts/Video alert description")): Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Video alerts/Video alert description' is clicked on
+
+04-03-2024T17:40:27 - [TEST_STEP][PASSED] - setText(findTestObject("Video alerts/Video alert description"), "Hello! This is automated video alert from Katalon"): Text 'Hello! This is automated video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:40:29 - [MESSAGE][PASSED] - Text 'Hello! This is automated video alert from Katalon' is set on object 'Object Repository/Video alerts/Video alert description'
+
+04-03-2024T17:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button")): Object: 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button' is clicked on
+
+04-03-2024T17:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button' is clicked on
+
+04-03-2024T17:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index")): Object: 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index' is clicked on
+
+04-03-2024T17:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index' is clicked on
+
+04-03-2024T17:40:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Survey/alert width"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Survey/alert width'
+
+04-03-2024T17:40:31 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Survey/alert width'
+
+04-03-2024T17:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Survey/alert width"), "400"): Text '400' is set on object 'Object Repository/Survey/alert width'
+
+04-03-2024T17:40:31 - [MESSAGE][PASSED] - Text '400' is set on object 'Object Repository/Survey/alert width'
+
+04-03-2024T17:40:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Survey/alert height"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Survey/alert height'
+
+04-03-2024T17:40:32 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Survey/alert height'
+
+04-03-2024T17:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Survey/alert height"), "500"): Text '500' is set on object 'Object Repository/Survey/alert height'
+
+04-03-2024T17:40:33 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Survey/alert height'
+
+04-03-2024T17:40:33 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox")): Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+04-03-2024T17:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+04-03-2024T17:40:33 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+04-03-2024T17:40:34 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox' is checked
+
+04-03-2024T17:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Video alerts/Preview video alert btn")): Object: 'Object Repository/Video alerts/Preview video alert btn' is clicked on
+
+04-03-2024T17:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Video alerts/Preview video alert btn' is clicked on
+
+04-03-2024T17:40:34 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Create Pop-up Alert Page/Preview alert iframe"), 2): null
+
+04-03-2024T17:40:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+04-03-2024T17:40:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+04-03-2024T17:40:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240304_173537\\Video Alerts\\20240304_173538\\1709563235670.png]]
+
+04-03-2024T17:40:36 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+04-03-2024T17:40:36 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+04-03-2024T17:40:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+04-03-2024T17:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Wallpapers/Send wallpaper button")): Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Wallpapers/Send wallpaper button' is clicked on
+
+04-03-2024T17:40:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-48"): Text 'TC-48' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:40:38 - [MESSAGE][PASSED] - Text 'TC-48' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+04-03-2024T17:40:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-48"): Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.
+
+04-03-2024T17:40:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pop-up Alerts page/Filtered sent alert' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-03-2024T17:35:43 - [TEST_SUITE][FAILED] - Video Alerts: Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'TC-46' of object 'Object Repository/Pop-up Alerts page/Search by title field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pop-up Alerts page/Search by title field' located by 'null' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[04-03-2024T17:35:43 - [TEST_SUITE][FAILED] - Video Alerts: Test Cases/Video Alerts/Send Video Alert with video from the server (TC-46) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'TC-46' of object 'Object Repository/Pop-up Alerts page/Search by title field'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Send Video Alert with video from the server (TC-46).run(Send Video Alert with video from the server (TC-46):52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709562938601.run(TempTestSuite1709562938601.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Pop-up Alerts page/Search by title field' located by 'null' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

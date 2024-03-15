@@ -6,14 +6,14 @@
    <elementGuidId>aa949815-09bb-474f-9d36-d8b416886eef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>.custom-select.notification__postponeWrapper__select</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#postponeTime</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

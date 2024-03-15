@@ -37,6 +37,8 @@ WebUI.delay(5)
 
 WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
 
+WebUI.verifyElementVisible(findTestObject('Wallpapers/uploaded wallpaper file'))
+
 WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
 
 WebUI.waitForPageLoad(2)

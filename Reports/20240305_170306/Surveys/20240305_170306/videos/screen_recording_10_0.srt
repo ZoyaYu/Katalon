@@ -1,0 +1,92 @@
+1
+00:00:00,036 --> 00:00:00,390
+1. click(findTestObject("Dashboard Page/Left-hand menu Surveys-Quizz-Poll"))
+
+2
+00:00:00,391 --> 00:00:00,716
+5. click(findTestObject("Survey/Survey templates tab"))
+
+3
+00:00:00,717 --> 00:00:01,208
+9. click(findTestObject("Survey/Survey template btn"))
+
+4
+00:00:01,209 --> 00:00:30,025
+13. check(findTestObject("Survey/Quizz radio btn"))
+
+5
+00:00:30,026 --> 00:00:31,029
+17. verifyElementChecked(findTestObject("Survey/Quizz radio btn"), 1)
+
+6
+00:00:31,029 --> 00:00:31,833
+21. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-32")
+
+7
+00:00:31,835 --> 00:00:33,409
+25. setText(findTestObject("Survey/Q1 input"), "If you freeze water, what do you get?")
+
+8
+00:00:33,410 --> 00:00:34,144
+29. setText(findTestObject("Survey/Q1 Answer 1 input field"), "coffee")
+
+9
+00:00:34,145 --> 00:00:34,798
+33. setText(findTestObject("Survey/Q1 answer 2 input field"), "ice")
+
+10
+00:00:34,798 --> 00:00:35,128
+37. click(findTestObject("Survey/Mark as correct"))
+
+11
+00:00:35,128 --> 00:00:35,461
+41. click(findTestObject("Survey/Add question btn"))
+
+12
+00:00:35,462 --> 00:00:37,668
+45. setText(findTestObject("Survey/Q2 input"), "At what temperature does water change its state?")
+
+13
+00:00:37,668 --> 00:00:37,967
+49. scrollToElement(findTestObject("Survey/choice options"), 1)
+
+14
+00:00:37,967 --> 00:00:38,287
+53. click(findTestObject("Survey/choice options"))
+
+15
+00:00:38,287 --> 00:00:38,843
+57. click(findTestObject("Survey/Multiple choice"))
+
+16
+00:00:38,844 --> 00:00:39,944
+61. setText(findTestObject("Survey/Q2 answer 1 input field"), "0")
+
+17
+00:00:39,945 --> 00:00:40,654
+65. setText(findTestObject("Survey/Q2 answer 2 input field"), "50")
+
+18
+00:00:40,655 --> 00:00:41,004
+69. click(findTestObject("Survey/Add option"))
+
+19
+00:00:41,004 --> 00:00:41,926
+73. setText(findTestObject("Survey/Q2 answer 3 input field"), "100")
+
+20
+00:00:41,927 --> 00:00:42,270
+77. click(findTestObject("Survey/Mark as correct Q2(a1)"))
+
+21
+00:00:42,270 --> 00:00:42,594
+81. click(findTestObject("Survey/Mark as correct Q2(a3)"))
+
+22
+00:00:42,595 --> 00:00:42,957
+85. click(findTestObject("Survey/Save survey template btn"))
+
+23
+00:00:42,957 --> 00:00:47,442
+89. verifyElementPresent(findTestObject("Survey/Survey templates tab"), 3)
+

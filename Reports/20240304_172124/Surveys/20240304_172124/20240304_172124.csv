@@ -1,0 +1,372 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Surveys,Chrome 122.0.0.0,,,04-03-2024 17:21:28,04-03-2024 17:29:19,"7m - 51,032s",PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 122.0.0.0,,,04-03-2024 17:21:28,04-03-2024 17:21:40,"11,880s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 17:21:29,04-03-2024 17:21:30,"1,375s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 122.0.0.0,,,04-03-2024 17:21:30,04-03-2024 17:21:31,"0,942s",PASSED
+waitForPageLoad(3),Chrome 122.0.0.0,,,04-03-2024 17:21:31,04-03-2024 17:21:31,"0,087s",PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,04-03-2024 17:21:31,04-03-2024 17:21:31,"0,159s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:21:31,04-03-2024 17:21:32,"0,770s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:21:32,04-03-2024 17:21:32,"0,260s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.1 (stage/11)"")",Chrome 122.0.0.0,,,04-03-2024 17:21:32,04-03-2024 17:21:33,"0,291s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,,,04-03-2024 17:21:33,04-03-2024 17:21:33,"0,631s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,04-03-2024 17:21:33,04-03-2024 17:21:34,"0,350s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,04-03-2024 17:21:34,04-03-2024 17:21:34,"0,297s",PASSED
+delay(4),Chrome 122.0.0.0,,,04-03-2024 17:21:34,04-03-2024 17:21:38,"4,029s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 122.0.0.0,,,04-03-2024 17:21:38,04-03-2024 17:21:38,"0,277s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send Survey with one question and single choice(TC-25),Chrome 122.0.0.0,,,04-03-2024 17:21:40,04-03-2024 17:22:32,"51,342s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:21:40,04-03-2024 17:21:41,"0,337s",PASSED
+"click(findTestObject(""Dashboard Page/Survey-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:21:41,04-03-2024 17:21:41,"0,565s",PASSED
+"check(findTestObject(""Survey/Classic survey radio button""))",Chrome 122.0.0.0,,,04-03-2024 17:21:41,04-03-2024 17:21:44,"2,641s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:21:44,04-03-2024 17:21:45,"0,587s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:21:45,04-03-2024 17:21:52,"7,695s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-25"")",Chrome 122.0.0.0,,,04-03-2024 17:21:52,04-03-2024 17:21:53,"0,862s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Are you satisfied with our services?"")",Chrome 122.0.0.0,,,04-03-2024 17:21:53,04-03-2024 17:21:54,"1,061s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""Yes"")",Chrome 122.0.0.0,,,04-03-2024 17:21:54,04-03-2024 17:21:55,"0,631s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""No"")",Chrome 122.0.0.0,,,04-03-2024 17:21:55,04-03-2024 17:21:55,"0,611s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:21:55,04-03-2024 17:21:56,"0,318s",PASSED
+"click(findTestObject(""Survey/Q2 delete btn""))",Chrome 122.0.0.0,,,04-03-2024 17:21:56,04-03-2024 17:21:56,"0,527s",PASSED
+"verifyElementNotPresent(findTestObject(""Survey/Q2 delete btn""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:21:56,04-03-2024 17:21:57,"0,436s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button""))",Chrome 122.0.0.0,,,04-03-2024 17:21:57,04-03-2024 17:21:57,"0,311s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index""))",Chrome 122.0.0.0,,,04-03-2024 17:21:57,04-03-2024 17:21:58,"0,530s",PASSED
+"sendKeys(findTestObject(""Survey/alert width""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:21:58,04-03-2024 17:21:59,"0,974s",PASSED
+"setText(findTestObject(""Survey/alert width""), ""400"")",Chrome 122.0.0.0,,,04-03-2024 17:21:59,04-03-2024 17:21:59,"0,819s",PASSED
+"sendKeys(findTestObject(""Survey/alert height""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:21:59,04-03-2024 17:22:00,"0,343s",PASSED
+"setText(findTestObject(""Survey/alert height""), ""500"")",Chrome 122.0.0.0,,,04-03-2024 17:22:00,04-03-2024 17:22:01,"0,828s",PASSED
+"click(findTestObject(""Survey/Preview Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:22:01,04-03-2024 17:22:01,"0,512s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:22:01,04-03-2024 17:22:02,"1,076s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:22:02,04-03-2024 17:22:03,"0,492s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:22:03,04-03-2024 17:22:03,"0,017s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:22:03,04-03-2024 17:22:03,"0,328s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-25"")",Chrome 122.0.0.0,,,04-03-2024 17:22:03,04-03-2024 17:22:05,"1,823s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-25"")",Chrome 122.0.0.0,,,04-03-2024 17:22:05,04-03-2024 17:22:05,"0,279s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Actions menu check""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:22:05,04-03-2024 17:22:17,"12,069s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:22:17,04-03-2024 17:22:19,"2,264s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate survey"")",Chrome 122.0.0.0,,,04-03-2024 17:22:19,04-03-2024 17:22:20,"0,785s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:22:20,04-03-2024 17:22:21,"0,320s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-25"")",Chrome 122.0.0.0,,,04-03-2024 17:22:21,04-03-2024 17:22:22,"1,586s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:22:22,04-03-2024 17:22:25,"2,924s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Duplicate survey"")",Chrome 122.0.0.0,,,04-03-2024 17:22:25,04-03-2024 17:22:26,"1,142s",PASSED
+"waitForElementClickable(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:22:26,04-03-2024 17:22:27,"1,238s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 122.0.0.0,,,04-03-2024 17:22:27,04-03-2024 17:22:28,"0,646s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:22:28,04-03-2024 17:22:29,"0,495s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 122.0.0.0,,,04-03-2024 17:22:29,04-03-2024 17:22:29,"0,540s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 122.0.0.0,,,04-03-2024 17:22:29,04-03-2024 17:22:30,"0,535s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send Survey with 2 questions(single and mutiple choice)(TC-26),Chrome 122.0.0.0,,,04-03-2024 17:22:32,04-03-2024 17:23:23,"51,637s",PASSED
+"click(findTestObject(""Survey/New Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:22:32,04-03-2024 17:22:33,"0,817s",PASSED
+"check(findTestObject(""Survey/Classic survey radio button""))",Chrome 122.0.0.0,,,04-03-2024 17:22:33,04-03-2024 17:22:35,"2,243s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:22:35,04-03-2024 17:22:35,"0,536s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:22:35,04-03-2024 17:22:43,"8,023s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-26"")",Chrome 122.0.0.0,,,04-03-2024 17:22:43,04-03-2024 17:22:44,"0,855s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Are you satisfied with our services?"")",Chrome 122.0.0.0,,,04-03-2024 17:22:44,04-03-2024 17:22:45,"1,072s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""Yes"")",Chrome 122.0.0.0,,,04-03-2024 17:22:45,04-03-2024 17:22:46,"0,610s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""No"")",Chrome 122.0.0.0,,,04-03-2024 17:22:46,04-03-2024 17:22:46,"0,573s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:22:46,04-03-2024 17:22:47,"0,297s",PASSED
+"setText(findTestObject(""Survey/Q2 input""), ""Where do you think we can improve our services?"")",Chrome 122.0.0.0,,,04-03-2024 17:22:47,04-03-2024 17:22:48,"1,714s",PASSED
+"click(findTestObject(""Survey/choice options""))",Chrome 122.0.0.0,,,04-03-2024 17:22:48,04-03-2024 17:22:49,"0,298s",PASSED
+"click(findTestObject(""Survey/Multiple choice""))",Chrome 122.0.0.0,,,04-03-2024 17:22:49,04-03-2024 17:22:49,"0,539s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 1 input field""), ""Product Quality"")",Chrome 122.0.0.0,,,04-03-2024 17:22:49,04-03-2024 17:22:51,"1,236s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 2 input field""), ""HotFix Delivery"")",Chrome 122.0.0.0,,,04-03-2024 17:22:51,04-03-2024 17:22:51,"0,785s",PASSED
+"click(findTestObject(""Survey/Add option""))",Chrome 122.0.0.0,,,04-03-2024 17:22:51,04-03-2024 17:22:52,"0,306s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 3 input field""), ""Response Time"")",Chrome 122.0.0.0,,,04-03-2024 17:22:52,04-03-2024 17:22:53,"0,971s",PASSED
+"scrollToElement(findTestObject(""Survey/Send btn Survey""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:22:53,04-03-2024 17:22:53,"0,269s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:22:53,04-03-2024 17:22:53,"0,318s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-26"")",Chrome 122.0.0.0,,,04-03-2024 17:22:53,04-03-2024 17:22:55,"1,525s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-26"")",Chrome 122.0.0.0,,,04-03-2024 17:22:55,04-03-2024 17:22:55,"0,276s",PASSED
+delay(20),Chrome 122.0.0.0,,,04-03-2024 17:22:55,04-03-2024 17:23:15,"20,019s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:23:15,04-03-2024 17:23:15,"0,324s",PASSED
+"click(findTestObject(""Pop-up Alerts page/View graph""))",Chrome 122.0.0.0,,,04-03-2024 17:23:15,04-03-2024 17:23:16,"0,552s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:23:16,04-03-2024 17:23:18,"2,017s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:23:18,04-03-2024 17:23:18,"0,375s",PASSED
+"click(findTestObject(""Pop-up Alerts page/view graph 2nd page""))",Chrome 122.0.0.0,,,04-03-2024 17:23:18,04-03-2024 17:23:19,"0,303s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:23:19,04-03-2024 17:23:21,"2,018s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:23:21,04-03-2024 17:23:21,"0,366s",PASSED
+"click(findTestObject(""Pop-up Alerts page/view graph close btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:21,04-03-2024 17:23:21,"0,285s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send Survey with intermediary step (TC-27),Chrome 122.0.0.0,,,04-03-2024 17:23:23,04-03-2024 17:23:52,"28,451s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:23:23,04-03-2024 17:23:24,"0,312s",PASSED
+"click(findTestObject(""Dashboard Page/Survey-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:23:24,04-03-2024 17:23:24,"0,591s",PASSED
+"check(findTestObject(""Survey/Classic survey radio button""))",Chrome 122.0.0.0,,,04-03-2024 17:23:24,04-03-2024 17:23:26,"2,132s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:26,04-03-2024 17:23:27,"0,567s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:23:27,04-03-2024 17:23:35,"7,682s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-27"")",Chrome 122.0.0.0,,,04-03-2024 17:23:35,04-03-2024 17:23:35,"0,859s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Are you satisfied with our services?"")",Chrome 122.0.0.0,,,04-03-2024 17:23:35,04-03-2024 17:23:37,"1,146s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""Yes"")",Chrome 122.0.0.0,,,04-03-2024 17:23:37,04-03-2024 17:23:37,"0,583s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""No"")",Chrome 122.0.0.0,,,04-03-2024 17:23:37,04-03-2024 17:23:38,"0,589s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:38,04-03-2024 17:23:38,"0,315s",PASSED
+"setText(findTestObject(""Survey/Q2 input""), ""Where do you think we can improve our services?"")",Chrome 122.0.0.0,,,04-03-2024 17:23:38,04-03-2024 17:23:40,"1,792s",PASSED
+"click(findTestObject(""Survey/choice options""))",Chrome 122.0.0.0,,,04-03-2024 17:23:40,04-03-2024 17:23:40,"0,305s",PASSED
+"click(findTestObject(""Survey/Multiple choice""))",Chrome 122.0.0.0,,,04-03-2024 17:23:40,04-03-2024 17:23:41,"0,540s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 1 input field""), ""Product Quality"")",Chrome 122.0.0.0,,,04-03-2024 17:23:41,04-03-2024 17:23:42,"1,229s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 2 input field""), ""HotFix Delivery"")",Chrome 122.0.0.0,,,04-03-2024 17:23:42,04-03-2024 17:23:43,"0,779s",PASSED
+"click(findTestObject(""Survey/Add option""))",Chrome 122.0.0.0,,,04-03-2024 17:23:43,04-03-2024 17:23:43,"0,296s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 3 input field""), ""Response Time"")",Chrome 122.0.0.0,,,04-03-2024 17:23:43,04-03-2024 17:23:44,"1,010s",PASSED
+"click(findTestObject(""Survey/Add intermediary step btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:44,04-03-2024 17:23:44,"0,337s",PASSED
+"scrollToElement(findTestObject(""Survey/Q3 intermediary step input""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:23:44,04-03-2024 17:23:45,"0,480s",PASSED
+"setText(findTestObject(""Survey/Q3 intermediary step input""), ""Improvement"")",Chrome 122.0.0.0,,,04-03-2024 17:23:45,04-03-2024 17:23:46,"0,977s",PASSED
+"setText(findTestObject(""Survey/Q3 intermediary input description""), ""Please help us to improve our services"")",Chrome 122.0.0.0,,,04-03-2024 17:23:46,04-03-2024 17:23:47,"1,173s",PASSED
+"scrollToElement(findTestObject(""Survey/Send btn Survey""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:23:47,04-03-2024 17:23:48,"0,482s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:23:48,04-03-2024 17:23:48,"0,306s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-27"")",Chrome 122.0.0.0,,,04-03-2024 17:23:48,04-03-2024 17:23:49,"1,611s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-27"")",Chrome 122.0.0.0,,,04-03-2024 17:23:49,04-03-2024 17:23:50,"0,272s",PASSED
+delay(20),Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+"click(findTestObject(""Pop-up Alerts page/View graph""))",Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,002s",NOT_RUN
+"click(findTestObject(""Pop-up Alerts page/view graph 2nd page""))",Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,001s",NOT_RUN
+"click(findTestObject(""Pop-up Alerts page/view graph close btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:50,04-03-2024 17:23:50,"0,000s",NOT_RUN
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send Quizz with 1question and single choice(TC-28),Chrome 122.0.0.0,,,04-03-2024 17:23:52,04-03-2024 17:24:46,"53,892s",PASSED
+"click(findTestObject(""Survey/New Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:52,04-03-2024 17:23:52,"0,399s",PASSED
+"check(findTestObject(""Survey/Quizz radio btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:52,04-03-2024 17:23:54,"2,224s",PASSED
+"verifyElementChecked(findTestObject(""Survey/Quizz radio btn""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:23:54,04-03-2024 17:23:55,"1,046s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:23:55,04-03-2024 17:23:56,"0,348s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:23:56,04-03-2024 17:24:03,"7,508s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-28"")",Chrome 122.0.0.0,,,04-03-2024 17:24:03,04-03-2024 17:24:04,"0,860s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""What kind of fish is Nemo?"")",Chrome 122.0.0.0,,,04-03-2024 17:24:04,04-03-2024 17:24:05,"0,950s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""Just Fish"")",Chrome 122.0.0.0,,,04-03-2024 17:24:05,04-03-2024 17:24:06,"0,686s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""Clownfish"")",Chrome 122.0.0.0,,,04-03-2024 17:24:06,04-03-2024 17:24:07,"0,707s",PASSED
+"click(findTestObject(""Survey/Mark as correct""))",Chrome 122.0.0.0,,,04-03-2024 17:24:07,04-03-2024 17:24:07,"0,319s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:24:07,04-03-2024 17:24:07,"0,311s",PASSED
+"click(findTestObject(""Survey/Q2 delete btn""))",Chrome 122.0.0.0,,,04-03-2024 17:24:07,04-03-2024 17:24:08,"0,524s",PASSED
+"verifyElementNotPresent(findTestObject(""Survey/Q2 delete btn""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:24:08,04-03-2024 17:24:08,"0,482s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button""))",Chrome 122.0.0.0,,,04-03-2024 17:24:08,04-03-2024 17:24:08,"0,300s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin with given index""))",Chrome 122.0.0.0,,,04-03-2024 17:24:08,04-03-2024 17:24:09,"0,544s",PASSED
+"sendKeys(findTestObject(""Survey/alert width""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:24:09,04-03-2024 17:24:10,"0,990s",PASSED
+"setText(findTestObject(""Survey/alert width""), ""500"")",Chrome 122.0.0.0,,,04-03-2024 17:24:10,04-03-2024 17:24:11,"0,786s",PASSED
+"sendKeys(findTestObject(""Survey/alert height""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:24:11,04-03-2024 17:24:11,"0,541s",PASSED
+"setText(findTestObject(""Survey/alert height""), ""600"")",Chrome 122.0.0.0,,,04-03-2024 17:24:11,04-03-2024 17:24:12,"0,798s",PASSED
+"click(findTestObject(""Survey/Preview Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:24:12,04-03-2024 17:24:13,"0,496s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:24:13,04-03-2024 17:24:14,"1,064s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:24:14,04-03-2024 17:24:14,"0,370s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:24:14,04-03-2024 17:24:14,"0,011s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:24:14,04-03-2024 17:24:14,"0,297s",PASSED
+"click(findTestObject(""Survey/quizz tab""))",Chrome 122.0.0.0,,,04-03-2024 17:24:14,04-03-2024 17:24:16,"1,360s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-28"")",Chrome 122.0.0.0,,,04-03-2024 17:24:16,04-03-2024 17:24:17,"1,462s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-28"")",Chrome 122.0.0.0,,,04-03-2024 17:24:17,04-03-2024 17:24:17,"0,283s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Actions menu check""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:24:17,04-03-2024 17:24:30,"12,715s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:24:30,04-03-2024 17:24:32,"2,141s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate quizz"")",Chrome 122.0.0.0,,,04-03-2024 17:24:32,04-03-2024 17:24:33,"0,767s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:24:33,04-03-2024 17:24:33,"0,329s",PASSED
+"click(findTestObject(""Survey/quizz tab""))",Chrome 122.0.0.0,,,04-03-2024 17:24:33,04-03-2024 17:24:35,"1,386s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-28"")",Chrome 122.0.0.0,,,04-03-2024 17:24:35,04-03-2024 17:24:36,"1,195s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:24:36,04-03-2024 17:24:39,"2,880s",PASSED
+"click(findTestObject(""Survey/quizz tab""))",Chrome 122.0.0.0,,,04-03-2024 17:24:39,04-03-2024 17:24:40,"1,065s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Duplicate quizz"")",Chrome 122.0.0.0,,,04-03-2024 17:24:40,04-03-2024 17:24:41,"0,550s",PASSED
+"waitForElementClickable(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:24:41,04-03-2024 17:24:42,"1,267s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 122.0.0.0,,,04-03-2024 17:24:42,04-03-2024 17:24:42,"0,319s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:24:42,04-03-2024 17:24:43,"0,491s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 122.0.0.0,,,04-03-2024 17:24:43,04-03-2024 17:24:43,"0,513s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 122.0.0.0,,,04-03-2024 17:24:43,04-03-2024 17:24:44,"0,512s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send quizz with 2 questions(single and multiple coice) (TC-29),Chrome 122.0.0.0,,,04-03-2024 17:24:46,04-03-2024 17:25:39,"53,555s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:24:46,04-03-2024 17:24:46,"0,734s",PASSED
+"click(findTestObject(""Dashboard Page/Survey-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:24:46,04-03-2024 17:24:47,"0,562s",PASSED
+"check(findTestObject(""Survey/Quizz radio btn""))",Chrome 122.0.0.0,,,04-03-2024 17:24:47,04-03-2024 17:24:49,"2,169s",PASSED
+"verifyElementChecked(findTestObject(""Survey/Quizz radio btn""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:24:49,04-03-2024 17:24:50,"0,505s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:24:50,04-03-2024 17:24:50,"0,538s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:24:50,04-03-2024 17:24:58,"7,492s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-29"")",Chrome 122.0.0.0,,,04-03-2024 17:24:58,04-03-2024 17:24:59,"0,861s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Who is the youngest Disney princess?"")",Chrome 122.0.0.0,,,04-03-2024 17:24:59,04-03-2024 17:25:00,"1,049s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""Mermaid"")",Chrome 122.0.0.0,,,04-03-2024 17:25:00,04-03-2024 17:25:00,"0,685s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""Snow White"")",Chrome 122.0.0.0,,,04-03-2024 17:25:00,04-03-2024 17:25:01,"0,720s",PASSED
+"click(findTestObject(""Survey/Mark as correct""))",Chrome 122.0.0.0,,,04-03-2024 17:25:01,04-03-2024 17:25:01,"0,310s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:25:01,04-03-2024 17:25:02,"0,311s",PASSED
+"setText(findTestObject(""Survey/Q2 input""), ""What is your boss favorite food?"")",Chrome 122.0.0.0,,,04-03-2024 17:25:02,04-03-2024 17:25:03,"1,582s",PASSED
+"click(findTestObject(""Survey/choice options""))",Chrome 122.0.0.0,,,04-03-2024 17:25:03,04-03-2024 17:25:03,"0,292s",PASSED
+"click(findTestObject(""Survey/Multiple choice""))",Chrome 122.0.0.0,,,04-03-2024 17:25:03,04-03-2024 17:25:04,"0,511s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 1 input field""), ""Pasta"")",Chrome 122.0.0.0,,,04-03-2024 17:25:04,04-03-2024 17:25:05,"1,084s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 2 input field""), ""Pizza"")",Chrome 122.0.0.0,,,04-03-2024 17:25:05,04-03-2024 17:25:06,"0,645s",PASSED
+"click(findTestObject(""Survey/Add option""))",Chrome 122.0.0.0,,,04-03-2024 17:25:06,04-03-2024 17:25:06,"0,321s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 3 input field""), ""Sushi"")",Chrome 122.0.0.0,,,04-03-2024 17:25:06,04-03-2024 17:25:07,"0,865s",PASSED
+"click(findTestObject(""Survey/Mark as correct Q2(a1)""))",Chrome 122.0.0.0,,,04-03-2024 17:25:07,04-03-2024 17:25:07,"0,326s",PASSED
+"click(findTestObject(""Survey/Mark as correct Q2(a3)""))",Chrome 122.0.0.0,,,04-03-2024 17:25:07,04-03-2024 17:25:08,"0,296s",PASSED
+"scrollToElement(findTestObject(""Survey/Send btn Survey""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:25:08,04-03-2024 17:25:08,"0,267s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:25:08,04-03-2024 17:25:08,"0,302s",PASSED
+"click(findTestObject(""Survey/quizz tab""))",Chrome 122.0.0.0,,,04-03-2024 17:25:08,04-03-2024 17:25:09,"1,374s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-29"")",Chrome 122.0.0.0,,,04-03-2024 17:25:09,04-03-2024 17:25:11,"1,188s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-29"")",Chrome 122.0.0.0,,,04-03-2024 17:25:11,04-03-2024 17:25:11,"0,268s",PASSED
+delay(20),Chrome 122.0.0.0,,,04-03-2024 17:25:11,04-03-2024 17:25:31,"20,006s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:25:31,04-03-2024 17:25:31,"0,311s",PASSED
+"click(findTestObject(""Pop-up Alerts page/View graph""))",Chrome 122.0.0.0,,,04-03-2024 17:25:31,04-03-2024 17:25:32,"0,541s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:25:32,04-03-2024 17:25:34,"2,002s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:25:34,04-03-2024 17:25:34,"0,377s",PASSED
+"click(findTestObject(""Pop-up Alerts page/view graph 2nd page""))",Chrome 122.0.0.0,,,04-03-2024 17:25:34,04-03-2024 17:25:34,"0,284s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:25:34,04-03-2024 17:25:36,"2,017s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:25:36,04-03-2024 17:25:37,"0,362s",PASSED
+"click(findTestObject(""Pop-up Alerts page/view graph close btn""))",Chrome 122.0.0.0,,,04-03-2024 17:25:37,04-03-2024 17:25:37,"0,293s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send Quizz with intermediate step (TC-30),Chrome 122.0.0.0,,,04-03-2024 17:25:39,04-03-2024 17:26:09,"29,707s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:25:39,04-03-2024 17:25:40,"0,312s",PASSED
+"click(findTestObject(""Dashboard Page/Survey-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:25:40,04-03-2024 17:25:40,"0,599s",PASSED
+"check(findTestObject(""Survey/Quizz radio btn""))",Chrome 122.0.0.0,,,04-03-2024 17:25:40,04-03-2024 17:25:42,"2,280s",PASSED
+"verifyElementChecked(findTestObject(""Survey/Quizz radio btn""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:25:42,04-03-2024 17:25:43,"0,484s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:25:43,04-03-2024 17:25:43,"0,555s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:25:43,04-03-2024 17:25:51,"7,522s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-30"")",Chrome 122.0.0.0,,,04-03-2024 17:25:51,04-03-2024 17:25:52,"0,841s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""How many legs does a spider have?"")",Chrome 122.0.0.0,,,04-03-2024 17:25:52,04-03-2024 17:25:53,"1,006s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""10"")",Chrome 122.0.0.0,,,04-03-2024 17:25:53,04-03-2024 17:25:53,"0,628s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""8"")",Chrome 122.0.0.0,,,04-03-2024 17:25:53,04-03-2024 17:25:54,"0,588s",PASSED
+"click(findTestObject(""Survey/Mark as correct""))",Chrome 122.0.0.0,,,04-03-2024 17:25:54,04-03-2024 17:25:54,"0,294s",PASSED
+"click(findTestObject(""Survey/Add intermediary step btn""))",Chrome 122.0.0.0,,,04-03-2024 17:25:54,04-03-2024 17:25:55,"0,324s",PASSED
+"setText(findTestObject(""Survey/Quizz objects for TC-30/Intermediary step input TC-30""), ""Disney time"")",Chrome 122.0.0.0,,,04-03-2024 17:25:55,04-03-2024 17:25:56,"1,195s",PASSED
+"setText(findTestObject(""Survey/Quizz objects for TC-30/Intermediary step description TC-30""), ""Tricky question"")",Chrome 122.0.0.0,,,04-03-2024 17:25:56,04-03-2024 17:25:57,"0,776s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:25:57,04-03-2024 17:25:57,"0,539s",PASSED
+"setText(findTestObject(""Survey/Quizz objects for TC-30/Q2 input title TC-30""), ""What is your boss favorite Disney movie?"")",Chrome 122.0.0.0,,,04-03-2024 17:25:57,04-03-2024 17:25:59,"1,656s",PASSED
+"click(findTestObject(""Survey/Quizz objects for TC-30/Choice option TC-30""))",Chrome 122.0.0.0,,,04-03-2024 17:25:59,04-03-2024 17:25:59,"0,306s",PASSED
+"click(findTestObject(""Survey/Multiple choice""))",Chrome 122.0.0.0,,,04-03-2024 17:25:59,04-03-2024 17:26:00,"0,537s",PASSED
+"setText(findTestObject(""Survey/Quizz objects for TC-30/Q2 answer 1 TC-30""), ""Frozen"")",Chrome 122.0.0.0,,,04-03-2024 17:26:00,04-03-2024 17:26:01,"1,109s",PASSED
+"setText(findTestObject(""Survey/Quizz objects for TC-30/Q2 answer 2 TC-30""), ""Snow White"")",Chrome 122.0.0.0,,,04-03-2024 17:26:01,04-03-2024 17:26:02,"0,721s",PASSED
+"click(findTestObject(""Survey/Quizz objects for TC-30/Add option TC-30""))",Chrome 122.0.0.0,,,04-03-2024 17:26:02,04-03-2024 17:26:02,"0,344s",PASSED
+"setText(findTestObject(""Survey/Quizz objects for TC-30/Q2 answer 3 TC-30""), ""Cinderella"")",Chrome 122.0.0.0,,,04-03-2024 17:26:02,04-03-2024 17:26:03,"0,968s",PASSED
+"click(findTestObject(""Survey/Quizz objects for TC-30/Mark as correct Q2(a1) TC-30""))",Chrome 122.0.0.0,,,04-03-2024 17:26:03,04-03-2024 17:26:03,"0,311s",PASSED
+"click(findTestObject(""Survey/Quizz objects for TC-30/Mark as correct Q2(a3) TC-30""))",Chrome 122.0.0.0,,,04-03-2024 17:26:03,04-03-2024 17:26:03,"0,293s",PASSED
+"scrollToElement(findTestObject(""Survey/Send btn Survey""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:26:03,04-03-2024 17:26:04,"0,266s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:26:04,04-03-2024 17:26:04,"0,326s",PASSED
+"click(findTestObject(""Survey/quizz tab""))",Chrome 122.0.0.0,,,04-03-2024 17:26:04,04-03-2024 17:26:05,"1,341s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-30"")",Chrome 122.0.0.0,,,04-03-2024 17:26:05,04-03-2024 17:26:07,"1,212s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-30"")",Chrome 122.0.0.0,,,04-03-2024 17:26:07,04-03-2024 17:26:07,"0,286s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send Poll with images (TC-31),Chrome 122.0.0.0,,,04-03-2024 17:26:09,04-03-2024 17:26:32,"23,515s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:26:09,04-03-2024 17:26:09,"0,296s",PASSED
+"click(findTestObject(""Dashboard Page/Survey-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:26:09,04-03-2024 17:26:10,"0,584s",PASSED
+"click(findTestObject(""Survey/New Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:10,04-03-2024 17:26:10,"0,001s",NOT_RUN
+"check(findTestObject(""Survey/Poll radio btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:10,04-03-2024 17:26:12,"2,238s",PASSED
+"verifyElementChecked(findTestObject(""Survey/Poll radio btn""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:26:12,04-03-2024 17:26:13,"0,486s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:13,04-03-2024 17:26:13,"0,637s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:26:13,04-03-2024 17:26:21,"7,493s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-31"")",Chrome 122.0.0.0,,,04-03-2024 17:26:21,04-03-2024 17:26:22,"0,860s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Choose image with mountains"")",Chrome 122.0.0.0,,,04-03-2024 17:26:22,04-03-2024 17:26:22,"0,934s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""Picture 1"")",Chrome 122.0.0.0,,,04-03-2024 17:26:22,04-03-2024 17:26:23,"0,650s",PASSED
+"click(findTestObject(""Survey/Add image Q1(a1)""))",Chrome 122.0.0.0,,,04-03-2024 17:26:23,04-03-2024 17:26:23,"0,316s",PASSED
+"click(findTestObject(""Wallpapers/first image on a server""))",Chrome 122.0.0.0,,,04-03-2024 17:26:23,04-03-2024 17:26:24,"0,806s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""Picture 2"")",Chrome 122.0.0.0,,,04-03-2024 17:26:24,04-03-2024 17:26:25,"0,927s",PASSED
+"click(findTestObject(""Survey/add image Q1(a2)""))",Chrome 122.0.0.0,,,04-03-2024 17:26:25,04-03-2024 17:26:26,"0,340s",PASSED
+"click(findTestObject(""Survey/6th image from server TC-31""))",Chrome 122.0.0.0,,,04-03-2024 17:26:26,04-03-2024 17:26:27,"1,329s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:26:27,04-03-2024 17:26:27,"0,528s",PASSED
+"click(findTestObject(""Survey/Poll tab""))",Chrome 122.0.0.0,,,04-03-2024 17:26:27,04-03-2024 17:26:29,"1,453s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-31"")",Chrome 122.0.0.0,,,04-03-2024 17:26:29,04-03-2024 17:26:30,"1,276s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-31"")",Chrome 122.0.0.0,,,04-03-2024 17:26:30,04-03-2024 17:26:30,"0,268s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Create template using Save this template option (TC-34),Chrome 122.0.0.0,,,04-03-2024 17:26:32,04-03-2024 17:26:53,"20,825s",PASSED
+"click(findTestObject(""Dashboard Page/Left-hand menu Surveys-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:26:33,04-03-2024 17:26:33,"0,381s",PASSED
+"click(findTestObject(""Survey/New Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:33,04-03-2024 17:26:33,"0,390s",PASSED
+"check(findTestObject(""Survey/Classic survey radio button""))",Chrome 122.0.0.0,,,04-03-2024 17:26:33,04-03-2024 17:26:36,"2,289s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:36,04-03-2024 17:26:36,"0,540s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:26:36,04-03-2024 17:26:44,"7,608s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-34"")",Chrome 122.0.0.0,,,04-03-2024 17:26:44,04-03-2024 17:26:45,"0,856s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Do you agree with the following statement, “It is easy to navigate your web app?"")",Chrome 122.0.0.0,,,04-03-2024 17:26:45,04-03-2024 17:26:46,"1,744s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""I agree"")",Chrome 122.0.0.0,,,04-03-2024 17:26:46,04-03-2024 17:26:47,"0,655s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""I disagree"")",Chrome 122.0.0.0,,,04-03-2024 17:26:47,04-03-2024 17:26:48,"0,704s",PASSED
+"scrollToElement(findTestObject(""Survey/Save this template btn""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:26:48,04-03-2024 17:26:48,"0,288s",PASSED
+"click(findTestObject(""Survey/Save this template btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:48,04-03-2024 17:26:48,"0,387s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:26:48,04-03-2024 17:26:49,"1,001s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-34"")",Chrome 122.0.0.0,,,04-03-2024 17:26:49,04-03-2024 17:26:51,"1,593s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-34"")",Chrome 122.0.0.0,,,04-03-2024 17:26:51,04-03-2024 17:26:51,"0,253s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Create template (TC-32),Chrome 122.0.0.0,,,04-03-2024 17:26:53,04-03-2024 17:28:05,"1m - 11,367s",PASSED
+"click(findTestObject(""Dashboard Page/Left-hand menu Surveys-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:26:53,04-03-2024 17:26:54,"0,285s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:26:54,04-03-2024 17:26:54,"0,277s",PASSED
+"click(findTestObject(""Survey/Survey template btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:54,04-03-2024 17:26:54,"0,439s",PASSED
+"check(findTestObject(""Survey/Quizz radio btn""))",Chrome 122.0.0.0,,,04-03-2024 17:26:54,04-03-2024 17:27:25,"30,583s",PASSED
+"verifyElementChecked(findTestObject(""Survey/Quizz radio btn""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:27:25,04-03-2024 17:27:26,"1,585s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:27:26,04-03-2024 17:27:27,"0,602s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""If you freeze water, what do you get?"")",Chrome 122.0.0.0,,,04-03-2024 17:27:27,04-03-2024 17:27:28,"0,900s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""coffee"")",Chrome 122.0.0.0,,,04-03-2024 17:27:28,04-03-2024 17:27:29,"0,613s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""ice"")",Chrome 122.0.0.0,,,04-03-2024 17:27:29,04-03-2024 17:27:29,"0,584s",PASSED
+"click(findTestObject(""Survey/Mark as correct""))",Chrome 122.0.0.0,,,04-03-2024 17:27:29,04-03-2024 17:27:29,"0,288s",PASSED
+"click(findTestObject(""Survey/Add question btn""))",Chrome 122.0.0.0,,,04-03-2024 17:27:29,04-03-2024 17:27:30,"0,301s",PASSED
+"setText(findTestObject(""Survey/Q2 input""), ""At what temperature does water change its state?"")",Chrome 122.0.0.0,,,04-03-2024 17:27:30,04-03-2024 17:27:31,"1,585s",PASSED
+"scrollToElement(findTestObject(""Survey/choice options""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:27:31,04-03-2024 17:27:32,"0,264s",PASSED
+"click(findTestObject(""Survey/choice options""))",Chrome 122.0.0.0,,,04-03-2024 17:27:32,04-03-2024 17:27:32,"0,290s",PASSED
+"click(findTestObject(""Survey/Multiple choice""))",Chrome 122.0.0.0,,,04-03-2024 17:27:32,04-03-2024 17:27:32,"0,538s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 1 input field""), ""0"")",Chrome 122.0.0.0,,,04-03-2024 17:27:32,04-03-2024 17:27:33,"1,022s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 2 input field""), ""50"")",Chrome 122.0.0.0,,,04-03-2024 17:27:33,04-03-2024 17:27:34,"0,573s",PASSED
+"click(findTestObject(""Survey/Add option""))",Chrome 122.0.0.0,,,04-03-2024 17:27:34,04-03-2024 17:27:34,"0,309s",PASSED
+"setText(findTestObject(""Survey/Q2 answer 3 input field""), ""100"")",Chrome 122.0.0.0,,,04-03-2024 17:27:34,04-03-2024 17:27:35,"0,849s",PASSED
+"click(findTestObject(""Survey/Mark as correct Q2(a1)""))",Chrome 122.0.0.0,,,04-03-2024 17:27:35,04-03-2024 17:27:35,"0,307s",PASSED
+"click(findTestObject(""Survey/Mark as correct Q2(a3)""))",Chrome 122.0.0.0,,,04-03-2024 17:27:35,04-03-2024 17:27:36,"0,293s",PASSED
+"click(findTestObject(""Survey/Save survey template btn""))",Chrome 122.0.0.0,,,04-03-2024 17:27:36,04-03-2024 17:27:36,"0,326s",PASSED
+"verifyElementPresent(findTestObject(""Survey/Survey templates tab""), 3)",Chrome 122.0.0.0,,,04-03-2024 17:27:36,04-03-2024 17:27:37,"1,242s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:27:37,04-03-2024 17:27:38,"0,354s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:27:38,04-03-2024 17:27:39,"1,279s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:27:39,04-03-2024 17:27:39,"0,270s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:27:39,04-03-2024 17:27:40,"1,094s",PASSED
+"click(findTestObject(""Templates Action menu/Preview Template Action""))",Chrome 122.0.0.0,,,04-03-2024 17:27:40,04-03-2024 17:27:41,"0,511s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:27:41,04-03-2024 17:27:42,"1,045s",PASSED
+takeFullPageScreenshot([]),Chrome 122.0.0.0,,,04-03-2024 17:27:42,04-03-2024 17:27:42,"0,374s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/close alert preview""))",Chrome 122.0.0.0,,,04-03-2024 17:27:42,04-03-2024 17:27:42,"0,098s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:27:42,04-03-2024 17:27:42,"0,008s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:27:42,04-03-2024 17:27:43,"0,500s",PASSED
+"click(findTestObject(""Templates Action menu/Edit Template Action""))",Chrome 122.0.0.0,,,04-03-2024 17:27:43,04-03-2024 17:27:44,"1,130s",PASSED
+"click(findTestObject(""Survey/Save survey template btn""))",Chrome 122.0.0.0,,,04-03-2024 17:27:44,04-03-2024 17:27:46,"2,212s",PASSED
+"verifyElementPresent(findTestObject(""Survey/Survey templates tab""), 3)",Chrome 122.0.0.0,,,04-03-2024 17:27:46,04-03-2024 17:27:48,"1,316s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:27:48,04-03-2024 17:27:48,"0,315s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:27:48,04-03-2024 17:27:49,"1,056s",PASSED
+"click(findTestObject(""Templates Action menu/Create alert using this template""))",Chrome 122.0.0.0,,,04-03-2024 17:27:49,04-03-2024 17:27:49,"0,565s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:27:49,04-03-2024 17:27:52,"2,232s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:27:52,04-03-2024 17:27:59,"7,488s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:27:59,04-03-2024 17:28:00,"0,529s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:28:00,04-03-2024 17:28:01,"1,336s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:28:01,04-03-2024 17:28:02,"1,255s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:28:02,04-03-2024 17:28:03,"0,268s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send quizz with selected template (TC-33),Chrome 122.0.0.0,using actions menu -create alert using this template option,,04-03-2024 17:28:05,04-03-2024 17:28:26,"21,198s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:28:05,04-03-2024 17:28:05,"0,273s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:28:05,04-03-2024 17:28:06,"0,575s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-32"")",Chrome 122.0.0.0,,,04-03-2024 17:28:06,04-03-2024 17:28:06,"0,689s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:28:06,04-03-2024 17:28:06,"0,276s",PASSED
+"click(findTestObject(""Templates Action menu/Create alert using this template""))",Chrome 122.0.0.0,,,04-03-2024 17:28:06,04-03-2024 17:28:08,"1,132s",PASSED
+"click(findTestObject(""Survey/Delete Everyone in recipients field""))",Chrome 122.0.0.0,,,04-03-2024 17:28:08,04-03-2024 17:28:08,"0,003s",NOT_RUN
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:28:08,04-03-2024 17:28:10,"2,322s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:28:10,04-03-2024 17:28:17,"7,482s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:28:17,04-03-2024 17:28:18,"0,545s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-33"")",Chrome 122.0.0.0,,,04-03-2024 17:28:18,04-03-2024 17:28:19,"0,626s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q1 input""), ""value"", ""If you freeze water, what do you get?"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:19,04-03-2024 17:28:19,"0,287s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q1 Answer 1 input field""), ""value"", ""coffee"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:19,04-03-2024 17:28:19,"0,279s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q1 answer 2 input field""), ""value"", ""ice"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:19,04-03-2024 17:28:19,"0,265s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q2 input""), ""value"", ""At what temperature does water change its state?"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:19,04-03-2024 17:28:20,"0,267s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q2 answer 1 input field""), ""value"", ""0"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:20,04-03-2024 17:28:20,"0,268s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q2 answer 2 input field""), ""value"", ""50"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:20,04-03-2024 17:28:20,"0,283s",PASSED
+"verifyElementAttributeValue(findTestObject(""Survey/Q2 answer 3 input field""), ""value"", ""100"", 0)",Chrome 122.0.0.0,,,04-03-2024 17:28:20,04-03-2024 17:28:21,"0,279s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:28:21,04-03-2024 17:28:21,"0,326s",PASSED
+"click(findTestObject(""Survey/quizz tab""))",Chrome 122.0.0.0,,,04-03-2024 17:28:21,04-03-2024 17:28:22,"1,409s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-33"")",Chrome 122.0.0.0,,,04-03-2024 17:28:22,04-03-2024 17:28:23,"1,236s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-33"")",Chrome 122.0.0.0,,,04-03-2024 17:28:23,04-03-2024 17:28:24,"0,273s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Create template using Save this template option (TC-34),Chrome 122.0.0.0,,,04-03-2024 17:28:26,04-03-2024 17:28:46,"19,743s",PASSED
+"click(findTestObject(""Dashboard Page/Left-hand menu Surveys-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:28:26,04-03-2024 17:28:26,"0,318s",PASSED
+"click(findTestObject(""Survey/New Survey btn""))",Chrome 122.0.0.0,,,04-03-2024 17:28:26,04-03-2024 17:28:27,"0,368s",PASSED
+"check(findTestObject(""Survey/Classic survey radio button""))",Chrome 122.0.0.0,,,04-03-2024 17:28:27,04-03-2024 17:28:29,"2,165s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:28:29,04-03-2024 17:28:29,"0,515s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:28:29,04-03-2024 17:28:37,"7,365s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-34"")",Chrome 122.0.0.0,,,04-03-2024 17:28:37,04-03-2024 17:28:37,"0,845s",PASSED
+"setText(findTestObject(""Survey/Q1 input""), ""Do you agree with the following statement, “It is easy to navigate your web app?"")",Chrome 122.0.0.0,,,04-03-2024 17:28:37,04-03-2024 17:28:39,"1,650s",PASSED
+"setText(findTestObject(""Survey/Q1 Answer 1 input field""), ""I agree"")",Chrome 122.0.0.0,,,04-03-2024 17:28:39,04-03-2024 17:28:40,"0,664s",PASSED
+"setText(findTestObject(""Survey/Q1 answer 2 input field""), ""I disagree"")",Chrome 122.0.0.0,,,04-03-2024 17:28:40,04-03-2024 17:28:40,"0,695s",PASSED
+"scrollToElement(findTestObject(""Survey/Save this template btn""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:28:40,04-03-2024 17:28:41,"0,279s",PASSED
+"click(findTestObject(""Survey/Save this template btn""))",Chrome 122.0.0.0,,,04-03-2024 17:28:41,04-03-2024 17:28:41,"0,352s",PASSED
+"click(findTestObject(""Survey/Survey templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:28:41,04-03-2024 17:28:42,"0,998s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-34"")",Chrome 122.0.0.0,,,04-03-2024 17:28:42,04-03-2024 17:28:43,"1,230s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-34"")",Chrome 122.0.0.0,,,04-03-2024 17:28:43,04-03-2024 17:28:44,"0,249s",PASSED
+,,,,,,,
+Test Cases/Surveys-Quizz-Poll/Send survey with a template using drop-down menu (TC-35),Chrome 122.0.0.0,,,04-03-2024 17:28:46,04-03-2024 17:29:19,"33,767s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:28:46,04-03-2024 17:28:46,"0,294s",PASSED
+"click(findTestObject(""Dashboard Page/Survey-Quizz-Poll""))",Chrome 122.0.0.0,,,04-03-2024 17:28:46,04-03-2024 17:28:47,"0,618s",PASSED
+"click(findTestObject(""Survey/More btn""))",Chrome 122.0.0.0,,,04-03-2024 17:28:47,04-03-2024 17:29:03,"16,123s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:29:03,04-03-2024 17:29:11,"8,308s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Template selection button""))",Chrome 122.0.0.0,,,04-03-2024 17:29:11,04-03-2024 17:29:12,"0,597s",PASSED
+"click(findTestObject(""Create RSVP/RSVP template with given value""))",Chrome 122.0.0.0,,,04-03-2024 17:29:12,04-03-2024 17:29:12,"0,618s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:29:12,04-03-2024 17:29:13,"0,969s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-35"")",Chrome 122.0.0.0,,,04-03-2024 17:29:13,04-03-2024 17:29:14,"0,730s",PASSED
+"getAttribute(findTestObject(""Survey/Q1 input""), ""value"")",Chrome 122.0.0.0,,,04-03-2024 17:29:14,04-03-2024 17:29:14,"0,366s",PASSED
+"getAttribute(findTestObject(""Survey/Q1 Answer 1 input field""), ""value"")",Chrome 122.0.0.0,,,04-03-2024 17:29:14,04-03-2024 17:29:15,"0,329s",PASSED
+"getAttribute(findTestObject(""Survey/Q1 answer 2 input field""), ""value"")",Chrome 122.0.0.0,,,04-03-2024 17:29:15,04-03-2024 17:29:15,"0,316s",PASSED
+"click(findTestObject(""Survey/Send btn Survey""))",Chrome 122.0.0.0,,,04-03-2024 17:29:15,04-03-2024 17:29:15,"0,392s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-35"")",Chrome 122.0.0.0,,,04-03-2024 17:29:15,04-03-2024 17:29:17,"1,642s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-35"")",Chrome 122.0.0.0,,,04-03-2024 17:29:17,04-03-2024 17:29:17,"0,327s",PASSED

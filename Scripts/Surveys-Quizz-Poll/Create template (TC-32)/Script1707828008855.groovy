@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dashboard Page/Left-hand menu Surveys-Quizz-Poll'))
+not_run: WebUI.click(findTestObject('Dashboard Page/Left-hand menu Surveys-Quizz-Poll'))
 
 WebUI.click(findTestObject('Survey/Survey templates tab'))
 

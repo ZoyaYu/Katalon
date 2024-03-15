@@ -1,0 +1,163 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scrolling ticker,Chrome 122.0.0.0,,,04-03-2024 17:17:50,04-03-2024 17:20:23,"2m - 32,965s",PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 122.0.0.0,,,04-03-2024 17:17:50,04-03-2024 17:18:02,"11,752s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 17:17:50,04-03-2024 17:17:52,"1,303s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 122.0.0.0,,,04-03-2024 17:17:52,04-03-2024 17:17:52,"0,839s",PASSED
+waitForPageLoad(3),Chrome 122.0.0.0,,,04-03-2024 17:17:52,04-03-2024 17:17:52,"0,095s",PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,04-03-2024 17:17:52,04-03-2024 17:17:53,"0,161s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:17:53,04-03-2024 17:17:53,"0,786s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:17:53,04-03-2024 17:17:54,"0,275s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.1 (stage/11)"")",Chrome 122.0.0.0,,,04-03-2024 17:17:54,04-03-2024 17:17:54,"0,290s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,,,04-03-2024 17:17:54,04-03-2024 17:17:55,"0,633s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,04-03-2024 17:17:55,04-03-2024 17:17:55,"0,345s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,04-03-2024 17:17:55,04-03-2024 17:17:55,"0,319s",PASSED
+delay(4),Chrome 122.0.0.0,,,04-03-2024 17:17:55,04-03-2024 17:17:59,"4,027s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 122.0.0.0,,,04-03-2024 17:17:59,04-03-2024 17:18:00,"0,274s",PASSED
+,,,,,,,
+Test Cases/Ticker/Send Ticker (TC-7),Chrome 122.0.0.0,using Compose Alert Drop-down menu,,04-03-2024 17:18:02,04-03-2024 17:18:43,"41,682s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:18:02,04-03-2024 17:18:02,"0,319s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 122.0.0.0,,,04-03-2024 17:18:02,04-03-2024 17:18:03,"0,584s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 122.0.0.0,,,04-03-2024 17:18:03,04-03-2024 17:18:04,"1,376s",PASSED
+waitForPageLoad(1),Chrome 122.0.0.0,,,04-03-2024 17:18:04,04-03-2024 17:18:04,"0,013s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,04-03-2024 17:18:04,04-03-2024 17:18:04,"0,381s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:18:04,04-03-2024 17:18:12,"7,726s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-7"")",Chrome 122.0.0.0,,,04-03-2024 17:18:12,04-03-2024 17:18:13,"0,884s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:18:13,04-03-2024 17:18:13,"0,308s",PASSED
+"setMaskedText(findTestObject(""Create Pop-up Alert Page/Alert body""),***********************************************)",Chrome 122.0.0.0,,,04-03-2024 17:18:13,04-03-2024 17:18:14,"0,749s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:18:14,04-03-2024 17:18:14,"0,016s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,04-03-2024 17:18:14,04-03-2024 17:18:15,"0,543s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,04-03-2024 17:18:15,04-03-2024 17:18:15,"0,013s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-7"")",Chrome 122.0.0.0,,,04-03-2024 17:18:15,04-03-2024 17:18:16,"1,623s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-7"")",Chrome 122.0.0.0,,,04-03-2024 17:18:16,04-03-2024 17:18:17,"0,270s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Action menu check ticker""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:18:17,04-03-2024 17:18:29,"12,544s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:18:29,04-03-2024 17:18:30,"0,908s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate ticker"")",Chrome 122.0.0.0,,,04-03-2024 17:18:30,04-03-2024 17:18:31,"0,809s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,04-03-2024 17:18:31,04-03-2024 17:18:31,"0,342s",PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,04-03-2024 17:18:31,04-03-2024 17:18:31,"0,027s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-7"")",Chrome 122.0.0.0,,,04-03-2024 17:18:31,04-03-2024 17:18:33,"1,489s",PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,04-03-2024 17:18:33,04-03-2024 17:18:33,"0,015s",PASSED
+"waitForElementClickable(findTestObject(""Survey/3dots Actions""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:18:33,04-03-2024 17:18:33,"0,320s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:18:33,04-03-2024 17:18:34,"0,971s",PASSED
+"waitForElementClickable(findTestObject(""Pop-up Alerts page/resend alert from actions menu""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:18:34,04-03-2024 17:18:34,"0,503s",PASSED
+"click(findTestObject(""Pop-up Alerts page/resend alert from actions menu""))",Chrome 122.0.0.0,,,04-03-2024 17:18:34,04-03-2024 17:18:35,"0,522s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Resend btn""))",Chrome 122.0.0.0,,,04-03-2024 17:18:35,04-03-2024 17:18:36,"0,537s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:18:36,04-03-2024 17:18:37,"0,988s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-7"")",Chrome 122.0.0.0,,,04-03-2024 17:18:37,04-03-2024 17:18:38,"1,495s",PASSED
+"verifyElementClickable(findTestObject(""Pop-up Alerts page/Select all checkbox""))",Chrome 122.0.0.0,,,04-03-2024 17:18:38,04-03-2024 17:18:39,"1,279s",PASSED
+"check(findTestObject(""Pop-up Alerts page/Select all checkbox""))",Chrome 122.0.0.0,,,04-03-2024 17:18:39,04-03-2024 17:18:40,"0,352s",PASSED
+"verifyElementChecked(findTestObject(""Pop-up Alerts page/Select all checkbox""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:18:40,04-03-2024 17:18:40,"0,490s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 122.0.0.0,,,04-03-2024 17:18:40,04-03-2024 17:18:41,"0,566s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 122.0.0.0,,,04-03-2024 17:18:41,04-03-2024 17:18:41,"0,567s",PASSED
+,,,,,,,
+Test Cases/Ticker/Draft ticker (TC-8),Chrome 122.0.0.0,,,04-03-2024 17:18:43,04-03-2024 17:19:08,"24,661s",PASSED
+"click(findTestObject(""Pop-up Alerts page/New alert button""))",Chrome 122.0.0.0,,,04-03-2024 17:18:43,04-03-2024 17:18:44,"0,399s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 122.0.0.0,,,04-03-2024 17:18:44,04-03-2024 17:18:45,"0,820s",PASSED
+waitForPageLoad(1),Chrome 122.0.0.0,,,04-03-2024 17:18:45,04-03-2024 17:18:45,"0,009s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,04-03-2024 17:18:45,04-03-2024 17:18:45,"0,346s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:18:45,04-03-2024 17:18:53,"8,182s",PASSED
+"verifyElementPresent(findTestObject(""Create Pop-up Alert Page/Choose recipients modal window/Choosen users filtered""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:18:53,04-03-2024 17:18:53,"0,002s",NOT_RUN
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-8"")",Chrome 122.0.0.0,,,04-03-2024 17:18:53,04-03-2024 17:18:54,"0,875s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:18:54,04-03-2024 17:18:54,"0,299s",PASSED
+"setMaskedText(findTestObject(""Create Pop-up Alert Page/Alert body""),*****************************************************)",Chrome 122.0.0.0,,,04-03-2024 17:18:54,04-03-2024 17:18:55,"0,839s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:18:55,04-03-2024 17:18:55,"0,007s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 122.0.0.0,,,04-03-2024 17:18:55,04-03-2024 17:18:56,"0,550s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,04-03-2024 17:18:56,04-03-2024 17:18:56,"0,016s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Draft tab""))",Chrome 122.0.0.0,,,04-03-2024 17:18:56,04-03-2024 17:18:57,"1,166s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-8"")",Chrome 122.0.0.0,,,04-03-2024 17:18:57,04-03-2024 17:18:58,"1,042s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-8"")",Chrome 122.0.0.0,,,04-03-2024 17:18:58,04-03-2024 17:18:58,"0,288s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:18:58,04-03-2024 17:18:59,"1,102s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Preview Draft alert Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:18:59,04-03-2024 17:19:00,"0,518s",PASSED
+"switchToFrame(findTestObject(""Create Scrolling ticker/Preview ticker frame""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:19:00,04-03-2024 17:19:01,"1,066s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:19:01,04-03-2024 17:19:03,"2,012s",PASSED
+takeFullPageScreenshot([]),Chrome 122.0.0.0,,,04-03-2024 17:19:03,04-03-2024 17:19:03,"0,382s",PASSED
+"click(findTestObject(""Create Scrolling ticker/Close ticker preview""))",Chrome 122.0.0.0,,,04-03-2024 17:19:03,04-03-2024 17:19:03,"0,106s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:19:03,04-03-2024 17:19:03,"0,009s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:19:03,04-03-2024 17:19:04,"0,501s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Edit Draft alert Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:19:04,04-03-2024 17:19:05,"0,592s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:19:05,04-03-2024 17:19:05,"0,819s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), ""Create Scrolling Ticker"")",Chrome 122.0.0.0,,,04-03-2024 17:19:05,04-03-2024 17:19:06,"0,274s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:06,04-03-2024 17:19:06,"0,321s",PASSED
+,,,,,,,
+Test Cases/Ticker/Ticker template creation (TC-9),Chrome 122.0.0.0,,,04-03-2024 17:19:08,04-03-2024 17:19:42,"34,338s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:19:08,04-03-2024 17:19:08,"0,339s",PASSED
+"click(findTestObject(""Pop-up Alerts page/New Template button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:08,04-03-2024 17:19:09,"0,763s",PASSED
+"setText(findTestObject(""Create Template/Template title""), ""TC-9"")",Chrome 122.0.0.0,,,04-03-2024 17:19:09,04-03-2024 17:19:10,"1,140s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:19:10,04-03-2024 17:19:11,"0,295s",PASSED
+"TemplateBody = """"The News Tickers is a handy and easy tool for creating a creeping line(running text, ticker). This is perfect for news broadcasts, updates, and more projects that refer to current events. Use for any formats and themes of video: news, sports, advertising, video blog, and others. Special made for COVID-19 situation in the world. Color controls available. A video tutorial is also included in the download.""""",Chrome 122.0.0.0,,,04-03-2024 17:19:11,04-03-2024 17:19:11,"0,004s",PASSED
+"setMaskedText(findTestObject(""Create Pop-up Alert Page/Alert body""),*************)",Chrome 122.0.0.0,,,04-03-2024 17:19:11,04-03-2024 17:19:13,"2,018s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:19:13,04-03-2024 17:19:13,"0,015s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:13,04-03-2024 17:19:13,"0,550s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:19:13,04-03-2024 17:19:14,"1,214s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-9"")",Chrome 122.0.0.0,,,04-03-2024 17:19:14,04-03-2024 17:19:15,"0,963s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:19:15,04-03-2024 17:19:17,"2,004s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered Template""), ""TC-9"")",Chrome 122.0.0.0,,,04-03-2024 17:19:17,04-03-2024 17:19:18,"0,264s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:19:18,04-03-2024 17:19:18,"0,298s",PASSED
+"click(findTestObject(""Templates Action menu/Preview Template Action""))",Chrome 122.0.0.0,,,04-03-2024 17:19:18,04-03-2024 17:19:18,"0,522s",PASSED
+"switchToFrame(findTestObject(""Create Scrolling ticker/Preview ticker frame""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:19:18,04-03-2024 17:19:20,"1,166s",PASSED
+takeFullPageScreenshot([]),Chrome 122.0.0.0,,,04-03-2024 17:19:20,04-03-2024 17:19:20,"0,669s",PASSED
+"click(findTestObject(""Create Scrolling ticker/Close ticker preview""))",Chrome 122.0.0.0,,,04-03-2024 17:19:20,04-03-2024 17:19:20,"0,101s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:19:20,04-03-2024 17:19:20,"0,009s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:19:20,04-03-2024 17:19:21,"0,518s",PASSED
+"click(findTestObject(""Templates Action menu/Edit Template Action""))",Chrome 122.0.0.0,,,04-03-2024 17:19:21,04-03-2024 17:19:21,"0,551s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:19:21,04-03-2024 17:19:24,"2,878s",PASSED
+"verifyElementText(findTestObject(""Create Pop-up Alert Page/Create Pop-up Alert header""), ""Edit Template"")",Chrome 122.0.0.0,,,04-03-2024 17:19:24,04-03-2024 17:19:25,"0,257s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Save Button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:25,04-03-2024 17:19:25,"0,287s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Templates tab""))",Chrome 122.0.0.0,,,04-03-2024 17:19:25,04-03-2024 17:19:26,"1,196s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-9"")",Chrome 122.0.0.0,,,04-03-2024 17:19:26,04-03-2024 17:19:27,"0,941s",PASSED
+delay(2),Chrome 122.0.0.0,,,04-03-2024 17:19:27,04-03-2024 17:19:29,"2,004s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered Template""), ""TC-9"")",Chrome 122.0.0.0,,,04-03-2024 17:19:29,04-03-2024 17:19:29,"0,267s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,04-03-2024 17:19:29,04-03-2024 17:19:30,"0,304s",PASSED
+"click(findTestObject(""Templates Action menu/Create alert using this template""))",Chrome 122.0.0.0,,,04-03-2024 17:19:30,04-03-2024 17:19:30,"0,601s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:30,04-03-2024 17:19:31,"0,902s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:19:31,04-03-2024 17:19:39,"7,939s",PASSED
+"setText(findTestObject(""Create Template/Template title""), "" Template"")",Chrome 122.0.0.0,,,04-03-2024 17:19:39,04-03-2024 17:19:40,"0,926s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:40,04-03-2024 17:19:40,"0,326s",PASSED
+,,,,,,,
+Test Cases/Ticker/Send ticker with template (TC-10),Chrome 122.0.0.0,,,04-03-2024 17:19:42,04-03-2024 17:19:59,"16,857s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:19:42,04-03-2024 17:19:43,"0,293s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 122.0.0.0,,,04-03-2024 17:19:43,04-03-2024 17:19:43,"0,612s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 122.0.0.0,,,04-03-2024 17:19:43,04-03-2024 17:19:44,"0,946s",PASSED
+waitForPageLoad(1),Chrome 122.0.0.0,,,04-03-2024 17:19:44,04-03-2024 17:19:44,"0,016s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:44,04-03-2024 17:19:45,"0,346s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:19:45,04-03-2024 17:19:52,"7,888s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Template selection button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:52,04-03-2024 17:19:53,"0,529s",PASSED
+"click(findTestObject(""Create Scrolling ticker/Ticker Template with given name""))",Chrome 122.0.0.0,,,04-03-2024 17:19:53,04-03-2024 17:19:54,"0,549s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,04-03-2024 17:19:54,04-03-2024 17:19:54,"0,893s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-10"")",Chrome 122.0.0.0,,,04-03-2024 17:19:54,04-03-2024 17:19:55,"0,631s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,04-03-2024 17:19:55,04-03-2024 17:19:55,"0,294s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,04-03-2024 17:19:55,04-03-2024 17:19:55,"0,009s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-10"")",Chrome 122.0.0.0,,,04-03-2024 17:19:55,04-03-2024 17:19:57,"1,468s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-10"")",Chrome 122.0.0.0,,,04-03-2024 17:19:57,04-03-2024 17:19:57,"0,265s",PASSED
+,,,,,,,
+Test Cases/Ticker/Ticker Preview (TC-11),Chrome 122.0.0.0,checking ticker preview with choosen settings,,04-03-2024 17:19:59,04-03-2024 17:20:23,"23,531s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,04-03-2024 17:19:59,04-03-2024 17:20:00,"0,304s",PASSED
+"click(findTestObject(""Dashboard Page/Scrolling tickers""))",Chrome 122.0.0.0,,,04-03-2024 17:20:00,04-03-2024 17:20:00,"0,576s",PASSED
+refresh(),Chrome 122.0.0.0,,,04-03-2024 17:20:00,04-03-2024 17:20:00,"0,279s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/Create Scrolling ticker header""), ""Create Scrolling Ticker"")",Chrome 122.0.0.0,,,04-03-2024 17:20:00,04-03-2024 17:20:02,"1,423s",PASSED
+waitForPageLoad(1),Chrome 122.0.0.0,,,04-03-2024 17:20:02,04-03-2024 17:20:02,"0,011s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,04-03-2024 17:20:02,04-03-2024 17:20:02,"0,349s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 17:20:02,04-03-2024 17:20:10,"7,670s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-11"")",Chrome 122.0.0.0,,,04-03-2024 17:20:10,04-03-2024 17:20:11,"0,950s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:20:11,04-03-2024 17:20:11,"0,296s",PASSED
+"setMaskedText(findTestObject(""Create Pop-up Alert Page/Alert body""),************************************************************)",Chrome 122.0.0.0,,,04-03-2024 17:20:11,04-03-2024 17:20:12,"1,062s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:20:12,04-03-2024 17:20:12,"0,011s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button""))",Chrome 122.0.0.0,,,04-03-2024 17:20:12,04-03-2024 17:20:13,"0,531s",PASSED
+"click(findTestObject(""Create Scrolling ticker/Ticker skin with given intex""))",Chrome 122.0.0.0,,,04-03-2024 17:20:13,04-03-2024 17:20:13,"0,564s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox""))",Chrome 122.0.0.0,,,04-03-2024 17:20:13,04-03-2024 17:20:14,"0,899s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:20:14,04-03-2024 17:20:15,"0,495s",PASSED
+"scrollToElement(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:20:15,04-03-2024 17:20:15,"0,493s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox""))",Chrome 122.0.0.0,,,04-03-2024 17:20:15,04-03-2024 17:20:15,"0,318s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/Alerts settings right-hand menu/Enable user feedback checkbox""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:20:15,04-03-2024 17:20:16,"0,498s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Preview button""))",Chrome 122.0.0.0,,,04-03-2024 17:20:16,04-03-2024 17:20:16,"0,532s",PASSED
+"switchToFrame(findTestObject(""Create Scrolling ticker/preview ticker iframe""), 2)",Chrome 122.0.0.0,,,04-03-2024 17:20:16,04-03-2024 17:20:18,"1,042s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,383s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/ticker aknowledgement ok""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,050s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/ticker user feedback""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,048s",PASSED
+"verifyElementPresent(findTestObject(""Create Scrolling ticker/Notification ticker logo""), 1)",Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,054s",PASSED
+"verifyElementText(findTestObject(""Create Scrolling ticker/ticker title preview""), ""TC-11"")",Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,049s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,008s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,332s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:18,"0,012s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-11"")",Chrome 122.0.0.0,,,04-03-2024 17:20:18,04-03-2024 17:20:20,"1,874s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-11"")",Chrome 122.0.0.0,,,04-03-2024 17:20:20,04-03-2024 17:20:21,"0,287s",PASSED
