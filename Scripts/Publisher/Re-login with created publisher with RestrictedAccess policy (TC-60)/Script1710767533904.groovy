@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Dashboard Page/Profile menu-Logout'))
 WebUI.verifyElementPresent(findTestObject('Login Page/DAlogo'), 2)
 
 'Login with newly created publisher'
-WebUI.setText(findTestObject('Object Repository/Login Page/Login input field'), 'KatalonPublisher')
+WebUI.setText(findTestObject('Object Repository/Login Page/Login input field'), 'KatalonPublisherRestricted')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Password input field'), 'tzH6RvlfSTg=')
 
@@ -40,6 +40,16 @@ WebUI.click(findTestObject('Object Repository/Login Page/button_Log in'))
 WebUI.delay(4)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Dashboard Page/Left-hand menu_Pop-up Alerts'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Dashboard Page/Left-hand menu_Wallpapers'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Dashboard Page/Left-hand menu_Scrolling Tickers'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Dashboard Page/Left-hand menu_RSVP'), 1)
+
+WebUI.verifyElementNotPresent(findTestObject('Dashboard Page/Left-hand menu Screensavers'), 1)
 
 'Logout'
 WebUI.click(findTestObject('Dashboard Page/Profile button'))
@@ -54,8 +64,4 @@ WebUI.setText(findTestObject('Object Repository/Login Page/Login input field'), 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Password input field'), 'tzH6RvlfSTg=')
 
 WebUI.click(findTestObject('Object Repository/Login Page/button_Log in'))
-
-not_run: WebUI.getAllLinksOnCurrentPage(false, [])
-
-not_run: WebUI.verifyAllLinksOnCurrentPageAccessible(false, [])
 
