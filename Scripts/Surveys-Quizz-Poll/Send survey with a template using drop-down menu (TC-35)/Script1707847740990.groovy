@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Create Pop-up Alert Page/Template selection button')
 
 WebUI.click(findTestObject('Create RSVP/RSVP template with given value'))
 
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Survey/Survey title'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-35')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-35')
 
 WebUI.getAttribute(findTestObject('Survey/Q1 input'), 'value')
 

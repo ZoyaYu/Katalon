@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Users,Chrome 123.0.0.0,,,22-04-2024 10:17:22,22-04-2024 10:18:10,"48,101s",PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 123.0.0.0,,,22-04-2024 10:17:23,22-04-2024 10:17:36,"13,459s",PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,22-04-2024 10:17:23,22-04-2024 10:17:25,"2,091s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo"")",Chrome 123.0.0.0,,,22-04-2024 10:17:25,22-04-2024 10:17:26,"0,949s",PASSED
+waitForPageLoad(3),Chrome 123.0.0.0,,,22-04-2024 10:17:26,22-04-2024 10:17:26,"0,180s",PASSED
+maximizeWindow(),Chrome 123.0.0.0,,,22-04-2024 10:17:26,22-04-2024 10:17:27,"0,155s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 123.0.0.0,,,22-04-2024 10:17:27,22-04-2024 10:17:27,"0,776s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 123.0.0.0,,,22-04-2024 10:17:27,22-04-2024 10:17:28,"0,330s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.2 (stage/11)"")",Chrome 123.0.0.0,,,22-04-2024 10:17:28,22-04-2024 10:17:28,"0,009s",NOT_RUN
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 123.0.0.0,,,22-04-2024 10:17:28,22-04-2024 10:17:28,"0,711s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 123.0.0.0,,,22-04-2024 10:17:28,22-04-2024 10:17:29,"0,400s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 123.0.0.0,,,22-04-2024 10:17:29,22-04-2024 10:17:29,"0,347s",PASSED
+delay(4),Chrome 123.0.0.0,,,22-04-2024 10:17:29,22-04-2024 10:17:33,"4,034s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 123.0.0.0,,,22-04-2024 10:17:33,22-04-2024 10:17:34,"0,734s",PASSED
+,,,,,,,
+"Test Cases/Audience/Create, Modify, Delete a user (TC-61)",Chrome 123.0.0.0,,,22-04-2024 10:17:36,22-04-2024 10:18:10,"34,397s",PASSED
+"click(findTestObject(""Audience/Audience tab""))",Chrome 123.0.0.0,,,22-04-2024 10:17:36,22-04-2024 10:17:37,"0,448s",PASSED
+"click(findTestObject(""Audience/Add recipient button""))",Chrome 123.0.0.0,,,22-04-2024 10:17:37,22-04-2024 10:17:38,"1,819s",PASSED
+"click(findTestObject(""Audience/recipient name input field""))",Chrome 123.0.0.0,,,22-04-2024 10:17:38,22-04-2024 10:17:40,"1,026s",PASSED
+"setText(findTestObject(""Audience/recipient name input field""), ""Katalon"")",Chrome 123.0.0.0,,,22-04-2024 10:17:40,22-04-2024 10:17:40,"0,622s",PASSED
+"click(findTestObject(""Audience/recipient display name input field""))",Chrome 123.0.0.0,,,22-04-2024 10:17:40,22-04-2024 10:17:40,"0,343s",PASSED
+"setText(findTestObject(""Audience/recipient display name input field""), ""Katalon User"")",Chrome 123.0.0.0,,,22-04-2024 10:17:40,22-04-2024 10:17:41,"0,658s",PASSED
+"click(findTestObject(""Audience/recipient password input""))",Chrome 123.0.0.0,,,22-04-2024 10:17:41,22-04-2024 10:17:41,"0,349s",PASSED
+"setText(findTestObject(""Audience/recipient password input""), ""123"")",Chrome 123.0.0.0,,,22-04-2024 10:17:41,22-04-2024 10:17:42,"0,642s",PASSED
+"click(findTestObject(""Publishers/add btn""))",Chrome 123.0.0.0,,,22-04-2024 10:17:42,22-04-2024 10:17:43,"0,455s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 123.0.0.0,,,22-04-2024 10:17:43,22-04-2024 10:17:43,"0,757s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Katalon"")",Chrome 123.0.0.0,,,22-04-2024 10:17:43,22-04-2024 10:17:45,"1,817s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 10:17:45,22-04-2024 10:17:50,"5,016s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""Katalon"")",Chrome 123.0.0.0,,,22-04-2024 10:17:50,22-04-2024 10:17:51,"0,317s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 123.0.0.0,,,22-04-2024 10:17:51,22-04-2024 10:17:51,"0,552s",PASSED
+"click(findTestObject(""Publishers/Edit publisher""))",Chrome 123.0.0.0,,,22-04-2024 10:17:51,22-04-2024 10:17:52,"0,558s",PASSED
+"click(findTestObject(""Publishers/Publisher email input field""))",Chrome 123.0.0.0,,,22-04-2024 10:17:52,22-04-2024 10:17:53,"1,083s",PASSED
+"setText(findTestObject(""Publishers/Publisher email input field""), ""katalon@gmail.com"")",Chrome 123.0.0.0,,,22-04-2024 10:17:53,22-04-2024 10:17:53,"0,697s",PASSED
+"click(findTestObject(""Publishers/Phone code drop-down""))",Chrome 123.0.0.0,Setup phone number,,22-04-2024 10:17:53,22-04-2024 10:17:54,"0,354s",PASSED
+"scrollToElement(findTestObject(""Publishers/US country code""), 2)",Chrome 123.0.0.0,,,22-04-2024 10:17:54,22-04-2024 10:17:54,"0,420s",PASSED
+"click(findTestObject(""Publishers/US country code""))",Chrome 123.0.0.0,,,22-04-2024 10:17:54,22-04-2024 10:17:54,"0,325s",PASSED
+"click(findTestObject(""Publishers/Phone number input field""))",Chrome 123.0.0.0,,,22-04-2024 10:17:54,22-04-2024 10:17:55,"0,526s",PASSED
+"setText(findTestObject(""Publishers/Phone number input field""), ""2233445566"")",Chrome 123.0.0.0,,,22-04-2024 10:17:55,22-04-2024 10:17:56,"0,647s",PASSED
+"click(findTestObject(""Publishers/add btn""))",Chrome 123.0.0.0,Save changes,,22-04-2024 10:17:56,22-04-2024 10:17:56,"0,324s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 123.0.0.0,,,22-04-2024 10:17:56,22-04-2024 10:17:58,"1,593s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Katalon"")",Chrome 123.0.0.0,,,22-04-2024 10:17:58,22-04-2024 10:17:59,"1,093s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 10:17:59,22-04-2024 10:18:04,"5,013s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""Katalon"")",Chrome 123.0.0.0,,,22-04-2024 10:18:04,22-04-2024 10:18:04,"0,283s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 123.0.0.0,,,22-04-2024 10:18:04,22-04-2024 10:18:04,"0,332s",PASSED
+"click(findTestObject(""Audience/View user details""))",Chrome 123.0.0.0,,,22-04-2024 10:18:04,22-04-2024 10:18:05,"0,559s",PASSED
+takeFullPageScreenshot(),Chrome 123.0.0.0,,,22-04-2024 10:18:05,22-04-2024 10:18:06,"0,702s",PASSED
+"click(findTestObject(""Pop-up Alerts page/view graph close btn""))",Chrome 123.0.0.0,,,22-04-2024 10:18:06,22-04-2024 10:18:06,"0,330s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 10:18:06,22-04-2024 10:18:08,"2,462s",PASSED

@@ -43,6 +43,8 @@ WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
 
 WebUI.waitForPageLoad(2)
 
+WebUI.delay(30)
+
 WebUI.setText(findTestObject('Pop-up Alerts page/Search by title field'), 'TC-19')
 
 WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert'), 'TC-19')

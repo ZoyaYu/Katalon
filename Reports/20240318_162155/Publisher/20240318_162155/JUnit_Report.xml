@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Publisher" time="212.48" tests="12" failures="2" errors="0">
+   <testsuite name="Publisher" tests="12" failures="2" errors="0" time="212.48" skipped="0" timestamp="18-03-2024T16:22:02" hostname="Home - LAPTOP-E6BU4LL9.Dlink" id="Test Suites/Publisher">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155"/>
+         <property name="logFiles" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768187080.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768242932.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768269187.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768269365.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768277479.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768277640.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768289085.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768291656.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768291775.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768332423.png"/>
+         <property name="hostName" value="Home - LAPTOP-E6BU4LL9.Dlink"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="f374bf88975b3ed782b27f736e30c078"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Login with Valid Credentials" time="13.492" classname="Test Cases/Login Test Cases/Login with Valid Credentials" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:22:02 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Login with Valid Credentials: Test Cases/Login Test Cases/Login with Valid Credentials
+
+18-03-2024T16:22:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-03-2024T16:22:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-03-2024T16:22:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-03-2024T16:22:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-03-2024T16:22:05 - [TEST_STEP][PASSED] - navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth"): Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+18-03-2024T16:22:06 - [MESSAGE][PASSED] - Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+18-03-2024T16:22:06 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+18-03-2024T16:22:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-03-2024T16:22:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-03-2024T16:22:06 - [MESSAGE][PASSED] - Current window maximized
+
+18-03-2024T16:22:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T16:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T16:22:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Version number"), 2): Object 'Object Repository/Login Page/Version number' is present
+
+18-03-2024T16:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Version number' is present
+
+18-03-2024T16:22:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.2 (stage/11)"): Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+18-03-2024T16:22:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+18-03-2024T16:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:22:08 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:22:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:22:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:22:09 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+18-03-2024T16:22:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+18-03-2024T16:22:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4): Object 'Object Repository/Login Page/h1_Dashboard' is present
+
+18-03-2024T16:22:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h1_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Create Publisher with Admin role (TC-49)" time="21.153" classname="Test Cases/Publisher/Create Publisher with Admin role (TC-49)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:22:15 - [TEST_CASE][PASSED] - Test Cases/Publisher/Create Publisher with Admin role (TC-49): Test Cases/Publisher/Create Publisher with Admin role (TC-49)
+
+18-03-2024T16:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Add Publisher btn")): Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T16:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T16:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher name input field")): Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T16:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T16:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher name input field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T16:22:19 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T16:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher Password")): Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T16:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T16:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher Password"), "123"): Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T16:22:20 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T16:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher type drop-down")): Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T16:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T16:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Admin type")): Object: 'Object Repository/Publishers/Admin type' is clicked on
+
+18-03-2024T16:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Admin type' is clicked on
+
+18-03-2024T16:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:22:24 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:22:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T16:22:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T16:22:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonAdmin"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:22:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:22:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Enabled status"), 2): Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T16:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T16:22:30 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/sent alerts checkbox")): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:30 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/sent alerts checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Disable btn")): Object: 'Object Repository/Publishers/Disable btn' is clicked on
+
+18-03-2024T16:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Disable btn' is clicked on
+
+18-03-2024T16:22:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Disabled status"), 2): Object 'Object Repository/Publishers/Disabled status' is present
+
+18-03-2024T16:22:32 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Disabled status' is present
+
+18-03-2024T16:22:32 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/sent alerts checkbox")): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:33 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:33 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/sent alerts checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:33 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T16:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Enable btn")): Object: 'Object Repository/Publishers/Enable btn' is clicked on
+
+18-03-2024T16:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Enable btn' is clicked on
+
+18-03-2024T16:22:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Enabled status"), 2): Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T16:22:34 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Enabled status' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Edit Publisher (TC-50)" time="15.576" classname="Test Cases/Publisher/Edit Publisher (TC-50)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:22:37 - [TEST_CASE][PASSED] - Test Cases/Publisher/Edit Publisher (TC-50): Test Cases/Publisher/Edit Publisher (TC-50)
+
+18-03-2024T16:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T16:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T16:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Edit publisher")): Object: 'Object Repository/Publishers/Edit publisher' is clicked on
+
+18-03-2024T16:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Edit publisher' is clicked on
+
+18-03-2024T16:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher email input field"), "katalon@mail.com"): Text 'katalon@mail.com' is set on object 'Object Repository/Publishers/Publisher email input field'
+
+18-03-2024T16:22:39 - [MESSAGE][PASSED] - Text 'katalon@mail.com' is set on object 'Object Repository/Publishers/Publisher email input field'
+
+18-03-2024T16:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Phone code drop-down")): Object: 'Object Repository/Publishers/Phone code drop-down' is clicked on
+
+18-03-2024T16:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Phone code drop-down' is clicked on
+
+18-03-2024T16:22:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Publishers/US country code"), 2): Scroll to object 'Object Repository/Publishers/US country code' successfully
+
+18-03-2024T16:22:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Publishers/US country code' successfully
+
+18-03-2024T16:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/US country code")): Object: 'Object Repository/Publishers/US country code' is clicked on
+
+18-03-2024T16:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/US country code' is clicked on
+
+18-03-2024T16:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Phone number input field")): Object: 'Object Repository/Publishers/Phone number input field' is clicked on
+
+18-03-2024T16:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Phone number input field' is clicked on
+
+18-03-2024T16:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Phone number input field"), "2233445566"): Text '2233445566' is set on object 'Object Repository/Publishers/Phone number input field'
+
+18-03-2024T16:22:42 - [MESSAGE][PASSED] - Text '2233445566' is set on object 'Object Repository/Publishers/Phone number input field'
+
+18-03-2024T16:22:42 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:22:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pop-up Alerts page/Search by title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:22:43 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:22:45 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:22:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T16:22:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T16:22:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonAdmin"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:22:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Change Publisher Password (TC-51)" time="4.696" classname="Test Cases/Publisher/Change Publisher Password (TC-51)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:22:52 - [TEST_CASE][PASSED] - Test Cases/Publisher/Change Publisher Password (TC-51): Test Cases/Publisher/Change Publisher Password (TC-51)
+
+18-03-2024T16:22:52 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T16:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T16:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher change password")): Object: 'Object Repository/Publishers/Publisher change password' is clicked on
+
+18-03-2024T16:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher change password' is clicked on
+
+18-03-2024T16:22:53 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/change password input field"), "1234"): Text '1234' is set on object 'Object Repository/Publishers/change password input field'
+
+18-03-2024T16:22:54 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Publishers/change password input field'
+
+18-03-2024T16:22:54 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52)" time="16.508" classname="Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:22:57 - [TEST_CASE][PASSED] - Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52): Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52)
+
+18-03-2024T16:22:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard Page/Profile button"), 2): Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T16:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T16:22:57 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T16:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T16:22:58 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:22:58 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:22:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T16:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T16:23:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:23:02 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:23:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:23:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:23:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:23:03 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+18-03-2024T16:23:07 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+18-03-2024T16:23:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-03-2024T16:23:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-03-2024T16:23:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768187080.png]]
+
+18-03-2024T16:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:23:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:23:08 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:23:11 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:23:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:23:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Delete Publisher (TC-53)" time="12.171" classname="Test Cases/Publisher/Delete Publisher (TC-53)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:23:13 - [TEST_CASE][PASSED] - Test Cases/Publisher/Delete Publisher (TC-53): Test Cases/Publisher/Delete Publisher (TC-53)
+
+18-03-2024T16:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:23:14 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:23:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:23:16 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:23:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T16:23:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T16:23:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonAdmin"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:23:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:23:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Select all and Delete"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully
+
+18-03-2024T16:23:21 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Select all and Delete: Test Cases/Built-in test cases/Select all and Delete
+
+18-03-2024T16:23:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T16:23:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T16:23:21 - [TEST_STEP][PASSED] - check(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:23:22 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:23:22 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Pop-up Alerts page/Select all checkbox"), 1): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:23:22 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T16:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T16:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T16:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T16:23:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Create Full access policy (TC-54)" time="9.431" classname="Test Cases/Policies/Create Full access policy (TC-54)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:23:26 - [TEST_CASE][PASSED] - Test Cases/Policies/Create Full access policy (TC-54): Test Cases/Policies/Create Full access policy (TC-54)
+
+18-03-2024T16:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies (left-hand menu)")): Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T16:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T16:23:27 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Add Policies btn")): Object: 'Object Repository/Publishers/Policies/Add Policies btn' is clicked on
+
+18-03-2024T16:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Add Policies btn' is clicked on
+
+18-03-2024T16:23:28 - [TEST_STEP][PASSED] - check(findTestObject("Publishers/Policies/Grant Full Control Checkbox")): Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T16:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T16:23:31 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Publishers/Policies/Grant Full Control Checkbox"), 2): Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T16:23:32 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T16:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Policies/Policy name"), "FullAccess"): Text 'FullAccess' is set on object 'Object Repository/Publishers/Policies/Policy name'
+
+18-03-2024T16:23:32 - [MESSAGE][PASSED] - Text 'FullAccess' is set on object 'Object Repository/Publishers/Policies/Policy name'
+
+18-03-2024T16:23:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Publishers/Policies/Policy Save btn"), 2): Scroll to object 'Object Repository/Publishers/Policies/Policy Save btn' successfully
+
+18-03-2024T16:23:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Publishers/Policies/Policy Save btn' successfully
+
+18-03-2024T16:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policy Save btn")): Object: 'Object Repository/Publishers/Policies/Policy Save btn' is clicked on
+
+18-03-2024T16:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policy Save btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Create a publisher with Full access Policy (TC-55)" time="18.089" classname="Test Cases/Policies/Create a publisher with Full access Policy (TC-55)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:23:35 - [TEST_CASE][PASSED] - Test Cases/Policies/Create a publisher with Full access Policy (TC-55): Test Cases/Policies/Create a publisher with Full access Policy (TC-55)
+
+18-03-2024T16:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:23:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("Publishers/Publisher list left-hand menu")): NOT_RUN: click(findTestObject("Publishers/Publisher list left-hand menu"))
+
+18-03-2024T16:23:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Publishers/Publisher list left-hand menu"))
+
+18-03-2024T16:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Add Publisher btn")): Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T16:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T16:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher name input field")): Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T16:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T16:23:37 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher name input field"), "KatalonPublisher"): Text 'KatalonPublisher' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T16:23:38 - [MESSAGE][PASSED] - Text 'KatalonPublisher' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T16:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher Password")): Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T16:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T16:23:38 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher Password"), "123"): Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T16:23:39 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T16:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher type drop-down")): Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T16:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T16:23:40 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers type")): Object: 'Object Repository/Publishers/Publishers type' is clicked on
+
+18-03-2024T16:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers type' is clicked on
+
+18-03-2024T16:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies drop-down")): Object: 'Object Repository/Publishers/Policies/Policies drop-down' is clicked on
+
+18-03-2024T16:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies drop-down' is clicked on
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - testObj = findTestObject("Object Repository/Publishers/Policies/List of policies from drop-down"): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - policies = findWebElements(testObj, 10): Found web elements by test object Object Repository/Publishers/Policies/List of policies from drop-down
+
+18-03-2024T16:23:42 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Publishers/Policies/List of policies from drop-down
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(policies.size()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement el : policies): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - el.click(): null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - break: null
+
+18-03-2024T16:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T16:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonPublisher"): Text 'KatalonPublisher' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:23:45 - [MESSAGE][PASSED] - Text 'KatalonPublisher' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:23:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T16:23:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T16:23:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonPublisher"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:23:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:23:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Enabled status"), 2): Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T16:23:51 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Enabled status' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56)" time="16.138" classname="Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:23:53 - [TEST_CASE][PASSED] - Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56): Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56)
+
+18-03-2024T16:23:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard Page/Profile button"), 2): Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T16:23:53 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T16:23:53 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T16:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T16:23:54 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:23:54 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:23:55 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:23:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T16:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T16:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "KatalonPublisher"): Text 'KatalonPublisher' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:23:58 - [MESSAGE][PASSED] - Text 'KatalonPublisher' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:23:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:23:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:23:58 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+18-03-2024T16:24:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+18-03-2024T16:24:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-03-2024T16:24:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-03-2024T16:24:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768242932.png]]
+
+18-03-2024T16:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T16:24:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T16:24:04 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T16:24:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:24:06 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T16:24:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:24:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T16:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T16:24:07 - [TEST_STEP][NOT_RUN] - getAllLinksOnCurrentPage(false, []): NOT_RUN: getAllLinksOnCurrentPage(false, [])
+
+18-03-2024T16:24:07 - [MESSAGE][NOT_RUN] - NOT_RUN: getAllLinksOnCurrentPage(false, [])
+
+18-03-2024T16:24:07 - [TEST_STEP][NOT_RUN] - verifyAllLinksOnCurrentPageAccessible(false, []): NOT_RUN: verifyAllLinksOnCurrentPageAccessible(false, [])
+
+18-03-2024T16:24:07 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyAllLinksOnCurrentPageAccessible(false, [])]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Delete FullAccess Policy (TC-57)" time="13.094" classname="Test Cases/Policies/Delete FullAccess Policy (TC-57)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T16:24:09 - [TEST_CASE][PASSED] - Test Cases/Policies/Delete FullAccess Policy (TC-57): Test Cases/Policies/Delete FullAccess Policy (TC-57)
+
+18-03-2024T16:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies (left-hand menu)")): Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T16:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T16:24:11 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T16:24:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "FullAccess"): Text 'FullAccess' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:24:12 - [MESSAGE][PASSED] - Text 'FullAccess' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T16:24:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T16:24:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T16:24:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "FullAccess"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:24:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T16:24:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Select all and Delete"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully
+
+18-03-2024T16:24:18 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Select all and Delete: Test Cases/Built-in test cases/Select all and Delete
+
+18-03-2024T16:24:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T16:24:18 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T16:24:18 - [TEST_STEP][PASSED] - check(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:24:19 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Pop-up Alerts page/Select all checkbox"), 1): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T16:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T16:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T16:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T16:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T16:24:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Create Restricted Policy (TC-58)" time="8.18" classname="Test Cases/Policies/Create Restricted Policy (TC-58)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Policies/Create Restricted Policy (TC-58) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)&#xa;	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[18-03-2024T16:24:31 - [TEST_CASE][FAILED] - Test Cases/Policies/Create Restricted Policy (TC-58): Test Cases/Policies/Create Restricted Policy (TC-58) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+18-03-2024T16:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T16:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies (left-hand menu)")): Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T16:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T16:24:33 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Add Policies btn")): Object: 'Object Repository/Publishers/Policies/Add Policies btn' is clicked on
+
+18-03-2024T16:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Add Policies btn' is clicked on
+
+18-03-2024T16:24:33 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Policies/Policy name"), "RestrictedAccess"): Text 'RestrictedAccess' is set on object 'Object Repository/Publishers/Policies/Policy name'
+
+18-03-2024T16:24:36 - [MESSAGE][PASSED] - Text 'RestrictedAccess' is set on object 'Object Repository/Publishers/Policies/Policy name'
+
+18-03-2024T16:24:36 - [TEST_STEP][PASSED] - check(findTestObject("Publishers/Policies/Pop-up checkbox")): Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+
+18-03-2024T16:24:36 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+
+18-03-2024T16:24:36 - [TEST_STEP][FAILED] - verifyElementChecked(findTestObject("Publishers/Policies/Pop-up checkbox"), 2): Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+18-03-2024T16:24:37 - [MESSAGE][FAILED] - Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768277479.png]]
+
+18-03-2024T16:24:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768277640.png]]
+
+18-03-2024T16:24:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Policies/Create Restricted Policy (TC-58)' .
+
+18-03-2024T16:24:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Policies/Create Restricted Policy (TC-58)' .]]></system-out>
+         <system-err><![CDATA[18-03-2024T16:24:31 - [TEST_CASE][FAILED] - Test Cases/Policies/Create Restricted Policy (TC-58): Test Cases/Policies/Create Restricted Policy (TC-58) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60)" time="40.684" classname="Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)&#xa;	at Re-login with created publisher with RestrictedAccess policy (TC-60).run(Re-login with created publisher with RestrictedAccess policy (TC-60):23)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.doCall(MouseOverKeyword.groovy:54)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.call(MouseOverKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[18-03-2024T16:24:53 - [TEST_CASE][FAILED] - Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60): Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)
+	at Re-login with created publisher with RestrictedAccess policy (TC-60).run(Re-login with created publisher with RestrictedAccess policy (TC-60):23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.doCall(MouseOverKeyword.groovy:54)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.call(MouseOverKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+18-03-2024T16:24:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard Page/Profile button"), 2): Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found
+
+18-03-2024T16:24:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: .header-license div button'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2024T16:24:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Dashboard Page/Profile button'. Try using Self-healing.
+
+18-03-2024T16:24:57 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+18-03-2024T16:24:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2024T16:24:59 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found
+
+18-03-2024T16:24:59 - [TEST_STEP][FAILED] - mouseOver(findTestObject("Dashboard Page/Profile button")): Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)
+	at Re-login with created publisher with RestrictedAccess policy (TC-60).run(Re-login with created publisher with RestrictedAccess policy (TC-60):23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.doCall(MouseOverKeyword.groovy:54)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.call(MouseOverKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)
+	at Script1710767533904.run(Script1710767533904.groovy:23)
+	... 16 more
+)
+
+18-03-2024T16:25:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: .header-license div button'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2024T16:25:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Dashboard Page/Profile button'. Try using Self-healing.
+
+18-03-2024T16:25:30 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+18-03-2024T16:25:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2024T16:25:32 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)
+	at Re-login with created publisher with RestrictedAccess policy (TC-60).run(Re-login with created publisher with RestrictedAccess policy (TC-60):23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.doCall(MouseOverKeyword.groovy:54)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.call(MouseOverKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)
+	at Script1710767533904.run(Script1710767533904.groovy:23)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_162155\\Publisher\\20240318_162155\\1710768332423.png]]
+
+18-03-2024T16:25:34 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60)' .
+
+18-03-2024T16:25:34 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60)' .]]></system-out>
+         <system-err><![CDATA[18-03-2024T16:24:53 - [TEST_CASE][FAILED] - Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60): Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to move mouse over object 'Object Repository/Dashboard Page/Profile button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver(MouseOverKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.execute(MouseOverKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.mouseOver(WebUiBuiltInKeywords.groovy:845)
+	at Re-login with created publisher with RestrictedAccess policy (TC-60).run(Re-login with created publisher with RestrictedAccess policy (TC-60):23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/Profile button' located by 'null' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.doCall(MouseOverKeyword.groovy:54)
+	at com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword$_mouseOver_closure1.call(MouseOverKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-03-2024T16:22:02 - [TEST_SUITE][FAILED] - Publisher: Test Cases/Policies/Create Restricted Policy (TC-58) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[18-03-2024T16:22:02 - [TEST_SUITE][FAILED] - Publisher: Test Cases/Policies/Create Restricted Policy (TC-58) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Publishers/Policies/Pop-up checkbox' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1436)
+	at Create Restricted Policy (TC-58).run(Create Restricted Policy (TC-58):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1710768115183.run(TempTestSuite1710768115183.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Publishers/Policies/Pop-up checkbox' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

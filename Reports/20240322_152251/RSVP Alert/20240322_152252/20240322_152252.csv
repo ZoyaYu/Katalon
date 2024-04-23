@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RSVP Alert,Chrome 122.0.0.0,,,22-03-2024 15:22:57,22-03-2024 15:25:29,"2m - 31,972s",FAILED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 122.0.0.0,,,22-03-2024 15:22:58,22-03-2024 15:23:11,"13,537s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,22-03-2024 15:22:58,22-03-2024 15:23:01,"2,505s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 122.0.0.0,,,22-03-2024 15:23:01,22-03-2024 15:23:02,"0,921s",PASSED
+waitForPageLoad(3),Chrome 122.0.0.0,,,22-03-2024 15:23:02,22-03-2024 15:23:02,"0,212s",PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,22-03-2024 15:23:02,22-03-2024 15:23:02,"0,157s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:23:02,22-03-2024 15:23:03,"0,816s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:23:03,22-03-2024 15:23:03,"0,309s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.2 (stage/11)"")",Chrome 122.0.0.0,,,22-03-2024 15:23:03,22-03-2024 15:23:03,"0,010s",NOT_RUN
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,,,22-03-2024 15:23:03,22-03-2024 15:23:04,"0,717s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,22-03-2024 15:23:04,22-03-2024 15:23:05,"0,397s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,22-03-2024 15:23:05,22-03-2024 15:23:05,"0,363s",PASSED
+delay(4),Chrome 122.0.0.0,,,22-03-2024 15:23:05,22-03-2024 15:23:09,"4,027s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 122.0.0.0,,,22-03-2024 15:23:09,22-03-2024 15:23:09,"0,301s",PASSED
+,,,,,,,
+Test Cases/RSVP/Send RSVP (TC-12),Chrome 122.0.0.0,,,22-03-2024 15:23:11,22-03-2024 15:24:45,"1m - 34,001s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,22-03-2024 15:23:12,22-03-2024 15:23:12,"0,478s",PASSED
+"click(findTestObject(""Dashboard Page/RSVP""))",Chrome 122.0.0.0,,,22-03-2024 15:23:12,22-03-2024 15:23:13,"0,553s",PASSED
+"verifyElementText(findTestObject(""Create RSVP/Create RSVP Alert Header""), ""Create RSVP Alert"")",Chrome 122.0.0.0,,,22-03-2024 15:23:13,22-03-2024 15:23:16,"3,296s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,22-03-2024 15:23:16,22-03-2024 15:23:16,"0,417s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 15:23:16,22-03-2024 15:23:24,"7,983s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-12"")",Chrome 122.0.0.0,,,22-03-2024 15:23:24,22-03-2024 15:23:25,"0,869s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:23:25,22-03-2024 15:23:26,"0,346s",PASSED
+"setMaskedText(findTestObject(""Create Pop-up Alert Page/Alert body""),***************************************************)",Chrome 122.0.0.0,,,22-03-2024 15:23:26,22-03-2024 15:23:27,"1,231s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,22-03-2024 15:23:27,22-03-2024 15:23:27,"0,031s",PASSED
+"setText(findTestObject(""Create RSVP/Question 1 title input""), ""What drink do You prefer?"")",Chrome 122.0.0.0,,,22-03-2024 15:23:27,22-03-2024 15:23:28,"1,272s",PASSED
+"setText(findTestObject(""Create RSVP/Answer 1 input""), ""Tea"")",Chrome 122.0.0.0,,,22-03-2024 15:23:28,22-03-2024 15:23:29,"0,729s",PASSED
+"setText(findTestObject(""Create RSVP/Answer 2 input""), ""Coffee"")",Chrome 122.0.0.0,,,22-03-2024 15:23:29,22-03-2024 15:23:30,"0,733s",PASSED
+"check(findTestObject(""Create RSVP/Question 2 switch""))",Chrome 122.0.0.0,,,22-03-2024 15:23:30,22-03-2024 15:23:30,"0,377s",PASSED
+"verifyElementChecked(findTestObject(""Create RSVP/Question 2 switch""), 1)",Chrome 122.0.0.0,,,22-03-2024 15:23:30,22-03-2024 15:23:31,"0,561s",PASSED
+"setText(findTestObject(""Create RSVP/Question 2 title input""), ""Why?"")",Chrome 122.0.0.0,,,22-03-2024 15:23:31,22-03-2024 15:23:31,"0,831s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,22-03-2024 15:23:31,22-03-2024 15:23:32,"0,363s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 15:23:32,22-03-2024 15:23:32,"0,018s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-12"")",Chrome 122.0.0.0,,,22-03-2024 15:23:32,22-03-2024 15:23:34,"2,200s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-12"")",Chrome 122.0.0.0,,,22-03-2024 15:23:34,22-03-2024 15:23:34,"0,326s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Actions menu check RSVP""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 15:23:34,22-03-2024 15:24:20,"46,129s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,22-03-2024 15:24:20,22-03-2024 15:24:23,"2,856s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate RSVP alert"")",Chrome 122.0.0.0,,,22-03-2024 15:24:23,22-03-2024 15:24:24,"0,978s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,22-03-2024 15:24:24,22-03-2024 15:24:25,"0,371s",PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,22-03-2024 15:24:25,22-03-2024 15:24:25,"0,017s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-12"")",Chrome 122.0.0.0,,,22-03-2024 15:24:25,22-03-2024 15:24:26,"1,807s",PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,22-03-2024 15:24:26,22-03-2024 15:24:26,"0,013s",PASSED
+"waitForElementClickable(findTestObject(""Survey/3dots Actions""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:24:26,22-03-2024 15:24:27,"0,327s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Resend to all""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 15:24:27,22-03-2024 15:24:30,"2,772s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,22-03-2024 15:24:30,22-03-2024 15:24:31,"1,668s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-12"")",Chrome 122.0.0.0,,,22-03-2024 15:24:31,22-03-2024 15:24:33,"1,819s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 15:24:33,22-03-2024 15:24:37,"4,158s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,22-03-2024 15:24:37,22-03-2024 15:24:38,"1,120s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Duplicate RSVP alert"")",Chrome 122.0.0.0,,,22-03-2024 15:24:38,22-03-2024 15:24:40,"1,739s",PASSED
+"waitForElementClickable(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:24:40,22-03-2024 15:24:40,"0,305s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 122.0.0.0,,,22-03-2024 15:24:40,22-03-2024 15:24:42,"1,144s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:24:42,22-03-2024 15:24:42,"0,414s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 122.0.0.0,,,22-03-2024 15:24:42,22-03-2024 15:24:43,"0,685s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 122.0.0.0,,,22-03-2024 15:24:43,22-03-2024 15:24:43,"0,567s",PASSED
+,,,,,,,
+Test Cases/RSVP/RSVP template creation (TC-13),Chrome 122.0.0.0,,,22-03-2024 15:24:45,22-03-2024 15:25:10,"24,923s",FAILED
+"click(findTestObject(""Dashboard Page/Left-hand menu_RSVP""))",Chrome 122.0.0.0,,,22-03-2024 15:24:45,22-03-2024 15:24:46,"0,362s",PASSED
+"click(findTestObject(""Create RSVP/RSVP templates tab""))",Chrome 122.0.0.0,,,22-03-2024 15:24:46,22-03-2024 15:24:46,"0,391s",PASSED
+"click(findTestObject(""Create RSVP/New Template RSVP""))",Chrome 122.0.0.0,,,22-03-2024 15:24:46,22-03-2024 15:24:47,"0,943s",PASSED
+"setText(findTestObject(""Create RSVP/RSVP template title""), ""TC-13"")",Chrome 122.0.0.0,,,22-03-2024 15:24:47,22-03-2024 15:24:50,"3,012s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Alert body iframe""), 1)",Chrome 122.0.0.0,,,22-03-2024 15:24:50,22-03-2024 15:24:50,"0,297s",PASSED
+"setMaskedText(findTestObject(""Create Pop-up Alert Page/Alert body""),******************************************************)",Chrome 122.0.0.0,,,22-03-2024 15:24:50,22-03-2024 15:24:51,"0,759s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,22-03-2024 15:24:51,22-03-2024 15:24:51,"0,013s",PASSED
+"setText(findTestObject(""Create RSVP/Question 1 title input""), ""What is your favorite movie?"")",Chrome 122.0.0.0,,,22-03-2024 15:24:51,22-03-2024 15:24:52,"1,001s",PASSED
+"setText(findTestObject(""Create RSVP/Answer 1 input""), ""Harry Potter"")",Chrome 122.0.0.0,,,22-03-2024 15:24:52,22-03-2024 15:24:53,"0,771s",PASSED
+"setText(findTestObject(""Create RSVP/Answer 2 input""), ""Kill Bill"")",Chrome 122.0.0.0,,,22-03-2024 15:24:53,22-03-2024 15:24:54,"0,969s",PASSED
+"scrollToElement(findTestObject(""Create RSVP/Question 2 switch""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:24:54,22-03-2024 15:24:54,"0,315s",PASSED
+"waitForElementClickable(findTestObject(""Create RSVP/Question 2 switch""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:24:54,22-03-2024 15:24:55,"0,613s",PASSED
+"check(findTestObject(""Create RSVP/Question 2 switch""))",Chrome 122.0.0.0,,,22-03-2024 15:24:55,22-03-2024 15:24:55,"0,360s",PASSED
+"verifyElementChecked(findTestObject(""Create RSVP/Question 2 switch""), 1)",Chrome 122.0.0.0,,,22-03-2024 15:24:55,22-03-2024 15:24:56,"0,514s",PASSED
+"setText(findTestObject(""Create RSVP/Question 2 title input""), ""Why?"")",Chrome 122.0.0.0,,,22-03-2024 15:24:56,22-03-2024 15:24:57,"0,880s",PASSED
+"click(findTestObject(""Create RSVP/RSVP template Save button""))",Chrome 122.0.0.0,,,22-03-2024 15:24:57,22-03-2024 15:24:57,"0,340s",PASSED
+"click(findTestObject(""Create RSVP/RSVP templates tab""))",Chrome 122.0.0.0,,,22-03-2024 15:24:57,22-03-2024 15:24:58,"1,621s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-13"")",Chrome 122.0.0.0,,,22-03-2024 15:24:58,22-03-2024 15:25:00,"1,149s",PASSED
+delay(2),Chrome 122.0.0.0,,,22-03-2024 15:25:00,22-03-2024 15:25:02,"2,016s",PASSED
+"verifyElementText(findTestObject(""Create RSVP/Filtered RSVP template""), ""TC-13"")",Chrome 122.0.0.0,,,22-03-2024 15:25:02,22-03-2024 15:25:02,"0,310s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,22-03-2024 15:25:02,22-03-2024 15:25:02,"0,340s",PASSED
+"click(findTestObject(""Templates Action menu/Preview Template Action""))",Chrome 122.0.0.0,,,22-03-2024 15:25:02,22-03-2024 15:25:03,"0,559s",PASSED
+"switchToFrame(findTestObject(""Create Pop-up Alert Page/Preview alert iframe""), 2)",Chrome 122.0.0.0,,,22-03-2024 15:25:03,22-03-2024 15:25:08,"5,244s",FAILED
+Video,Chrome 122.0.0.0,,,22-03-2024 15:25:10,22-03-2024 15:25:10,"0,000s",PASSED
+,,,,,,,
+Test Cases/RSVP/Send RSVP with template (TC-14),Chrome 122.0.0.0,https://deskalertsdev.atlassian.net/browse/RR-7838,,22-03-2024 15:25:10,22-03-2024 15:25:29,"19,241s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,22-03-2024 15:25:10,22-03-2024 15:25:11,"0,331s",PASSED
+"click(findTestObject(""Dashboard Page/RSVP""))",Chrome 122.0.0.0,,,22-03-2024 15:25:11,22-03-2024 15:25:11,"0,661s",PASSED
+"verifyElementText(findTestObject(""Create RSVP/Create RSVP Alert Header""), ""Create RSVP Alert"")",Chrome 122.0.0.0,,,22-03-2024 15:25:11,22-03-2024 15:25:14,"2,884s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/More button""))",Chrome 122.0.0.0,,,22-03-2024 15:25:14,22-03-2024 15:25:15,"0,395s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 15:25:15,22-03-2024 15:25:22,"7,685s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Template selection button""))",Chrome 122.0.0.0,,,22-03-2024 15:25:22,22-03-2024 15:25:23,"0,537s",PASSED
+"click(findTestObject(""Create RSVP/RSVP template with given value""))",Chrome 122.0.0.0,,,22-03-2024 15:25:23,22-03-2024 15:25:23,"0,598s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,22-03-2024 15:25:23,22-03-2024 15:25:24,"0,806s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-14"")",Chrome 122.0.0.0,,,22-03-2024 15:25:24,22-03-2024 15:25:25,"0,724s",PASSED
+"click(findTestObject(""Create Pop-up Alert Page/Send button""))",Chrome 122.0.0.0,,,22-03-2024 15:25:25,22-03-2024 15:25:25,"0,333s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 15:25:25,22-03-2024 15:25:25,"0,019s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-14"")",Chrome 122.0.0.0,,,22-03-2024 15:25:25,22-03-2024 15:25:27,"1,852s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-14"")",Chrome 122.0.0.0,,,22-03-2024 15:25:27,22-03-2024 15:25:27,"0,293s",PASSED

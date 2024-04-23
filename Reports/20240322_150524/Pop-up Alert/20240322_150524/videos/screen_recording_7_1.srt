@@ -1,0 +1,16 @@
+1
+00:00:00,001 --> 00:00:00,315
+1. click(findTestObject("Dashboard Page/Compose Alert Button"))
+
+2
+00:00:00,315 --> 00:00:01,332
+5. verifyElementPresent(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), 2)
+
+3
+00:00:01,333 --> 00:00:01,593
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Create Pop-up Alert header"), "Create Pop-up Alert")
+
+4
+00:00:01,594 --> 00:00:33,724
+13. click(findTestObject("Create Pop-up Alert Page/More button"))
+

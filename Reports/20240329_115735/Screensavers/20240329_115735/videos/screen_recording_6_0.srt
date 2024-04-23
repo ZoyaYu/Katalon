@@ -1,0 +1,84 @@
+1
+00:00:00,062 --> 00:00:00,438
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,439 --> 00:00:01,082
+5. click(findTestObject("Dashboard Page/Screensavers"))
+
+3
+00:00:01,083 --> 00:00:02,275
+9. verifyElementText(findTestObject("Lockscreen/Create Lockscreen header"), "Create Screensaver")
+
+4
+00:00:02,276 --> 00:00:02,646
+13. click(findTestObject("Wallpapers/more"))
+
+5
+00:00:02,647 --> 00:00:02,728
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:02,728 --> 00:00:04,060
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+7
+00:00:04,061 --> 00:00:04,750
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+8
+00:00:04,751 --> 00:00:06,320
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+9
+00:00:06,320 --> 00:00:06,661
+13. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+10
+00:00:06,661 --> 00:00:07,195
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+11
+00:00:07,195 --> 00:00:07,520
+21. sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+12
+00:00:07,521 --> 00:00:08,393
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7")
+
+13
+00:00:08,394 --> 00:00:10,023
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 ")
+
+14
+00:00:10,024 --> 00:00:10,363
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+15
+00:00:10,364 --> 00:00:10,920
+37. click(findTestObject("Wallpapers/Done"))
+
+16
+00:00:10,921 --> 00:00:11,878
+21. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-40")
+
+17
+00:00:11,878 --> 00:00:12,177
+25. verifyElementPresent(findTestObject("Wallpapers/Upload wallpaper area"), 2)
+
+18
+00:00:12,178 --> 00:00:12,528
+29. uploadFileWithDragAndDrop(findTestObject("Wallpapers/Upload wallpaper area"), "C:\Users\Home\git\Katalon\Imagesfortest\earth.wmv")
+
+19
+00:00:12,529 --> 00:00:17,534
+33. delay(5)
+
+20
+00:00:17,534 --> 00:00:17,849
+37. getAttribute(findTestObject("Wallpapers/uploaded wallpaper file"), "src")
+
+21
+00:00:17,849 --> 00:00:18,570
+41. verifyElementVisible(findTestObject("Wallpapers/uploaded wallpaper file"))
+

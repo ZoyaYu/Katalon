@@ -57,17 +57,17 @@ WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Create RSVP/Filtered RSVP template'), 'TC-13')
 
-WebUI.click(findTestObject('Survey/3dots Actions'))
+not_run: WebUI.click(findTestObject('Survey/3dots Actions'))
 
-WebUI.click(findTestObject('Templates Action menu/Preview Template Action'))
+not_run: WebUI.click(findTestObject('Templates Action menu/Preview Template Action'))
 
-WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
+not_run: WebUI.switchToFrame(findTestObject('Create Pop-up Alert Page/Preview alert iframe'), 2)
 
-WebUI.takeFullPageScreenshot([])
+not_run: WebUI.takeFullPageScreenshot([])
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
+not_run: WebUI.click(findTestObject('Create Pop-up Alert Page/close alert preview'))
 
-WebUI.switchToDefaultContent()
+not_run: WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Survey/3dots Actions'))
 

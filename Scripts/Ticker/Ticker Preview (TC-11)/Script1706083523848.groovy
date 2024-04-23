@@ -39,9 +39,9 @@ WebUI.setMaskedText(findTestObject('Create Pop-up Alert Page/Alert body'), 'Hell
 
 WebUI.switchToDefaultContent()
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button'))
+WebUI.click(findTestObject('Create Pop-up Alert Page/Alerts settings right-hand menu/ticker skin choice button'))
 
-WebUI.click(findTestObject('Create Scrolling ticker/Ticker skin with given intex'))
+WebUI.click(findTestObject('Create Pop-up Alert Page/Alerts settings right-hand menu/Ticker skin with given index'))
 
 WebUI.check(findTestObject('Create Pop-up Alert Page/Alerts settings right-hand menu/Acknowledgement checkbox'))
 

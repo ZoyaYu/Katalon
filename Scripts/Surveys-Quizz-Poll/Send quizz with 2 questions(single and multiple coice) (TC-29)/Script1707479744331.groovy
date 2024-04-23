@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Survey/More btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-29')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-29')
 
 WebUI.setText(findTestObject('Survey/Q1 input'), 'Who is the youngest Disney princess?')
 

@@ -33,9 +33,9 @@ WebUI.click(findTestObject('Survey/More btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Survey/Survey title'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-33')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-33')
 
 WebUI.verifyElementAttributeValue(findTestObject('Survey/Q1 input'), 'value', 'If you freeze water, what do you get?', 0)
 

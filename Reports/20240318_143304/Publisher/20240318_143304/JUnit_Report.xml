@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Publisher" time="139.912" tests="10" failures="0" errors="0">
+   <testsuite name="Publisher" tests="10" failures="0" errors="0" time="139.912" skipped="0" timestamp="18-03-2024T14:33:11" hostname="Home - LAPTOP-E6BU4LL9.Dlink" id="Test Suites/Publisher">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_143304\\Publisher\\20240318_143304"/>
+         <property name="logFiles" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_143304\\Publisher\\20240318_143304\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_143304\\Publisher\\20240318_143304\\1710761656418.png, C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_143304\\Publisher\\20240318_143304\\1710761711600.png"/>
+         <property name="hostName" value="Home - LAPTOP-E6BU4LL9.Dlink"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="59edaf0ec7c816dec85da465bc6875ad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Login with Valid Credentials" time="13.379" classname="Test Cases/Login Test Cases/Login with Valid Credentials" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:33:12 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Login with Valid Credentials: Test Cases/Login Test Cases/Login with Valid Credentials
+
+18-03-2024T14:33:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-03-2024T14:33:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-03-2024T14:33:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-03-2024T14:33:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-03-2024T14:33:14 - [TEST_STEP][PASSED] - navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth"): Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+18-03-2024T14:33:15 - [MESSAGE][PASSED] - Navigate to 'https://dadebug.commclouds.com/Demo/admin/auth' successfully
+
+18-03-2024T14:33:15 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+18-03-2024T14:33:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-03-2024T14:33:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-03-2024T14:33:16 - [MESSAGE][PASSED] - Current window maximized
+
+18-03-2024T14:33:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T14:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T14:33:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Version number"), 2): Object 'Object Repository/Login Page/Version number' is present
+
+18-03-2024T14:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Version number' is present
+
+18-03-2024T14:33:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.2 (stage/11)"): Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+18-03-2024T14:33:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/Version number' are matched.
+
+18-03-2024T14:33:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:33:18 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:33:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:33:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:33:18 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+18-03-2024T14:33:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+18-03-2024T14:33:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login Page/h1_Dashboard"), 4): Object 'Object Repository/Login Page/h1_Dashboard' is present
+
+18-03-2024T14:33:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/h1_Dashboard' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Create Publisher with Admin role (TC-49)" time="21.143" classname="Test Cases/Publisher/Create Publisher with Admin role (TC-49)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:33:25 - [TEST_CASE][PASSED] - Test Cases/Publisher/Create Publisher with Admin role (TC-49): Test Cases/Publisher/Create Publisher with Admin role (TC-49)
+
+18-03-2024T14:33:25 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:33:25 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Add Publisher btn")): Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T14:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T14:33:27 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher name input field")): Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T14:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T14:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher name input field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T14:33:28 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T14:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher Password")): Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T14:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T14:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher Password"), "123"): Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T14:33:29 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T14:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher type drop-down")): Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T14:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T14:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Admin type")): Object: 'Object Repository/Publishers/Admin type' is clicked on
+
+18-03-2024T14:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Admin type' is clicked on
+
+18-03-2024T14:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:33:31 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:33:32 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:33:33 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:33:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T14:33:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T14:33:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonAdmin"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:33:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:33:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Enabled status"), 2): Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T14:33:39 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T14:33:39 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/sent alerts checkbox")): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:40 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:40 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/sent alerts checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:40 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Disable btn")): Object: 'Object Repository/Publishers/Disable btn' is clicked on
+
+18-03-2024T14:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Disable btn' is clicked on
+
+18-03-2024T14:33:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Disabled status"), 2): Object 'Object Repository/Publishers/Disabled status' is present
+
+18-03-2024T14:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Disabled status' is present
+
+18-03-2024T14:33:42 - [TEST_STEP][PASSED] - check(findTestObject("Create Pop-up Alert Page/sent alerts checkbox")): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:42 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Create Pop-up Alert Page/sent alerts checkbox"), 2): Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/Create Pop-up Alert Page/sent alerts checkbox' is checked
+
+18-03-2024T14:33:43 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Enable btn")): Object: 'Object Repository/Publishers/Enable btn' is clicked on
+
+18-03-2024T14:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Enable btn' is clicked on
+
+18-03-2024T14:33:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Enabled status"), 2): Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T14:33:44 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Enabled status' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Edit Publisher (TC-50)" time="15.7" classname="Test Cases/Publisher/Edit Publisher (TC-50)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:33:46 - [TEST_CASE][PASSED] - Test Cases/Publisher/Edit Publisher (TC-50): Test Cases/Publisher/Edit Publisher (TC-50)
+
+18-03-2024T14:33:46 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T14:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T14:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Edit publisher")): Object: 'Object Repository/Publishers/Edit publisher' is clicked on
+
+18-03-2024T14:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Edit publisher' is clicked on
+
+18-03-2024T14:33:47 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher email input field"), "katalon@mail.com"): Text 'katalon@mail.com' is set on object 'Object Repository/Publishers/Publisher email input field'
+
+18-03-2024T14:33:49 - [MESSAGE][PASSED] - Text 'katalon@mail.com' is set on object 'Object Repository/Publishers/Publisher email input field'
+
+18-03-2024T14:33:49 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Phone code drop-down")): Object: 'Object Repository/Publishers/Phone code drop-down' is clicked on
+
+18-03-2024T14:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Phone code drop-down' is clicked on
+
+18-03-2024T14:33:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Publishers/US country code"), 2): Scroll to object 'Object Repository/Publishers/US country code' successfully
+
+18-03-2024T14:33:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Publishers/US country code' successfully
+
+18-03-2024T14:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/US country code")): Object: 'Object Repository/Publishers/US country code' is clicked on
+
+18-03-2024T14:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/US country code' is clicked on
+
+18-03-2024T14:33:50 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Phone number input field")): Object: 'Object Repository/Publishers/Phone number input field' is clicked on
+
+18-03-2024T14:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Phone number input field' is clicked on
+
+18-03-2024T14:33:51 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Phone number input field"), "2233445566"): Text '2233445566' is set on object 'Object Repository/Publishers/Phone number input field'
+
+18-03-2024T14:33:51 - [MESSAGE][PASSED] - Text '2233445566' is set on object 'Object Repository/Publishers/Phone number input field'
+
+18-03-2024T14:33:51 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:33:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Pop-up Alerts page/Search by title field"), Keys.chord(CONTROL, "a", BACK_SPACE)): Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:33:53 - [MESSAGE][PASSED] - Keys 'CONTROL + BACK_SPACE + a' sent to object: 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:33:53 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:33:54 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:33:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T14:33:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T14:33:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonAdmin"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:34:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Change Publisher Password (TC-51)" time="4.594" classname="Test Cases/Publisher/Change Publisher Password (TC-51)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:34:02 - [TEST_CASE][PASSED] - Test Cases/Publisher/Change Publisher Password (TC-51): Test Cases/Publisher/Change Publisher Password (TC-51)
+
+18-03-2024T14:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Survey/3dots Actions")): Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T14:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Survey/3dots Actions' is clicked on
+
+18-03-2024T14:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher change password")): Object: 'Object Repository/Publishers/Publisher change password' is clicked on
+
+18-03-2024T14:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher change password' is clicked on
+
+18-03-2024T14:34:03 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/change password input field"), "1234"): Text '1234' is set on object 'Object Repository/Publishers/change password input field'
+
+18-03-2024T14:34:04 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Publishers/change password input field'
+
+18-03-2024T14:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52)" time="16.435" classname="Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:34:06 - [TEST_CASE][PASSED] - Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52): Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52)
+
+18-03-2024T14:34:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard Page/Profile button"), 2): Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T14:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T14:34:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T14:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T14:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:34:08 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:34:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T14:34:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T14:34:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:34:11 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:34:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:34:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:34:12 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+18-03-2024T14:34:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+18-03-2024T14:34:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-03-2024T14:34:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-03-2024T14:34:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_143304\\Publisher\\20240318_143304\\1710761656418.png]]
+
+18-03-2024T14:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:34:17 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:34:20 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:34:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:34:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Delete Publisher (TC-53)" time="12.168" classname="Test Cases/Publisher/Delete Publisher (TC-53)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:34:23 - [TEST_CASE][PASSED] - Test Cases/Publisher/Delete Publisher (TC-53): Test Cases/Publisher/Delete Publisher (TC-53)
+
+18-03-2024T14:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonAdmin"): Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:34:25 - [MESSAGE][PASSED] - Text 'KatalonAdmin' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:34:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T14:34:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T14:34:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonAdmin"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:34:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:34:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Select all and Delete"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully
+
+18-03-2024T14:34:30 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Select all and Delete: Test Cases/Built-in test cases/Select all and Delete
+
+18-03-2024T14:34:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T14:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T14:34:31 - [TEST_STEP][PASSED] - check(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:34:31 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Pop-up Alerts page/Select all checkbox"), 1): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T14:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T14:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T14:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T14:34:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Create Full access policy (TC-54)" time="9.248" classname="Test Cases/Policies/Create Full access policy (TC-54)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:34:35 - [TEST_CASE][PASSED] - Test Cases/Policies/Create Full access policy (TC-54): Test Cases/Policies/Create Full access policy (TC-54)
+
+18-03-2024T14:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies (left-hand menu)")): Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T14:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T14:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Add Policies btn")): Object: 'Object Repository/Publishers/Policies/Add Policies btn' is clicked on
+
+18-03-2024T14:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Add Policies btn' is clicked on
+
+18-03-2024T14:34:37 - [TEST_STEP][PASSED] - check(findTestObject("Publishers/Policies/Grant Full Control Checkbox")): Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T14:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T14:34:40 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Publishers/Policies/Grant Full Control Checkbox"), 2): Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T14:34:41 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Policies/Grant Full Control Checkbox' is checked
+
+18-03-2024T14:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Policies/Policy name"), "FullAccess"): Text 'FullAccess' is set on object 'Object Repository/Publishers/Policies/Policy name'
+
+18-03-2024T14:34:41 - [MESSAGE][PASSED] - Text 'FullAccess' is set on object 'Object Repository/Publishers/Policies/Policy name'
+
+18-03-2024T14:34:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Publishers/Policies/Policy Save btn"), 2): Scroll to object 'Object Repository/Publishers/Policies/Policy Save btn' successfully
+
+18-03-2024T14:34:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Publishers/Policies/Policy Save btn' successfully
+
+18-03-2024T14:34:42 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policy Save btn")): Object: 'Object Repository/Publishers/Policies/Policy Save btn' is clicked on
+
+18-03-2024T14:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policy Save btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Create a publisher with Full access Policy (TC-55)" time="17.426" classname="Test Cases/Policies/Create a publisher with Full access Policy (TC-55)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:34:44 - [TEST_CASE][PASSED] - Test Cases/Policies/Create a publisher with Full access Policy (TC-55): Test Cases/Policies/Create a publisher with Full access Policy (TC-55)
+
+18-03-2024T14:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:34:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Publishers/Publisher list left-hand menu")): NOT_RUN: click(findTestObject("Publishers/Publisher list left-hand menu"))
+
+18-03-2024T14:34:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Publishers/Publisher list left-hand menu"))
+
+18-03-2024T14:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Add Publisher btn")): Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T14:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Add Publisher btn' is clicked on
+
+18-03-2024T14:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher name input field")): Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T14:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher name input field' is clicked on
+
+18-03-2024T14:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher name input field"), "KatalonPublisher"): Text 'KatalonPublisher' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T14:34:47 - [MESSAGE][PASSED] - Text 'KatalonPublisher' is set on object 'Object Repository/Publishers/Publisher name input field'
+
+18-03-2024T14:34:47 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher Password")): Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T14:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher Password' is clicked on
+
+18-03-2024T14:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Publishers/Publisher Password"), "123"): Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T14:34:48 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Publishers/Publisher Password'
+
+18-03-2024T14:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publisher type drop-down")): Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T14:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publisher type drop-down' is clicked on
+
+18-03-2024T14:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers type")): Object: 'Object Repository/Publishers/Publishers type' is clicked on
+
+18-03-2024T14:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers type' is clicked on
+
+18-03-2024T14:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies drop-down")): Object: 'Object Repository/Publishers/Policies/Policies drop-down' is clicked on
+
+18-03-2024T14:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies drop-down' is clicked on
+
+18-03-2024T14:34:50 - [TEST_STEP][PASSED] - testObj = findTestObject("Object Repository/Publishers/Policies/List of policies from drop-down"): null
+
+18-03-2024T14:34:50 - [TEST_STEP][PASSED] - policies = findWebElements(testObj, 10): Found web elements by test object Object Repository/Publishers/Policies/List of policies from drop-down
+
+18-03-2024T14:34:51 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Publishers/Policies/List of policies from drop-down
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(policies.size()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement el : policies): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - println(el.getText()): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - if (getText().equals("FullAccess")): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - el.click(): null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - break: null
+
+18-03-2024T14:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/add btn")): Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/add btn' is clicked on
+
+18-03-2024T14:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:34:53 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "KatalonPublisher"): Text 'KatalonPublisher' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:34:54 - [MESSAGE][PASSED] - Text 'KatalonPublisher' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:34:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T14:34:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T14:34:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "KatalonPublisher"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:34:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:34:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Publishers/Enabled status"), 2): Object 'Object Repository/Publishers/Enabled status' is present
+
+18-03-2024T14:35:00 - [MESSAGE][PASSED] - Object 'Object Repository/Publishers/Enabled status' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56)" time="16.366" classname="Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:35:02 - [TEST_CASE][PASSED] - Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56): Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56)
+
+18-03-2024T14:35:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard Page/Profile button"), 2): Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T14:35:02 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard Page/Profile button' is clickable
+
+18-03-2024T14:35:02 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T14:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is hovered
+
+18-03-2024T14:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:35:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:35:03 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:35:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:35:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/DAlogo"), 2): Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T14:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/DAlogo' is present
+
+18-03-2024T14:35:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "KatalonPublisher"): Text 'KatalonPublisher' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:35:06 - [MESSAGE][PASSED] - Text 'KatalonPublisher' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:35:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:35:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:35:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:35:07 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+18-03-2024T14:35:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+18-03-2024T14:35:11 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+18-03-2024T14:35:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-03-2024T14:35:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Home\\git\\Katalon\\Reports\\20240318_143304\\Publisher\\20240318_143304\\1710761711600.png]]
+
+18-03-2024T14:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile button")): Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile button' is clicked on
+
+18-03-2024T14:35:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is hovered
+
+18-03-2024T14:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/Profile menu-Logout")): Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/Profile menu-Logout' is clicked on
+
+18-03-2024T14:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login input field"), "Zoya"): Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:35:15 - [MESSAGE][PASSED] - Text 'Zoya' is set on object 'Object Repository/Login Page/Login input field'
+
+18-03-2024T14:35:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:35:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Password input field'
+
+18-03-2024T14:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/button_Log in")): Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Log in' is clicked on
+
+18-03-2024T14:35:16 - [TEST_STEP][NOT_RUN] - getAllLinksOnCurrentPage(false, []): NOT_RUN: getAllLinksOnCurrentPage(false, [])
+
+18-03-2024T14:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: getAllLinksOnCurrentPage(false, [])
+
+18-03-2024T14:35:16 - [TEST_STEP][NOT_RUN] - verifyAllLinksOnCurrentPageAccessible(false, []): NOT_RUN: verifyAllLinksOnCurrentPageAccessible(false, [])
+
+18-03-2024T14:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyAllLinksOnCurrentPageAccessible(false, [])]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Policies/Delete FullAccess Policy (TC-57)" time="13.147" classname="Test Cases/Policies/Delete FullAccess Policy (TC-57)" status="PASSED">
+         <system-out><![CDATA[18-03-2024T14:35:18 - [TEST_CASE][PASSED] - Test Cases/Policies/Delete FullAccess Policy (TC-57): Test Cases/Policies/Delete FullAccess Policy (TC-57)
+
+18-03-2024T14:35:18 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Publishers on the top-menu")): Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Publishers on the top-menu' is clicked on
+
+18-03-2024T14:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Publishers/Policies/Policies (left-hand menu)")): Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T14:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Publishers/Policies/Policies (left-hand menu)' is clicked on
+
+18-03-2024T14:35:20 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Search by title field")): Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Search by title field' is clicked on
+
+18-03-2024T14:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pop-up Alerts page/Search by title field"), "FullAccess"): Text 'FullAccess' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:35:21 - [MESSAGE][PASSED] - Text 'FullAccess' is set on object 'Object Repository/Pop-up Alerts page/Search by title field'
+
+18-03-2024T14:35:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+18-03-2024T14:35:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+18-03-2024T14:35:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Publishers/filtered publisher"), "FullAccess"): Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:35:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Publishers/filtered publisher' are matched.
+
+18-03-2024T14:35:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Built-in test cases/Select all and Delete"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully
+
+18-03-2024T14:35:27 - [TEST_CASE][PASSED] - Test Cases/Built-in test cases/Select all and Delete: Test Cases/Built-in test cases/Select all and Delete
+
+18-03-2024T14:35:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T14:35:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is clickable
+
+18-03-2024T14:35:27 - [TEST_STEP][PASSED] - check(findTestObject("Pop-up Alerts page/Select all checkbox")): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:35:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:35:27 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Pop-up Alerts page/Select all checkbox"), 1): Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:35:28 - [MESSAGE][PASSED] - Object 'Object Repository/Pop-up Alerts page/Select all checkbox' is checked
+
+18-03-2024T14:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/delete all")): Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/delete all' is clicked on
+
+18-03-2024T14:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Pop-up Alerts page/Confirm deletion btn")): Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Pop-up Alerts page/Confirm deletion btn' is clicked on
+
+18-03-2024T14:35:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Built-in test cases/Select all and Delete' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-03-2024T14:33:11 - [TEST_SUITE][PASSED] - Publisher: Test Cases/Policies/Delete FullAccess Policy (TC-57)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Wallpapers,Chrome 122.0.0.0,,,22-03-2024 16:38:02,22-03-2024 16:40:52,"2m - 49,644s",PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 122.0.0.0,,,22-03-2024 16:38:02,22-03-2024 16:38:15,"12,440s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,22-03-2024 16:38:03,22-03-2024 16:38:04,"1,725s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 122.0.0.0,,,22-03-2024 16:38:04,22-03-2024 16:38:05,"0,907s",PASSED
+waitForPageLoad(3),Chrome 122.0.0.0,,,22-03-2024 16:38:05,22-03-2024 16:38:05,"0,164s",PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,22-03-2024 16:38:05,22-03-2024 16:38:06,"0,254s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:38:06,22-03-2024 16:38:06,"0,785s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:38:06,22-03-2024 16:38:07,"0,308s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.2 (stage/11)"")",Chrome 122.0.0.0,,,22-03-2024 16:38:07,22-03-2024 16:38:07,"0,008s",NOT_RUN
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,,,22-03-2024 16:38:07,22-03-2024 16:38:07,"0,724s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,22-03-2024 16:38:07,22-03-2024 16:38:08,"0,407s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,22-03-2024 16:38:08,22-03-2024 16:38:08,"0,355s",PASSED
+delay(4),Chrome 122.0.0.0,,,22-03-2024 16:38:08,22-03-2024 16:38:12,"4,034s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 122.0.0.0,,,22-03-2024 16:38:12,22-03-2024 16:38:13,"0,301s",PASSED
+,,,,,,,
+Test Cases/Wallpapers/Send Wallpaper JPG (TC-15),Chrome 122.0.0.0,send wallpaper using compose alert drop-down menu,,22-03-2024 16:38:15,22-03-2024 16:39:05,"50,242s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,22-03-2024 16:38:15,22-03-2024 16:38:16,"0,593s",PASSED
+"click(findTestObject(""Dashboard Page/Wallpapers""))",Chrome 122.0.0.0,,,22-03-2024 16:38:16,22-03-2024 16:38:16,"0,601s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:38:16,22-03-2024 16:38:17,"1,075s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 122.0.0.0,,,22-03-2024 16:38:17,22-03-2024 16:38:18,"0,416s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:38:18,22-03-2024 16:38:26,"8,246s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-15"")",Chrome 122.0.0.0,,,22-03-2024 16:38:26,22-03-2024 16:38:27,"0,908s",PASSED
+"verifyElementPresent(findTestObject(""Wallpapers/Upload wallpaper area""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:38:27,22-03-2024 16:38:27,"0,312s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Wallpapers/Upload wallpaper area""), ""C:\Users\Home\git\Katalon\Imagesfortest\river.jpg"")",Chrome 122.0.0.0,,,22-03-2024 16:38:27,22-03-2024 16:38:27,"0,375s",PASSED
+delay(10),Chrome 122.0.0.0,,,22-03-2024 16:38:27,22-03-2024 16:38:37,"10,009s",PASSED
+"getAttribute(findTestObject(""Wallpapers/uploaded wallpaper file""), ""src"")",Chrome 122.0.0.0,,,22-03-2024 16:38:37,22-03-2024 16:38:38,"0,310s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:38:38,22-03-2024 16:38:38,"0,355s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 16:38:38,22-03-2024 16:38:38,"0,022s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-15"")",Chrome 122.0.0.0,,,22-03-2024 16:38:38,22-03-2024 16:38:40,"1,967s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-15"")",Chrome 122.0.0.0,,,22-03-2024 16:38:40,22-03-2024 16:38:40,"0,324s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Actions menu Wallpapers-Lockscreens-Screensaver""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:38:40,22-03-2024 16:38:51,"10,599s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,22-03-2024 16:38:51,22-03-2024 16:38:52,"0,728s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:38:52,22-03-2024 16:38:53,"1,069s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:38:53,22-03-2024 16:38:53,"0,352s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-15"")",Chrome 122.0.0.0,,,22-03-2024 16:38:53,22-03-2024 16:38:55,"1,763s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:38:55,22-03-2024 16:38:58,"2,989s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Duplicate Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:38:58,22-03-2024 16:38:59,"1,283s",PASSED
+"waitForElementClickable(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:38:59,22-03-2024 16:39:01,"1,511s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 122.0.0.0,,,22-03-2024 16:39:01,22-03-2024 16:39:01,"0,374s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:39:01,22-03-2024 16:39:02,"0,517s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 122.0.0.0,,,22-03-2024 16:39:02,22-03-2024 16:39:02,"0,569s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 122.0.0.0,,,22-03-2024 16:39:02,22-03-2024 16:39:03,"0,550s",PASSED
+,,,,,,,
+Test Cases/Wallpapers/Send Wallpaper PNG (TC-16),Chrome 122.0.0.0,,,22-03-2024 16:39:05,22-03-2024 16:39:31,"25,888s",PASSED
+"click(findTestObject(""Pop-up Alerts page/New alert button""))",Chrome 122.0.0.0,,,22-03-2024 16:39:05,22-03-2024 16:39:05,"0,527s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:39:05,22-03-2024 16:39:06,"0,525s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 122.0.0.0,,,22-03-2024 16:39:06,22-03-2024 16:39:06,"0,352s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:39:06,22-03-2024 16:39:14,"8,101s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-16"")",Chrome 122.0.0.0,,,22-03-2024 16:39:14,22-03-2024 16:39:15,"0,906s",PASSED
+"verifyElementPresent(findTestObject(""Wallpapers/Upload wallpaper area""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:39:15,22-03-2024 16:39:16,"0,289s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Wallpapers/Upload wallpaper area""), ""C:\Users\Home\git\Katalon\Imagesfortest\rocks.png"")",Chrome 122.0.0.0,,,22-03-2024 16:39:16,22-03-2024 16:39:16,"0,332s",PASSED
+delay(10),Chrome 122.0.0.0,,,22-03-2024 16:39:16,22-03-2024 16:39:26,"10,020s",PASSED
+"getAttribute(findTestObject(""Wallpapers/uploaded wallpaper file""), ""src"")",Chrome 122.0.0.0,,,22-03-2024 16:39:26,22-03-2024 16:39:26,"0,315s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:39:26,22-03-2024 16:39:27,"0,352s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 16:39:27,22-03-2024 16:39:27,"0,018s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-16"")",Chrome 122.0.0.0,,,22-03-2024 16:39:27,22-03-2024 16:39:28,"1,664s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-16"")",Chrome 122.0.0.0,,,22-03-2024 16:39:28,22-03-2024 16:39:29,"0,322s",PASSED
+,,,,,,,
+Test Cases/Wallpapers/Send Wallpaper BMP (TC-17),Chrome 122.0.0.0,,,22-03-2024 16:39:31,22-03-2024 16:39:58,"26,874s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,22-03-2024 16:39:31,22-03-2024 16:39:31,"0,364s",PASSED
+"click(findTestObject(""Dashboard Page/Wallpapers""))",Chrome 122.0.0.0,,,22-03-2024 16:39:31,22-03-2024 16:39:32,"0,616s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:39:32,22-03-2024 16:39:32,"0,524s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 122.0.0.0,,,22-03-2024 16:39:32,22-03-2024 16:39:33,"0,928s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:39:33,22-03-2024 16:39:41,"7,951s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-17"")",Chrome 122.0.0.0,,,22-03-2024 16:39:41,22-03-2024 16:39:42,"0,912s",PASSED
+"verifyElementPresent(findTestObject(""Wallpapers/Upload wallpaper area""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:39:42,22-03-2024 16:39:42,"0,287s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Wallpapers/Upload wallpaper area""), ""C:\Users\Home\git\Katalon\Imagesfortest\future.bmp"")",Chrome 122.0.0.0,,,22-03-2024 16:39:42,22-03-2024 16:39:43,"0,319s",PASSED
+delay(10),Chrome 122.0.0.0,,,22-03-2024 16:39:43,22-03-2024 16:39:53,"10,015s",PASSED
+"getAttribute(findTestObject(""Wallpapers/uploaded wallpaper file""), ""src"")",Chrome 122.0.0.0,,,22-03-2024 16:39:53,22-03-2024 16:39:53,"0,294s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:39:53,22-03-2024 16:39:53,"0,391s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 16:39:53,22-03-2024 16:39:53,"0,018s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-17"")",Chrome 122.0.0.0,,,22-03-2024 16:39:53,22-03-2024 16:39:55,"1,768s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-17"")",Chrome 122.0.0.0,,,22-03-2024 16:39:55,22-03-2024 16:39:56,"0,322s",PASSED
+,,,,,,,
+Test Cases/Wallpapers/Send wallpaper with image from server (TC-19),Chrome 122.0.0.0,,,22-03-2024 16:39:58,22-03-2024 16:40:17,"19,708s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,22-03-2024 16:39:58,22-03-2024 16:39:58,"0,356s",PASSED
+"click(findTestObject(""Dashboard Page/Wallpapers""))",Chrome 122.0.0.0,,,22-03-2024 16:39:58,22-03-2024 16:39:59,"0,612s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:39:59,22-03-2024 16:39:59,"0,527s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 122.0.0.0,,,22-03-2024 16:39:59,22-03-2024 16:40:00,"0,801s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:40:00,22-03-2024 16:40:08,"7,707s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-19"")",Chrome 122.0.0.0,,,22-03-2024 16:40:08,22-03-2024 16:40:09,"0,937s",PASSED
+"verifyElementPresent(findTestObject(""Wallpapers/Upload wallpaper area""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:40:09,22-03-2024 16:40:09,"0,302s",PASSED
+"click(findTestObject(""Wallpapers/Select image from server button""))",Chrome 122.0.0.0,,,22-03-2024 16:40:09,22-03-2024 16:40:09,"0,364s",PASSED
+"click(findTestObject(""Wallpapers/first image on a server""))",Chrome 122.0.0.0,,,22-03-2024 16:40:09,22-03-2024 16:40:10,"1,148s",PASSED
+"verifyElementPresent(findTestObject(""Wallpapers/uploaded wallpaper file""), 1)",Chrome 122.0.0.0,,,22-03-2024 16:40:10,22-03-2024 16:40:11,"0,525s",PASSED
+"getAttribute(findTestObject(""Wallpapers/uploaded wallpaper file""), ""src"")",Chrome 122.0.0.0,,,22-03-2024 16:40:11,22-03-2024 16:40:11,"0,274s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:40:11,22-03-2024 16:40:12,"0,352s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 16:40:12,22-03-2024 16:40:12,"0,013s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-19"")",Chrome 122.0.0.0,,,22-03-2024 16:40:12,22-03-2024 16:40:15,"3,400s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-19"")",Chrome 122.0.0.0,,,22-03-2024 16:40:15,22-03-2024 16:40:15,"0,286s",PASSED
+,,,,,,,
+Test Cases/Wallpapers/Draft Wallpaper (TC-18),Chrome 122.0.0.0,,,22-03-2024 16:40:17,22-03-2024 16:40:52,"34,315s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 122.0.0.0,,,22-03-2024 16:40:17,22-03-2024 16:40:18,"0,359s",PASSED
+"click(findTestObject(""Dashboard Page/Wallpapers""))",Chrome 122.0.0.0,,,22-03-2024 16:40:18,22-03-2024 16:40:18,"0,604s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:40:18,22-03-2024 16:40:19,"0,513s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 122.0.0.0,,,22-03-2024 16:40:19,22-03-2024 16:40:20,"0,993s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,22-03-2024 16:40:20,22-03-2024 16:40:28,"7,681s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-18"")",Chrome 122.0.0.0,,,22-03-2024 16:40:28,22-03-2024 16:40:29,"0,910s",PASSED
+"verifyElementPresent(findTestObject(""Wallpapers/Upload wallpaper area""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:40:29,22-03-2024 16:40:29,"0,290s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Wallpapers/Upload wallpaper area""), ""C:\Users\Home\git\Katalon\Imagesfortest\icecity.jpg"")",Chrome 122.0.0.0,,,22-03-2024 16:40:29,22-03-2024 16:40:29,"0,312s",PASSED
+delay(10),Chrome 122.0.0.0,,,22-03-2024 16:40:29,22-03-2024 16:40:39,"10,004s",PASSED
+"getAttribute(findTestObject(""Wallpapers/uploaded wallpaper file""), ""src"")",Chrome 122.0.0.0,,,22-03-2024 16:40:39,22-03-2024 16:40:39,"0,296s",PASSED
+"click(findTestObject(""Wallpapers/Save wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:40:39,22-03-2024 16:40:40,"0,355s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Draft tab""))",Chrome 122.0.0.0,,,22-03-2024 16:40:40,22-03-2024 16:40:41,"1,402s",PASSED
+waitForPageLoad(2),Chrome 122.0.0.0,,,22-03-2024 16:40:41,22-03-2024 16:40:41,"0,018s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-18"")",Chrome 122.0.0.0,,,22-03-2024 16:40:41,22-03-2024 16:40:42,"1,218s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-18"")",Chrome 122.0.0.0,,,22-03-2024 16:40:42,22-03-2024 16:40:43,"0,299s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,22-03-2024 16:40:43,22-03-2024 16:40:44,"1,013s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Preview Draft alert Actions""))",Chrome 122.0.0.0,,,22-03-2024 16:40:44,22-03-2024 16:40:44,"0,545s",PASSED
+switchToWindowIndex(1),Chrome 122.0.0.0,,,22-03-2024 16:40:44,22-03-2024 16:40:45,"0,276s",PASSED
+takeFullPageScreenshot([]),Chrome 122.0.0.0,,,22-03-2024 16:40:45,22-03-2024 16:40:46,"1,462s",PASSED
+closeWindowIndex(1),Chrome 122.0.0.0,,,22-03-2024 16:40:46,22-03-2024 16:40:46,"0,050s",PASSED
+switchToDefaultContent(),Chrome 122.0.0.0,,,22-03-2024 16:40:46,22-03-2024 16:40:46,"0,033s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,22-03-2024 16:40:46,22-03-2024 16:40:46,"0,359s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Edit Draft alert Actions""))",Chrome 122.0.0.0,,,22-03-2024 16:40:46,22-03-2024 16:40:47,"0,629s",PASSED
+"verifyElementText(findTestObject(""Wallpapers/Create Wallpaper Header""), ""Create Wallpaper"")",Chrome 122.0.0.0,,,22-03-2024 16:40:47,22-03-2024 16:40:48,"0,873s",PASSED
+"click(findTestObject(""Wallpapers/Save wallpaper button""))",Chrome 122.0.0.0,,,22-03-2024 16:40:48,22-03-2024 16:40:48,"0,368s",PASSED
+"verifyElementPresent(findTestObject(""Pop-up Alerts page/Draft tab""), 2)",Chrome 122.0.0.0,,,22-03-2024 16:40:48,22-03-2024 16:40:50,"1,322s",PASSED

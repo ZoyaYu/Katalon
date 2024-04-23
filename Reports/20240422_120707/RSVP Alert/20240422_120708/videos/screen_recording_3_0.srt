@@ -1,0 +1,132 @@
+1
+00:00:00,071 --> 00:00:00,484
+1. click(findTestObject("Dashboard Page/Left-hand menu_RSVP"))
+
+2
+00:00:00,485 --> 00:00:00,936
+5. click(findTestObject("Create RSVP/RSVP templates tab"))
+
+3
+00:00:00,937 --> 00:00:02,086
+9. click(findTestObject("Create RSVP/New Template RSVP"))
+
+4
+00:00:02,087 --> 00:00:03,153
+13. setText(findTestObject("Create RSVP/RSVP template title"), "TC-13")
+
+5
+00:00:03,154 --> 00:00:03,464
+17. switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 1)
+
+6
+00:00:03,465 --> 00:00:04,220
+21. setMaskedText(findTestObject("Create Pop-up Alert Page/Alert body"), "Hello! This is automated RSVP template from Katalon")
+
+7
+00:00:04,223 --> 00:00:04,241
+25. switchToDefaultContent()
+
+8
+00:00:04,241 --> 00:00:05,283
+29. setText(findTestObject("Create RSVP/Question 1 title input"), "What is your favorite movie?")
+
+9
+00:00:05,284 --> 00:00:06,391
+33. setText(findTestObject("Create RSVP/Answer 1 input"), "Harry Potter")
+
+10
+00:00:06,391 --> 00:00:07,442
+37. setText(findTestObject("Create RSVP/Answer 2 input"), "Kill Bill")
+
+11
+00:00:07,442 --> 00:00:07,743
+41. scrollToElement(findTestObject("Create RSVP/Question 2 switch"), 2)
+
+12
+00:00:07,744 --> 00:00:08,051
+45. waitForElementClickable(findTestObject("Create RSVP/Question 2 switch"), 2)
+
+13
+00:00:08,051 --> 00:00:08,384
+49. check(findTestObject("Create RSVP/Question 2 switch"))
+
+14
+00:00:08,385 --> 00:00:08,904
+53. verifyElementChecked(findTestObject("Create RSVP/Question 2 switch"), 1)
+
+15
+00:00:08,904 --> 00:00:09,804
+57. setText(findTestObject("Create RSVP/Question 2 title input"), "Why?")
+
+16
+00:00:09,805 --> 00:00:10,172
+61. click(findTestObject("Create RSVP/RSVP template Save button"))
+
+17
+00:00:10,172 --> 00:00:11,484
+65. click(findTestObject("Create RSVP/RSVP templates tab"))
+
+18
+00:00:11,485 --> 00:00:12,586
+69. setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-13")
+
+19
+00:00:12,587 --> 00:00:14,598
+73. delay(2)
+
+20
+00:00:14,599 --> 00:00:14,920
+77. verifyElementText(findTestObject("Create RSVP/Filtered RSVP template"), "TC-13")
+
+21
+00:00:14,921 --> 00:00:14,923
+81. click(findTestObject("Survey/3dots Actions"))
+
+22
+00:00:14,923 --> 00:00:14,925
+85. click(findTestObject("Templates Action menu/Preview Template Action"))
+
+23
+00:00:14,926 --> 00:00:14,927
+89. switchToFrame(findTestObject("Create Pop-up Alert Page/Preview alert iframe"), 2)
+
+24
+00:00:14,928 --> 00:00:14,931
+93. takeFullPageScreenshot([])
+
+25
+00:00:14,931 --> 00:00:14,933
+97. click(findTestObject("Create Pop-up Alert Page/close alert preview"))
+
+26
+00:00:14,934 --> 00:00:14,935
+101. switchToDefaultContent()
+
+27
+00:00:14,936 --> 00:00:15,274
+105. click(findTestObject("Survey/3dots Actions"))
+
+28
+00:00:15,274 --> 00:00:15,861
+109. click(findTestObject("Templates Action menu/Edit Template Action"))
+
+29
+00:00:15,861 --> 00:00:16,659
+113. verifyElementPresent(findTestObject("Create RSVP/Create RSVP Alert Header"), 2)
+
+30
+00:00:16,660 --> 00:00:16,956
+117. verifyElementText(findTestObject("Create RSVP/Create RSVP Alert Header"), "Edit RSVP template")
+
+31
+00:00:16,956 --> 00:00:17,236
+121. scrollToElement(findTestObject("Create RSVP/RSVP template Save button"), 2)
+
+32
+00:00:17,236 --> 00:00:17,578
+125. click(findTestObject("Create RSVP/RSVP template Save button"))
+
+33
+00:00:17,579 --> 00:00:51,994
+129. click(findTestObject("Create RSVP/RSVP templates tab"))
+

@@ -104,6 +104,8 @@ WebUI.click(findTestObject('Survey/3dots Actions'))
 'Click on view publishers linked to this policy'
 WebUI.click(findTestObject('Publishers/Policies/view publishers linked to the policy'))
 
+WebUI.delay(3)
+
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Publishers/Policies/View publishers close btn'))

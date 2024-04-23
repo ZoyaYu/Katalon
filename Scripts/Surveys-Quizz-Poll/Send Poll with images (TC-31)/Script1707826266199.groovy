@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Survey/More btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-31')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-31')
 
 WebUI.setText(findTestObject('Survey/Q1 input'), 'Choose image with mountains')
 
@@ -46,6 +46,8 @@ WebUI.setText(findTestObject('Survey/Q1 answer 2 input field'), 'Picture 2')
 WebUI.click(findTestObject('Survey/add image Q1(a2)'))
 
 WebUI.click(findTestObject('Survey/6th image from server TC-31'))
+
+WebUI.delay(30)
 
 WebUI.click(findTestObject('Survey/Send btn Survey'))
 

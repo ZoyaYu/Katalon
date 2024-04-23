@@ -31,13 +31,13 @@ WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], F
 
 WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-37')
 
-WebUI.verifyElementPresent(findTestObject('Wallpapers/Upload wallpaper area'), 2)
+WebUI.verifyElementPresent(findTestObject('Screensavers/Upload screensaver area'), 2)
 
-WebUI.uploadFileWithDragAndDrop(findTestObject('Wallpapers/Upload wallpaper area'), 'C:\\Users\\Home\\git\\Katalon\\Imagesfortest\\rocks.png')
+WebUI.uploadFileWithDragAndDrop(findTestObject('Screensavers/Upload screensaver area'), 'C:\\Users\\Home\\git\\Katalon\\Imagesfortest\\rocks.png')
 
 WebUI.delay(5)
 
-WebUI.getAttribute(findTestObject('Wallpapers/uploaded wallpaper file'), 'src')
+WebUI.getAttribute(findTestObject('Screensavers/uploaded screensaver file'), 'src')
 
 WebUI.click(findTestObject('Wallpapers/Send wallpaper button'))
 

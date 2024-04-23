@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Survey/More btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-25')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-25')
 
 WebUI.setText(findTestObject('Survey/Q1 input'), 'Are you satisfied with our services?')
 
@@ -69,9 +69,9 @@ WebUI.verifyElementText(findTestObject('Pop-up Alerts page/Filtered sent alert')
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Actions menu check'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Create Pop-up Alert Page/Alert Title field'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Survey/Survey title'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'Duplicate survey')
+WebUI.setText(findTestObject('Survey/Survey title'), 'Duplicate survey')
 
 WebUI.click(findTestObject('Survey/Send btn Survey'))
 

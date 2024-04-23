@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Survey/3dots Actions'))
 
 WebUI.click(findTestObject('Pop-up Alerts page/View graph'))
 
-WebUI.takeElementScreenshot(findTestObject('Pop-up Alerts page/View graph image'))
+WebUI.takeFullPageScreenshot('5')
 
 WebUI.click(findTestObject('Pop-up Alerts page/view graph close btn'))
 

@@ -1,0 +1,68 @@
+1
+00:00:00,038 --> 00:00:00,383
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,384 --> 00:00:01,007
+5. click(findTestObject("Dashboard Page/Lockscreens"))
+
+3
+00:00:01,008 --> 00:00:01,523
+9. verifyElementText(findTestObject("Lockscreen/Create Lockscreen header"), "Create Lockscreen")
+
+4
+00:00:01,524 --> 00:00:02,029
+13. click(findTestObject("Wallpapers/more"))
+
+5
+00:00:02,030 --> 00:00:03,811
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+6
+00:00:03,811 --> 00:00:04,492
+21. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+7
+00:00:04,494 --> 00:00:05,959
+25. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+8
+00:00:05,960 --> 00:00:06,280
+29. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+9
+00:00:06,281 --> 00:00:06,826
+33. click(findTestObject("Wallpapers/Done"))
+
+10
+00:00:06,826 --> 00:00:07,724
+37. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-24")
+
+11
+00:00:07,725 --> 00:00:08,028
+41. verifyElementPresent(findTestObject("Wallpapers/Upload wallpaper area"), 2)
+
+12
+00:00:08,029 --> 00:00:08,377
+45. click(findTestObject("Wallpapers/Select image from server button"))
+
+13
+00:00:08,377 --> 00:00:09,465
+49. click(findTestObject("Wallpapers/first image on a server"))
+
+14
+00:00:09,466 --> 00:00:09,984
+53. verifyElementPresent(findTestObject("Wallpapers/uploaded wallpaper file"), 1)
+
+15
+00:00:09,985 --> 00:00:10,334
+57. click(findTestObject("Wallpapers/Send wallpaper button"))
+
+16
+00:00:10,334 --> 00:00:10,349
+61. waitForPageLoad(2)
+
+17
+00:00:10,350 --> 00:00:44,127
+65. setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-24")
+

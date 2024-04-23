@@ -1,0 +1,214 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Publisher,Chrome 122.0.0.0,,,18-03-2024 18:13:16,18-03-2024 18:17:11,"3m - 54,378s",PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 122.0.0.0,,,18-03-2024 18:13:17,18-03-2024 18:13:31,"13,816s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,18-03-2024 18:13:17,18-03-2024 18:13:20,"2,282s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo/admin/auth"")",Chrome 122.0.0.0,,,18-03-2024 18:13:20,18-03-2024 18:13:21,"0,953s",PASSED
+waitForPageLoad(3),Chrome 122.0.0.0,,,18-03-2024 18:13:21,18-03-2024 18:13:21,"0,176s",PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,18-03-2024 18:13:21,18-03-2024 18:13:21,"0,173s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:13:21,18-03-2024 18:13:22,"0,938s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:13:22,18-03-2024 18:13:22,"0,316s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.2 (stage/11)"")",Chrome 122.0.0.0,,,18-03-2024 18:13:22,18-03-2024 18:13:23,"0,342s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,,,18-03-2024 18:13:23,18-03-2024 18:13:23,"0,707s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,18-03-2024 18:13:23,18-03-2024 18:13:24,"0,437s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:13:24,18-03-2024 18:13:24,"0,382s",PASSED
+delay(4),Chrome 122.0.0.0,,,18-03-2024 18:13:24,18-03-2024 18:13:28,"4,046s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 122.0.0.0,,,18-03-2024 18:13:28,18-03-2024 18:13:28,"0,305s",PASSED
+,,,,,,,
+Test Cases/Publisher/Create Publisher with Admin role (TC-49),Chrome 122.0.0.0,,,18-03-2024 18:13:31,18-03-2024 18:13:52,"20,981s",PASSED
+"click(findTestObject(""Publishers/Publishers on the top-menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:13:31,18-03-2024 18:13:31,"0,429s",PASSED
+"click(findTestObject(""Publishers/Add Publisher btn""))",Chrome 122.0.0.0,Start Publisher creation process,,18-03-2024 18:13:31,18-03-2024 18:13:33,"1,391s",PASSED
+"click(findTestObject(""Publishers/Publisher name input field""))",Chrome 122.0.0.0,,,18-03-2024 18:13:33,18-03-2024 18:13:33,"0,568s",PASSED
+"setText(findTestObject(""Publishers/Publisher name input field""), ""KatalonAdmin"")",Chrome 122.0.0.0,Input Publisher name,,18-03-2024 18:13:33,18-03-2024 18:13:34,"0,765s",PASSED
+"click(findTestObject(""Publishers/Publisher Password""))",Chrome 122.0.0.0,,,18-03-2024 18:13:34,18-03-2024 18:13:34,"0,351s",PASSED
+"setText(findTestObject(""Publishers/Publisher Password""), ""123"")",Chrome 122.0.0.0,Setup publisher password,,18-03-2024 18:13:34,18-03-2024 18:13:35,"0,694s",PASSED
+"click(findTestObject(""Publishers/Publisher type drop-down""))",Chrome 122.0.0.0,Choose Publisher Role,,18-03-2024 18:13:35,18-03-2024 18:13:35,"0,488s",PASSED
+"click(findTestObject(""Publishers/Admin type""))",Chrome 122.0.0.0,,,18-03-2024 18:13:35,18-03-2024 18:13:36,"0,511s",PASSED
+"click(findTestObject(""Publishers/add btn""))",Chrome 122.0.0.0,,,18-03-2024 18:13:36,18-03-2024 18:13:37,"0,788s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:13:37,18-03-2024 18:13:37,"0,796s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""KatalonAdmin"")",Chrome 122.0.0.0,Verify if Publisher exist,,18-03-2024 18:13:37,18-03-2024 18:13:39,"1,442s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:13:39,18-03-2024 18:13:44,"5,018s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""KatalonAdmin"")",Chrome 122.0.0.0,,,18-03-2024 18:13:44,18-03-2024 18:13:44,"0,328s",PASSED
+"verifyElementPresent(findTestObject(""Publishers/Enabled status""), 2)",Chrome 122.0.0.0,Verify if publisher has enabled status,,18-03-2024 18:13:44,18-03-2024 18:13:45,"0,308s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 122.0.0.0,,,18-03-2024 18:13:45,18-03-2024 18:13:45,"0,537s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:13:45,18-03-2024 18:13:46,"0,435s",PASSED
+"click(findTestObject(""Publishers/Disable btn""))",Chrome 122.0.0.0,Disable Publisher,,18-03-2024 18:13:46,18-03-2024 18:13:46,"0,568s",PASSED
+"verifyElementPresent(findTestObject(""Publishers/Disabled status""), 2)",Chrome 122.0.0.0,Verify if publisher disabled,,18-03-2024 18:13:46,18-03-2024 18:13:47,"0,992s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 122.0.0.0,,,18-03-2024 18:13:47,18-03-2024 18:13:47,"0,375s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:13:47,18-03-2024 18:13:48,"0,522s",PASSED
+"click(findTestObject(""Publishers/Enable btn""))",Chrome 122.0.0.0,"Enable Publisher back
+",,18-03-2024 18:13:48,18-03-2024 18:13:49,"0,549s",PASSED
+"verifyElementPresent(findTestObject(""Publishers/Enabled status""), 2)",Chrome 122.0.0.0,Verify if publisher now enabled,,18-03-2024 18:13:49,18-03-2024 18:13:49,"0,865s",PASSED
+,,,,,,,
+Test Cases/Publisher/Edit Publisher (TC-50),Chrome 122.0.0.0,,,18-03-2024 18:13:52,18-03-2024 18:14:07,"15,661s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,click on Actions menu for specified publisher,,18-03-2024 18:13:52,18-03-2024 18:13:52,"0,376s",PASSED
+"click(findTestObject(""Publishers/Edit publisher""))",Chrome 122.0.0.0,Choose edit option in Actions menu,,18-03-2024 18:13:52,18-03-2024 18:13:53,"0,617s",PASSED
+"setText(findTestObject(""Publishers/Publisher email input field""), ""katalon@mail.com"")",Chrome 122.0.0.0,Type email address,,18-03-2024 18:13:53,18-03-2024 18:13:54,"1,485s",PASSED
+"click(findTestObject(""Publishers/Phone code drop-down""))",Chrome 122.0.0.0,Setup phone number,,18-03-2024 18:13:54,18-03-2024 18:13:55,"0,411s",PASSED
+"scrollToElement(findTestObject(""Publishers/US country code""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:13:55,18-03-2024 18:13:55,"0,428s",PASSED
+"click(findTestObject(""Publishers/US country code""))",Chrome 122.0.0.0,,,18-03-2024 18:13:55,18-03-2024 18:13:55,"0,333s",PASSED
+"click(findTestObject(""Publishers/Phone number input field""))",Chrome 122.0.0.0,,,18-03-2024 18:13:55,18-03-2024 18:13:56,"0,669s",PASSED
+"setText(findTestObject(""Publishers/Phone number input field""), ""2233445566"")",Chrome 122.0.0.0,,,18-03-2024 18:13:56,18-03-2024 18:13:57,"0,715s",PASSED
+"click(findTestObject(""Publishers/add btn""))",Chrome 122.0.0.0,Save changes,,18-03-2024 18:13:57,18-03-2024 18:13:57,"0,351s",PASSED
+"sendKeys(findTestObject(""Pop-up Alerts page/Search by title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 122.0.0.0,,,18-03-2024 18:13:57,18-03-2024 18:13:58,"1,331s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""KatalonAdmin"")",Chrome 122.0.0.0,,,18-03-2024 18:13:58,18-03-2024 18:14:00,"1,429s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:14:00,18-03-2024 18:14:05,"5,010s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""KatalonAdmin"")",Chrome 122.0.0.0,,,18-03-2024 18:14:05,18-03-2024 18:14:05,"0,317s",PASSED
+,,,,,,,
+Test Cases/Publisher/Change Publisher Password (TC-51),Chrome 122.0.0.0,,,18-03-2024 18:14:07,18-03-2024 18:14:12,"4,923s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,Click on Actions menu in front of defined publisher,,18-03-2024 18:14:07,18-03-2024 18:14:08,"0,346s",PASSED
+"click(findTestObject(""Publishers/Publisher change password""))",Chrome 122.0.0.0,Change password,,18-03-2024 18:14:08,18-03-2024 18:14:08,"0,617s",PASSED
+"setText(findTestObject(""Publishers/change password input field""), ""1234"")",Chrome 122.0.0.0,,,18-03-2024 18:14:08,18-03-2024 18:14:10,"1,354s",PASSED
+"click(findTestObject(""Publishers/add btn""))",Chrome 122.0.0.0,Save changes,,18-03-2024 18:14:10,18-03-2024 18:14:10,"0,462s",PASSED
+,,,,,,,
+Test Cases/Publisher/Re-login with created publisher with Admin role (TC-52),Chrome 122.0.0.0,publisher with admin role,,18-03-2024 18:14:12,18-03-2024 18:14:28,"16,128s",PASSED
+"waitForElementClickable(findTestObject(""Dashboard Page/Profile button""), 2)",Chrome 122.0.0.0,Logout from current user,,18-03-2024 18:14:12,18-03-2024 18:14:13,"0,340s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,,,18-03-2024 18:14:13,18-03-2024 18:14:13,"0,474s",PASSED
+"click(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,,,18-03-2024 18:14:13,18-03-2024 18:14:13,"0,340s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:14:13,18-03-2024 18:14:14,"0,668s",PASSED
+"click(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:14:14,18-03-2024 18:14:14,"0,437s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:14:14,18-03-2024 18:14:16,"1,707s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""KatalonAdmin"")",Chrome 122.0.0.0,Login with newly created publisher,,18-03-2024 18:14:16,18-03-2024 18:14:17,"0,713s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""4nvbrPglk7k="")",Chrome 122.0.0.0,,,18-03-2024 18:14:17,18-03-2024 18:14:17,"0,378s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:14:17,18-03-2024 18:14:18,"0,363s",PASSED
+delay(4),Chrome 122.0.0.0,,,18-03-2024 18:14:18,18-03-2024 18:14:22,"4,005s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,18-03-2024 18:14:22,18-03-2024 18:14:22,"0,555s",PASSED
+"click(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,Logout,,18-03-2024 18:14:22,18-03-2024 18:14:23,"0,351s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:14:23,18-03-2024 18:14:23,"0,659s",PASSED
+"click(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:14:23,18-03-2024 18:14:24,"0,427s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,Login back with tester profile,,18-03-2024 18:14:24,18-03-2024 18:14:26,"1,915s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,18-03-2024 18:14:26,18-03-2024 18:14:26,"0,352s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:14:26,18-03-2024 18:14:26,"0,310s",PASSED
+,,,,,,,
+Test Cases/Publisher/Delete Publisher (TC-53),Chrome 122.0.0.0,,,18-03-2024 18:14:28,18-03-2024 18:14:40,"12,129s",PASSED
+"click(findTestObject(""Publishers/Publishers on the top-menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:14:28,18-03-2024 18:14:29,"0,364s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:14:29,18-03-2024 18:14:30,"1,228s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""KatalonAdmin"")",Chrome 122.0.0.0,Verify if Publisher exist,,18-03-2024 18:14:30,18-03-2024 18:14:31,"0,642s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:14:31,18-03-2024 18:14:36,"5,005s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""KatalonAdmin"")",Chrome 122.0.0.0,,,18-03-2024 18:14:36,18-03-2024 18:14:36,"0,295s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,Delete Publisher,,18-03-2024 18:14:36,18-03-2024 18:14:38,"2,434s",PASSED
+,,,,,,,
+Test Cases/Policies/Create Full access policy (TC-54),Chrome 122.0.0.0,,,18-03-2024 18:14:40,18-03-2024 18:14:50,"9,352s",PASSED
+"click(findTestObject(""Publishers/Publishers on the top-menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:14:40,18-03-2024 18:14:41,"0,412s",PASSED
+"click(findTestObject(""Publishers/Policies/Policies (left-hand menu)""))",Chrome 122.0.0.0,Click Policies on the left-hand menu,,18-03-2024 18:14:41,18-03-2024 18:14:42,"0,834s",PASSED
+"click(findTestObject(""Publishers/Policies/Add Policies btn""))",Chrome 122.0.0.0,Click add policies button,,18-03-2024 18:14:42,18-03-2024 18:14:43,"1,088s",PASSED
+"check(findTestObject(""Publishers/Policies/Grant Full Control Checkbox""))",Chrome 122.0.0.0,Enable Grant full control option,,18-03-2024 18:14:43,18-03-2024 18:14:45,"2,573s",PASSED
+"verifyElementChecked(findTestObject(""Publishers/Policies/Grant Full Control Checkbox""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:14:45,18-03-2024 18:14:46,"0,957s",PASSED
+"setText(findTestObject(""Publishers/Policies/Policy name""), ""FullAccess"")",Chrome 122.0.0.0,Enter policy name,,18-03-2024 18:14:46,18-03-2024 18:14:47,"0,698s",PASSED
+"scrollToElement(findTestObject(""Publishers/Policies/Policy Save btn""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:14:47,18-03-2024 18:14:47,"0,328s",PASSED
+"click(findTestObject(""Publishers/Policies/Policy Save btn""))",Chrome 122.0.0.0,Save policy,,18-03-2024 18:14:47,18-03-2024 18:14:48,"0,376s",PASSED
+,,,,,,,
+Test Cases/Policies/Create a publisher with Full access Policy (TC-55),Chrome 122.0.0.0,,,18-03-2024 18:14:50,18-03-2024 18:15:07,"17,698s",PASSED
+"click(findTestObject(""Publishers/Publishers on the top-menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:14:50,18-03-2024 18:14:50,"0,596s",PASSED
+"click(findTestObject(""Publishers/Publisher list left-hand menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:14:50,18-03-2024 18:14:50,"0,003s",NOT_RUN
+"click(findTestObject(""Publishers/Add Publisher btn""))",Chrome 122.0.0.0,Start Publisher creation process,,18-03-2024 18:14:50,18-03-2024 18:14:51,"0,878s",PASSED
+"click(findTestObject(""Publishers/Publisher name input field""))",Chrome 122.0.0.0,,,18-03-2024 18:14:51,18-03-2024 18:14:52,"0,571s",PASSED
+"setText(findTestObject(""Publishers/Publisher name input field""), ""KatalonPublisher"")",Chrome 122.0.0.0,Input Publisher name,,18-03-2024 18:14:52,18-03-2024 18:14:53,"0,802s",PASSED
+"click(findTestObject(""Publishers/Publisher Password""))",Chrome 122.0.0.0,,,18-03-2024 18:14:53,18-03-2024 18:14:53,"0,371s",PASSED
+"setText(findTestObject(""Publishers/Publisher Password""), ""123"")",Chrome 122.0.0.0,Setup publisher password,,18-03-2024 18:14:53,18-03-2024 18:14:54,"0,684s",PASSED
+"click(findTestObject(""Publishers/Publisher type drop-down""))",Chrome 122.0.0.0,Choose Publisher Role,,18-03-2024 18:14:54,18-03-2024 18:14:55,"0,714s",PASSED
+"click(findTestObject(""Publishers/Publishers type""))",Chrome 122.0.0.0,,,18-03-2024 18:14:55,18-03-2024 18:14:55,"0,502s",PASSED
+"click(findTestObject(""Publishers/Policies/Policies drop-down""))",Chrome 122.0.0.0,Choose publisher policy,,18-03-2024 18:14:55,18-03-2024 18:14:56,"0,777s",PASSED
+"testObj = findTestObject(""Object Repository/Publishers/Policies/List of policies from drop-down"")",Chrome 122.0.0.0,,,18-03-2024 18:14:56,18-03-2024 18:14:56,"0,024s",PASSED
+"policies = findWebElements(testObj, 10)",Chrome 122.0.0.0,Find all policies in a list,,18-03-2024 18:14:56,18-03-2024 18:14:56,"0,507s",PASSED
+println(policies.size()),Chrome 122.0.0.0,,,18-03-2024 18:14:56,18-03-2024 18:14:56,"0,004s",PASSED
+for (org.openqa.selenium.WebElement el : policies),Chrome 122.0.0.0,Choose defined FullAccess Policy,,18-03-2024 18:14:56,18-03-2024 18:14:57,"0,392s",PASSED
+"click(findTestObject(""Publishers/add btn""))",Chrome 122.0.0.0,,,18-03-2024 18:14:57,18-03-2024 18:14:58,"0,893s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:14:58,18-03-2024 18:14:58,"0,796s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""KatalonPublisher"")",Chrome 122.0.0.0,Verify if Publisher exist,,18-03-2024 18:14:58,18-03-2024 18:15:00,"1,415s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:15:00,18-03-2024 18:15:05,"5,018s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""KatalonPublisher"")",Chrome 122.0.0.0,,,18-03-2024 18:15:05,18-03-2024 18:15:05,"0,290s",PASSED
+"verifyElementPresent(findTestObject(""Publishers/Enabled status""), 2)",Chrome 122.0.0.0,Verify if publisher has enabled status,,18-03-2024 18:15:05,18-03-2024 18:15:05,"0,296s",PASSED
+,,,,,,,
+Test Cases/Publisher/Re-login with created publisher with FullAccess policy (TC-56),Chrome 122.0.0.0,,,18-03-2024 18:15:07,18-03-2024 18:15:24,"16,192s",PASSED
+"waitForElementClickable(findTestObject(""Dashboard Page/Profile button""), 2)",Chrome 122.0.0.0,Logout from current user,,18-03-2024 18:15:08,18-03-2024 18:15:08,"0,297s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,,,18-03-2024 18:15:08,18-03-2024 18:15:08,"0,450s",PASSED
+"click(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,,,18-03-2024 18:15:08,18-03-2024 18:15:09,"0,332s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:15:09,18-03-2024 18:15:09,"0,696s",PASSED
+"click(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:15:09,18-03-2024 18:15:10,"0,331s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:15:10,18-03-2024 18:15:11,"1,724s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""KatalonPublisher"")",Chrome 122.0.0.0,Login with newly created publisher,,18-03-2024 18:15:11,18-03-2024 18:15:12,"0,685s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,18-03-2024 18:15:12,18-03-2024 18:15:13,"0,479s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:15:13,18-03-2024 18:15:13,"0,343s",PASSED
+delay(4),Chrome 122.0.0.0,,,18-03-2024 18:15:13,18-03-2024 18:15:17,"4,007s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,18-03-2024 18:15:17,18-03-2024 18:15:17,"0,473s",PASSED
+"click(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,Logout,,18-03-2024 18:15:17,18-03-2024 18:15:18,"0,346s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:15:18,18-03-2024 18:15:18,"0,666s",PASSED
+"click(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:15:18,18-03-2024 18:15:19,"0,438s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,Login back with tester profile,,18-03-2024 18:15:19,18-03-2024 18:15:21,"2,039s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,18-03-2024 18:15:21,18-03-2024 18:15:21,"0,406s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:15:21,18-03-2024 18:15:22,"0,344s",PASSED
+"getAllLinksOnCurrentPage(false, [])",Chrome 122.0.0.0,,,18-03-2024 18:15:22,18-03-2024 18:15:22,"0,003s",NOT_RUN
+"verifyAllLinksOnCurrentPageAccessible(false, [])",Chrome 122.0.0.0,,,18-03-2024 18:15:22,18-03-2024 18:15:22,"0,001s",NOT_RUN
+,,,,,,,
+Test Cases/Policies/Delete FullAccess Policy (TC-57),Chrome 122.0.0.0,,,18-03-2024 18:15:24,18-03-2024 18:15:37,"13,472s",PASSED
+"click(findTestObject(""Publishers/Publishers on the top-menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:15:24,18-03-2024 18:15:24,"0,423s",PASSED
+"click(findTestObject(""Publishers/Policies/Policies (left-hand menu)""))",Chrome 122.0.0.0,Click Policies on the left-hand menu,,18-03-2024 18:15:24,18-03-2024 18:15:26,"1,447s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:15:26,18-03-2024 18:15:27,"1,031s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""FullAccess"")",Chrome 122.0.0.0,Verify if Policy exist,,18-03-2024 18:15:27,18-03-2024 18:15:27,"0,656s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:15:27,18-03-2024 18:15:32,"5,013s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""FullAccess"")",Chrome 122.0.0.0,,,18-03-2024 18:15:32,18-03-2024 18:15:33,"0,299s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,Delete Policy,,18-03-2024 18:15:33,18-03-2024 18:15:35,"2,421s",PASSED
+,,,,,,,
+Test Cases/Policies/Create Restricted Policy (TC-58),Chrome 122.0.0.0,Pop-up only,,18-03-2024 18:15:37,18-03-2024 18:16:53,"1m - 16,035s",PASSED
+"click(findTestObject(""Publishers/Publishers on the top-menu""))",Chrome 122.0.0.0,Open Publisher page on a dashboard,,18-03-2024 18:15:37,18-03-2024 18:15:38,"0,533s",PASSED
+"click(findTestObject(""Publishers/Policies/Policies (left-hand menu)""))",Chrome 122.0.0.0,Click Policies on the left-hand menu,,18-03-2024 18:15:38,18-03-2024 18:15:39,"0,887s",PASSED
+"click(findTestObject(""Publishers/Policies/Add Policies btn""))",Chrome 122.0.0.0,Click add policies button,,18-03-2024 18:15:39,18-03-2024 18:15:40,"1,026s",PASSED
+"setText(findTestObject(""Publishers/Policies/Policy name""), ""RestrictedAccess"")",Chrome 122.0.0.0,Enter policy name,,18-03-2024 18:15:40,18-03-2024 18:15:43,"3,261s",PASSED
+"check(findTestObject(""Publishers/Policies/Pop-up checkbox""))",Chrome 122.0.0.0,,,18-03-2024 18:15:43,18-03-2024 18:15:43,"0,438s",PASSED
+"verifyElementChecked(findTestObject(""Publishers/Policies/Pop-up checkbox""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:15:43,18-03-2024 18:15:43,"0,002s",NOT_RUN
+"scrollToElement(findTestObject(""Publishers/Policies/Policy Save btn""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:15:43,18-03-2024 18:15:44,"0,418s",PASSED
+"click(findTestObject(""Publishers/Policies/Policy Save btn""))",Chrome 122.0.0.0,Save policy,,18-03-2024 18:15:44,18-03-2024 18:15:44,"0,632s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:15:44,18-03-2024 18:15:52,"7,619s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""RestrictedAccess"")",Chrome 122.0.0.0,Verify if Policy exist,,18-03-2024 18:15:52,18-03-2024 18:15:53,"0,625s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:15:53,18-03-2024 18:15:58,"5,017s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""RestrictedAccess"")",Chrome 122.0.0.0,,,18-03-2024 18:15:58,18-03-2024 18:15:58,"0,327s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,Click on Actions menu,,18-03-2024 18:15:58,18-03-2024 18:15:58,"0,371s",PASSED
+"click(findTestObject(""Publishers/Edit publisher""))",Chrome 122.0.0.0,Select Edit,,18-03-2024 18:15:58,18-03-2024 18:15:59,"0,570s",PASSED
+"check(findTestObject(""Publishers/Policies/Wallpapers checkbox""))",Chrome 122.0.0.0,,,18-03-2024 18:15:59,18-03-2024 18:16:02,"2,778s",PASSED
+"verifyElementChecked(findTestObject(""Publishers/Policies/Wallpapers checkbox""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:16:02,18-03-2024 18:16:02,"0,001s",NOT_RUN
+"scrollToElement(findTestObject(""Publishers/Policies/Policy Save btn""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:16:02,18-03-2024 18:16:02,"0,418s",PASSED
+"click(findTestObject(""Publishers/Policies/Policy Save btn""))",Chrome 122.0.0.0,Save policy,,18-03-2024 18:16:02,18-03-2024 18:16:03,"0,600s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:16:03,18-03-2024 18:16:10,"7,428s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""RestrictedAccess"")",Chrome 122.0.0.0,Verify if Policy exist,,18-03-2024 18:16:10,18-03-2024 18:16:11,"0,622s",PASSED
+"waitForElementClickable(findTestObject(""Survey/3dots Actions""), 3)",Chrome 122.0.0.0,,,18-03-2024 18:16:11,18-03-2024 18:16:11,"0,308s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,,,18-03-2024 18:16:11,18-03-2024 18:16:12,"1,069s",PASSED
+"click(findTestObject(""Publishers/Policies/Duplicate Policies""))",Chrome 122.0.0.0,,,18-03-2024 18:16:12,18-03-2024 18:16:13,"0,592s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Search by title field""))",Chrome 122.0.0.0,,,18-03-2024 18:16:13,18-03-2024 18:16:20,"7,342s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""RestrictedAccess copy"")",Chrome 122.0.0.0,Verify if Policy exist,,18-03-2024 18:16:20,18-03-2024 18:16:21,"0,678s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:16:21,18-03-2024 18:16:26,"5,007s",PASSED
+"getText(findTestObject(""Publishers/filtered publisher""))",Chrome 122.0.0.0,,,18-03-2024 18:16:26,18-03-2024 18:16:26,"0,332s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""RestrictedAccess copy"")",Chrome 122.0.0.0,,,18-03-2024 18:16:26,18-03-2024 18:16:26,"0,304s",PASSED
+"callTestCase(findTestCase(""Policies/Create a publisher with RestrictedAccess policy (TC-59)""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,Create publisher with restricted policy,,18-03-2024 18:16:26,18-03-2024 18:16:42,"15,434s",PASSED
+"click(findTestObject(""Publishers/Policies/Policies (left-hand menu)""))",Chrome 122.0.0.0,Click Policies on the left-hand menu,,18-03-2024 18:16:42,18-03-2024 18:16:43,"0,743s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""RestrictedAccess"")",Chrome 122.0.0.0,Verify if Policy exist,,18-03-2024 18:16:43,18-03-2024 18:16:44,"1,091s",PASSED
+delay(5),Chrome 122.0.0.0,,,18-03-2024 18:16:44,18-03-2024 18:16:49,"5,018s",PASSED
+"verifyElementText(findTestObject(""Publishers/filtered publisher""), ""RestrictedAccess"")",Chrome 122.0.0.0,,,18-03-2024 18:16:49,18-03-2024 18:16:49,"0,299s",PASSED
+"click(findTestObject(""Survey/3dots Actions""))",Chrome 122.0.0.0,Click on Actions menu,,18-03-2024 18:16:49,18-03-2024 18:16:49,"0,322s",PASSED
+"click(findTestObject(""Publishers/Policies/view publishers linked to the policy""))",Chrome 122.0.0.0,Click on view publishers linked to this policy,,18-03-2024 18:16:49,18-03-2024 18:16:50,"0,629s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,18-03-2024 18:16:50,18-03-2024 18:16:51,"0,557s",PASSED
+"click(findTestObject(""Publishers/Policies/View publishers close btn""))",Chrome 122.0.0.0,,,18-03-2024 18:16:51,18-03-2024 18:16:51,"0,571s",PASSED
+,,,,,,,
+Test Cases/Publisher/Re-login with created publisher with RestrictedAccess policy (TC-60),Chrome 122.0.0.0,,,18-03-2024 18:16:53,18-03-2024 18:17:11,"17,633s",PASSED
+"waitForElementClickable(findTestObject(""Dashboard Page/Profile button""), 2)",Chrome 122.0.0.0,Logout from current user,,18-03-2024 18:16:53,18-03-2024 18:16:54,"0,313s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,,,18-03-2024 18:16:54,18-03-2024 18:16:54,"0,429s",PASSED
+"click(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,,,18-03-2024 18:16:54,18-03-2024 18:16:54,"0,344s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:16:54,18-03-2024 18:16:55,"0,693s",PASSED
+"click(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:16:55,18-03-2024 18:16:55,"0,360s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 122.0.0.0,,,18-03-2024 18:16:55,18-03-2024 18:16:57,"1,768s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""KatalonPublisherRestricted"")",Chrome 122.0.0.0,Login with newly created publisher,,18-03-2024 18:16:57,18-03-2024 18:16:58,"0,676s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,18-03-2024 18:16:58,18-03-2024 18:16:58,"0,382s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:16:58,18-03-2024 18:16:59,"0,325s",PASSED
+delay(4),Chrome 122.0.0.0,,,18-03-2024 18:16:59,18-03-2024 18:17:03,"4,016s",PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,18-03-2024 18:17:03,18-03-2024 18:17:03,"0,422s",PASSED
+"verifyElementPresent(findTestObject(""Dashboard Page/Left-hand menu_Pop-up Alerts""), 1)",Chrome 122.0.0.0,,,18-03-2024 18:17:03,18-03-2024 18:17:03,"0,302s",PASSED
+"verifyElementPresent(findTestObject(""Dashboard Page/Left-hand menu_Wallpapers""), 1)",Chrome 122.0.0.0,,,18-03-2024 18:17:03,18-03-2024 18:17:04,"0,294s",PASSED
+"verifyElementPresent(findTestObject(""Dashboard Page/Left-hand menu_Scrolling Tickers""), 1)",Chrome 122.0.0.0,,,18-03-2024 18:17:04,18-03-2024 18:17:04,"0,290s",PASSED
+"verifyElementPresent(findTestObject(""Dashboard Page/Left-hand menu_RSVP""), 1)",Chrome 122.0.0.0,,,18-03-2024 18:17:04,18-03-2024 18:17:04,"0,281s",PASSED
+"verifyElementNotPresent(findTestObject(""Dashboard Page/Left-hand menu Screensavers""), 1)",Chrome 122.0.0.0,,,18-03-2024 18:17:04,18-03-2024 18:17:04,"0,352s",PASSED
+"click(findTestObject(""Dashboard Page/Profile button""))",Chrome 122.0.0.0,Logout,,18-03-2024 18:17:04,18-03-2024 18:17:05,"0,336s",PASSED
+"mouseOver(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:17:05,18-03-2024 18:17:05,"0,662s",PASSED
+"click(findTestObject(""Dashboard Page/Profile menu-Logout""))",Chrome 122.0.0.0,,,18-03-2024 18:17:05,18-03-2024 18:17:06,"0,445s",PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 122.0.0.0,Login back with tester profile,,18-03-2024 18:17:06,18-03-2024 18:17:08,"2,044s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 122.0.0.0,,,18-03-2024 18:17:08,18-03-2024 18:17:08,"0,411s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 122.0.0.0,,,18-03-2024 18:17:08,18-03-2024 18:17:09,"0,330s",PASSED

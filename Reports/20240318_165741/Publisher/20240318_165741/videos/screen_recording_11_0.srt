@@ -1,0 +1,88 @@
+1
+00:00:00,062 --> 00:00:00,603
+3. Open Publisher page on a dashboard
+
+2
+00:00:00,605 --> 00:00:01,542
+9. Click Policies on the left-hand menu
+
+3
+00:00:01,543 --> 00:00:02,562
+15. Click add policies button
+
+4
+00:00:02,563 --> 00:00:04,706
+21. Enter policy name
+
+5
+00:00:04,706 --> 00:00:05,343
+25. check(findTestObject("Publishers/Policies/Pop-up checkbox"))
+
+6
+00:00:05,343 --> 00:00:05,345
+29. verifyElementChecked(findTestObject("Publishers/Policies/Pop-up checkbox"), 2)
+
+7
+00:00:05,345 --> 00:00:05,755
+33. scrollToElement(findTestObject("Publishers/Policies/Policy Save btn"), 2)
+
+8
+00:00:05,759 --> 00:00:06,375
+39. Save policy
+
+9
+00:00:06,375 --> 00:00:13,769
+43. click(findTestObject("Pop-up Alerts page/Search by title field"))
+
+10
+00:00:13,770 --> 00:00:14,408
+49. Verify if Policy exist
+
+11
+00:00:14,409 --> 00:00:19,427
+53. delay(5)
+
+12
+00:00:19,428 --> 00:00:19,728
+57. verifyElementText(findTestObject("Publishers/filtered publisher"), "RestrictedAccess")
+
+13
+00:00:19,729 --> 00:00:20,101
+63. Click on Actions menu
+
+14
+00:00:20,102 --> 00:00:20,695
+69. Select Edit
+
+15
+00:00:20,697 --> 00:00:22,823
+73. check(findTestObject("Publishers/Policies/Wallpapers checkbox"))
+
+16
+00:00:22,824 --> 00:00:22,826
+77. verifyElementChecked(findTestObject("Publishers/Policies/Wallpapers checkbox"), 2)
+
+17
+00:00:22,827 --> 00:00:23,246
+81. scrollToElement(findTestObject("Publishers/Policies/Policy Save btn"), 2)
+
+18
+00:00:23,246 --> 00:00:23,843
+87. Save policy
+
+19
+00:00:23,844 --> 00:00:31,182
+91. click(findTestObject("Pop-up Alerts page/Search by title field"))
+
+20
+00:00:31,182 --> 00:00:31,848
+97. Verify if Policy exist
+
+21
+00:00:31,848 --> 00:00:32,203
+101. click(findTestObject("Survey/3dots Actions"))
+
+22
+00:00:32,204 --> 00:00:33,354
+105. click(findTestObject("Publishers/Policies/Duplicate Policies"))
+

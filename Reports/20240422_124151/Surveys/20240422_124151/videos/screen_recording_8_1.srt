@@ -1,0 +1,24 @@
+1
+00:00:00,002 --> 00:00:00,605
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,606 --> 00:00:01,672
+5. click(findTestObject("Dashboard Page/Survey-Quizz-Poll"))
+
+3
+00:00:01,673 --> 00:00:01,674
+9. click(findTestObject("Survey/New Survey btn"))
+
+4
+00:00:01,675 --> 00:00:02,203
+13. check(findTestObject("Survey/Poll radio btn"))
+
+5
+00:00:02,205 --> 00:00:02,640
+17. verifyElementChecked(findTestObject("Survey/Poll radio btn"), 1)
+
+6
+00:00:02,641 --> 00:00:30,762
+21. click(findTestObject("Survey/More btn"))
+

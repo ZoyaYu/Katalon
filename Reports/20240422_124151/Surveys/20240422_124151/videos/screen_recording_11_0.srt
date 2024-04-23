@@ -1,0 +1,12 @@
+1
+00:00:00,040 --> 00:00:08,634
+1. click(findTestObject("Survey/Survey templates tab"))
+
+2
+00:00:08,635 --> 00:00:10,284
+5. setText(findTestObject("Pop-up Alerts page/Search by title field"), "TC-32")
+
+3
+00:00:10,284 --> 00:00:10,858
+9. verifyElementText(findTestObject("Pop-up Alerts page/Filtered sent alert"), "TC-32")
+

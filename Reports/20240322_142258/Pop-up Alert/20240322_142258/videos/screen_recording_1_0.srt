@@ -1,0 +1,28 @@
+1
+00:00:00,192 --> 00:00:02,404
+1. openBrowser("")
+
+2
+00:00:02,414 --> 00:00:03,213
+5. navigateToUrl("https://dadebug.commclouds.com/Demo/admin/auth")
+
+3
+00:00:03,213 --> 00:00:03,332
+9. waitForPageLoad(3)
+
+4
+00:00:03,332 --> 00:00:03,483
+13. maximizeWindow()
+
+5
+00:00:03,484 --> 00:00:04,223
+17. verifyElementPresent(findTestObject("Login Page/DAlogo"), 2)
+
+6
+00:00:04,224 --> 00:00:04,509
+21. verifyElementPresent(findTestObject("Login Page/Version number"), 2)
+
+7
+00:00:04,510 --> 00:00:05,096
+25. verifyElementText(findTestObject("Login Page/Version number"), "Version: 11.4.0.2 (stage/11)")
+

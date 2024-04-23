@@ -1,0 +1,60 @@
+1
+00:00:00,002 --> 00:00:00,357
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,358 --> 00:00:01,012
+5. click(findTestObject("Dashboard Page/Survey-Quizz-Poll"))
+
+3
+00:00:01,013 --> 00:00:01,623
+9. check(findTestObject("Survey/Classic survey radio button"))
+
+4
+00:00:01,623 --> 00:00:02,287
+13. click(findTestObject("Survey/More btn"))
+
+5
+00:00:02,288 --> 00:00:02,365
+17. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+6
+00:00:02,366 --> 00:00:02,835
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+7
+00:00:02,838 --> 00:00:04,276
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+8
+00:00:04,277 --> 00:00:05,814
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+9
+00:00:05,815 --> 00:00:06,153
+13. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+10
+00:00:06,153 --> 00:00:06,467
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+11
+00:00:06,468 --> 00:00:06,798
+21. sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+12
+00:00:06,799 --> 00:00:07,680
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7")
+
+13
+00:00:07,681 --> 00:00:09,253
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 ")
+
+14
+00:00:09,253 --> 00:00:09,538
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+15
+00:00:09,538 --> 00:00:09,893
+37. click(findTestObject("Wallpapers/Done"))
+

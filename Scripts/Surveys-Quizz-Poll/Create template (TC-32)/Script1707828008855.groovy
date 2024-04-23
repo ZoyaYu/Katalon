@@ -27,7 +27,7 @@ WebUI.check(findTestObject('Survey/Quizz radio btn'))
 
 WebUI.verifyElementChecked(findTestObject('Survey/Quizz radio btn'), 1)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-32')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-32')
 
 WebUI.setText(findTestObject('Survey/Q1 input'), 'If you freeze water, what do you get?')
 

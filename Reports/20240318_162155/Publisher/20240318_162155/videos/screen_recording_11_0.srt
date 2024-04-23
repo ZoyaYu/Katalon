@@ -1,0 +1,24 @@
+1
+00:00:00,063 --> 00:00:00,567
+3. Open Publisher page on a dashboard
+
+2
+00:00:00,567 --> 00:00:01,403
+9. Click Policies on the left-hand menu
+
+3
+00:00:01,404 --> 00:00:02,315
+15. Click add policies button
+
+4
+00:00:02,316 --> 00:00:05,445
+21. Enter policy name
+
+5
+00:00:05,446 --> 00:00:05,848
+25. check(findTestObject("Publishers/Policies/Pop-up checkbox"))
+
+6
+00:00:05,848 --> 00:00:06,729
+29. verifyElementChecked(findTestObject("Publishers/Policies/Pop-up checkbox"), 2)
+

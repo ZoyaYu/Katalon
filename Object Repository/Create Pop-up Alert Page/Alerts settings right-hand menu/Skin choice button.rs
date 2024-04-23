@@ -6,14 +6,14 @@
    <elementGuidId>ee6f3ee4-adb2-4a76-95ed-0a7189e954fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>[aria-label=&quot;Select skin popup alert&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#demo-simple-select</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

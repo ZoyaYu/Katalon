@@ -1,0 +1,133 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Screensavers,Chrome 123.0.0.0,,,22-04-2024 14:27:07,22-04-2024 14:33:34,"6m - 27,448s",FAILED
+,,,,,,,
+Test Cases/Login Test Cases/Login with Valid Credentials,Chrome 123.0.0.0,,,22-04-2024 14:27:07,22-04-2024 14:27:19,"11,903s",PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,22-04-2024 14:27:07,22-04-2024 14:27:09,"1,715s",PASSED
+"navigateToUrl(""https://dadebug.commclouds.com/Demo"")",Chrome 123.0.0.0,,,22-04-2024 14:27:09,22-04-2024 14:27:10,"0,927s",PASSED
+waitForPageLoad(3),Chrome 123.0.0.0,,,22-04-2024 14:27:10,22-04-2024 14:27:10,"0,111s",PASSED
+maximizeWindow(),Chrome 123.0.0.0,,,22-04-2024 14:27:10,22-04-2024 14:27:10,"0,186s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/DAlogo""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:27:10,22-04-2024 14:27:11,"0,631s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/Version number""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:27:11,22-04-2024 14:27:11,"0,278s",PASSED
+"verifyElementText(findTestObject(""Login Page/Version number""), ""Version: 11.4.0.2 (stage/11)"")",Chrome 123.0.0.0,,,22-04-2024 14:27:11,22-04-2024 14:27:11,"0,006s",NOT_RUN
+"setText(findTestObject(""Object Repository/Login Page/Login input field""), ""Zoya"")",Chrome 123.0.0.0,,,22-04-2024 14:27:11,22-04-2024 14:27:12,"0,609s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Password input field""), ""tzH6RvlfSTg="")",Chrome 123.0.0.0,,,22-04-2024 14:27:12,22-04-2024 14:27:12,"0,343s",PASSED
+"click(findTestObject(""Object Repository/Login Page/button_Log in""))",Chrome 123.0.0.0,,,22-04-2024 14:27:12,22-04-2024 14:27:12,"0,325s",PASSED
+delay(4),Chrome 123.0.0.0,,,22-04-2024 14:27:12,22-04-2024 14:27:16,"4,028s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login Page/h1_Dashboard""), 4)",Chrome 123.0.0.0,,,22-04-2024 14:27:16,22-04-2024 14:27:17,"0,291s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Send Screensaver JPG (TC-36),Chrome 123.0.0.0,,,22-04-2024 14:27:19,22-04-2024 14:28:07,"47,836s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:27:19,22-04-2024 14:27:19,"0,372s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:27:19,22-04-2024 14:27:20,"0,544s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:27:20,22-04-2024 14:27:21,"1,001s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:27:21,22-04-2024 14:27:21,"0,392s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:27:21,22-04-2024 14:27:29,"7,916s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-36"")",Chrome 123.0.0.0,,,22-04-2024 14:27:29,22-04-2024 14:27:30,"0,911s",PASSED
+"verifyElementPresent(findTestObject(""Screensavers/Upload screensaver area""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:27:30,22-04-2024 14:27:30,"0,304s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Screensavers/Upload screensaver area""), ""C:\Users\Home\git\Katalon\Imagesfortest\river.jpg"")",Chrome 123.0.0.0,,,22-04-2024 14:27:30,22-04-2024 14:27:31,"0,355s",PASSED
+delay(10),Chrome 123.0.0.0,,,22-04-2024 14:27:31,22-04-2024 14:27:41,"10,021s",PASSED
+"getAttribute(findTestObject(""Screensavers/uploaded screensaver file""), ""src"")",Chrome 123.0.0.0,,,22-04-2024 14:27:41,22-04-2024 14:27:41,"0,311s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 123.0.0.0,,,22-04-2024 14:27:41,22-04-2024 14:27:41,"0,347s",PASSED
+waitForPageLoad(2),Chrome 123.0.0.0,,,22-04-2024 14:27:41,22-04-2024 14:27:41,"0,020s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-36"")",Chrome 123.0.0.0,,,22-04-2024 14:27:41,22-04-2024 14:27:43,"1,922s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-36"")",Chrome 123.0.0.0,,,22-04-2024 14:27:43,22-04-2024 14:27:44,"0,312s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Actions menu Wallpapers-Lockscreens-Screensaver""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:27:44,22-04-2024 14:27:53,"8,969s",PASSED
+"sendKeys(findTestObject(""Create Pop-up Alert Page/Alert Title field""), Keys.chord(CONTROL, ""a"", BACK_SPACE))",Chrome 123.0.0.0,,,22-04-2024 14:27:53,22-04-2024 14:27:53,"0,683s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""Duplicate Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:27:53,22-04-2024 14:27:54,"0,990s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 123.0.0.0,,,22-04-2024 14:27:54,22-04-2024 14:27:55,"0,576s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-36"")",Chrome 123.0.0.0,,,22-04-2024 14:27:55,22-04-2024 14:27:57,"1,741s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Select all and Delete""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:27:57,22-04-2024 14:28:00,"3,044s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""Duplicate Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:28:00,22-04-2024 14:28:01,"1,217s",PASSED
+"waitForElementClickable(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:28:01,22-04-2024 14:28:03,"1,608s",PASSED
+"check(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""))",Chrome 123.0.0.0,,,22-04-2024 14:28:03,22-04-2024 14:28:03,"0,372s",PASSED
+"verifyElementChecked(findTestObject(""Create Pop-up Alert Page/sent alerts checkbox""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:28:03,22-04-2024 14:28:03,"0,525s",PASSED
+"click(findTestObject(""Pop-up Alerts page/delete all""))",Chrome 123.0.0.0,,,22-04-2024 14:28:03,22-04-2024 14:28:04,"0,581s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Confirm deletion btn""))",Chrome 123.0.0.0,,,22-04-2024 14:28:04,22-04-2024 14:28:05,"0,563s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Send Screensaver PNG (TC-37),Chrome 123.0.0.0,,,22-04-2024 14:28:07,22-04-2024 14:28:29,"22,100s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:28:07,22-04-2024 14:28:07,"0,448s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:28:07,22-04-2024 14:28:08,"0,583s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:28:08,22-04-2024 14:28:08,"0,506s",PASSED
+refresh(),Chrome 123.0.0.0,,,22-04-2024 14:28:08,22-04-2024 14:28:08,"0,198s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:28:08,22-04-2024 14:28:10,"1,098s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:28:10,22-04-2024 14:28:17,"7,910s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-37"")",Chrome 123.0.0.0,,,22-04-2024 14:28:17,22-04-2024 14:28:18,"0,933s",PASSED
+"verifyElementPresent(findTestObject(""Screensavers/Upload screensaver area""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:28:18,22-04-2024 14:28:19,"0,283s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Screensavers/Upload screensaver area""), ""C:\Users\Home\git\Katalon\Imagesfortest\rocks.png"")",Chrome 123.0.0.0,,,22-04-2024 14:28:19,22-04-2024 14:28:19,"0,328s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 14:28:19,22-04-2024 14:28:24,"5,006s",PASSED
+"getAttribute(findTestObject(""Screensavers/uploaded screensaver file""), ""src"")",Chrome 123.0.0.0,,,22-04-2024 14:28:24,22-04-2024 14:28:24,"0,289s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 123.0.0.0,,,22-04-2024 14:28:24,22-04-2024 14:28:25,"0,342s",PASSED
+waitForPageLoad(2),Chrome 123.0.0.0,,,22-04-2024 14:28:25,22-04-2024 14:28:25,"0,017s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-37"")",Chrome 123.0.0.0,,,22-04-2024 14:28:25,22-04-2024 14:28:26,"1,710s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-37"")",Chrome 123.0.0.0,,,22-04-2024 14:28:26,22-04-2024 14:28:27,"0,302s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Send Screensaver with BMP (TC-38),Chrome 123.0.0.0,,,22-04-2024 14:28:29,22-04-2024 14:28:51,"22,099s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:28:29,22-04-2024 14:28:29,"0,337s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:28:29,22-04-2024 14:28:30,"0,600s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:28:30,22-04-2024 14:28:30,"0,515s",PASSED
+refresh(),Chrome 123.0.0.0,,,22-04-2024 14:28:30,22-04-2024 14:28:30,"0,184s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:28:30,22-04-2024 14:28:31,"0,992s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:28:31,22-04-2024 14:28:39,"7,912s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-38"")",Chrome 123.0.0.0,,,22-04-2024 14:28:39,22-04-2024 14:28:40,"0,899s",PASSED
+"verifyElementPresent(findTestObject(""Screensavers/Upload screensaver area""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:28:40,22-04-2024 14:28:41,"0,288s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Screensavers/Upload screensaver area""), ""C:\Users\Home\git\Katalon\Imagesfortest\future.bmp"")",Chrome 123.0.0.0,,,22-04-2024 14:28:41,22-04-2024 14:28:41,"0,316s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 14:28:41,22-04-2024 14:28:46,"5,012s",PASSED
+"getAttribute(findTestObject(""Screensavers/uploaded screensaver file""), ""src"")",Chrome 123.0.0.0,,,22-04-2024 14:28:46,22-04-2024 14:28:46,"0,308s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 123.0.0.0,,,22-04-2024 14:28:46,22-04-2024 14:28:47,"0,359s",PASSED
+waitForPageLoad(2),Chrome 123.0.0.0,,,22-04-2024 14:28:47,22-04-2024 14:28:47,"0,014s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-38"")",Chrome 123.0.0.0,,,22-04-2024 14:28:47,22-04-2024 14:28:48,"1,937s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-38"")",Chrome 123.0.0.0,,,22-04-2024 14:28:48,22-04-2024 14:28:49,"0,286s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Send Screensaver GIF (TC-39),Chrome 123.0.0.0,,,22-04-2024 14:28:51,22-04-2024 14:29:13,"21,923s",PASSED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:28:51,22-04-2024 14:28:51,"0,340s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:28:51,22-04-2024 14:28:52,"0,615s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:28:52,22-04-2024 14:28:52,"0,513s",PASSED
+refresh(),Chrome 123.0.0.0,,,22-04-2024 14:28:52,22-04-2024 14:28:53,"0,179s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:28:53,22-04-2024 14:28:54,"1,036s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:28:54,22-04-2024 14:29:01,"7,725s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-39"")",Chrome 123.0.0.0,,,22-04-2024 14:29:01,22-04-2024 14:29:02,"0,911s",PASSED
+"verifyElementPresent(findTestObject(""Screensavers/Upload screensaver area""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:29:02,22-04-2024 14:29:03,"0,290s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Screensavers/Upload screensaver area""), ""C:\Users\Home\git\Katalon\Imagesfortest\minion.gif"")",Chrome 123.0.0.0,,,22-04-2024 14:29:03,22-04-2024 14:29:03,"0,302s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 14:29:03,22-04-2024 14:29:08,"5,018s",PASSED
+"getAttribute(findTestObject(""Screensavers/uploaded screensaver file""), ""src"")",Chrome 123.0.0.0,,,22-04-2024 14:29:08,22-04-2024 14:29:08,"0,291s",PASSED
+"click(findTestObject(""Wallpapers/Send wallpaper button""))",Chrome 123.0.0.0,,,22-04-2024 14:29:08,22-04-2024 14:29:09,"0,353s",PASSED
+waitForPageLoad(2),Chrome 123.0.0.0,,,22-04-2024 14:29:09,22-04-2024 14:29:09,"0,017s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-39"")",Chrome 123.0.0.0,,,22-04-2024 14:29:09,22-04-2024 14:29:10,"1,911s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-39"")",Chrome 123.0.0.0,,,22-04-2024 14:29:10,22-04-2024 14:29:11,"0,303s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Send Screensaver WMV (TC-40),Chrome 123.0.0.0,,,22-04-2024 14:30:08,22-04-2024 14:31:01,"53,367s",FAILED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:30:08,22-04-2024 14:30:08,"0,369s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:30:08,22-04-2024 14:30:09,"0,583s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:30:09,22-04-2024 14:30:09,"0,557s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:30:09,22-04-2024 14:30:10,"0,512s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:30:10,22-04-2024 14:30:17,"7,330s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-40"")",Chrome 123.0.0.0,,,22-04-2024 14:30:17,22-04-2024 14:30:18,"0,907s",PASSED
+"verifyElementPresent(findTestObject(""Screensavers/Upload screensaver area""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:30:18,22-04-2024 14:30:18,"0,294s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Screensavers/Upload screensaver area""), ""C:\Users\Home\git\Katalon\Imagesfortest\earth.wmv"")",Chrome 123.0.0.0,,,22-04-2024 14:30:18,22-04-2024 14:30:19,"0,336s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 14:30:19,22-04-2024 14:30:24,"5,010s",PASSED
+"getAttribute(findTestObject(""Screensavers/uploaded screensaver file""), ""src"")",Chrome 123.0.0.0,,,22-04-2024 14:30:24,22-04-2024 14:30:59,"35,340s",FAILED
+Video,Chrome 123.0.0.0,,,22-04-2024 14:31:01,22-04-2024 14:31:01,"0,000s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Draft Screensaver (TC-42),Chrome 123.0.0.0,,,22-04-2024 14:31:37,22-04-2024 14:32:08,"30,784s",FAILED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:31:37,22-04-2024 14:31:38,"0,403s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:31:38,22-04-2024 14:31:38,"0,645s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:31:38,22-04-2024 14:31:39,"0,455s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:31:39,22-04-2024 14:31:48,"8,969s",PASSED
+"callTestCase(findTestCase(""Built-in test cases/Choose recipients""), [:], STOP_ON_FAILURE)",Chrome 123.0.0.0,,,22-04-2024 14:31:48,22-04-2024 14:31:55,"7,539s",PASSED
+"setText(findTestObject(""Create Pop-up Alert Page/Alert Title field""), ""TC-42"")",Chrome 123.0.0.0,,,22-04-2024 14:31:55,22-04-2024 14:31:56,"0,880s",PASSED
+"verifyElementPresent(findTestObject(""Screensavers/Upload screensaver area""), 2)",Chrome 123.0.0.0,,,22-04-2024 14:31:56,22-04-2024 14:31:56,"0,286s",PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Screensavers/Upload screensaver area""), ""C:\Users\Home\git\Katalon\Imagesfortest\icecity.jpg"")",Chrome 123.0.0.0,,,22-04-2024 14:31:56,22-04-2024 14:31:57,"0,307s",PASSED
+delay(5),Chrome 123.0.0.0,,,22-04-2024 14:31:57,22-04-2024 14:32:02,"5,014s",PASSED
+"getAttribute(findTestObject(""Screensavers/uploaded screensaver file""), ""src"")",Chrome 123.0.0.0,,,22-04-2024 14:32:02,22-04-2024 14:32:02,"0,299s",PASSED
+"click(findTestObject(""Wallpapers/Save wallpaper button""))",Chrome 123.0.0.0,,,22-04-2024 14:32:02,22-04-2024 14:32:02,"0,377s",PASSED
+"click(findTestObject(""Pop-up Alerts page/Draft tab""))",Chrome 123.0.0.0,,,22-04-2024 14:32:02,22-04-2024 14:32:04,"1,486s",PASSED
+waitForPageLoad(2),Chrome 123.0.0.0,,,22-04-2024 14:32:04,22-04-2024 14:32:04,"0,020s",PASSED
+"setText(findTestObject(""Pop-up Alerts page/Search by title field""), ""TC-42"")",Chrome 123.0.0.0,,,22-04-2024 14:32:04,22-04-2024 14:32:05,"1,214s",PASSED
+"verifyElementText(findTestObject(""Pop-up Alerts page/Filtered sent alert""), ""TC-42"")",Chrome 123.0.0.0,,,22-04-2024 14:32:05,22-04-2024 14:32:06,"0,799s",FAILED
+Video,Chrome 123.0.0.0,,,22-04-2024 14:32:08,22-04-2024 14:32:08,"0,000s",PASSED
+,,,,,,,
+Test Cases/Screensaver/Send Screensaver with image from server (TC-41),Chrome 123.0.0.0,,,22-04-2024 14:32:57,22-04-2024 14:33:34,"36,805s",FAILED
+"click(findTestObject(""Dashboard Page/Compose alert button expansion""))",Chrome 123.0.0.0,,,22-04-2024 14:32:57,22-04-2024 14:32:58,"0,353s",PASSED
+"click(findTestObject(""Dashboard Page/Screensavers""))",Chrome 123.0.0.0,,,22-04-2024 14:32:58,22-04-2024 14:32:58,"0,614s",PASSED
+"verifyElementText(findTestObject(""Lockscreen/Create Lockscreen header""), ""Create Screensaver"")",Chrome 123.0.0.0,,,22-04-2024 14:32:58,22-04-2024 14:32:59,"0,518s",PASSED
+"click(findTestObject(""Wallpapers/more""))",Chrome 123.0.0.0,,,22-04-2024 14:32:59,22-04-2024 14:33:32,"33,252s",FAILED
+Video,Chrome 123.0.0.0,,,22-04-2024 14:33:34,22-04-2024 14:33:34,"0,001s",PASSED

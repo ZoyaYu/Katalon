@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Survey/More btn'))
 
 WebUI.callTestCase(findTestCase('Built-in test cases/Choose recipients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Create Pop-up Alert Page/Alert Title field'), 'TC-26')
+WebUI.setText(findTestObject('Survey/Survey title'), 'TC-26')
 
 WebUI.setText(findTestObject('Survey/Q1 input'), 'Are you satisfied with our services?')
 

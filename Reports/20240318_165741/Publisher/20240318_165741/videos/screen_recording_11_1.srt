@@ -1,0 +1,36 @@
+1
+00:00:00,001 --> 00:00:00,611
+3. Open Publisher page on a dashboard
+
+2
+00:00:00,612 --> 00:00:01,558
+9. Click Policies on the left-hand menu
+
+3
+00:00:01,559 --> 00:00:02,549
+15. Click add policies button
+
+4
+00:00:02,550 --> 00:00:05,270
+21. Enter policy name
+
+5
+00:00:05,271 --> 00:00:05,682
+25. check(findTestObject("Publishers/Policies/Pop-up checkbox"))
+
+6
+00:00:05,682 --> 00:00:05,683
+29. verifyElementChecked(findTestObject("Publishers/Policies/Pop-up checkbox"), 2)
+
+7
+00:00:05,683 --> 00:00:06,108
+33. scrollToElement(findTestObject("Publishers/Policies/Policy Save btn"), 2)
+
+8
+00:00:06,109 --> 00:00:06,704
+39. Save policy
+
+9
+00:00:06,705 --> 00:00:14,171
+43. click(findTestObject("Pop-up Alerts page/Search by title field"))
+

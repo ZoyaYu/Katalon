@@ -1,0 +1,48 @@
+1
+00:00:00,047 --> 00:00:00,343
+3. Logout from current user
+
+2
+00:00:00,344 --> 00:00:00,777
+7. mouseOver(findTestObject("Dashboard Page/Profile button"))
+
+3
+00:00:00,777 --> 00:00:01,120
+11. click(findTestObject("Dashboard Page/Profile button"))
+
+4
+00:00:01,120 --> 00:00:01,783
+15. mouseOver(findTestObject("Dashboard Page/Profile menu-Logout"))
+
+5
+00:00:01,784 --> 00:00:02,109
+19. click(findTestObject("Dashboard Page/Profile menu-Logout"))
+
+6
+00:00:02,109 --> 00:00:03,839
+23. verifyElementPresent(findTestObject("Login Page/DAlogo"), 2)
+
+7
+00:00:03,840 --> 00:00:04,536
+29. Login with newly created publisher
+
+8
+00:00:04,537 --> 00:00:04,909
+33. setEncryptedText(findTestObject("Object Repository/Login Page/Password input field"), "tzH6RvlfSTg=")
+
+9
+00:00:04,910 --> 00:00:05,247
+37. click(findTestObject("Object Repository/Login Page/button_Log in"))
+
+10
+00:00:05,248 --> 00:00:09,260
+41. delay(4)
+
+11
+00:00:09,261 --> 00:00:09,724
+45. takeFullPageScreenshot()
+
+12
+00:00:09,724 --> 00:00:12,095
+49. verifyElementPresent(findTestObject("Dashboard Page/Left-hand menu_Pop-up Alerts"), 1)
+

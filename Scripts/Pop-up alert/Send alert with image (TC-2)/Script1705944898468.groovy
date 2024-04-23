@@ -45,7 +45,7 @@ WebUI.delay(2)
 
 WebUI.getAttribute(findTestObject('Create Pop-up Alert Page/Upload image window/uploaded file'), 'src')
 
-WebUI.click(findTestObject('Create Pop-up Alert Page/Upload image window/Ok button'))
+WebUI.click(findTestObject('Create Pop-up Alert Page/Upload image window/Upload button'))
 
 WebUI.click(findTestObject('Create Pop-up Alert Page/Send button'))
 

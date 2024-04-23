@@ -6,14 +6,14 @@
    <elementGuidId>59fc9ce3-0fb4-452d-9e8e-7a9b2ff34cd6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>ul.MuiList-root.MuiMenu-list.MuiList-padding[aria-labelledby=&quot;skin_popup-label-repeat&quot;] li[data-value=&quot;4&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>ul.MuiList-root.MuiMenu-list.MuiList-padding[aria-labelledby=&quot;skin&quot;] li[data-value=&quot;4&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

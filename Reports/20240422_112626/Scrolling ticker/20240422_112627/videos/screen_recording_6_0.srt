@@ -1,0 +1,88 @@
+1
+00:00:00,042 --> 00:00:00,364
+1. click(findTestObject("Dashboard Page/Compose alert button expansion"))
+
+2
+00:00:00,364 --> 00:00:01,007
+5. click(findTestObject("Dashboard Page/Scrolling tickers"))
+
+3
+00:00:01,008 --> 00:00:01,337
+9. refresh()
+
+4
+00:00:01,338 --> 00:00:02,797
+13. verifyElementText(findTestObject("Create Scrolling ticker/Create Scrolling ticker header"), "Create Scrolling Ticker")
+
+5
+00:00:02,798 --> 00:00:02,810
+17. waitForPageLoad(1)
+
+6
+00:00:02,811 --> 00:00:03,207
+21. click(findTestObject("Create Pop-up Alert Page/More button"))
+
+7
+00:00:03,208 --> 00:00:03,288
+25. callTestCase(findTestCase("Built-in test cases/Choose recipients"), [:], STOP_ON_FAILURE)
+
+8
+00:00:03,289 --> 00:00:03,623
+1. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+9
+00:00:03,624 --> 00:00:04,968
+5. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "LAPTOP-E6BU4LL9")
+
+10
+00:00:04,969 --> 00:00:06,475
+9. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "LAPTOP-E6BU4LL9 ")
+
+11
+00:00:06,475 --> 00:00:06,809
+13. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+12
+00:00:06,809 --> 00:00:07,341
+17. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"))
+
+13
+00:00:07,341 --> 00:00:07,680
+21. sendKeys(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), Keys.chord(CONTROL, "a", BACK_SPACE))
+
+14
+00:00:07,680 --> 00:00:08,587
+25. setText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/Filter field"), "DESKTOP-9UH6GK7")
+
+15
+00:00:08,587 --> 00:00:10,110
+29. verifyElementText(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/All user list-filtered"), "DESKTOP-9UH6GK7 ")
+
+16
+00:00:10,110 --> 00:00:10,450
+33. click(findTestObject("Create Pop-up Alert Page/Choose recipients modal window/filtered user selection"))
+
+17
+00:00:10,451 --> 00:00:11,047
+37. click(findTestObject("Wallpapers/Done"))
+
+18
+00:00:11,047 --> 00:00:11,996
+29. setText(findTestObject("Create Pop-up Alert Page/Alert Title field"), "TC-11")
+
+19
+00:00:11,997 --> 00:00:12,306
+33. switchToFrame(findTestObject("Create Pop-up Alert Page/Alert body iframe"), 2)
+
+20
+00:00:12,306 --> 00:00:13,856
+37. setMaskedText(findTestObject("Create Pop-up Alert Page/Alert body"), "Hello! This is automated ticker with preview from Katalon")
+
+21
+00:00:13,856 --> 00:00:13,867
+41. switchToDefaultContent()
+
+22
+00:00:13,868 --> 00:00:47,504
+45. click(findTestObject("Create Pop-up Alert Page/Alerts settings right-hand menu/Skin choice button"))
+

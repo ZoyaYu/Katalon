@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Wallpapers/Select image from server button'))
 
 WebUI.click(findTestObject('Video alerts/First video from the server'))
 
-WebUI.delay(1)
+WebUI.delay(20)
 
 not_run: WebUI.getAttribute(findTestObject('Video alerts/uploaded video file'), 'src')
 
